@@ -1,28 +1,6 @@
 ---
-title: About
+title: About me
 menuTitle: About
 ---
 
-This is a demo site of the [HeroBlog](https://github.com/greglobinski/gatsby-starter-hero-blog), a [GatsbyJS](https://www.gatsbyjs.org/) starter.
-
-### Features:
-
-- Easy editable content in **Markdown** files (posts, pages and parts)
-- **CSS** with `styled-jsx` and `PostCSS`
-- **SEO** (sitemap generation, robot.txt, meta and OpenGraph Tags)
-- **Social** sharing (Twitter, Facebook, Google, LinkedIn)
-- **Comments** (Facebook)
-- **Images** lazy loading and `webp` support (gatsby-image)
-- Post **categories** (category based post list)
-- Full text **searching** (Algolia)
-- **Contact** form (Netlify form handling)
-- **RSS** feed
-- 100% **PWA** (manifest.webmanifest, offline support, favicons)
-- Google **Analytics**
-- App **favicons** generator (node script)
-- Easy customizable base **styles** via `theme` object generated from `yaml` file (fonts, colors, sizes)
-- React **v.16** (gatsby-plugin-react-next)
-- **Components** lazy loading (social sharing)
-- **ESLint** (google config)
-- **Prettier** code styling
-- Webpack `BundleAnalyzerPlugin`
+Holly Cummins is a Senior Technical Staff Member and Innovation Leader at IBM. Holly has used technology to enable innovation, for clients across a range of industries, from banking to catering to retail to NGOs. During her time as a lead developer in the IBM Garage, she has led projects to count fish, help a blind athlete run ultra-marathons in the desert solo, improve health care for the elderly, and change how city parking works. Holly is also an Oracle Java Champion, IBM Q Ambassador, and JavaOne Rock Star. Before joining the IBM Garage, she was Delivery Lead for the WebSphere Liberty Profile (now Open Liberty). Holly co-authored Manning’s Enterprise OSGi in Action and is a regular keynote speaker. She is an active speaker and has spoken at KubeCon (keynote), GOTO, JavaOne, Devoxx, Sonar+D, JavaZone, JFokus, The ServerSide Java Symposium, GOTO, JAX London, QCon, GeeCon, and the Great Indian Developer Summit, as well as a number of user groups.
