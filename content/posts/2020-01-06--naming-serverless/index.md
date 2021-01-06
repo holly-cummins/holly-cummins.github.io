@@ -21,10 +21,9 @@ No problem, you can refine the search. What about ‘cloud funtainer’?You get 
 
 And this is why Knative describes itself as ‘serverless’.
 
-Another way of describing serverless, which involves less head-warping ‘there are no servers visible to the developer, but there are servers underneath, and actually the developer sees and defines those servers’, is this: “Billing per request rather than per instance”
-https://twitter.com/tef_ebooks/status/1339151538917355520?s=20
+Another way of describing serverless, which involves less head-warping ‘there are no servers visible to the developer, but there are servers underneath, and actually the developer sees and defines those servers’, is this: [“Billing per request rather than per instance”](http://twitter.com/tef_ebooks/status/1339151538917355520).
 
-But there’s still a problem. A managed Knative, like IBM’s Code Engine (yay!), has billing, and it’s per request. If you run Knative in your own cluster, there’s not going to be any billing, unless you’re really really good at FinOps. Knative itself doesn’t ship with any billing support, so it can’t use that in the description.
+But there’s still a problem. A managed [Knative](https://knative.dev), like IBM’s [Code Engine](https://www.ibm.com/cloud/blog/ibm-cloud-code-engine-enjoy-your-cloud-again) (yay!), has billing, and it’s per request. If you run Knative in your own cluster, there’s not going to be any billing, unless you’re really really good at FinOps. Knative itself doesn’t ship with any billing support, so it can’t use that in the description.
 
 And this is why Knative still describes itself as ‘serverless’.
 
