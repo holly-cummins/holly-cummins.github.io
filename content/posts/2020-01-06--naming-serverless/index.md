@@ -17,7 +17,7 @@ Funtainer isn’t ‘a container which is lots of fun’, it’s a mash-up of �
 But there’s a problem. SEO.
 Try googling for ‘funtainer’. You’ll get a lot of cheerful-looking Thermoses, and nothing about the cloud architectures. Apparently ‘funtainer’ is Thermos’s fun-container (as in, actual fun, or as much actual fun as you can have with an insulated drink container).
 
-No problem, you can refine the search. What about ‘cloud funtainer’?You get a Thermos with a picture of a cloud on it.
+No problem, you can refine the search. What about ‘cloud funtainer’? You get a Thermos with a picture of a cloud on it.
 
 And this is why Knative describes itself as ‘serverless’.
 
