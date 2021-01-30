@@ -9,7 +9,7 @@ module.exports = {
 
   /* author */
   authorName: "Holly Cummins",
-  authorTwitterAccount: "holly_cummins",
+  authorTwitterAccount: "holly_cummins", // TODO remove this which is only used by Seo.js and is duplication
 
   /* info */
   headerTitle: "Holly Cummins",
@@ -32,7 +32,12 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/holly-cummins" },
-    { name: "twitter", url: "https://twitter.com/holly_cummins" }
+    { name: "twitter", url: "https://twitter.com/holly_cummins", display: "@holly_cummins" },
+    {
+      name: "linkedin",
+      url: "https://www.linkedin.com/in/holly-k-cummins/",
+      display: "Holly K Cummins"
+    },
+    { name: "github", url: "https://github.com/holly-cummins", display: "holly-cummins" }
   ]
 };
