@@ -5,7 +5,7 @@ imageUrl: https://res.infoq.com/articles/quantum-computing-intro-one/en/headerim
 cover: quantum-computing-part-1-logo-large-1536232792584.jpg
 author: holly cummins
 category: quantum
-type: article
+type: blog
 ---
 
 Twenty years ago, quantum computers were purely theoretical, and existed only on whiteboards and in academic papers. Now, quantum computers are available for hire on the cloud.

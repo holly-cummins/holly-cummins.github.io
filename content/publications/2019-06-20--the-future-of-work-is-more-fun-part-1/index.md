@@ -5,7 +5,7 @@ imageUrl: https://www.ibm.com/blogs/think/uk-en/wp-content/uploads/sites/27/2019
 cover: Future-of-work-facebook.jpg
 author: holly cummins
 category: fun
-type: article
+type: blog
 ---
 
 The evidence that fun boosts productivity is compelling. A happy work environment means fewer sick days, harder work, and greater productivity.

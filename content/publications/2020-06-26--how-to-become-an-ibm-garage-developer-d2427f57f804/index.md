@@ -5,7 +5,7 @@ imageUrl: https://miro.medium.com/max/1200/1*Mjrge1xjyHM1AWIfZKrZEw.jpeg
 cover: 1*Mjrge1xjyHM1AWIfZKrZEw.jpeg
 author: holly cummins
 category: hiring
-type: article
+type: blog
 ---
 
 The IBM Garage is a highly dynamic, multi-disciplinary consulting practice working with clients and partners of any size across all industries. We combine design thinking, lean startup, devops…

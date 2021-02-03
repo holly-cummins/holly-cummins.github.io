@@ -5,7 +5,7 @@ imageUrl: https://res.infoq.com/articles/quantum-computing-applications-three/en
 cover: Quantum-Computation-Applications-1531439074687.jpg
 author: holly cummins
 category: quantum
-type: article
+type: blog
 ---
 
 The same factors which make quantum theory so startling also make quantum computers very difficult to implement in practice. This article explores these challenges

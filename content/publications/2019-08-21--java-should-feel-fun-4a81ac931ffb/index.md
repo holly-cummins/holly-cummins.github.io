@@ -5,7 +5,7 @@ cover: pineapple-supply-co-qWlkCwBnwOE-unsplash.jpg
 coverAttribution: Photo by Pineapple Supply Co. on Unsplash
 author: holly cummins
 category: fun
-type: article
+type: blog
 ---
 
 I started my Java career using J2EE 1.2. I had questions: Why were there four classes and hundreds of lines of generated code for each bean? Why did compiling tiny projects take half an hour? It…

@@ -3,7 +3,7 @@ title: Serverless doesn't have servers, except when it does
 category: "cloud native"
 cover: boba-jovanovic-FtRkRespN24-unsplash.jpg
 author: holly cummins
-type: article
+type: blog
 ---
 
 Let’s talk about the naming challenges around serverless. For a while, we stopped calling it ‘serverless’ and started calling it ‘functions as a service’., or FaaS. I don’t have evidence, but I assume that the big naming committee in the sky rebranded just to stop people piping up with “but serverless actually has servers, you know” every time the topic came up.

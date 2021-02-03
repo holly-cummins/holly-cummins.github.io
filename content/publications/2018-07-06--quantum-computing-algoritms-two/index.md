@@ -5,7 +5,7 @@ imageUrl: https://res.infoq.com/articles/quantum-computing-algoritms-two/en/head
 cover: Picture1-the-spooky-world-of-quantum-computation-1530726495209.jpg
 author: holly cummins
 category: quantum
-type: article
+type: blog
 ---
 
 The relationship between complexity theory, quantum algorithms and machine learning is becoming increasingly important. This article explores quantum algorithms and their applicability.
