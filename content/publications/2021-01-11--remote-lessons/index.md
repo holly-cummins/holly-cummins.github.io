@@ -4,7 +4,7 @@ url: https://enterprisersproject.com/article/2021/1/remote-working-10-lessons-le
 imageUrl: https://enterprisersproject.com/sites/default/files/cio_wfh-dog.png
 cover: cio_wfh-dog.png
 author: holly cummins
-category: remote-work
+category: remote working
 type: article
 ---
 

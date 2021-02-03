@@ -3,7 +3,7 @@ title: "Programming in the pandemic - IBM developer lead: personal insights & pr
 url: https://www.computerweekly.com/blog/CW-Developer-Network/Programming-in-the-pandemic-IBM-developer-lead-personal-insights-professional-process
 cover: toggle.JPG
 author: Adrian Bridgwater
-category: remote-work
+category: remote working
 type: media
 ---
 
