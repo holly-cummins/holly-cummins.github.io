@@ -1,5 +1,5 @@
 ---
-title: "Programming in the pandemic - IBM developer lead: personal insights & professional process - CW Developer Network"
+title: "Programming in the pandemic: personal insights & professional process - CW Developer Network"
 url: https://www.computerweekly.com/blog/CW-Developer-Network/Programming-in-the-pandemic-IBM-developer-lead-personal-insights-professional-process
 cover: toggle.JPG
 author: Adrian Bridgwater
