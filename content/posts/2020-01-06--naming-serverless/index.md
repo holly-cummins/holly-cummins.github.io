@@ -1,6 +1,6 @@
 ---
 title: Serverless doesn't have servers, except when it does
-category: "cloud native"
+category: "cloud"
 cover: boba-jovanovic-FtRkRespN24-unsplash.jpg
 author: holly cummins
 type: blog

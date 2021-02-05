@@ -3,7 +3,7 @@ title: "97 Things Every Cloud Engineer Should Know"
 url: https://www.oreilly.com/library/view/97-things-every/9781492076728/
 cover: 1000w.jpeg
 author: Emily Freeman and Nathen Harvey
-category: cloud native
+category: cloud
 type: book
 ---
 
