@@ -22,10 +22,10 @@ Tools can help turn these fairly fuzzy heuristics into a more precise diagnosis.
 
 The Health Center tries to automate the process of identifying the root cause of a performance problem. The front page shows a dashboard with a bunch of status indicators. If one of them is red or orange, that's a pretty good indicator of where to start tweaking the performance. The one area the Health Center doesn't cover at the moment is I/O. It can identify garbage collection and locking bottlenecks pretty accurately, and the method profiler can identify the root cause of much excessive CPU usage.
 
-[![](http://2.bp.blogspot.com/_CzL4MgtWqlE/Sggy6HAzJYI/AAAAAAAAACM/1cXKDqpX0jU/s400/healthcenterfrontpage.gif)](http://2.bp.blogspot.com/_CzL4MgtWqlE/Sggy6HAzJYI/AAAAAAAAACM/1cXKDqpX0jU/s1600-h/healthcenterfrontpage.gif)
+![](healthcenterfrontpage.png)
 
 So let's say you've used the Health Center (or your tool of choice) and you're seeing some red crosses. What next? In the Health Center, clicking on the link next to a red cross will bring up more information and more detailed recommendations about how to fix the problem. In later posts I'll give a bit more background about how to go about fixing locking issues, memory issues, and CPU issues.
 
 Forward links:
 
-- [How to interpret a method profile](http://hollycummins.blogspot.com/2009/05/how-to-interpret-method-profile.html)
+- [How to interpret a method profile](/how-interpre-method-profile/)
