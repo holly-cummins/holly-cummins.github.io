@@ -14,4 +14,4 @@ What's the dissertation about? Well, this is the abstract:
 
 Although some of the arguments it makes are no longer necessary, there's a lot I still like about the paper. It's got equations, it's got queueing theory, it's got dissections of usenet trolling about GC, it's got diagrams, and - the best bit - photos of garbage bins. You can read the full 84 pages [here](hollycumminsmscdissertation.pdf); it's licensed under Creative Commons Non-Commercial Share Alike.
 
-[![thesis](hollycumminsmscdissertation.pdf)](hollycumminsmscdissertation.pdf)
+[![thesis](titlepage.png)](hollycumminsmscdissertation.pdf)
