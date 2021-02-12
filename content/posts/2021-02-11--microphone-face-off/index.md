@@ -25,7 +25,7 @@ All in all, I love this headset ... or at least I did, until I started listening
 [![I love my Sennheiser gaming headset, especially the 'lift to mute' on the boom mic ... but it's got a problem with plosives. Listening back to pre-records, I see the plosives are even worse than I thought. 
 Do I just need to bite the bullet and buy myself a Rode/Yeti on an arm?](plosives-tweet.png)](https://twitter.com/holly_cummins/status/1319649835298017282)
 
-You can hear the badness in my InfoQ Live talk, starting around :16. It's even worse in some other talks where I was standing, but they're not published online yet, so I can't share them.
+You can hear the badness in my [InfoQ Live talk](https://www.infoq.com/presentations/cloud-native-culture-2020/), starting around :16. It's even worse in some other talks where I was standing, but they're not published online yet, so I can't share them.
 
 [![](cncf-infoq.png)](https://www.infoq.com/presentations/cloud-native-culture-2020/)
 
