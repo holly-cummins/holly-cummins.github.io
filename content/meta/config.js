@@ -3,8 +3,8 @@ module.exports = {
   shortSiteTitle: "Holly Cummins", // <title> ending for posts and pages
   siteDescription: "IBMer.",
   siteUrl: "http://hollycummins.com",
-  // pathPrefix: "",
-  siteImage: "preview.jpg",
+  pathPrefix: "",
+  siteImage: "preview.png",
   siteLanguage: "en",
 
   /* author */
