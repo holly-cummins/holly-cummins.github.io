@@ -68,7 +68,7 @@ A good mic doesn't need to be expensive, or even a special purchase. Most things
 
 Airpods seem to have good sound pick-up, if you can tolerate in-ear buds for long periods. Be aware, though, some other bluetooth headsets are pretty awful. It took me a while to work out why no one could understand me on one of mine.
 
-## Test
+## Test, test, test
 
 Most of us wouldn't dream of writing code without testing it, but we'll cheerfully broadcast ourselves without testing first. It's easy to do some quick experiments to see what works best. If you're using a Mac, use Quicktime to record yourself, either audio-only or full video. Experiment with a few different positions, see what happens if you get excited or hushed, and try typing. Then watch it back. (I know, it feels awful, but it's the right thing to do.)
 
