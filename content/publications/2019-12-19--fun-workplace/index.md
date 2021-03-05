@@ -1,5 +1,5 @@
 ---
-title: "The Importance of Fun in the Workplace - InfoQ"
+title: "The Importance of Fun in the Workplace (Interview)"
 url: https://www.infoq.com/news/2019/12/fun-workplace/
 imageUrl: https://res.infoq.com/news/2019/12/fun-workplace/en/headerimage/fun-workplace-1576739976839.jpg
 cover: fun-workplace-1576739976839.jpg
