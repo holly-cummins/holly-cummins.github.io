@@ -27,7 +27,7 @@ when I had booth duty at a conference, I was the only one on our work slack chan
 [![](siantweet.png)](https://twitter.com/siantownson/status/573466622846988289)
 
 I had pink hair when I interviewed at IBM, and blue hair for many years. My dad points out that pink hair is definitely _not_ blending in at all, but my crayola locks felt _punky_, not girly.
-This is me, just before my interview, doing a quantum computing experiment and being an unwitting-stock-photo for the BBC.
+This is me, just before my interview with IBM, doing a quantum computing experiment and being an unwitting-stock-photo for the BBC.
 
 [![](hollybbc.png)](http://news.bbc.co.uk/1/hi/education/374507.stm)
 
