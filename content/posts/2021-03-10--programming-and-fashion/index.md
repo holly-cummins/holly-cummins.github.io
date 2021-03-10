@@ -22,7 +22,7 @@ I love being a woman, and I love working in tech, and I've been lucky that I hav
 One of my coping strategies is that I try keep a strict separation between my work side and my girly side. I have a set of 'work' clothes' and 'home' clothes, and they live in different chests of drawers, on opposite sides of the room. At home I have fun with skirts, sometimes quite short ones, but when I'm at work, I wear loose fitting tops, and always, always, trousers.
 
 Honestly, I don't think anyone's actually fooled. A few years ago
-when I had booth duty at a conference, I was the only one on our work slack channel who asked what colour the booth t-shirts would be so I could pack coordinating eyeliner. I just like high heels and makeup too much, so I'm probably not blending in as much as I imagine.
+when I had booth duty at a conference, I was the only one on our work slack channel who asked what colour the booth t-shirts would be so I could pack coordinating eyeliner. I just like high heels and [makeup](https://www.theguardian.com/commentisfree/2021/mar/10/make-up-not-frivolous-allows-us-to-rebuild-ourselves) too much, so I'm probably not [blending in](https://link.springer.com/article/10.1007/s11199-019-01115-y) as much as I imagine.
 
 [![](siantweet.png)](https://twitter.com/siantownson/status/573466622846988289)
 
@@ -31,7 +31,7 @@ This is me, just before my interview, doing a quantum computing experiment and b
 
 [![](hollybbc.png)](http://news.bbc.co.uk/1/hi/education/374507.stm)
 
-I have such admiration for people like Trisha Gee, who are brave enough to bring their whole [short-skirted self](https://dzone.com/articles/should-you-notice-im-woman) to work, and who [write thoughtfully](<(https://trishagee.github.io/post/st_what_to_wear/)>) about it. Folks like Chloe Condon and April Speight go further and directly link their coding and fashion interests in their public persona. Check out April's twitter handle.
+I have such admiration for people like Trisha Gee, who are brave enough to bring their whole [short-skirted self](https://dzone.com/articles/should-you-notice-im-woman) to work, and who [write thoughtfully](https://trishagee.github.io/post/st_what_to_wear/) about it. Folks like Chloe Condon and April Speight go further and directly link their coding and fashion interests in their public persona. Check out April's twitter handle.
 
 [![](vogueandcodedevlookslike.png)](https://twitter.com/vogueandcode/status/1364241435466231810?s=20)
 
@@ -105,8 +105,8 @@ At the moment, microservices are so popular they're considered near-compulsory f
 There's a similar [cyclical pattern](https://www.information-age.com/edge-computing-technology-cycle-distributed-centralised-123485675/) in our industry's swings from centralised computing in the 1960s (timeshare) to distributed (mini-computers), and then back to centralised (client-server), and then back to distributed in the 1980s (PCs), and then on to centralised (cloud), and then back distributed (edge computing).
 Dizzy yet?
 
-In some cases, when a new pattern gains traction, it's because something external changed to enable it (like how [widespread fast network access](https://softwareengineering.stackexchange.com/questions/171008/why-didnt-cloud-computing-offer-appear-earlier/171010) created the right conditions for the cloud, or lightweight containers created the right conditions for microservices). Chanel had a saying for this, too - she insisted "Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening." Even in clothes, styles were heavily influenced by technological innovations. Lightweight [steel for crinolines](https://www.racked.com/2017/12/7/16717206/cage-crinoline-feminism-class) enabled the huge skirts of the mid-Victorian era, and a few decades later, the discovery that brightly coloured [dye could be extracted from coal tar](https://fashionhistory.fitnyc.edu/aniline-dyes/)
-enabled "mauve mania", a fashion for the newly-possible bright purple clothes.
+In some cases, when a new pattern gains traction, it's because something external changed to enable it (like how [widespread fast network access](https://softwareengineering.stackexchange.com/questions/171008/why-didnt-cloud-computing-offer-appear-earlier/171010) created the right conditions for the cloud, or lightweight containers created the right conditions for microservices). Chanel had a saying for this, too - she insisted "Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening." Even in clothes, styles were heavily influenced by technological innovations. Lightweight [steel for crinolines](https://www.racked.com/2017/12/7/16717206/cage-crinoline-feminism-class) enabled the huge skirts of the mid-Victorian era. A few decades later, the discovery that brightly coloured [dye could be extracted from coal tar](https://fashionhistory.fitnyc.edu/aniline-dyes/)
+enabled "mauve mania", a fashion for the newly-possible lurid-purple clothes.
 
 [![](2017KE1116.jpg)](https://collections.vam.ac.uk/item/O122391/day-dress-unknown/)
 _© Victoria and Albert Museum, London._
