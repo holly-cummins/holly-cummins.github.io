@@ -9,7 +9,7 @@ type: blog
 Last night I dreamt that Roger Daltry's wife told me to write about fashion and programming. We were in a small skate-punk shop. It was never made clear how she knew me or why she cared.
 
 ![](flaunter-2KbjY_7c7to-unsplash.jpg)
-_Photo by Flaunter on Unsplash_
+_Photo by Flaunter on Unsplash._
 
 By the end of the dream I'd almost written a "why fashion and programming are actually connected" blog, so I woke and made frantic [notes](https://owlcation.com/humanities/Novels-Inspired-by-Dreams) to try and remember it before it [slipped away](https://www.medicalnewstoday.com/articles/326421#Neurons-that-help-the-brain-actively-forget). Although
 on the surface they seem pretty distinct, there are actually some interesting links between fashion and programming - or at least, I think so. Let's talk about gender, creativity, labour ethics, climate, and trends - all in the same blog.
