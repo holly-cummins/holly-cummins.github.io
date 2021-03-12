@@ -38,6 +38,7 @@ module.exports = {
       url: "https://www.linkedin.com/in/holly-k-cummins/",
       display: "Holly K Cummins"
     },
-    { name: "github", url: "https://github.com/holly-cummins", display: "holly-cummins" }
+    { name: "github", url: "https://github.com/holly-cummins", display: "holly-cummins" },
+    { name: "medium", url: "https://holly-k-cummins.medium.com", display: "Holly K Cummins" }
   ]
 };
