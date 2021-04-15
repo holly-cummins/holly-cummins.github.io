@@ -11,7 +11,7 @@ Photo by Boba Jovanovic on [Unsplash](https://unsplash.com/photos/FtRkRespN24).
 
 _There are only two hard things in Computer Science: cache invalidation and naming things._
 
-_-- Phil Karlton_
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Phil Karlton
 
 Naming things is [hard](https://martinfowler.com/bliki/TwoHardThings.html), and bad names make developers unhappy.
 
