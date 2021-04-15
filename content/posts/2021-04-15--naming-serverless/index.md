@@ -6,12 +6,12 @@ author: holly cummins
 type: blog
 ---
 
-![shipping containers](boba-jovanovic-FtRkRespN24-unsplash.jpg)
-Photo by Boba Jovanovic on [Unsplash](https://unsplash.com/photos/FtRkRespN24).
-
 _There are only two hard things in Computer Science: cache invalidation and naming things._
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Phil Karlton
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- Phil Karlton&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+![shipping containers](boba-jovanovic-FtRkRespN24-unsplash.jpg)
+Photo by Boba Jovanovic on [Unsplash](https://unsplash.com/photos/FtRkRespN24).
 
 Naming things is [hard](https://martinfowler.com/bliki/TwoHardThings.html), and bad names make developers unhappy.
 
