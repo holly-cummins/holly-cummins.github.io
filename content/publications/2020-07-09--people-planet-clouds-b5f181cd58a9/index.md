@@ -4,7 +4,7 @@ url: https://medium.com/ibm-garage/people-planet-clouds-b5f181cd58a9
 imageUrl: https://miro.medium.com/max/1200/1*qUPBTvFQMaN6vYpMZBNpPg.png
 cover: 1*qUPBTvFQMaN6vYpMZBNpPg.png
 author: holly cummins
-category: climate
+category: sustainability
 type: blog
 ---
 

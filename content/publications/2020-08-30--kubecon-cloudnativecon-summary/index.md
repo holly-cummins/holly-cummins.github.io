@@ -4,7 +4,7 @@ url: https://www.infoq.com/news/2020/08/kubecon-cloudnativecon-summary/
 imageUrl: https://res.infoq.com/news/2020/08/kubecon-cloudnativecon-summary/en/headerimage/KubeCon-1598813432159.jpg
 cover: KubeCon-1598813432159.jpg
 author: daniel bryant
-category: climate
+category: sustainability
 type: media
 ---
 

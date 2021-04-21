@@ -4,7 +4,7 @@ url: https://medium.com/ibm-garage/how-to-love-kubernetes-and-not-wreck-the-plan
 imageUrl: https://miro.medium.com/max/276/1*bGjxe_-hVrSXOgJfoAODhA.png
 cover: 1*bGjxe_-hVrSXOgJfoAODhA.png
 author: holly cummins
-category: climate
+category: sustainability
 type: blog
 ---
 

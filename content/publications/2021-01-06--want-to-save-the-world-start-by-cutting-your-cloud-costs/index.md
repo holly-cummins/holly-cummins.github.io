@@ -4,7 +4,7 @@ url: https://thenewstack.io/want-to-save-the-world-start-by-cutting-your-cloud-c
 imageUrl: https://cdn.thenewstack.io/media/2021/01/ec61fbc2-climate-change-2063240_640.jpg
 cover: ec61fbc2-climate-change-2063240_640.jpg
 author: Jennifer Riggins
-category: climate
+category: sustainability
 type: media
 ---
 
