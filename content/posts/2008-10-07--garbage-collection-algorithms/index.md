@@ -47,4 +47,4 @@ If most objects are unreachable, a copying collecton can be very efficient. The 
 
 Copying collectors also keep the heap very compact, and this can boost allocation and application performance. However, because a completely empty from-space must be maintained at all times, copying collectors are not space-efficient. Modern collectors tend to estimate an object death-rate and maintain less than half the heap for the from-space accordingly. Copying collectors are also known as semispace collectors.
 
-For a good overview of how this relates to the IBM JVM's garbage collection, see Mattias Persson's [developerWorks article](http://www.ibm.com/developerworks/java/library/j-ibmjava2/).
+For a good overview of how this relates to the IBM JVM's garbage collection, see Mattias Persson's [developerWorks article](https://web.archive.org/web/20200616174904/http://www.ibm.com/developerworks/java/library/j-ibmjava2/).
