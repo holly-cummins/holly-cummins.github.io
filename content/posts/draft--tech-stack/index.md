@@ -43,7 +43,7 @@ No no, no snake-eating-its-tail blogging for me!
 
 [![tweet](article-about-rebuild-tweet.png)](https://twitter.com/Naher94/status/1363982984626454534)
 
-And I was going to be write actual posts about actual things!
+And I was going to write actual posts about actual things!
 
 [![tweet](writing-tweet.png)](https://twitter.com/Coding_Career/status/1327326881096421376)
 
