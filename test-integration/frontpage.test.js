@@ -4,7 +4,7 @@ const { port } = require("../jest-puppeteer.config").server;
 
 const siteRoot = `http://localhost:${port}`;
 
-describe("hollycummins.com", () => {
+describe("main site", () => {
   beforeAll(async () => {
     await page.goto(siteRoot);
   });

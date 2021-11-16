@@ -19,6 +19,7 @@ describe("site links", () => {
           excludedKeywords: [
             "https://twitter.com/holly_cummins",
             "https://www.linkedin.com/in/holly-k-cummins/",
+            "https://www.linkedin.com/in/holly-k-cummins/",
             "https://www.manning.com/books/enterprise-osgi-in-action",
             "https://www.klarkteknik.com/product.html?modelCode=P0DPA",
             "https://www.cnbc.com/2016/05/03/this-blind-man-is-running-a-155-mile-ultra-marathon-with-the-help-of-an-ibm-app.html",
