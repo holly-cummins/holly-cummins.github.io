@@ -6,7 +6,7 @@ category: java
 type: blog
 ---
 
-I'm part of a team in IBM's Java Technology Centre which develops diagnostic tools, and we've just released a brand new tool. It's called IBM Monitoring and Diagnostic Tools for Java™ - Health Center™ and it's available as an early access beta [download](https://www14.software.ibm.com/iwm/web/cc/earlyprograms/ibm/ibmmdtjhc/) from developerWorks. We're really excited about the diagnostic insights it can offer. It allows running JVMs to be observed, health-checked, and tuned. At the moment it gives insight into general system health, application activity, and garbage collection activity. There are visualizations and also recommendations, so you don't have to be an expert to improve the performance of your application.
+I'm part of a team in IBM's Java Technology Centre which develops diagnostic tools, and we've just released a brand new tool. It's called IBM Monitoring and Diagnostic Tools for Java™ - Health Center™ and it's available as an early access beta [download](https://www.ibm.com/support/pages/java-health-center-client-low-overhead-monitoring-tool) from developerWorks. We're really excited about the diagnostic insights it can offer. It allows running JVMs to be observed, health-checked, and tuned. At the moment it gives insight into general system health, application activity, and garbage collection activity. There are visualizations and also recommendations, so you don't have to be an expert to improve the performance of your application.
 
 One of the nice things about the Health Center is that it presents different kinds of information in one place. There's a status page which shows at a glance what's going well and what might need attention:
 
