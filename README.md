@@ -53,6 +53,20 @@ To move something from draft to published, add a `yyyy-mm-dd` date prefix to the
 
 To change the favicon, after replacing the files in `src/images/app-icons` you need to run npm run `generate-app-icons` and then copy the `static/icons/favicon-16x16.png` to `static/favicon.ico`.
 
+### Pulling in changes from the platform
+
+Set up the platform code as a remote:
+
+```
+git add remote git@github.com:holly-cummins/gatsby-platform.git
+```
+
+```
+git fetch upstream
+git merge upstream/main
+git push
+```
+
 ### What are all the things?
 
 - xxTemplate: used in generation to make components
