@@ -1,6 +1,6 @@
 ---
 title: "Bonkers Beans: Strategies for Enabling Innovation"
-cover: MVP-3.jpg
+cover: peas.png
 author: holly cummins
 category: ibm garage
 type: blog
