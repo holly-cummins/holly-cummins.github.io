@@ -46,7 +46,7 @@ like that picture and no one in the household is quite sure where these candles 
 ![candles and greenery](candles.png)
 
 Sometime around mid-December my partner finds me in tears on the kitchen floor because I haven't sent a single card, I've missed the last posting date for Canada, my attempt at a hand-crafted fir garland looks like a rat king, I don't have any gift ideas for anyone which means everyone will be disappointed with me on Christmas morning, and it took me a whole evening to half-finish one small batch of cookies and there's six more batches to go and I don't even know how to make Turtles.
-Oh, and I'm still catching up on the bulb-planting I should have done in the autumn and also trying to do some coding in the evening and I have a work deadline. [Sustainable pace](https://www.agilealliance.org/glossary/sustainable/) got abandoned somewhere in November. The ritual Christmas meltdown is as drearily predictable as schedule over-runs on software projects.
+Oh, and I'm still catching up on the bulb-planting I should have done in the autumn and also trying to do some coding in the evening and I have a work deadline. [Sustainable pace](https://www.agilealliance.org/glossary/sustainable/) got abandoned somewhere in November. The ritual Christmas meltdown is as drearily predictable as [schedule over-runs](https://erikbern.com/2019/04/15/why-software-projects-take-longer-than-you-think-a-statistical-model.html) on software projects.
 
 Every year I tell myself that if I'm properly efficient, I can fit it all in. But efficiency isn't doing more with less,
 efficiency is just doing less. This is the principle behind lean software development and the MVP.
