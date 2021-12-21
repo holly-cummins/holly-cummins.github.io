@@ -57,7 +57,7 @@ by slave raiders. His master managed to recover him, but not his mother, so
 Carver was orphaned at an early age. Slavery was abolished and Carver was raised
 as a son by his former master. However, educational prospects
 in his area were limited, so Carver travelled across the country,
-working through school and then university as he did so.
+working his way through school and then university as he did so.
 
 Even after the abolition of slavery, life was bleak for African
 Americans in the South. Cotton is an unusually needy crop,
@@ -66,7 +66,7 @@ stripped all nutrients from the soil. The land, and the people,
 were exhausted and hungry. It was hard to see a way out from
 the vicious cycle of poverty; expensive fertilizers which might have restored the
 soil were far beyond the reach
-of farmers who could barely support themselves.
+of farmers who could barely feed themselves.
 
 If you're a keen gardener, you probably know that peas and other legumes
 can fix nitrogen from the air and enrich the soil. Despite the name,
@@ -87,6 +87,9 @@ Carver's work led to the adoption
 of peanuts as an ingredient, which persists in Southern cooking
 to this day. He also invented some frankly startling industrial
 uses for peanuts, such as peanut shampoo and peanut nitroglycerine.
+(A century earlier, Antoine-Augustin Parmentier was responsible for a similar effort to change the image of the potato.
+Parmentier's work led to the decriminalization of potatoes
+in France.)
 
 Carver was a prolific inventor, and his innovations improved
 many lives, but I think there's a deeper lesson in his story. The way
@@ -105,7 +108,7 @@ and innovating, they're inspired. They get a bounce in their step; their eyes sp
 and they stay late just because.
 
 This is where dedicated innovation teams can sometimes
-miss the full potential of innovation. Innovation teams are a bit like repeatedly
+miss the full potential of innovation. Siloed innovation teams are a bit like repeatedly
 growing cotton on one field, and repeatedly growing peanuts on a neighbouring
 field. The innovation team will be having fun, but they may miss out on the experience of real world challenges
 which would lead to more meaningful innovations. Meanwhile, the 'business as usual' team
@@ -169,7 +172,7 @@ commitments couldn't derail the innovation work, because they'd all gone away.
 
 ## Slack in the system
 
-What if innovation could happen _without_ any 20% rules, or preceding deadlines,
+What if innovation could happen _without_ any 20% rules, or post-deadline-exhaustion,
 or junk food and Coca-cola? What if we just ... had enough space to come
 up with great ideas, and then had enough time to try them out?
 
