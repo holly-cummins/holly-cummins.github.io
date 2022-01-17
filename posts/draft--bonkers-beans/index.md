@@ -143,7 +143,7 @@ employee's personal time.
 
 More generally, employee 'passion' can be used as a means of extracting
 extra labour from the workforce, without extra compensation. Loving
-one's jobs is good, but it shouldn't be a lever to enable exploitation.
+one's job is good, but it shouldn't be a lever to enable exploitation.
 
 ## Off-plan post-release weeks
 
@@ -169,6 +169,8 @@ The team loved it, and some of our best features
 came out of those off-plan weeks. What makes this model stickier than
 20% time is that the whole team took it at the same time. Day-to-day
 commitments couldn't derail the innovation work, because they'd all gone away.
+
+The success of "free time to do work" as a reward shows the importance of autonomy; allowing teams to decide what to build, even for just a sprint, made people happy and unleashed a flood of innovation.
 
 ## Slack in the system
 
