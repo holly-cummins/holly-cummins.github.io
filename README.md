@@ -58,7 +58,7 @@ To change the favicon, after replacing the files in `src/images/app-icons` you n
 Set up the platform code as a remote:
 
 ```
-git add remote git@github.com:holly-cummins/gatsby-platform.git
+git remote add upstream git@github.com:holly-cummins/gatsby-platform.git
 ```
 
 ```
