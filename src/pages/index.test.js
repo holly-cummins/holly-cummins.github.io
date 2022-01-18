@@ -134,6 +134,7 @@ describe("IndexPage", () => {
       });
     });
   });
+
   describe("with some publications", () => {
     const title1 = "the first publication";
     const title2 = "the second publication";
