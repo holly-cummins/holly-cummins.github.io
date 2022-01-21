@@ -67,7 +67,8 @@ Even after the abolition of slavery, life was bleak for African
 Americans in the South. Cotton is an unusually needy crop,
 and generations of cotton farming had
 stripped all nutrients from the soil. The survivors
-of slavery were left to try and make a living on which could not support them - or anyone. The land, and the people,
+of slavery were left to try and scratch out a living growing cotton on soil which could not support them - or anyone.
+The land, and the people,
 were exhausted and hungry. It was hard to see a way out from
 the vicious cycle of poverty; expensive fertilizers which might have restored the
 soil were far beyond the reach
@@ -79,7 +80,7 @@ peanuts are related to beans, and also improve the land.
 
 ![peas](peas.png)
 
-Carver discovered that by rotating
+This is where Carver comes in. He discovered that by rotating
 cotton crops with peanuts, farmers were able to grow more cotton.
 Farmers loved the improved cotton yields, but they had a problem. Peanuts.
 What should they do with all of these peanuts they were producing?
