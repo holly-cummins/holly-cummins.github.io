@@ -66,7 +66,8 @@ teach it.
 Even after the abolition of slavery, life was bleak for African
 Americans in the South. Cotton is an unusually needy crop,
 and generations of cotton farming had
-stripped all nutrients from the soil. The land, and the people,
+stripped all nutrients from the soil. The survivors
+of slavery were left to try and make a living on which could not support them - or anyone. The land, and the people,
 were exhausted and hungry. It was hard to see a way out from
 the vicious cycle of poverty; expensive fertilizers which might have restored the
 soil were far beyond the reach
