@@ -118,7 +118,7 @@ and innovating, they're inspired. They get a bounce in their step; their eyes sp
 and they stay late just because.
 
 This is why setting up a dedicated innovation teams can sometimes
-miss out on the full potential of innovation. Siloed innovation teams are a bit like repeatedly
+miss out on the full potential of innovation activities. Siloed innovation teams are a bit like repeatedly
 growing cotton on one field, and repeatedly growing peanuts on a neighbouring
 field. The innovation team will be having fun, but they may miss out on the experience of real world challenges
 which would lead to more meaningful innovations. Meanwhile, the 'business as usual' team
