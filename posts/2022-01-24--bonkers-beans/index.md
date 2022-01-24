@@ -1,5 +1,5 @@
 ---
-title: "Bonkers Beans: Strategies for Enabling Innovation"
+title: "Why Your Innovation Team May Be Stifling Innovation, and Other Strategy Lessons From Peas"
 cover: peas.png
 author: holly cummins
 category: ibm garage
