@@ -5,7 +5,7 @@ imageUrl: https://www.ibm.com/blogs/think/uk-en/wp-content/uploads/sites/27/2021
 cover: fb-q251098680334_7b8bf1b72b_k.jpg
 author: holly cummins and james wootton
 category: quantum
-type: blog
+type: webinar
 ---
 
 IBM is working with businesses embracing new challenges and part of this investment is focused on high quality STEM education.
