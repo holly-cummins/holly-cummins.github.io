@@ -207,4 +207,4 @@ What might look like a spontaneous employee ball-game involving maltesers, comed
 an employee wellness experience which is
 getting blood circulation going, improving employee health, and averting (expensive) staff burnout. What might look like [goofing off](https://www.forbes.com/sites/susanadams/2012/06/18/eight-ways-goofing-off-can-make-you-more-productive/) or daydreaming could actually be laying the foundations for a breathrough innovation.
 
-_In the next part of this blog, I'll talk about choosing innovation winners, innovation funnels and innovation fizzles and the perils of MVPs._
+_In the [next part](https://hollycummins.com/innovation-fizzles/) of this blog, I'll talk about choosing innovation winners, innovation funnels and innovation fizzles and the perils of MVPs._
