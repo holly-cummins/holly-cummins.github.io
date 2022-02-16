@@ -2,7 +2,7 @@
 title: "Is your innovation funnel an innovation fizzle?"
 cover: fizzle-diagram.png
 author: holly cummins
-category: inovation
+category: innovation
 type: blog
 ---
 
