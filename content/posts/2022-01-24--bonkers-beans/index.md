@@ -2,12 +2,12 @@
 title: "Why Your Innovation Team May Be Stifling Innovation, and Other Strategy Lessons From Peas"
 cover: peas.png
 author: holly cummins
-category: inovation
+category: innovation
 type: blog
 ---
 
 Innovation is great. I think so, I'm sure you think so, and I suspect we _all_ think so.
-Inovation is good for business, and it's good for us, and it's healthy.
+Innovation is good for business, and it's good for us, and it's healthy.
 
 I like to think I'm kind of innovative; my job title is even "Innovation Leader". I've written a mobile app to count fish using Watson, and I created the world's first application server in a hat, and invented a [cuddly throwable application server](https://noti.st/holly-cummins/TQpfJM). (Remember, not all inventions change the world. Or are useful.)
 
