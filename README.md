@@ -1,7 +1,6 @@
-# Holly's skeleton blog
+# Holly's blog
 
-This blog is a [GatsbyJS](https://www.gatsbyjs.org/) blog, based on the [HeroBlog starter](https://gatsby-starter-hero-blog.greglobinski.com/). This code is still a starter, intended to be populated with content.
-You can see the skeleton code running at [gatsby-platform.hollycummins.com](http://gatsby-platform.hollycummins.com).
+This blog is a [GatsbyJS](https://www.gatsbyjs.org/) blog, based on https://github.com/holly-cummins/gatsby-platform, which is based on the [HeroBlog starter](https://gatsby-starter-hero-blog.greglobinski.com/).
 
 ## Initial setup
 
