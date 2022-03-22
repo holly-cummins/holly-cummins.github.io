@@ -63,8 +63,16 @@ git remote add upstream git@github.com:holly-cummins/gatsby-platform.git
 
 ```
 git fetch upstream
-git merge upstream/main
+git merge --ff-only upstream/main
 git push
+```
+
+The `--ff-only` doesn't allow merge commits. If the command fails, a rebase will be needed. When the rebase is done, do not pull - instead, force push.
+
+```
+git fetch upstream
+git pull --rebase upstream main
+git push --force origin main
 ```
 
 ### What are all the things?
