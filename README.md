@@ -67,11 +67,13 @@ git merge --ff-only upstream/main
 git push
 ```
 
-The `--ff-only` doesn't allow merge commits. If the command fails, a rebase will be needed. When the rebase is done, do not pull - instead, force push.
+The `--ff-only` doesn't allow merge commits. If the command fails, a rebase will be needed. As well as rebasing, you may want to reorder recent commits so that the upstream commits are recent
+(which is near the bottom of the list, confusingly).When the rebase is done, do not pull - instead, force push.
 
 ```
 git fetch upstream
 git pull --rebase upstream main
+git rebase -i HEAD~6
 git push --force origin main
 ```
 
