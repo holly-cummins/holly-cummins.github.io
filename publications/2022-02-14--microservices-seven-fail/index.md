@@ -10,6 +10,7 @@ tweets:
   [
     https://twitter.com/MarusykRoman/status/1502072447604080642?s=20&t=G7CrsZCxngWBb62BB77I3A,
     https://twitter.com/samnewman/status/1493931800082759687?s=20&t=G7CrsZCxngWBb62BB77I3A,
+    https://www.infoq.com/articles/microservices-seven-fail/,
   ]
 ---
 
