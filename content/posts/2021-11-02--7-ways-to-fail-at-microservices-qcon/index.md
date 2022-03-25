@@ -6,7 +6,7 @@ type: talk
 event: QCon Plus
 slides:
   url: https://noti.st/holly-cummins/qz4BMw/7-ways-to-fail-at-microservices
-video:
+notvideo:
   url: https://www.infoq.com/presentations/7-microservices-anti-patterns/
 tweets:
   [
