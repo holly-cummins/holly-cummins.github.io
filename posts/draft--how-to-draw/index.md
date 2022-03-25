@@ -9,7 +9,7 @@ type: blog
 I've never been particularly artistic. As a kid, like all young children, I liked drawing.
 At some point, though, probably once I started having art class in school, it became obvious to me _I wasn't very good at it_.
 My more talented peers were producing beautiful pictures, and clumsy me was drawing lumpy figures that only barely looked human.
-Luckily, I knew the solution. I stopped trying. I gave up drawing in my spare time, and as soon as art classes weren't compulsory, I dropped them. Instead,
+Luckily, I knew the solution. I gave up. I stopped even trying, because if I wasn't trying, I couldn't fail. I never drew in my spare time, and as soon as art classes weren't compulsory, I dropped them. Instead,
 I focussed on the things I knew I was good at (science, math, English ... definitely nothing that required hand-eye coordination).
 
 I didn't miss the drawing I wasn't doing until a few years ago. I started doing more conference speaking, and I needed _lots of pictures_. It's well known that visuals
@@ -46,12 +46,23 @@ Katia better than me
 
 Link to Linda rising other research
 
+There are two kinds of incompetence. One is the humble-brag
+
+The other is "no really, this is unrecognisable." I was pleased with a drawing I did of someone
+cuddling a cloud, so I put it in my email signature. I took it back out again after the
+third person asked me why I had a picture of someone holding a large loaf of bread.
+
+![Supposed to be someone cuddling a cloud](cloud-bread-signature.png)
+
 ## Tracing
 
 How can I draw complex shapes? I cheat. I hate to say 'fake it 'til you make it', but this is basically that. I trace. If I'm drawing something beyond my skill (a horse, a cat, something with perspective ... well, if I'm honest, almost anything), I find a suitable photo to use as a base.(This is something digital drawing tools make _very_ easy.)
 If a single photo isn't enough, I'll patch a few photos together.
 
 Tracing helps me with the basic shapes and proportions, but
+setpose
+
+https://twitter.com/holly_cummins/status/1442863851754512386?s=20&t=nSEOpigBx2fix5_f1f6wMA
 
 TODO before and after
 
