@@ -84,6 +84,10 @@ Experimentation is a key part of continuous improvement. Over the years, I've tr
 
 Link to Charlie mackesy
 
+abstracted style with rough edges and few details, so it's hard to get wrong.
+
+
+
 Hybrid sometimes photo more expressive
 
 I have found, however, that sketchnoting in meetings is powerful, even if the note-taker (me!) can't draw well. Visual note-taking works especially well for complex concepts or new domains, so it was an ideal technique when potential customers were briefing the IBM Garage on their challenges. It makes people feel like they're _really_ being heard to see their words turned into pictures as they speak. My colleague Jocelyne Dittmer has done an [excellent guide to getting started drawing in public](https://medium.com/@jocelynedittmer_5269/visual-thinking-sketching-ec64f19cf70).
