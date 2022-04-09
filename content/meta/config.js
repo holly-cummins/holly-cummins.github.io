@@ -1,25 +1,24 @@
 module.exports = {
-  siteTitle: "Ducky Devine", // <title>
-  shortSiteTitle: "Ducky Devine", // <title> ending for posts and pages
-  siteDescription:
-    "This is a demo site, so there's not really any content here but the template code is nice.",
-  siteUrl: "http://duckydevine.com",
+  siteTitle: "Holly Cummins", // <title>
+  shortSiteTitle: "Holly Cummins", // <title> ending for posts and pages
+  siteDescription: "Red Hatter, Java Champion, occasional maker and regular speaker.",
+  siteUrl: "http://hollycummins.com",
   pathPrefix: "",
   siteImage: "preview.png",
   siteLanguage: "en",
 
   /* author */
-  authorName: "Ducky Devine",
-  authorShortName: "Ducky",
-  authorTwitterAccount: "ducky_devine", // TODO remove this which is only used by Seo.js and is duplication
+  authorName: "Holly Cummins",
+  authorShortName: "Holly",
+  authorTwitterAccount: "holly_cummins", // TODO remove this which is only used by Seo.js and is duplication
 
   /* info */
-  headerTitle: "Ducky Devine",
+  headerTitle: "Holly Cummins",
   headerSubTitle: "",
 
   /* manifest.json */
-  manifestName: "Ducky Devine",
-  manifestShortName: "DuckyBlog", // max 12 characters
+  manifestName: "Holly Cummins",
+  manifestShortName: "HollyBlog", // max 12 characters
   manifestStartUrl: "/index.html",
   manifestBackgroundColor: "white",
   manifestThemeColor: "#666",
@@ -34,13 +33,13 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "twitter", url: "https://twitter.com/ducky_devine", display: "@ducky_devine" },
+    { name: "twitter", url: "https://twitter.com/holly_cummins", display: "@holly_cummins" },
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/ducky-devine/",
-      display: "Ducky Devine"
+      url: "https://www.linkedin.com/in/holly-k-cummins/",
+      display: "Holly K Cummins"
     },
-    { name: "github", url: "https://github.com/ducky-devine", display: "ducky-devine" },
-    { name: "medium", url: "https://ducky-devine.medium.com", display: "Ducky Devine" }
+    { name: "github", url: "https://github.com/holly-cummins", display: "holly-cummins" },
+    { name: "medium", url: "https://holly-k-cummins.medium.com", display: "Holly K Cummins" }
   ]
 };
