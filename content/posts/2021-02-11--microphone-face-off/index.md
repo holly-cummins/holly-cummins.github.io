@@ -3,6 +3,7 @@ title: The great microphone face-off, or 'how I spent lots of money in 2020'
 category: "remote working"
 cover: office.jpg
 author: holly cummins
+type: blog
 ---
 
 The past year saw an unprecedented flourishing of "photos of home offices," "recommendation threads for microphones," and "microphone review videos with huge numbers of views."
