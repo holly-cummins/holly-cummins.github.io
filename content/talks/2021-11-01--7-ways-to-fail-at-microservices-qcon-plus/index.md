@@ -5,11 +5,15 @@ title: "7 ways to fail at microservices"
 slides:
   url: "https://noti.st/holly-cummins/qz4BMw/7-ways-to-fail-at-microservices"
 event: "QCon Plus"
+notvideo:
+  url: https://www.infoq.com/presentations/7-microservices-anti-patterns/
 tweets:
   - "https://twitter.com/holly_cummins/status/1455569166530908161?ref_src=twsrc%5Etfw"
   - "https://twitter.com/QCon/status/1455569162688925698?ref_src=twsrc%5Etfw"
   - "https://twitter.com/yaronPdut/status/1455574895715303427?ref_src=twsrc%5Etfw"
   - "https://twitter.com/iAkhileshS/status/1455566743766700036?ref_src=twsrc%5Etfw"
+  - https://twitter.com/mydevlprplanet/status/1507042719306293265
+  - https://twitter.com/_ediri/status/1507004354582044682?s=20&t=YiVTXwJS1oW3Ak8q89CnXQ
 
 ---
 We all know the promise of microservices - organisational, agility, decoupling, pizza lunches, autonomy, fewer meetings. Some organisations actually achieve this. Others … don’t.
