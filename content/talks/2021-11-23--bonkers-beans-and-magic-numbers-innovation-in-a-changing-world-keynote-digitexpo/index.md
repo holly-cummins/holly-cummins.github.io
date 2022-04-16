@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "innovation"
 title: "Bonkers Beans and Magic Numbers: Innovation in a Changing World"
 slides:
   url: "https://noti.st/holly-cummins/FbIAmC/bonkers-beans-and-magic-numbers-innovation-in-a-changing-world-keynote"

@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "OSGi"
 title: "Everything I know about software, I learnt from spaghetti bolognese"
 slides:
   url: "https://noti.st/holly-cummins/iNasA3/everything-i-know-about-software-i-learnt-from-spaghetti-bolognese"

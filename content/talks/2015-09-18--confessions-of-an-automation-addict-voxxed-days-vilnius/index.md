@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "devops"
 title: "Confessions of an automation addict"
 slides:
   url: "https://noti.st/holly-cummins/0TG2td/confessions-of-an-automation-addict"

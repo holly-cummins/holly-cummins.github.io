@@ -4,7 +4,7 @@ url: https://www.infoq.com/jp/articles/microservices-seven-fail/
 imageUrl: https://cdn.infoq.com/statics_s1_20220308-0257/styles/static/images/logo/logo-big.jpg
 cover: logo-big.jpg
 author: holly cummins (translated by H Yoshida)
-category: cloud native
+category: microservices
 type: blog
 language: japanese
 ---

@@ -1,7 +1,7 @@
 ---
 type: "talk"
-category: "unknown"
-title: "Microservices: from dream to reality in an forty five minutes"
+category: "IoT"
+title: "Microservices: from dream to reality in forty five minutes"
 slides:
   url: "https://noti.st/holly-cummins/kVzKZI/microservices-from-dream-to-reality-in-an-forty-five-minutes"
 code:
@@ -12,7 +12,7 @@ resource:
     url: "https://jaxenter.com/microservices-storm-in-a-teacup-or-teacups-in-a-storm-120388.html"
   - title: "Photo collection"
     url: "https://www.flickr.com/photos/92970685@N06/24934335125"
-event: "Jfokus 2016"
+event: "Jfokus"
 location: "Stockholm, Sweden"
 video:
   url: "https://www.youtube.com/embed/Pdo7ehEaLUQ?feature=oembed"

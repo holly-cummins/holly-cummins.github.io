@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "software development"
 title: "The Adventurer’s Guide To Breaking Production"
 slides:
   url: "https://noti.st/holly-cummins/k4d3PO/the-adventurers-guide-to-breaking-production"

@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "quantum"
 title: "Creativity in the Age of Quantum Computing"
 slides:
   url: "https://noti.st/holly-cummins/M18mbz/creativity-in-the-age-of-quantum-computing"

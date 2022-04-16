@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "sustainability"
 title: "How To Love Kubernetes and Not Wreck The Planet"
 slides:
   url: "https://noti.st/holly-cummins/XPNjLu/how-to-love-kubernetes-and-not-wreck-the-planet-keynote"

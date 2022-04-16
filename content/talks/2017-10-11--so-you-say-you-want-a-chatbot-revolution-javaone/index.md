@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "AI"
 title: "So You Say You Want a Chatbot Revolution"
 slides:
   url: "https://noti.st/holly-cummins/WNnTYJ/so-you-say-you-want-a-chatbot-revolution"

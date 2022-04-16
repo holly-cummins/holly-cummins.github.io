@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "microservices"
 title: "7 ways to fail at microservices"
 slides:
   url: "https://noti.st/holly-cummins/qz4BMw/7-ways-to-fail-at-microservices"

@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "iot"
 title: "The Cuddly Throwable Application Server"
 cover: audience.jpg
 slides:

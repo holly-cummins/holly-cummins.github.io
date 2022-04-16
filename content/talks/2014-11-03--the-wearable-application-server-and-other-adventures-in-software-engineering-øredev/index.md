@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "IoT"
 title: "The Wearable Application Server and Other Adventures in Software Engineering"
 resource:
   - title: "Enterprise OGSi in Action (the book!)"

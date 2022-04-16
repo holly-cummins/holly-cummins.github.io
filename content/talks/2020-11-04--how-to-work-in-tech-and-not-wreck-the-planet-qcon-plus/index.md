@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "sustainability"
 title: "How to work in Tech and Not Wreck The Planet"
 slides:
   url: "https://noti.st/holly-cummins/FvH0U9/how-to-work-in-tech-and-not-wreck-the-planet"

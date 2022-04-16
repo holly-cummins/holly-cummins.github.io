@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "cloud native"
+category: "sustainability"
 title: "People, Planet, Clouds"
 slides:
   url: "https://noti.st/holly-cummins/tFVJqC/people-planet-clouds"

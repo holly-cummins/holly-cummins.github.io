@@ -1,7 +1,7 @@
 ---
 type: "talk"
-category: "cloud native"
-title: "Cats, Qubits, and Clouds -  The Quantum Future       "
+category: "quantum"
+title: "Cats, Qubits, and Clouds - The Quantum Future"
 slides:
   url: "https://noti.st/holly-cummins/meNmyX/cats-qubits-and-clouds-the-quantum-future"
 event: "CraftConf"

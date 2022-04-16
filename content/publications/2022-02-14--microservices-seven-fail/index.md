@@ -4,7 +4,7 @@ url: https://www.infoq.com/articles/microservices-seven-fail/
 imageUrl: https://cdn.infoq.com/statics_s1_20220216-0220/styles/static/images/logo/logo-big.jpg
 cover: logo-big.jpg
 author: holly cummins
-category: cloud native
+category: microservices
 type: blog
 tweets:
   [

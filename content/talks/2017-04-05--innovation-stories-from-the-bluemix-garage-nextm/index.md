@@ -1,6 +1,7 @@
 ---
 type: "talk"
-category: "unknown"
+category: "ibm garage"
+author: holly cummins
 title: "Innovation Stories from the Bluemix Garage"
 slides:
   url: "https://noti.st/holly-cummins/aeaOMn/innovation-stories-from-the-bluemix-garage"

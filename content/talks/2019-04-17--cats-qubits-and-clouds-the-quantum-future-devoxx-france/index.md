@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "cloud native"
+category: "quantum"
 title: "Cats, Qubits, and Clouds - The Quantum Future"
 cover: "audience.jpg"
 code:

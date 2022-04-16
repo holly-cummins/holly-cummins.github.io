@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "IoT"
 title: "The Wearable Application Server and Other Adventures in Software Engineering"
 slides:
   url: "https://noti.st/holly-cummins/ZKlHnG/the-wearable-application-server-and-other-adventures-in-software-engineering"

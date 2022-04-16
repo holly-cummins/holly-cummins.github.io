@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "microservices"
 title: "Microservices: from dream to reality in an hour"
 slides:
   url: "https://noti.st/holly-cummins/z9QwK6/microservices-from-dream-to-reality-in-an-hour"

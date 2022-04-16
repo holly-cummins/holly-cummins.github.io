@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "IoT"
 title: "The Cuddly Throwable Application Server"
 slides:
   url: "https://noti.st/holly-cummins/TQpfJM/the-cuddly-throwable-application-server"

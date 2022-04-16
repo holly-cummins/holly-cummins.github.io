@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "cloud native"
 title: "Blood-curdling tales of microservices misadventure, devops dread, and grisly governance"
 slides:
   url: "https://noti.st/holly-cummins/6sRQ7M/blood-curdling-tales-of-microservices-misadventure-devops-dread-and-grisly-governance"

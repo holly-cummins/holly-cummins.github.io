@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "innovation"
 title: "That’s not useless, it’s just … unusual"
 slides:
   url: "https://noti.st/holly-cummins/yKraUO/thats-not-useless-its-just-unusual"

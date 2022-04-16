@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "SRE"
 title: "SRE: The Good, The Bad, and the Ouch"
 slides:
   url: "https://noti.st/holly-cummins/RTi7vz/sre-the-good-the-bad-and-the-ouch"

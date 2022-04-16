@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "IoT"
 title: "Thinking Strategically About IoT"
 slides:
   url: "https://noti.st/holly-cummins/EnO3YY/thinking-strategically-about-iot"

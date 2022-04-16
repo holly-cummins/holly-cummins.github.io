@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "devops"
 title: "Tales From The DevOps Transformation Trenches"
 slides:
   url: "https://noti.st/holly-cummins/J4AyN2/tales-from-the-devops-transformation-trenches"

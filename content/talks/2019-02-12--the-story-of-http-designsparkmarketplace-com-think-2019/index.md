@@ -1,6 +1,7 @@
 ---
 type: "talk"
-category: "unknown"
+category: "ibm garage"
+author: holly cummins
 title: "The story of http://designsparkmarketplace.com"
 slides:
   url: "https://noti.st/holly-cummins/kCfjTP/the-story-of-http-designsparkmarketplace-com"

@@ -4,7 +4,7 @@ url: https://www.infoq.com/fr/articles/microservices-seven-fail/
 imageUrl: https://res.infoq.com/articles/microservices-seven-fail/fr/headerimage/generatedHeaderImage-1644492934255.jpg
 cover: generatedHeaderImage-1644492934255.jpg
 author: holly cummins (translated by jean-michel doudoux)
-category: cloud native
+category: microservices
 type: blog
 language: french
 ---

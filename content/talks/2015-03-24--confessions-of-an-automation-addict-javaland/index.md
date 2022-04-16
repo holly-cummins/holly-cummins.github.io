@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "unknown"
+category: "devops"
 title: "Confessions of an Automation Addict"
 event: "JavaLand"
 location: "50321 Brühl, Germany"

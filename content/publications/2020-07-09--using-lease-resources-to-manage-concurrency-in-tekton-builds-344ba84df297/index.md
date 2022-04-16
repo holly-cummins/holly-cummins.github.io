@@ -4,7 +4,7 @@ url: https://medium.com/ibm-garage/using-lease-resources-to-manage-concurrency-i
 imageUrl: https://miro.medium.com/max/819/1*-MADZZyp-R0M5UKrKa5Ofw.png
 cover: 1*-MADZZyp-R0M5UKrKa5Ofw.png
 author: holly cummins
-category: cloud native
+category: devops
 type: blog
 ---
 
