@@ -8,7 +8,7 @@ describe("site links", () => {
 
   beforeAll(async () => {
     const promise = new Promise((resolve, reject) => {
-      siteChecker = new SiteChecker(
+      const siteChecker = new SiteChecker(
         {
           excludeInternalLinks: false,
           excludeExternalLinks: false,
@@ -39,7 +39,7 @@ describe("site links", () => {
             console.log("Rejecting promise in sitechecker: ", error);
             reject(error);
           },
-          link: (result, customData) => {
+          link: result => {
             if (result.broken) {
               if (
                 result.http.response &&
