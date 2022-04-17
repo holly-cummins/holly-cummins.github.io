@@ -9,6 +9,7 @@ code:
     url: "https://github.com/holly-cummins/throwable-application-server"
 event: "QCon London"
 location: "London, UK"
+author: holly cummins
 cover: large-0.jpg
 video:
   url: "https://www.infoq.com/presentations/arduino-app-server/"
