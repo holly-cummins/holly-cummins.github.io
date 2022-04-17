@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/iNasA3/everything-i-know-about-software-i-learnt-from-spaghetti-bolognese"
 event: "JAX London"
 location: "London, UK"
+author: holly cummins and martijn verburg
 video:
   url: "https://www.youtube.com/embed/gtFBpRyUL1A?feature=oembed"
 cover: large-841dc07d7df28d11.jpg
