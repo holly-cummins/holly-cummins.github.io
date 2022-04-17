@@ -13,6 +13,7 @@ resource:
 event: "JAX London"
 location: "London, UK"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/jaxlondon/status/654241189047218176?ref_src=twsrc%5Etfw"
   - "https://twitter.com/m_r_bateman/status/654278162352893952?ref_src=twsrc%5Etfw"

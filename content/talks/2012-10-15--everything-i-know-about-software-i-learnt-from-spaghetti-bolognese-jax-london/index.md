@@ -8,6 +8,7 @@ event: "JAX London"
 location: "London, UK"
 video:
   url: "https://www.youtube.com/embed/gtFBpRyUL1A?feature=oembed"
+cover: large-841dc07d7df28d11.jpg
 
 ---
 IBM’s Holly Cummins and ‘Diabolical Developer’ Martijn Verburg discuss ways of overcoming complexity in software development.

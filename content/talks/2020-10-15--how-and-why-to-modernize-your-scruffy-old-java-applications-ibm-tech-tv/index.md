@@ -9,6 +9,7 @@ code:
     url: "https://github.com/IBM/house-of-microservices-openliberty-contract-testing-sample"
 event: "IBM Tech TV"
 author: "holly cummins"
+cover: large-0.jpg
 video:
   url: "https://techtv.bemyapp.com/"
 

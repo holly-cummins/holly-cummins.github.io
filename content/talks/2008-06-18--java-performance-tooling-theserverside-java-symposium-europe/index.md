@@ -10,6 +10,7 @@ resource:
 event: "TheServerSide Java Symposium Europe"
 location: "Prague, Czechia"
 author: "holly cummins"
+cover: large-0.jpg
 
 ---
 The right tooling is essential part of any Java performance tuning effort. Tuning relies on accurate diagnoses of bottlenecks; tools allow problem areas to be identified quickly. In some cases tools will even suggest solutions.

@@ -7,6 +7,7 @@ slides:
 event: "DIGITExpo"
 location: "Edinburgh, UK"
 keynote: true
+cover: large-0.jpg
 
 ---
 Where do ideas come from?

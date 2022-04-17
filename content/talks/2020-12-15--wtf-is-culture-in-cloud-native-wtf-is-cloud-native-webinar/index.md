@@ -7,6 +7,7 @@ slides:
 event: "WTF Is Cloud Native Webinar"
 video:
   url: "https://www.youtube.com/embed/ltsoNNTkd_g"
+cover: large-0.jpg
 
 ---
 In this WTFinar, Holly Cummins, Worldwide Development Leader at IBM Garage, discussed these and other pressing questions (WTFs and others) about Cloud Native and the culture you need to make it truly work for your organisation.

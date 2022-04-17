@@ -8,6 +8,7 @@ event: "Cloud Native London"
 location: "London, UK"
 author: "holly cummins"
 keynote: true
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/devopsdom/status/1045708022188630021?ref_src=twsrc%5Etfw"
   - "https://twitter.com/anthonyperot/status/1045713927231942656?ref_src=twsrc%5Etfw"

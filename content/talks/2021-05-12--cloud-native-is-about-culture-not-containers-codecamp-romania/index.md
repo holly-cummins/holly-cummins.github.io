@@ -8,6 +8,7 @@ resource:
   - title: "InfoQ Transcript"
     url: "https://www.infoq.com/presentations/cloud-native-culture/"
 event: "CodeCamp Romania"
+cover: large-0.jpg
 video:
   url: "https://www.youtube.com/embed/eRIbTlIh20U?feature=oembed"
 

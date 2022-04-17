@@ -10,6 +10,7 @@ resource:
 event: "LJC Unconference"
 location: "London, UK"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/spoole167/status/1198177594811834368?ref_src=twsrc%5Etfw"
   - "https://twitter.com/alapaty/status/1198177873082880001?ref_src=twsrc%5Etfw"

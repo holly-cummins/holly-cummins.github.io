@@ -7,6 +7,7 @@ slides:
 event: "Devoxx Belgium"
 location: "Antwerp, Belgium"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/twitter/status/1064513490373812225"
   - "https://twitter.com/twitter/status/1063392515989139456"

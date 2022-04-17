@@ -7,6 +7,7 @@ slides:
 event: "GeeCON"
 location: "Poznań, Poland"
 author: "holly cummins"
+cover: large-0.jpg
 
 ---
 No one likes slow applications, but sometimes it’s hard to know where to start when trying to fix a performance problem. This talk will cover a range of tools and techniques which can be used to track down and fix performance issues.

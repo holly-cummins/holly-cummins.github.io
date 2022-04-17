@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/J4AyN2/tales-from-the-devops-transformation-trenches"
 event: "DevOps Enterprise Summit London 2019"
 location: "London, UK"
+cover: large-0.png
 video:
   url: "https://www.youtube.com/embed/VUyxcV908EU?feature=oembed"
 tweets:

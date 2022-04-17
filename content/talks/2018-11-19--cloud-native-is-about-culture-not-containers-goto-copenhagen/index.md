@@ -7,6 +7,7 @@ slides:
 event: "GOTO Copenhagen"
 location: "Copenhagen, Denmark"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/mr_nlock/status/1064540204189581312?ref_src=twsrc%5Etfw"
   - "https://twitter.com/iam_carpenter/status/1064541889083396097?ref_src=twsrc%5Etfw"

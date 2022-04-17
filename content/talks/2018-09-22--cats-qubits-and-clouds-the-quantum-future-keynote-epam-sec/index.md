@@ -9,6 +9,7 @@ location: "Minsk, Belarus"
 keynote: true
 video:
   url: "https://events.epam.com/events/sec-2018/talks/6960"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/twitter/status/1043524945849069568"
   - "https://twitter.com/twitter/status/1043522950203420672"

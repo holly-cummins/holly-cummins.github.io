@@ -10,6 +10,7 @@ resource:
 event: "JavaOne"
 location: "San Francisco, CA, USA"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/ebullientworks/status/779064202107297792?ref_src=twsrc%5Etfw"
 

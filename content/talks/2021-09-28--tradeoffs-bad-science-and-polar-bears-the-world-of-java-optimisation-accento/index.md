@@ -5,6 +5,7 @@ title: "Tradeoffs, Bad Science, and Polar Bears - The World of Java Optimisation
 slides:
   url: "https://noti.st/holly-cummins/y5RSyQ/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation"
 event: "Accento"
+cover: large-0.jpg
 video:
   url: "https://www.youtube.com/embed/P1zJwRkat6s?feature=oembed"
 tweets:

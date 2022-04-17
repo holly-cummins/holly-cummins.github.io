@@ -10,6 +10,7 @@ resource:
   - title: "Talk blog - Part II"
     url: "https://medium.com/ibm-garage/how-to-love-kubernetes-and-not-wreck-the-planet-part-ii-revenge-of-the-zombies-9ae8e925c094"
 event: "Kubecon Europe 2020"
+cover: large-0.jpg
 keynote: true
 video:
   url: "https://www.youtube.com/embed/j5jql3e6hTA?feature=oembed"

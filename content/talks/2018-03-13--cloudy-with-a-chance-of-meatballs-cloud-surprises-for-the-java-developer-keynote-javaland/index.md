@@ -12,6 +12,7 @@ resource:
 event: "JavaLand"
 location: "50321 Brühl, Germany"
 author: "holly cummins"
+cover: large-0.jpg
 keynote: true
 tweets:
   - "https://twitter.com/twitter/status/973498353739878400"

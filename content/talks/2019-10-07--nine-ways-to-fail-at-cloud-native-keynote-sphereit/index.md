@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/jhPyja/nine-ways-to-fail-at-cloud-native-keynote"
 event: "Sphere.IT"
 location: "Warsaw, Poland"
+cover: large-0.jpg
 keynote: true
 video:
   url: "https://www.youtube.com/embed/SxG8XoW0Tto?feature=oembed"

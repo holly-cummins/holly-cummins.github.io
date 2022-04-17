@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/r76rQx/confessions-of-an-automation-addict"
 event: "Øredev"
 location: "Malmö, Sweden"
+cover: large-0.jpg
 video:
   url: "https://player.vimeo.com/video/190933200?app_id=122963"
 

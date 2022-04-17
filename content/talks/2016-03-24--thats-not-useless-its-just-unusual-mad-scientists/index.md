@@ -7,6 +7,7 @@ slides:
 event: "Mad Scientists"
 location: "London, UK"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/rajeevgm/status/713084930083921921?ref_src=twsrc%5Etfw"
   - "https://twitter.com/alblue/status/713081388271071232?ref_src=twsrc%5Etfw"

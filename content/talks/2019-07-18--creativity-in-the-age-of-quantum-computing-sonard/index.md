@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/M18mbz/creativity-in-the-age-of-quantum-computing"
 event: "Sonar+D"
 location: "Barcelona, Spain"
+cover: large-0.png
 video:
   url: "https://www.youtube.com/embed/MYma92urXN8?feature=oembed"
 tweets:

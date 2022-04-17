@@ -5,6 +5,7 @@ title: "7 ways to fail at microservices"
 slides:
   url: "https://noti.st/holly-cummins/qz4BMw/7-ways-to-fail-at-microservices"
 event: "QCon Plus"
+cover: large-0.jpg
 notvideo:
   url: https://www.infoq.com/presentations/7-microservices-anti-patterns/
 tweets:

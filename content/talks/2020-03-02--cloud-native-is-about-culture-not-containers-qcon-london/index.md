@@ -10,6 +10,7 @@ resource:
 event: "QCon London"
 location: "London, UK"
 author: "holly cummins"
+cover: large-0.jpg
 video:
   url: "https://www.infoq.com/presentations/cloud-native-culture/"
 tweets:

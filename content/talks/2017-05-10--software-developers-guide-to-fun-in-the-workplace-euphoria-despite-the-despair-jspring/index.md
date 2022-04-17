@@ -7,6 +7,7 @@ slides:
 event: "J-Spring"
 location: "Amsterdam, Netherlands"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/nljug/status/862298392168452096?ref_src=twsrc%5Etfw"
   - "https://twitter.com/matozoid/status/862299925983498240?ref_src=twsrc%5Etfw"

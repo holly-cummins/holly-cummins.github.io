@@ -8,6 +8,7 @@ event: "CIO Watercooler"
 location: "London, UK"
 author: "holly cummins"
 keynote: true
+cover: large-0.png
 video:
   url: "https://ciowatercooler.co.uk/cio-watercooler-tv-speaks-with-holly-cummins-ibms-ww-development-leader-about-the-importance-of-fun/embed/"
 tweets:

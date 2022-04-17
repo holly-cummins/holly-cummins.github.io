@@ -8,6 +8,7 @@ event: "Great Indian Developer Summit"
 location: "Bengaluru, Karnataka, India"
 video:
   url: "https://www.youtube.com/embed/iKnklil4Ogs?feature=oembed"
+cover: large-0.jpg
 
 ---
 Java performance advice is easy to find; sometimes good performance advice is harder to find! This talk will explore popular performance myths and explain when they’re true and when they’re definitely not true.

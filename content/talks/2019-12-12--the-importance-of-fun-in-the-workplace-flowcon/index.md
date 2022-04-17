@@ -9,6 +9,7 @@ resource:
     url: "https://www.infoq.com/news/2019/12/fun-workplace/"
 event: "FlowCon"
 location: "Paris, France"
+cover: large-0.png
 tweets:
   - "https://twitter.com/BenLinders/status/1205069754844794880?ref_src=twsrc%5Etfw"
   - "https://twitter.com/ElizAyer/status/1205070684889718784?ref_src=twsrc%5Etfw"

@@ -5,6 +5,7 @@ title: "Cloud Native is about Culture, not Containers"
 slides:
   url: "https://noti.st/holly-cummins/Ofrk50/cloud-native-is-about-culture-not-containers"
 event: "Craft Conf"
+cover: large-0.jpg
 
 ---
 As a developer in the IBM Garage, Holly Cummins works with customers who are trying to shift their businesses to the cloud, and to cloud native in particular. Their dream is more effort higher up the value chain, more innovation, and greater adaptability. What they really want is to beat their competitors to market, with something that’s better than their competitors, and then evolve it to beat any new competitors. What’s getting in their way isn’t the technology—wrapping something in a docker container (usually) isn’t that hard. Instead, it’s the structures that have been put in place to manage risk and the relationships between teams that trip companies up.

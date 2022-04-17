@@ -7,6 +7,7 @@ slides:
 event: "O’Reilly Software Architecture London"
 location: "London, UK"
 author: "holly cummins"
+cover: large-0.jpg
 tweets:
   - "https://twitter.com/sarahjwells/status/1056960590873268225?ref_src=twsrc%5Etfw"
   - "https://twitter.com/robgodfr/status/1056963041487675393?ref_src=twsrc%5Etfw"

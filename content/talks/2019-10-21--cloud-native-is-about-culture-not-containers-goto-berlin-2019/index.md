@@ -6,6 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/Oy6aqw/cloud-native-is-about-culture-not-containers"
 event: "GOTO Berlin 2019"
 location: "Berlin, Germany"
+cover: large-0.jpg
 video:
   url: "https://www.youtube.com/embed/hczM0n_0toY?feature=oembed"
 tweets:
