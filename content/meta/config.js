@@ -1,9 +1,10 @@
 module.exports = {
   siteTitle: "Holly Cummins", // <title>
   shortSiteTitle: "Holly Cummins", // <title> ending for posts and pages
-  siteDescription: "Red Hatter, Java Champion, occasional maker and regular speaker.",
+  siteDescription:
+    "Red Hatter, Java Champion, occasional maker and regular speaker.",
   siteUrl: "http://hollycummins.com",
-  pathPrefix: "",
+  pathPrefix: "/",
   siteImage: "preview.png",
   siteLanguage: "en",
 
@@ -33,13 +34,25 @@ module.exports = {
 
   // social
   authorSocialLinks: [
-    { name: "twitter", url: "https://twitter.com/holly_cummins", display: "@holly_cummins" },
+    {
+      name: "twitter",
+      url: "https://twitter.com/holly_cummins",
+      display: "@holly_cummins"
+    },
     {
       name: "linkedin",
       url: "https://www.linkedin.com/in/holly-k-cummins/",
       display: "Holly K Cummins"
     },
-    { name: "github", url: "https://github.com/holly-cummins", display: "holly-cummins" },
-    { name: "medium", url: "https://holly-k-cummins.medium.com", display: "Holly K Cummins" }
+    {
+      name: "github",
+      url: "https://github.com/holly-cummins",
+      display: "holly-cummins"
+    },
+    {
+      name: "medium",
+      url: "https://holly-k-cummins.medium.com",
+      display: "Holly K Cummins"
+    }
   ]
 };
