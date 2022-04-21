@@ -15,5 +15,5 @@ tweets:
   - "https://twitter.com/alblue/status/713079131123159040?ref_src=twsrc%5Etfw"
 
 ---
-Talk presented at the London Java Community’s Mad Scientists event: http://mad-scientists.mybluemix.net.
+Talk presented at the London Java Community’s Mad Scientists event: [http://mad-scientists.mybluemix.net](https://web.archive.org/web/20160524152749/http://mad-scientists.mybluemix.net/).
 Innovation is the new currency of business, but let’s not forget the sheer silly joy of creativity. I’ll be the first to admit that the business value of world’s first cuddly throwable application server is pretty low. The application server embedded in a hat is probably even less lucrative. The good news is that I’m part of a long tradition of inventing useless things - and we’re still benefiting today from some of those apparently useless things. So even if the throwable application server never goes to market, lets all keep trying things out just for the wonder of it. Even if everyone else thinks we’re bonkers, we’ll be having fun.
