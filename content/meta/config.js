@@ -4,7 +4,7 @@ module.exports = {
   siteDescription:
     "Red Hatter, Java Champion, occasional maker and regular speaker.",
   siteUrl: "http://hollycummins.com",
-  pathPrefix: "/",
+  pathPrefix: "",
   siteImage: "preview.png",
   siteLanguage: "en",
 
