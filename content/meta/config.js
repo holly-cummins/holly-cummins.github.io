@@ -5,7 +5,7 @@ module.exports = {
     "Red Hatter, Java Champion, occasional maker and regular speaker.",
   siteUrl: "http://hollycummins.com",
   pathPrefix: "",
-  siteImage: "preview.png",
+  siteImage: "/preview.png",
   siteLanguage: "en",
 
   /* author */
