@@ -7,6 +7,7 @@ slides:
 event: "Continuous Lifecycle Mannheim"
 location: "Mannheim, Germany"
 keynote: true
+author: holly cummins
 video:
   url: "https://player.vimeo.com/video/386927686?app_id=122963"
 tweets:
