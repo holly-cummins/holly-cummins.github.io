@@ -7,6 +7,7 @@ import Article from "../components/Article";
 import Headline from "../components/Article/Headline";
 import List from "../components/List/List";
 import LogoList from "../components/List/LogoList";
+import EventList from "../components/List/EventList";
 import { plural, icon } from "../utils/type";
 import { filterOutDrafts } from "../utils/filters";
 
@@ -14,7 +15,7 @@ const TypeTemplate = props => {
   const {
     pageContext: { type },
     data: {
-      allMarkdownRemark: { totalCount, edges }
+      allMarkdownRemark: { edges }
     }
   } = props;
 
@@ -46,7 +47,7 @@ const TypeTemplate = props => {
       year = "upcoming";
     }
 
-    if (year && year != null) {
+    if (year) {
       if (!years[year]) {
         years[year] = [];
       }
@@ -67,6 +68,7 @@ const TypeTemplate = props => {
   yearList.sort().reverse();
 
   const Icon = icon(type);
+  const useShortDate = yearList.length > 1;
 
   return (
     <React.Fragment>
@@ -82,7 +84,7 @@ const TypeTemplate = props => {
                 ? yearList.map(item => (
                     <section key={item[0]}>
                       <h2>{item[0]}</h2>
-                      {listEntry(item[1], type, theme, item[0])}
+                      {listEntry(item[1], type, theme, item[0], useShortDate)}
                     </section>
                   ))
                 : yearList.map(item => listEntry(item[1], type, theme, item[0]))}
@@ -96,11 +98,15 @@ const TypeTemplate = props => {
   );
 };
 
-const listEntry = (item, type, theme, year) => {
-  if (type == "media" || type == "book") {
+const listEntry = (item, type, theme, year, useShortDate) => {
+  if (type === "media" || type === "book") {
     return <LogoList edges={item} theme={theme} key={year} />;
+  } else if (type === "talk") {
+    return <EventList edges={item} theme={theme} key={year} />;
   } else {
-    return <List edges={item} theme={theme} key={year} showIcon={false} />;
+    return (
+      <List edges={item} theme={theme} key={year} showIcon={false} useShortDate={useShortDate} />
+    );
   }
 };
 
@@ -128,6 +134,7 @@ export const typeQuery = graphql`
           fields {
             slug
             prefix
+            shortDate
           }
           excerpt
           timeToRead
@@ -135,6 +142,7 @@ export const typeQuery = graphql`
             url
             title
             type
+            event
           }
         }
       }
