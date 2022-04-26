@@ -4,7 +4,7 @@ category: "cloud native"
 title: "WTF is Culture In Cloud Native"
 slides:
   url: "https://noti.st/holly-cummins/IUMVRE/wtf-is-culture-in-cloud-native"
-event: "WTF Is Cloud Native Webinar"
+event: "WTFinar"
 video:
   url: "https://www.youtube.com/embed/ltsoNNTkd_g"
 cover: large-0.jpg

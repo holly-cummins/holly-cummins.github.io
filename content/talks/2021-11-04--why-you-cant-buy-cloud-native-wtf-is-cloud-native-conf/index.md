@@ -4,7 +4,7 @@ category: "cloud native"
 title: "Why You Can’t Buy Cloud Native"
 slides:
   url: "https://noti.st/holly-cummins/yW8VWG/why-you-cant-buy-cloud-native"
-event: "WTF Is Cloud Native Conf"
+event: "WTF Is Cloud Native"
 cover: large-0.jpg
 video:
   url: "https://www.youtube.com/embed/q8apHY9q7tc?feature=oembed"

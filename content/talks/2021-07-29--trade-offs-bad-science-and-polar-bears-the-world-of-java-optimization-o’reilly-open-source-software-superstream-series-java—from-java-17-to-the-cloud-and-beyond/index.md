@@ -4,7 +4,7 @@ category: "java"
 title: "Trade-Offs, Bad Science, and Polar Bears—The World of Java Optimization"
 slides:
   url: "https://noti.st/holly-cummins/9xrQ8D/trade-offs-bad-science-and-polar-bears-the-world-of-java-optimization"
-event: "O’Reilly Open Source Software Superstream Series: Java—From Java 17 to the Cloud and Beyond"
+event: "O’Reilly Superstream Series"
 cover: large-0.jpg
 
 ---
