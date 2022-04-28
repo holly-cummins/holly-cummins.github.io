@@ -4,6 +4,7 @@ category: "SRE"
 keynote: true
 title: "SRE: The Good, The Bad, and the Ouch"
 event: "WTF is SRE"
+author: holly cummins
 cover: goldfishops.png
 slides:
  url: https://speakerdeck.com/hollycummins/sre-the-good-the-bad-and-the-ouch
