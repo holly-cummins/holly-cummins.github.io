@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import { Badge20 as Star } from "@carbon/icons-react";
 
 const EventList = props => {
   const { edges, theme, showDate, listener } = props;
@@ -11,25 +12,30 @@ const EventList = props => {
         {edges.map(edge => {
           const {
             node: {
-              frontmatter: { title, url, event },
+              frontmatter: { title, url, event, keynote },
               fields: { slug, shortDate }
             }
           } = edge;
 
-          return (
-            <li key={slug} className="event-list">
+          const divs = (
+            <div className="row">
+              <div className="keynoteIndicator">{keynote ? <Star /> : <></>}</div>
               <div className="event" onMouseOver={listener} onMouseOut={listener}>
                 {showDate ? shortDate : event}
               </div>
-              <div className={"talkTitle"}>
-                {url ? (
-                  <a href={url} className="link">
-                    {title}
-                  </a>
-                ) : (
-                  <Link to={slug}>{title}</Link>
-                )}
-              </div>
+              <div className={"talkTitle"}>{title}</div>
+            </div>
+          );
+
+          return (
+            <li key={slug} className="event-list">
+              {url ? (
+                <a href={url} className="link">
+                  {divs}
+                </a>
+              ) : (
+                <Link to={slug}>{divs}</Link>
+              )}
             </li>
           );
         })}
@@ -46,11 +52,18 @@ const EventList = props => {
         li {
           font-size: ${theme.font.size.s};
           line-height: ${theme.font.lineHeight.l};
+        }
+
+        .row {
           display: flex;
           justify-content: flex-start;
           align-items: flex-start;
           gap: 10px;
           padding-bottom: 20px;
+        }
+
+        .keynoteIndicator {
+          width: 20px;
         }
 
         .event {
