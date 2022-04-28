@@ -13,6 +13,7 @@ resource:
   - title: "Photo collection"
     url: "https://www.flickr.com/photos/92970685@N06/24934335125"
 event: "Jfokus"
+author: holly cummins
 location: "Stockholm, Sweden"
 cover: large-0.jpg
 video:
