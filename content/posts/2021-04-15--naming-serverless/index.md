@@ -49,9 +49,9 @@ No problem, you can refine the search. What about ‘cloud funtainer’? You get
 
 And this is why Knative describes itself as ‘serverless’.
 
-Another way of describing serverless, which involves less head-warping ‘there are no servers visible to the developer, but there are servers underneath, and actually the developer sees and defines those servers’, is this: [“Billing per request rather than per instance”](http://twitter.com/tef_ebooks/status/1339151538917355520).
+Another way of describing serverless, which involves less head-warping ‘there are no servers visible to the developer, but there are servers underneath, and actually the developer sees and defines those servers’, is this: [“Billing per request rather than per instance”](https://twitter.com/tef_ebooks/status/1339151538917355520).
 
-[![thinking about that time i was in a meeting with amazon engineers, and my co-workers asked "what's serverless". i said "per-request, not per-instance billing" and there was an awkward silence like all the hype had been let out of the room](per-request.png)](http://twitter.com/tef_ebooks/status/1339151538917355520)
+[![thinking about that time i was in a meeting with amazon engineers, and my co-workers asked "what's serverless". i said "per-request, not per-instance billing" and there was an awkward silence like all the hype had been let out of the room](per-request.png)](https://twitter.com/tef_ebooks/status/1339151538917355520)
 
 But there’s still a problem, even with that name. Well, the first problem is that it's a bit of a mouthful (BPRRPI, anyone?), and the second problem is that it's not even accurate. A managed [Knative](https://knative.dev), like Code Engine, has billing, and it’s per request. So we're good there. But if you run Knative in your own cluster, what you're paying for is the cluster instance. Unless you’re really really good at FinOps, requests won't be billed. Knative itself doesn’t ship with any billing support, so any name involving 'billing' is a non-starter.
 
