@@ -13,3 +13,5 @@ not sure I agree about start with finding, not problem - or rather, maybe more r
 art of public speaking, with the icons, reference https://blog.thenounproject.com/the-golden-rules-of-presentation-design/ and dual coding theory
 
 A great talk is a great story, and has these 4 elements brevity levity charity clarity Jeremy Waite quoting Ted Sorenson
+
+TODO review     https://www.youtube.com/watch?v=Unzc731iCUY
