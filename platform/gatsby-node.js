@@ -91,6 +91,8 @@ exports.createPages = ({ graphql, actions }) => {
           } = edge;
 
           if (category) {
+            // We need to re-normalise the category here because this code runs before the category normalising plugin (sadly)
+            category = category.toLowerCase();
             categorySet.add(category);
           }
         });
@@ -204,9 +206,15 @@ exports.createSchemaCustomization = ({ actions }) => {
     title: String
     html: String
   }
+  type Geography implements Node {
+    flag: String
+    country: String
+  }
   type Frontmatter {
     video: OEmbed
     slides: OEmbed
+    displayCategory: String
+    geography: Geography
   }
   type Fields {
     shortDate: String
