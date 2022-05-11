@@ -2,13 +2,12 @@
 type: "talk"
 category: "innovation"
 title: "Bonkers Beans and Magic Numbers: Innovation in a Changing World"
-slides:
-  url: "https://noti.st/holly-cummins/FbIAmC/bonkers-beans-and-magic-numbers-innovation-in-a-changing-world-keynote"
 event: "DIGITExpo"
-location: "Edinburgh, UK"
+location: Edinburgh
 keynote: true
 cover: large-0.jpg
-
+slides:
+  url: "https://noti.st/holly-cummins/FbIAmC/bonkers-beans-and-magic-numbers-innovation-in-a-changing-world-keynote"
 ---
 Where do ideas come from?
 How to make time to innovate
