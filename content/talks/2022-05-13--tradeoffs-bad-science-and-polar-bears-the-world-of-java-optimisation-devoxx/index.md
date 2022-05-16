@@ -10,6 +10,7 @@ slides:
   url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-675d2f50-304f-44c1-8a48-888111fac259
 tweets:
  - https://twitter.com/poggs/status/1525113924739379201?s=21&t=s942rc2pCiOzXg5cHIsGaA
+ - https://twitter.com/sannegrinovero/status/1525167541240442886?s=21&t=9QA7VjCwJPUPPOoVBqAtBA
  - https://twitter.com/leanderreimer/status/1525108407870623746?s=21&t=s942rc2pCiOzXg5cHIsGaA
  - https://twitter.com/vilojona/status/1525102164456128512?s=21&t=s942rc2pCiOzXg5cHIsGaA
 ---
