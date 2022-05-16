@@ -4,7 +4,7 @@ category: "devops"
 title: "Tales From The DevOps Transformation Trenches"
 slides:
   url: "https://noti.st/holly-cummins/J4AyN2/tales-from-the-devops-transformation-trenches"
-event: "DevOps Enterprise Summit London 2019"
+event: "DevOps Enterprise Summit London"
 location: "London, UK"
 cover: large-0.png
 video:

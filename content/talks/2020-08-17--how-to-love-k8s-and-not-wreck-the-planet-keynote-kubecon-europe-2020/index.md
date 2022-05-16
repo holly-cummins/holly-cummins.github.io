@@ -9,7 +9,7 @@ resource:
     url: "https://medium.com/ibm-garage/how-to-love-kubernetes-and-not-wreck-the-planet-part-i-elasticity-and-utilization-19fcae120628"
   - title: "Talk blog - Part II"
     url: "https://medium.com/ibm-garage/how-to-love-kubernetes-and-not-wreck-the-planet-part-ii-revenge-of-the-zombies-9ae8e925c094"
-event: "Kubecon Europe 2020"
+event: "Kubecon Europe"
 cover: large-0.jpg
 keynote: true
 video:

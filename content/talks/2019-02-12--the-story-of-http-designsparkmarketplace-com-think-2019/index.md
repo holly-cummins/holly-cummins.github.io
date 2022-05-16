@@ -5,7 +5,7 @@ author: holly cummins
 title: "The story of designsparkmarketplace.com"
 slides:
   url: "https://noti.st/holly-cummins/kCfjTP/the-story-of-http-designsparkmarketplace-com"
-event: "Think 2019"
+event: "Think"
 location: "San Francisco, CA, USA"
 cover: large-0.jpg
 ---

@@ -4,7 +4,7 @@ category: "cloud native"
 title: "The Lazy Developer’s Guide to Cloud Foundry"
 slides:
   url: "https://noti.st/holly-cummins/QHvhQT/the-lazy-developers-guide-to-cloud-foundry"
-event: "Devoxx UK 2014"
+event: "Devoxx UK"
 location: "London, UK"
 author: "holly cummins"
 cover: large-0.jpg
