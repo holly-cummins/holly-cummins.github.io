@@ -8,6 +8,7 @@ category: microservices
 type: podcast
 tweets:
  - https://twitter.com/danilop/status/1526256417686052867?s=21&t=Tapy1ZBzuMX1M8UtHTV55w
+ - https://twitter.com/rseroter/status/1526227454125215747?s=21&t=e4qAxfwgVuXRZ4FXeBwfnw
 ---
 
 Implementing microservices is really challenging, and there are many ways to fail. Holly Cummins has identified seven ways to fail at microservices and how they can be avoided.
