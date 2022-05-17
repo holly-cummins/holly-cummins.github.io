@@ -16,7 +16,7 @@ const Share = asyncComponent(() =>
     .then(module => {
       return module.default;
     })
-    .catch(error => {})
+    .catch(_ => {})
 );
 
 const Talk = props => {
@@ -33,6 +33,7 @@ const Talk = props => {
     theme
   } = props;
 
+  console.log("Post is", post);
   return (
     <React.Fragment>
       <header>

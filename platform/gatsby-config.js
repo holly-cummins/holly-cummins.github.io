@@ -2,6 +2,7 @@ require("dotenv").config();
 const fs = require("fs");
 const contentDir = fs.existsSync("../content") ? "../content" : "./content";
 
+// eslint-disable-next-line import/no-dynamic-require
 const config = require(`${contentDir}/meta/config`);
 const transformer = require("./src/utils/algolia");
 
@@ -63,16 +64,6 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-algolia`,
-      options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
-        queries,
-        chunkSize: 10000 // default: 1000
-      }
-    },
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `template-images`,
@@ -125,6 +116,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          "gatsby-remark-event-location-expand",
+          "gatsby-remark-category-normalize",
+          {
+            resolve: "gatsby-remark-normalize-paths",
+            options: {
+              pathFields: ["image", "cover"]
+            }
+          },
           {
             resolve: `gatsby-remark-oembed`,
             options: {
@@ -132,9 +131,6 @@ module.exports = {
             }
           },
           `gatsby-plugin-sharp`,
-          "gatsby-remark-date-format",
-          "gatsby-remark-event-location-expand",
-          "gatsby-remark-category-normalize",
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -174,6 +170,7 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
@@ -244,6 +241,7 @@ module.exports = {
         `,
         feeds: [
           {
+            title: "Feed",
             serialize: ({ query: { site, allMarkdownRemark } }) => {
               return allMarkdownRemark.edges.map(edge => {
                 return Object.assign({}, edge.node.frontmatter, {
@@ -298,6 +296,17 @@ module.exports = {
       resolve: "gatsby-plugin-react-svg",
       options: {
         include: /svg-icons/
+      }
+    },
+    "gatsby-remark-date-format",
+    {
+      resolve: `gatsby-plugin-algolia`,
+      options: {
+        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
+        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        queries,
+        chunkSize: 10000 // default: 1000
       }
     }
   ]
