@@ -5,6 +5,7 @@ type: talk
 event: CodeCamp
 location: Bucharest, Romania
 title: Why You Can't Buy Cloud Native
+cover: titlepage.png
 slides: 
  url: https://speakerdeck.com/hollycummins/why-you-cant-buy-cloud-native
 tweets: 
