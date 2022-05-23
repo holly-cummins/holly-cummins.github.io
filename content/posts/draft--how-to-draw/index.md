@@ -86,8 +86,17 @@ Link to Charlie mackesy
 
 abstracted style with rough edges and few details, so it's hard to get wrong.
 
+## Lessons
+
+I assumed drawing was an innate talent, but it can be taught.
+There are lots of super resources out there, and one of the 
+things on my todo list is to explore them more. For the moment, 
+I've got lots out of 'how to draw' videos aimed at young kids (they're about the right level!).
+My favourite is [Art For Kids hub](https://www.youtube.com/hashtag/artforkidshub).
 
 
 Hybrid sometimes photo more expressive
 
 I have found, however, that sketchnoting in meetings is powerful, even if the note-taker (me!) can't draw well. Visual note-taking works especially well for complex concepts or new domains, so it was an ideal technique when potential customers were briefing the IBM Garage on their challenges. It makes people feel like they're _really_ being heard to see their words turned into pictures as they speak. My colleague Jocelyne Dittmer has done an [excellent guide to getting started drawing in public](https://medium.com/@jocelynedittmer_5269/visual-thinking-sketching-ec64f19cf70).
+
+Kids drawing videos link TODO
