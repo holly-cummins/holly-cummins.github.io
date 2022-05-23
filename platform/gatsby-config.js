@@ -112,18 +112,11 @@ module.exports = {
         path: `${__dirname}/${contentDir}/parts/`
       }
     },
+    "gatsby-remark-category-normalize",
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          "gatsby-remark-event-location-expand",
-          "gatsby-remark-category-normalize",
-          {
-            resolve: "gatsby-remark-normalize-paths",
-            options: {
-              pathFields: ["image", "cover"]
-            }
-          },
           `gatsby-plugin-sharp`,
           {
             resolve: `gatsby-remark-images`,
@@ -172,6 +165,7 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    "gatsby-remark-event-location-expand",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
