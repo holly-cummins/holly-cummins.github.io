@@ -9,6 +9,8 @@ location: "London, UK"
 title: The Future of Java
 slides:
   url: https://speakerdeck.com/hollycummins/the-future-of-java
+video: 
+  url: https://www.youtube.com/watch?v=bUQ3f5GxLNQ
 tweets:
  - https://twitter.com/poggs/status/1524312387599413248?s=20&t=NQKi_0gr7T6rpwqHGVqR8w
  - https://twitter.com/ammbra1508/status/1524310792048414720?s=20&t=NQKi_0gr7T6rpwqHGVqR8w
