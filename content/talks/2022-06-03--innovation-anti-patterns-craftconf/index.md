@@ -3,7 +3,8 @@ type: "talk"
 category: "innovation"
 title: "Innovation Anti-patterns: Bonkers Beans and Magic Numbers"
 event: "CraftConf"
-
+slides:
+  - url: https://speakerdeck.com/hollycummins/innovation-anti-patterns-bonkers-beans-and-magic-numbers
 ---
 - Where do ideas come from?
 - How to make time to innovate
