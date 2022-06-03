@@ -5,13 +5,10 @@ title: "Innovation Anti-patterns: Bonkers Beans and Magic Numbers"
 event: "CraftConf"
 slides:
   - url: https://speakerdeck.com/hollycummins/innovation-anti-patterns-bonkers-beans-and-magic-numbers
+tweets:
+  - https://twitter.com/katjabudnikov/status/1532665200247287808?s=21&t=kPMkGU_ASC8dl6WerbhDCg
+  - https://twitter.com/rokatainment/status/1532656650775056384?s=21&t=kPMkGU_ASC8dl6WerbhDCg
 ---
-- Where do ideas come from?
-- How to make time to innovate
-- Have you got an innovation funnel or an innovation fizzle?
-- How to design your MVP (and why you shouldn’t call it an MVP)
-- Why you’re not releasing often enough
-
 The innovation fizzle, the fauxnnovation, the maximal viable product. Holly’s seen them all. 
  In a world where there’s always too much to do and too little time, how can organisations make time to innovate? 
  (Spoiler: siloes probably aren’t the answer.) 
