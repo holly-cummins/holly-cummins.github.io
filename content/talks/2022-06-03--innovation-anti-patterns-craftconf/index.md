@@ -5,7 +5,7 @@ title: "Innovation Anti-patterns: Bonkers Beans and Magic Numbers"
 event: "CraftConf"
 author: Holly Cummins
 slides:
-  - url: https://speakerdeck.com/hollycummins/innovation-anti-patterns-bonkers-beans-and-magic-numbers
+ url: https://speakerdeck.com/hollycummins/innovation-anti-patterns-bonkers-beans-and-magic-numbers
 tweets:
   - https://twitter.com/katjabudnikov/status/1532665200247287808?s=21&t=kPMkGU_ASC8dl6WerbhDCg
   - https://twitter.com/rokatainment/status/1532656650775056384?s=21&t=kPMkGU_ASC8dl6WerbhDCg
