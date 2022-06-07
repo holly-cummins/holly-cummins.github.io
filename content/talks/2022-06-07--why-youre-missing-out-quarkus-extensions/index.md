@@ -5,6 +5,8 @@ author: Georgios Andrianakis and Holly Cummins
 title: "Why you're missing out if you're not making Quarkus extensions"
 event: "JNation"
 location: Coimbra, Portugal
+slides:
+ url: https://speakerdeck.com/hollycummins/why-youre-missing-out-if-youre-not-making-quarkus-extensions
 
 ---
 Do I need an extension? And how do I write it?
