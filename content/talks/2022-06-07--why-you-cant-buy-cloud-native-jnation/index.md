@@ -8,6 +8,7 @@ title: Why You Can't Buy Cloud Native
 slides: 
  url: https://speakerdeck.com/hollycummins/why-you-cant-buy-cloud-native
 tweets: 
+ - https://twitter.com/rmehmandarov/status/1534128274359582721?s=21&t=lPVKPRdapwCCX2CoYHVrnA
 
 ---
 

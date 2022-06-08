@@ -7,7 +7,10 @@ event: "JNation"
 location: Coimbra, Portugal
 slides:
  url: https://speakerdeck.com/hollycummins/why-youre-missing-out-if-youre-not-making-quarkus-extensions
-
+tweets:
+ - https://twitter.com/sannegrinovero/status/1534226508918755329?s=21&t=lPVKPRdapwCCX2CoYHVrnA
+ - https://twitter.com/phillipkruger/status/1534229941520310273?s=21&t=lPVKPRdapwCCX2CoYHVrnA
+ - https://twitter.com/unfromage/status/1534221832160780288?s=21&t=lPVKPRdapwCCX2CoYHVrnA
 ---
 Do I need an extension? And how do I write it?
 
