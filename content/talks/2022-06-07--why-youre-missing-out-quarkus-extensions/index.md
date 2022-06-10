@@ -12,8 +12,8 @@ tweets:
  - https://twitter.com/phillipkruger/status/1534229941520310273?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/unfromage/status/1534221832160780288?s=21&t=lPVKPRdapwCCX2CoYHVrnA
 code: 
-  url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
-  title: Demo extension (it involves Minecraft!)
+ - url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
+   title: Demo extension (it involves Minecraft!)
 ---
 Do I need an extension? And how do I write it?
 
