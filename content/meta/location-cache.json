@@ -2552,5 +2552,351 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Las Vegas, NV, USA": [
+  {
+   "latitude": 36.1672559,
+   "longitude": -115.148516,
+   "formattedAddress": "Las Vegas, Clark County, Nevada, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.099448100000004,
+   "longitude": -115.14422048990326,
+   "formattedAddress": "University of Nevada, Las Vegas, 4505, East Tropicana Avenue, Midtown UNLV, Las Vegas, Clark County, Nevada, 89154, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "zipcode": "89154",
+   "streetName": "East Tropicana Avenue",
+   "streetNumber": "4505",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.10782625,
+   "longitude": -115.14186111825259,
+   "formattedAddress": "University of Nevada, Las Vegas, 4505, University Center Drive, Hughes Center, Las Vegas, Clark County, Nevada, 89154, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "zipcode": "89154",
+   "streetName": "University Center Drive",
+   "streetNumber": "4505",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.0862687,
+   "longitude": -115.01673651281678,
+   "formattedAddress": "Sam Boyd Stadium, 7000, East Russell Road, Las Vegas, Clark County, Nevada, 89122, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "zipcode": "89122",
+   "streetName": "East Russell Road",
+   "streetNumber": "7000",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.0028345,
+   "longitude": -115.20129908882386,
+   "formattedAddress": "Enterprise, Southern Highlands, Clark County, Nevada, United States",
+   "country": "United States",
+   "state": "Nevada",
+   "countryCode": "US",
+   "neighbourhood": "Enterprise",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.15533955,
+   "longitude": -115.11862822482709,
+   "formattedAddress": "1229 S Eastern Ave, Las Vegas, NV 89104, 1229, South Eastern Avenue, Five Points, Las Vegas, Clark County, Nevada, 89104, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "zipcode": "89104",
+   "streetName": "South Eastern Avenue",
+   "streetNumber": "1229",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.0685923,
+   "longitude": -115.1664237,
+   "formattedAddress": "Las Vegas, NV - RTC S. Strip Term. Greyhound Station, East Sunset Road, Enterprise, Paradise, Clark County, Nevada, 89119-4016, United States",
+   "country": "United States",
+   "city": "Paradise",
+   "state": "Nevada",
+   "zipcode": "89119-4016",
+   "streetName": "East Sunset Road",
+   "countryCode": "US",
+   "neighbourhood": "Enterprise",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.0404992,
+   "longitude": -115.18531983268689,
+   "formattedAddress": "The Berkley, Las Vegas, 8280, Dean Martin Drive, Enterprise, Clark County, Nevada, 89139, United States",
+   "country": "United States",
+   "state": "Nevada",
+   "zipcode": "89139",
+   "streetName": "Dean Martin Drive",
+   "streetNumber": "8280",
+   "countryCode": "US",
+   "neighbourhood": "Enterprise",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Stockholm, Sweden": [
+  {
+   "latitude": 59.3251172,
+   "longitude": 18.0710935,
+   "formattedAddress": "Stockholms kommun, Solna kommun, Stockholms län, Sverige",
+   "country": "Sverige",
+   "city": "Stockholms kommun",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.6796925,
+   "longitude": 13.8849555,
+   "formattedAddress": "Stockholm, Mariestads kommun, Västra Götalands län, 54232, Sverige",
+   "country": "Sverige",
+   "city": "Stockholm",
+   "zipcode": "54232",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 60.5640539,
+   "longitude": 14.663435,
+   "formattedAddress": "Stockholm, Leksands kommun, Dalarnas län, Sverige",
+   "country": "Sverige",
+   "city": "Stockholm",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 57.53549495,
+   "longitude": 16.746369220465393,
+   "formattedAddress": "Stockholm, Oskarshamns kommun, Kalmar län, Sverige",
+   "country": "Sverige",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 56.3577905,
+   "longitude": 15.1687221,
+   "formattedAddress": "Stockholm, Backaryd, Ronneby kommun, Blekinge län, Sverige",
+   "country": "Sverige",
+   "city": "Backaryd",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 56.1424586,
+   "longitude": 13.4173708,
+   "formattedAddress": "Stockholm, Perstorp, Perstorps kommun, Skåne län, Sverige",
+   "country": "Sverige",
+   "city": "Perstorp",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 56.180276,
+   "longitude": 15.019952990279878,
+   "formattedAddress": "Stockholm, Karlshamns kommun, Blekinge län, Sverige",
+   "country": "Sverige",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.5125874,
+   "longitude": 12.2161,
+   "formattedAddress": "Stockholm, Vänersborgs kommun, Västra Götalands län, 462 97, Sverige",
+   "country": "Sverige",
+   "zipcode": "462 97",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.6010028,
+   "longitude": 12.3184638,
+   "formattedAddress": "Stockholm, Vänersborgs kommun, Västra Götalands län, 46463, Sverige",
+   "country": "Sverige",
+   "zipcode": "46463",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.426792,
+   "longitude": 11.5357546,
+   "formattedAddress": "Stockholm, Lysekils kommun, Västra Götalands län, Sverige",
+   "country": "Sverige",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Odesa, Odessa Oblast, Ukraine, 65000": [
+  {
+   "latitude": 46.4843023,
+   "longitude": 30.7322878,
+   "formattedAddress": "Одеса, Одеська міська громада, Одеський район, Одеська область, Україна",
+   "country": "Україна",
+   "city": "Одеса",
+   "state": "Одеська область",
+   "countryCode": "UA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Vilnius, Lithuania": [
+  {
+   "latitude": 54.6870458,
+   "longitude": 25.2829111,
+   "formattedAddress": "Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01101, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "01101",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.700921199999996,
+   "longitude": 25.322104922028075,
+   "formattedAddress": "Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6698883,
+   "longitude": 25.2847418,
+   "formattedAddress": "Vilnius, Geležinkelio g., Kauno-Algirdo kvartalas, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01047, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "01047",
+   "streetName": "Geležinkelio g.",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.67603855,
+   "longitude": 25.281411114296752,
+   "formattedAddress": "Vilniaus choralinė sinagoga, 39, Pylimo g., Senamiestis, Senamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01308, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "01308",
+   "streetName": "Pylimo g.",
+   "streetNumber": "39",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6847778,
+   "longitude": 25.303,
+   "formattedAddress": "Gedimino kapo kalnas, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 01209, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "01209",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6870833,
+   "longitude": 25.2975833,
+   "formattedAddress": "Plikasis (Kreivasis) kalnas, T. Kosciuškos g., Senamiestis, Senamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 09232, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "09232",
+   "streetName": "T. Kosciuškos g.",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 55.930085,
+   "longitude": 25.1119614,
+   "formattedAddress": "Vilnius, Kupiškio seniūnija, Kupiškio rajono savivaldybė, Panevėžio apskritis, 40460, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Panevėžio apskritis",
+   "zipcode": "40460",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6392198,
+   "longitude": 25.2973838,
+   "formattedAddress": "Vilnius, Liepkalnio g., Naujininkų seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02121, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "02121",
+   "streetName": "Liepkalnio g.",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6696134,
+   "longitude": 25.285775,
+   "formattedAddress": "Vilnius, Pelesos g., Kauno-Algirdo kvartalas, Naujamiesčio seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 02111, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "02111",
+   "streetName": "Pelesos g.",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 54.6883179,
+   "longitude": 25.2135909,
+   "formattedAddress": "Vilnius, Sausio 13-osios g., Karoliniškės, Karoliniškių seniūnija, Vilnius, Vilniaus miesto savivaldybė, Vilniaus apskritis, 04347, Lietuva",
+   "country": "Lietuva",
+   "city": "Vilnius",
+   "state": "Vilniaus apskritis",
+   "zipcode": "04347",
+   "streetName": "Sausio 13-osios g.",
+   "countryCode": "LT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
