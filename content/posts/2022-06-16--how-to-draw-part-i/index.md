@@ -1,6 +1,6 @@
 ---
 title: "How to draw when you can’t draw, part i: a growth mindset story"
-cover: bee-1981.png
+cover: snorkelling.png
 author: holly cummins
 category: meta
 type: blog
@@ -58,7 +58,7 @@ Here's what I've learned over seven years of drawing:
 If a presentation looks exactly the same as six other presentations a conference-goer has seen that 
 day, it's unlikely to be memorable. If it looks exactly the same as the presentations they were seeing 
 five years ago, that's even worse. 
-Just yesterday, after a [talk](cloud-chaos-and-microservices-mayhem-goto-amsterdam/), someone said to me "I enjoy that your slides don't look like the others."
+Just yesterday, after a [talk](/cloud-chaos-and-microservices-mayhem-goto-amsterdam), someone said to me "I enjoy that your slides don't look like the others."
  There's a lot to be said for novelty.
 
 
@@ -83,12 +83,12 @@ _2021. Abstract and low-skill, but still effective at communication._
 
 That doesn't mean incompetence doesn't have its downsides;
 occasionally, people just end up confused. I was so pleased with a drawing I did 
-for [a Javaland keynote](cloudy-with-a-chance-of-meatballs-cloud-surprises-for-the-java-developer-keynote-javaland/)of someone
+for [a Javaland keynote](/cloudy-with-a-chance-of-meatballs-cloud-surprises-for-the-java-developer-keynote-javaland/) of someone
 cuddling a cloud that I put it in my email signature. I hastily took it back out after the
 third person asked me why I was sharing a picture of someone holding a large loaf of bread.
 
 ![Supposed to be someone cuddling a cloud](cloud-bread.png)
-_Extract of my email signature, 2015. Love cloud, or love bread? You decide._
+_Extract of my email signature, 2018. Love cloud, or love bread? You decide._
 
 It's uncomfortable doing things badly, and most of us try to avoid it. 
 But sometimes doing something badly is better than not doing it at all. 
