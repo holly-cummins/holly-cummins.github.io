@@ -161,7 +161,7 @@ Looking at the difference between my 2015 drawings and what I'm doing now, I can
 see how much practice has helped.  
 
 ![A drawing of a burger](burger-2021.png)
-_Burger, 2021. I have more confidence with reflection and shading._
+_Burger, 2021. I have more confidence with reflection and shading than in my earlier pictures._
 
 Have I got a perfect growth mindset? Of [course not.](https://www.theatlantic.com/education/archive/2016/12/how-praise-became-a-consolation-prize/510845/)
 While writing this blog, I happened 
