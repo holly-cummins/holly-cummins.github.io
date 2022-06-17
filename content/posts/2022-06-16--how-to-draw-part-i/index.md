@@ -68,7 +68,7 @@ Most of us naturally avoid doing things we're bad at, especially in public.
 We don't want to be inadequate, and we don't want to be caught out as inadequate. 
 But going outside our comfort zone can be good for us, and good for those around us. 
 For example, I find the most helpful conference talks are from people learning a topic,
-because they did into the non-obvious points and gotchas. 
+because they dig into the non-obvious points and gotchas. 
 Similarly, new joiners to a team make a huge contribution because they spot gaps and bring fresh ideas.
 
 My artistic mediocrity may bring a similar 'win'. When I give a talk, 
