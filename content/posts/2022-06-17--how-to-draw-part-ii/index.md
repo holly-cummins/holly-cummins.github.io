@@ -19,7 +19,7 @@ _2021, self portrait. Learning from failure is important. Laughing at failure al
 Carol Dweck [observed](https://www.youtube.com/watch?v=hiiEeMN7vbQ) that part of a growth mindset is seeking out 
 people who do the thing you're trying to do better than you can do, so you can learn by example.
 (In contrast, people with a fixed mindset tried to cheer themselves up by looking
-for people who were even worse.) Some of the improvement in my drawing from just doing the thing, over and over again. 
+for people who were even worse.) Some of the improvement in my drawing has come from just doing the thing, over and over again. 
 But I'm also trying to be a bit Sherlock-Holmesy and observe, rather than just seeing. 
 When I see a drawing 
 I like, I study it. What about it do I like? What techniques did they use? 
@@ -124,7 +124,7 @@ Even though I only use a fraction of the power of my drawing app,
 I can use layers to undo errors or build up animations, I can shade, I can smudge ... 
 I use [Tayasui Sketches Pro](https://tayasui.com/sketches/). 
 I like it, but I haven't evaluated it against other apps, 
-so take my recommendation with caution.
+so it's not exactly an expert recommendation.
 
 As an example of what the drawing app can do, 
  in this drawing 
@@ -155,7 +155,7 @@ artists use.
 _A traced sheep with a freehand wolf, 2022._
 
 
-I feel a bit sheepish about this, but who among us hasn't copied and pasted from stack overflow? 
+I feel a bit sheepish about tracing, but who among us hasn't copied and pasted from stack overflow? 
 And learned something in the process? Historically, artists were trained by copying old masters.
 Many still learn by copying, a practice Austin Kleon defends in _Steal Like An Artist_ 
 and [blog posts](https://austinkleon.com/2018/02/08/copying-is-how-we-learn/). 
