@@ -61,6 +61,8 @@ five years ago, that's even worse.
 Just yesterday, after a [talk](/cloud-chaos-and-microservices-mayhem-goto-amsterdam), someone said to me "I enjoy that your slides don't look like the others."
  There's a lot to be said for novelty.
 
+(I should note that 'different' is a relative term. Other speakers, such as
+Kasia Mrowca and Felienne Hermans, also do great hand-drawn slides, and I've learned from them.)
 
 ## Competence is over-rated
 
