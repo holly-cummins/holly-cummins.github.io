@@ -170,3 +170,12 @@ They're trying to do a job, so they use the tools at hand. I think the same
 holds for me; I'm an engineer, and the reason I give presentations is to communicate complex technical concepts. 
 If tracing helps me do that more easily, I'm happy. 
  
+## Postscript: Other tools
+
+If you're not ready to dive into a full-on tablet-and-drawing-app, there are tools available 
+ which can create hand-drawn-style graphics. They're opinionated, so the stylistic 
+ options are limited, but the results are great, they're quick, and they're easy. 
+ I was impressed by [Excalidraw](https://excalidraw.com/), which was a recommendation from my colleagues John O'Hara, and, indirectly, Gunnar Morling.
+ It's a free web page, so the barrier to entry is basically zero.
+A handy thing about Excalidraw is that there are [open libraries](https://libraries.excalidraw.com/) of icons, with a lot of [tech icons](https://libraries.excalidraw.com/?theme=light&sort=default#maeddes-technology-logos) available to drop in to diagrams (including Quarkus, naturally). 
+Perhaps even nicer, if you paste tabulated data onto the canvas, it will auto-generate cute hand-drawn-style charts.
