@@ -175,7 +175,7 @@ _and_ I have to [cheat](/how-to-draw-part-ii).
 I will never ever draw 
 that well, growth mindset or not, practice or not. But I'll keep trying. 
 Another finding of Carol Dweck's is that, after a disappointing result, students with a fixed mindset tended to seek out
-work from others who'd [done worse](https://journals.sagepub.com/doi/10.1177/0146167207312960), so they could feel better about themselves. 
+work from others who'd [done worse](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.992.4902&rep=rep1&type=pdf), so they could feel better about themselves. 
 Those with a 
  growth mindset wanted to look at what people who scored higher produced, so they could _get_ better. 
  So, yeah. I'm never going to be a [@MalwareUnicorn](https://twitter.com/malwareunicorn/status/1519434606214148096?s=20&t=hN9GH4SBoaLzSGQOZQ5ndw).
