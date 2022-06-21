@@ -152,10 +152,9 @@ in terms of "yet". "I'm not good at drawing ... yet."
 If we think our abilities are fixed, when something gets hard, 
 we decide we must not be good at it. We stop trying. Instead of seeing failure as a useful part of the learning process, 
                                                     we treat it as a terminal indictment of our abilities and potential. In fact, 
-if we think our abilities are innate, we don't [try as much](https://www.researchgate.net/publication/222301422_Implicit_theories_and_IQ_Test_performance_A_sequential_mediational_analysis) even when 
+if we think our abilities are innate, we don't [try as much](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.1077&rep=rep1&type=pdf) even when 
 we seem to be doing well. This hurts us, because effort and practice are (duh) important for improvement. 
 As Amy Iskioff Newell [says](https://www.amywriteswords.com/p/6-i-took-33000-selfies?s=r),
-
 
 _"You can get better at anything if you practice a lot, even if you don’t have much of a plan for how to get better, even if you don’t set any goals, take any classes, read a single book or watch a single video on even the most basic topics."_
 
