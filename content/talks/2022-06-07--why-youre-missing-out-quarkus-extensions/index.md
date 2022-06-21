@@ -7,6 +7,8 @@ event: "JNation"
 location: Coimbra, Portugal
 slides:
  url: https://speakerdeck.com/hollycummins/why-youre-missing-out-if-youre-not-making-quarkus-extensions
+video:
+ url: https://youtu.be/4HI8bVd8JFc?t=22741
 tweets:
  - https://twitter.com/sannegrinovero/status/1534226508918755329?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/phillipkruger/status/1534229941520310273?s=21&t=lPVKPRdapwCCX2CoYHVrnA
@@ -14,6 +16,9 @@ tweets:
 code: 
  - url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
    title: Demo extension (it involves Minecraft!)
+oembeds:
+ - url: https://youtu.be/rGGvP88uBUg
+ - title: A short version of the demo (less live coding, more explosions)
 ---
 Do I need an extension? And how do I write it?
 
