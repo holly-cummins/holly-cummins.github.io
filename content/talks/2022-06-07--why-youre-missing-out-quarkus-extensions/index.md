@@ -13,11 +13,12 @@ tweets:
  - https://twitter.com/sannegrinovero/status/1534226508918755329?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/phillipkruger/status/1534229941520310273?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/unfromage/status/1534221832160780288?s=21&t=lPVKPRdapwCCX2CoYHVrnA
+ - https://twitter.com/romulets/status/1539616417150111744?s=20&t=55_ZlygT-NEnfzIcn45KrQ
 code: 
  - url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
    title: Demo extension (it involves Minecraft!)
 oembeds:
- - url: https://youtu.be/rGGvP88uBUg
+ - url: https://youtu.be/w5SBQpAQ8m8
  - title: A short version of the demo (less live coding, more explosions)
 ---
 Do I need an extension? And how do I write it?
