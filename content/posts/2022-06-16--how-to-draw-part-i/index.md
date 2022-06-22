@@ -170,7 +170,7 @@ to see some of [@MalwareUnicorn](https://twitter.com/malwareunicorn)'s [drawings
 How can I have the nerve to draw in public, and then brazenly write about my drawings as if I'm an expert, when there are people 
 who draw so so so much better than me? In fact, should I even be allowed to draw at all? Even Amanda's
 [casual doodles](https://twitter.com/malwareunicorn/status/1537130415533588480?s=20&t=hN9GH4SBoaLzSGQOZQ5ndw) are better than my best 'after' picture, 
-_and_ I have to [cheat](/how-to-draw-part-ii). 
+_and_ I have to [cheat](/how-to-draw-part-ii/). 
 
 I will never ever draw 
 that well, growth mindset or not, practice or not. But I'll keep trying. 
@@ -181,7 +181,7 @@ Those with a
  So, yeah. I'm never going to be a [@MalwareUnicorn](https://twitter.com/malwareunicorn/status/1519434606214148096?s=20&t=hN9GH4SBoaLzSGQOZQ5ndw).
  But I'll keep scribbling, and see where I get to.
  
-In [part ii](/how-to-draw-part-ii), I discuss some of the mechanics behind my drawing, including the (sssh) cheating.
+In [part ii](/how-to-draw-part-ii/), I discuss some of the mechanics behind my drawing, including the (sssh) cheating.
 
 
 [^1]: Like a lot of widely-reported psychological research, 'growth mindset' has a bit of [replication crisis](https://www.vox.com/future-perfect/21504366/science-replication-crisis-peer-review-statistics). I found this essay nuanced and informative: [Is Growth Mindset Real?](https://improvingteaching.co.uk/2022/03/06/is-growth-mindset-real-new-evidence-new-conclusions/). The conclusion is that there isn't much correlation between self-reported growth mindset and academic results. However, teaching people they can try hard and grow their abilities _does_ lead to improved results. So it's not great as a predictor, but it's excellent as an intervention. 
