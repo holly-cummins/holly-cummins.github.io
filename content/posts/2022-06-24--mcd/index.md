@@ -54,9 +54,9 @@ directory and then changing directory is two things. But still.)
 Here's the script, which I now have in my `.zprofile`
 
 ```shell
-mcd(){
- mkdir $1; cd $1
-}
+    mcd(){
+     mkdir $1; cd $1
+    }
 ```
 
 I hope this blog and `mcd` will be useful to someone else;
