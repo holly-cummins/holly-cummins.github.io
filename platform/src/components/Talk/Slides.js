@@ -1,14 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import EmbedContainer from "react-oembed-container";
+import Separator from "./Separator";
 
-const Meta = props => {
+const Slides = props => {
   const { slides, theme } = props;
 
   if (slides && slides.html) {
     return (
       <React.Fragment>
-        <div className="separator"></div>
+        <Separator theme={theme} />
+
         <EmbedContainer markup={slides.html}>
           <a href={slides.url}>
             <h2>{slides.title}</h2>
@@ -26,16 +28,6 @@ const Meta = props => {
             width: 100%;
           }
 
-          .separator {
-            border-top: 1px solid ${theme.line.color};
-            content: "";
-            transition: all ${theme.time.duration.default};
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: ${theme.space.default};
-          }
-
           .slides {
             margin: ${theme.space.m} 0;
           }
@@ -46,7 +38,7 @@ const Meta = props => {
           }
 
           @from-width tablet {
-            .meta {
+            .Slides {
               margin: ${`calc(${theme.space.m} * 1.5) 0 ${theme.space.m}`};
             }
           }
@@ -58,9 +50,9 @@ const Meta = props => {
   }
 };
 
-Meta.propTypes = {
+Slides.propTypes = {
   slides: PropTypes.object,
   theme: PropTypes.object.isRequired
 };
 
-export default Meta;
+export default Slides;

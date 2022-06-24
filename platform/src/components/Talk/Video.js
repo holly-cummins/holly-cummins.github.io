@@ -1,14 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
 import EmbedContainer from "react-oembed-container";
+import Separator from "./Separator";
 
-const Meta = props => {
+const Video = props => {
   const { video, theme } = props;
 
   if (video && video.html) {
     return (
       <React.Fragment>
-        <div className="separator"></div>
+        <Separator theme={theme} />
+
         <EmbedContainer markup={video.html}>
           <a href={video.url}>
             <h2>{video.title}</h2>
@@ -20,17 +22,6 @@ const Meta = props => {
         <style jsx>{`
           :global(iframe) {
             border-radius: ${theme.size.radius.default};
-          }
-
-          .separator {
-            border-top: 1px solid ${theme.line.color};
-            content: "";
-            transition: all ${theme.time.duration.default};
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: ${theme.space.default};
-            margin-top: ${theme.space.default};
           }
 
           .video {
@@ -54,7 +45,7 @@ const Meta = props => {
           }
 
           @from-width tablet {
-            .meta {
+            .Video {
               margin: ${`calc(${theme.space.m} * 1.5) 0 ${theme.space.m}`};
             }
           }
@@ -66,9 +57,9 @@ const Meta = props => {
   }
 };
 
-Meta.propTypes = {
+Video.propTypes = {
   video: PropTypes.object,
   theme: PropTypes.object.isRequired
 };
 
-export default Meta;
+export default Video;
