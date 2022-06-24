@@ -8,7 +8,7 @@ location: Coimbra, Portugal
 slides:
  url: https://speakerdeck.com/hollycummins/why-youre-missing-out-if-youre-not-making-quarkus-extensions
 video:
- url: https://youtu.be/4HI8bVd8JFc?t=22741
+ url: https://www.youtube.com/watch?v=NL6gXDbIy18&list=PLXADOFXCGUmXnufd9gX4cuWKTIFs0YpTr&index=14
 tweets:
  - https://twitter.com/sannegrinovero/status/1534226508918755329?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/phillipkruger/status/1534229941520310273?s=21&t=lPVKPRdapwCCX2CoYHVrnA
