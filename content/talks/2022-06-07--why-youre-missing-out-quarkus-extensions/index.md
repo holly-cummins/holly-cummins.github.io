@@ -19,7 +19,7 @@ code:
    title: Demo extension (it involves Minecraft!)
 oembeds:
  - url: https://youtu.be/w5SBQpAQ8m8
- - title: A short version of the demo (less live coding, more explosions)
+   title: A short version of the demo (less live coding, more explosions)
 ---
 Do I need an extension? And how do I write it?
 
