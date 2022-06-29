@@ -2898,5 +2898,121 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Athens": [
+  {
+   "latitude": 37.9839412,
+   "longitude": 23.7283052,
+   "formattedAddress": "Αθήνα, Δήμος Αθηναίων, Περιφερειακή Ενότητα Κεντρικού Τομέα Αθηνών, Περιφέρεια Αττικής, Αποκεντρωμένη Διοίκηση Αττικής, 10431, Ελλάς",
+   "country": "Ελλάς",
+   "city": "Αθήνα",
+   "state": "Αποκεντρωμένη Διοίκηση Αττικής",
+   "zipcode": "10431",
+   "countryCode": "GR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 33.9597677,
+   "longitude": -83.376398,
+   "formattedAddress": "Athens-Clarke County Unified Government, Athens-Clarke County, United States",
+   "country": "United States",
+   "city": "Athens-Clarke County Unified Government",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 32.2044416,
+   "longitude": -95.854914,
+   "formattedAddress": "Athens, Henderson County, Texas, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Texas",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 39.3289242,
+   "longitude": -82.1012479,
+   "formattedAddress": "Athens, Athens County, Ohio, 45701, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Ohio",
+   "zipcode": "45701",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 34.8045487,
+   "longitude": -86.9711698,
+   "formattedAddress": "Athens, Limestone County, Alabama, 35611, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Alabama",
+   "zipcode": "35611",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 34.7629325,
+   "longitude": -86.93813123482244,
+   "formattedAddress": "Athens, Limestone County, Alabama, 35611, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Alabama",
+   "zipcode": "35611",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 35.4428864,
+   "longitude": -84.5930113,
+   "formattedAddress": "Athens, McMinn County, Tennessee, 37371, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Tennessee",
+   "zipcode": "37371",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 35.46980175,
+   "longitude": -84.59603004451657,
+   "formattedAddress": "Athens, McMinn County, Tennessee, United States",
+   "country": "United States",
+   "city": "Athens",
+   "state": "Tennessee",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 33.920407,
+   "longitude": -118.2790494,
+   "formattedAddress": "Athens, Willowbrook, Los Angeles County, California, 90061, United States",
+   "country": "United States",
+   "state": "California",
+   "zipcode": "90061",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.2603648,
+   "longitude": -73.8095707,
+   "formattedAddress": "Village of Athens, Town of Athens, Greene County, New York, United States",
+   "country": "United States",
+   "city": "Village of Athens",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
