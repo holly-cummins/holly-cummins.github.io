@@ -6,7 +6,7 @@ type: blog
 tweets:
  - https://twitter.com/paulmandell/status/1540369636398612480?s=20&t=e7RitQgCxLVuM-q0EzjoiQ
  - https://twitter.com/liutiewh/status/1540424356777566210?s=21&t=qfzLKR59GfwsALQeMvL0UQ
-https://twitter.com/thepaulroman/status/1542460003919007745?s=21&t=YK205CtJc588YQo9rlEHjQ
+ - https://twitter.com/thepaulroman/status/1542460003919007745?s=21&t=YK205CtJc588YQo9rlEHjQ
 ---
 
 Eight years ago, my MacBook suffered a catastrophic hard drive failure. 
