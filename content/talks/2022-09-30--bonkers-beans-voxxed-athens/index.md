@@ -4,6 +4,7 @@ category: "innovation"
 title: "Innovation Anti-patterns: Bonkers Beans and Magic Numbers"
 event: "Voxxed Days"
 location: Athens
+keynote: true
 ---
 The innovation fizzle, the fauxnnovation, the maximal viable product. Holly’s seen them all. 
  In a world where there’s always too much to do and too little time, how can organisations make time to innovate? 
