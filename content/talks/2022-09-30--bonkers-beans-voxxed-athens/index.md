@@ -2,7 +2,7 @@
 type: "talk"
 category: "innovation"
 title: "Innovation Anti-patterns: Bonkers Beans and Magic Numbers"
-event: "Voxxed Days"
+event: "Voxxed Days Athens"
 location: Athens
 keynote: true
 ---
