@@ -6,6 +6,8 @@ type: talk
 event: CodeCamp
 slides:
   url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation
+video:
+  url: https://www.youtube.com/watch?v=CaZtiSiPyyw&list=PLPzmdMBqmuNs3YmINExSkhUEL4g4Nno2e&index=5
 tweets:
   - "https://twitter.com/codecampro/status/1514560207187283972?s=21"
 ---
