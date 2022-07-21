@@ -1,7 +1,8 @@
 ---
 author: holly cummins
 title: Tradeoffs, Bad Science, and Polar Bears – The World of Java Optimisation
-category: javatype: talk
+category: java
+type: talk
 event: Cloud Builders
 
 ---
