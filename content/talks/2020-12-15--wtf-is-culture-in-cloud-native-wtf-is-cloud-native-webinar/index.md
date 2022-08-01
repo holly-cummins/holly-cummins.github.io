@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/IUMVRE/wtf-is-culture-in-cloud-native"
 event: "WTFinar"
 video:
-  url: "https://www.youtube.com/embed/ltsoNNTkd_g"
+  url: "https://www.youtube.com/watch?v=ltsoNNTkd_g"
 cover: large-0.jpg
 
 ---
