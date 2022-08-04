@@ -10,6 +10,8 @@ tweets:
  - https://twitter.com/danilop/status/1526256417686052867?s=21&t=Tapy1ZBzuMX1M8UtHTV55w
  - https://twitter.com/rseroter/status/1526227454125215747?s=21&t=e4qAxfwgVuXRZ4FXeBwfnw
  - https://twitter.com/libel_vox/status/1534569494282133504?s=21&t=P-mYr0Np1MkIrwgQxzpziw
+ - https://twitter.com/ThomasBetts/status/1555189030773751808?s=20&t=qahMgGHKD9L980dBPdfd1w
+ - https://twitter.com/kristhecodingu1/status/1555166233028354048?s=20&t=qahMgGHKD9L980dBPdfd1w
 reviews: 
  - https://tinyletter.com/NetAPINotes/letters/net-api-notes-for-2022-06-07-issue-199
 ---
