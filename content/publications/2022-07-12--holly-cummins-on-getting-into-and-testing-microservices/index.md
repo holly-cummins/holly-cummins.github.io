@@ -6,6 +6,8 @@ cover: Holly-Cummins-testing-microservices-scaled.jpg
 author: Darko Fabijan
 category: microservices
 type: podcast
+tweets:
+ - https://twitter.com/lisacrispin/status/1555217932648677376?s=20&t=Y_b9CHgSpDRP7imVyoKKtg
 ---
 
 Senior Principal Software Engineer Holly Cummins teaches us about microservice architecture and how to test it.
