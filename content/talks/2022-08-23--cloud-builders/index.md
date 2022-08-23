@@ -4,6 +4,8 @@ title: Tradeoffs, Bad Science, and Polar Bears – The World of Java Optimisatio
 category: java
 type: talk
 event: Cloud Builders
+slides: 
+ url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-7b724b86-61cc-4684-8280-01daf36259c2
 
 ---
 [Charity conference for Ukraine]
