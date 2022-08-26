@@ -6,7 +6,11 @@ type: talk
 event: Cloud Builders
 slides: 
  url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-7b724b86-61cc-4684-8280-01daf36259c2
-
+video: 
+ url: https://www.youtube.com/watch?v=d5fRQg5RrO4&list=PL-Ie_Wj8OrDs4fww0pWZQr6ceB_Fi2Vwf&index=5
+tweets:
+ - https://twitter.com/cloudbuildersua/status/1562088435569119233?s=21&t=Ac1pM9RsBC4ZUvmRAhqjTg
+ - https://twitter.com/duckydude20/status/1562248577224970243?s=21&t=jKn3bLYpYKqaw7j_ipCdwg
 ---
 [Charity conference for Ukraine]
 
