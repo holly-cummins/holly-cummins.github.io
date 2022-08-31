@@ -6,6 +6,9 @@ event: Skills Matter Java Forum
 title: Uh, Does This Thing Actually Work? Modern Microservices Testing
 slides:
   url: https://speakerdeck.com/hollycummins/uh-does-this-thing-actually-work-modern-microservices-testing
+tweets:
+  - https://twitter.com/skillsmatter/status/1564981556040564736?s=21&t=sC13HWh-VPD1MLfuBjHCqg
+  - https://twitter.com/holly_cummins/status/1564991413749702657?s=21&t=sC13HWh-VPD1MLfuBjHCqg
 
 ---
 To realise the promise of microservices, individual services must be independently deployable, and they should be deployed often. 
