@@ -3014,5 +3014,116 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Antwerp": [
+  {
+   "latitude": 51.2211097,
+   "longitude": 4.3997081,
+   "formattedAddress": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+   "country": "België / Belgique / Belgien",
+   "city": "Antwerpen",
+   "state": "Antwerpen",
+   "countryCode": "BE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.248473450000006,
+   "longitude": 4.757383719371841,
+   "formattedAddress": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+   "country": "België / Belgique / Belgien",
+   "state": "Antwerpen",
+   "countryCode": "BE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.277046549999994,
+   "longitude": 4.544517182331758,
+   "formattedAddress": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+   "country": "België / Belgique / Belgien",
+   "state": "Antwerpen",
+   "countryCode": "BE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 44.199436,
+   "longitude": -75.60688,
+   "formattedAddress": "Village of Antwerp, Town of Antwerp, Jefferson County, New York, United States",
+   "country": "United States",
+   "city": "Village of Antwerp",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.2452978,
+   "longitude": 4.382442306343581,
+   "formattedAddress": "Antwerpen, Vlaanderen, België / Belgique / Belgien",
+   "country": "België / Belgique / Belgien",
+   "city": "Antwerpen",
+   "state": "Antwerpen",
+   "countryCode": "BE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 41.1814388,
+   "longitude": -84.7405144,
+   "formattedAddress": "Antwerp, Paulding County, Ohio, 45813, United States",
+   "country": "United States",
+   "city": "Antwerp",
+   "state": "Ohio",
+   "zipcode": "45813",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 44.199436,
+   "longitude": -75.60688,
+   "formattedAddress": "Town of Antwerp, Jefferson County, New York, United States",
+   "country": "United States",
+   "city": "Town of Antwerp",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -26.1047222,
+   "longitude": 28.1558333,
+   "formattedAddress": "Antwerp, Johannesburg Ward 32, Sandton, City of Johannesburg Metropolitan Municipality, Gauteng, 1620, South Africa",
+   "country": "South Africa",
+   "city": "Sandton",
+   "state": "Gauteng",
+   "zipcode": "1620",
+   "countryCode": "ZA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -36.269504,
+   "longitude": 141.9754401038411,
+   "formattedAddress": "Antwerp, Shire of Hindmarsh, Victoria, Australia",
+   "country": "Australia",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -36.2984732,
+   "longitude": 142.0265821,
+   "formattedAddress": "Antwerp, Shire of Hindmarsh, Victoria, Australia",
+   "country": "Australia",
+   "city": "Antwerp",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
