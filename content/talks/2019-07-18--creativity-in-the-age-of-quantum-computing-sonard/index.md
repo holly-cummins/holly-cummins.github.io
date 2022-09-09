@@ -8,7 +8,7 @@ event: "Sonar+D"
 location: "Barcelona, Spain"
 cover: large-0.png
 video:
-  url: "https://www.youtube.com/embed/MYma92urXN8?feature=oembed"
+  url: "https://www.youtube.com/watch?v=MYma92urXN8"
 tweets:
   - "https://twitter.com/twitter/status/1151463362263486464"
   - "https://twitter.com/twitter/status/1151492083724763137"

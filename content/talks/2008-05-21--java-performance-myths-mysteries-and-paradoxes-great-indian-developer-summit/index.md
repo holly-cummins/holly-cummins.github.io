@@ -7,7 +7,7 @@ slides:
 event: "Great Indian Developer Summit"
 location: "Bengaluru, Karnataka, India"
 video:
-  url: "https://www.youtube.com/embed/iKnklil4Ogs?feature=oembed"
+  url: "https://www.youtube.com/watch?v=iKnklil4Ogs"
 cover: large-0.jpg
 
 ---

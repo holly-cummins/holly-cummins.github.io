@@ -13,7 +13,7 @@ event: "Kubecon Europe"
 cover: large-0.jpg
 keynote: true
 video:
-  url: "https://www.youtube.com/embed/j5jql3e6hTA?feature=oembed"
+  url: "https://www.youtube.com/watch?v=j5jql3e6hTA"
 tweets:
   - "https://twitter.com/twitter/status/1296157125983580160"
   - "https://twitter.com/twitter/status/1296091752345018369"

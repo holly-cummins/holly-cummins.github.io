@@ -7,7 +7,7 @@ slides:
 event: "CraftConf"
 location: "Budapest, Hungary"
 video:
-  url: "https://www.youtube.com/embed/m34y-QJ7gZA?feature=oembed"
+  url: "https://www.youtube.com/watch?v=m34y-QJ7gZA"
 tweets:
   - "https://twitter.com/twitter/status/1126851491959058432"
   - "https://twitter.com/twitter/status/1126828625326739456"

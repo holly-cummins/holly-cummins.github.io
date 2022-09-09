@@ -17,7 +17,7 @@ author: holly cummins
 location: "Stockholm, Sweden"
 cover: large-0.jpg
 video:
-  url: "https://www.youtube.com/embed/Pdo7ehEaLUQ?feature=oembed"
+  url: "https://www.youtube.com/watch?v=Pdo7ehEaLUQ"
 tweets:
   - "https://twitter.com/twitter/status/696719823162757120"
   - "https://twitter.com/twitter/status/696737859408158720"

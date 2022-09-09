@@ -8,7 +8,7 @@ event: "JAX London"
 location: "London, UK"
 author: holly cummins and martijn verburg
 video:
-  url: "https://www.youtube.com/embed/gtFBpRyUL1A?feature=oembed"
+  url: "https://www.youtube.com/watch?v=gtFBpRyUL1A"
 cover: large-841dc07d7df28d11.jpg
 
 ---

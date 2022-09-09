@@ -8,7 +8,7 @@ event: "DevOps Enterprise Summit London"
 location: "London, UK"
 cover: large-0.png
 video:
-  url: "https://www.youtube.com/embed/VUyxcV908EU?feature=oembed"
+  url: "https://www.youtube.com/watch?v=VUyxcV908EU"
 tweets:
   - "https://twitter.com/twitter/status/1144242889553326080"
   - "https://twitter.com/twitter/status/1144239378648195074"

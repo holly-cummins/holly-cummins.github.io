@@ -9,7 +9,7 @@ location: "Warsaw, Poland"
 cover: large-0.jpg
 keynote: true
 video:
-  url: "https://www.youtube.com/embed/SxG8XoW0Tto?feature=oembed"
+  url: "https://www.youtube.com/watch?v=SxG8XoW0Tto"
 tweets:
   - "https://twitter.com/twitter/status/1181467744677629952"
   - "https://twitter.com/twitter/status/1181492977836969985"

@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/sEzoMY/nine-ways-to-fail-at-cloud-native"
 event: "FlowCon"
 video:
-  url: "https://www.youtube.com/embed/LJ6YpzR8c4A?feature=oembed"
+  url: "https://www.youtube.com/watch?v=LJ6YpzR8c4A"
 tweets:
   - "https://twitter.com/twitter/status/1329848141194145796"
   - "https://twitter.com/twitter/status/1329850370684751872"

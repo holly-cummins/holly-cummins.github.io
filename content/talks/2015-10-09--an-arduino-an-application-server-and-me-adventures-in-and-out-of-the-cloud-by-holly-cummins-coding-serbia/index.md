@@ -10,7 +10,7 @@ code:
 event: "Coding Serbia"
 location: "Novi Sad, Serbia"
 video:
-  url: "https://www.youtube.com/embed/T37V-bn9nkM?feature=oembed"
+  url: "https://www.youtube.com/watch?v=T37V-bn9nkM"
 tweets:
   - "https://twitter.com/dianakupfer/status/652114834876682241?ref_src=twsrc%5Etfw"
   - "https://twitter.com/twitter/status/652116135605891072"

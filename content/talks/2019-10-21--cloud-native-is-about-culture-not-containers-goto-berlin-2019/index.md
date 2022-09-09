@@ -8,7 +8,7 @@ event: "GOTO Berlin"
 location: "Berlin, Germany"
 cover: large-0.jpg
 video:
-  url: "https://www.youtube.com/embed/hczM0n_0toY?feature=oembed"
+  url: "https://www.youtube.com/watch?v=hczM0n_0toY"
 tweets:
   - "https://twitter.com/twitter/status/1186984284164444161"
   - "https://twitter.com/twitter/status/1186980124928991232"

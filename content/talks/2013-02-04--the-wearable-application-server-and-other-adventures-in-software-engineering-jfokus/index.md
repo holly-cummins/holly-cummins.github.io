@@ -11,7 +11,7 @@ event: "JFokus"
 author: holly cummins
 location: "Stockholm, Sweden"
 video:
-  url: "https://www.youtube.com/embed/OE5SLt7UlJk?feature=oembed"
+  url: "https://www.youtube.com/watch?v=OE5SLt7UlJk"
 cover: large-0.jpg
 
 ---

@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/6sRQ7M/blood-curdling-tales-of-microservices-misadventure-devops-dread-and-grisly-governance"
 event: "Software Circus"
 video:
-  url: "https://www.youtube.com/embed/ZMnTXFDBcQM?feature=oembed"
+  url: "https://www.youtube.com/watch?v=ZMnTXFDBcQM"
 tweets:
   - "https://twitter.com/twitter/status/1321829337042178050"
   - "https://twitter.com/twitter/status/1321823983071907840"
