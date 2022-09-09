@@ -7,7 +7,7 @@ slides:
 event: "Accento"
 cover: large-0.jpg
 video:
-  url: "https://www.youtube.com/embed/P1zJwRkat6s?feature=oembed"
+  url: "https://www.youtube.com/watch?v=P1zJwRkat6s"
 tweets:
   - "https://twitter.com/twitter/status/1442776835100717056"
   - "https://twitter.com/twitter/status/1442775339831341058"
