@@ -7,7 +7,7 @@ slides:
 event: "WTF Is Cloud Native"
 cover: large-0.jpg
 video:
-  url: "https://www.youtube.com/embed/q8apHY9q7tc?feature=oembed"
+  url: "https://www.youtube.com/watch?v=q8apHY9q7tc"
 tweets:
   - "https://twitter.com/twitter/status/1456230553032740867"
   - "https://twitter.com/twitter/status/1456235533441585159"
