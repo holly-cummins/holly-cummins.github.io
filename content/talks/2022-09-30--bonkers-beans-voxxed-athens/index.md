@@ -10,6 +10,8 @@ slides:
 tweets:
   - https://twitter.com/joseph_kes/status/1575858220627034112?s=21&t=18N0u6WpVo-bL18iAnISmA
   - https://twitter.com/nkazepis/status/1575751138946600961?s=21&t=18N0u6WpVo-bL18iAnISmA
+  - https://twitter.com/mpetyx/status/1576593505614725123?s=21&t=SMXTmnTUxJIieJU7eIs23w
+  - https://twitter.com/stavmessinis/status/1576597088645025793?s=21&t=SMXTmnTUxJIieJU7eIs23w
   - https://twitter.com/quorralyne/status/1575752548958769152?s=21&t=18N0u6WpVo-bL18iAnISmA
   - https://twitter.com/nkazepis/status/1575751138946600961?s=21&t=18N0u6WpVo-bL18iAnISmA
   - https://twitter.com/quorralyne/status/1575752548958769152?s=21&t=18N0u6WpVo-bL18iAnISmA
