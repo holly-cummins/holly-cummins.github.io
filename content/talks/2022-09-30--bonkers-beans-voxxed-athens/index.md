@@ -20,7 +20,6 @@ tweets:
   - https://twitter.com/joseph_kes/status/1575858224926015490?s=21&t=18N0u6WpVo-bL18iAnISmA
   - https://twitter.com/quorralyne/status/1575759457933721601?s=21&t=18N0u6WpVo-bL18iAnISmA
   - https://twitter.com/voxxedathens/status/1575760575023312897?s=21&t=18N0u6WpVo-bL18iAnISmA
-  - 
 ---
 The innovation fizzle, the fauxnnovation, the maximal viable product. Holly’s seen them all. 
  In a world where there’s always too much to do and too little time, how can organisations make time to innovate? 
