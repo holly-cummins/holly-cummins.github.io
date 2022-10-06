@@ -15,3 +15,9 @@ art of public speaking, with the icons, reference https://blog.thenounproject.co
 A great talk is a great story, and has these 4 elements brevity levity charity clarity Jeremy Waite quoting Ted Sorenson
 
 TODO review     https://www.youtube.com/watch?v=Unzc731iCUY
+
+https://twitter.com/holly_cummins/status/1577378038773583873?s=21&t=c2hBBqJeKtRBi-SGRCFT5Q, include the pic
+
+reference , wish I had written it
+
+https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/
