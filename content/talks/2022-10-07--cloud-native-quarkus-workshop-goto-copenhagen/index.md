@@ -4,6 +4,12 @@ category: "cloud native"
 title: "Cloud Native Development With Quarkus (masterclass)"
 event: "GOTO Copenhagen"
 location: Copenhagen
+oembeds:
+  - url: https://hollycummins.com/quarkus-workshops/
+    title: Workshop instructions
+code: 
+  - url: https://github.com/holly-cummins/quarkus-workshops/tree/main/quarkus-workshop-super-heroes/super-heroes
+    title: Workshop 'finished' code
 ---
 
 
