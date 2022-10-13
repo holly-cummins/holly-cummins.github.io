@@ -19,7 +19,6 @@ tweets:
   - https://twitter.com/mydevlprplanet/status/1580476145081888768?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/pact_up/status/1580477249954156545?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/you54f/status/1580479211386437632?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
-  - 
 ---
 
 
