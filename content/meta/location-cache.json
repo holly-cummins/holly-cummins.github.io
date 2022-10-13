@@ -3245,5 +3245,237 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Dublin": [
+  {
+   "latitude": 53.3498006,
+   "longitude": -6.2602964,
+   "formattedAddress": "Dublin, Dublin 1, Leinster, Éire / Ireland",
+   "country": "Éire / Ireland",
+   "city": "Dublin",
+   "countryCode": "IE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 53.34366745,
+   "longitude": -6.254444724511822,
+   "formattedAddress": "Trinity College Dublin, College Green, Mansion House A ED, Dublin, County Dublin, Leinster, D02 VR66, Éire / Ireland",
+   "country": "Éire / Ireland",
+   "city": "Dublin",
+   "zipcode": "D02 VR66",
+   "streetName": "College Green",
+   "countryCode": "IE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 53.4064939,
+   "longitude": -6.287060576851394,
+   "formattedAddress": "County Dublin, Leinster, Éire / Ireland",
+   "country": "Éire / Ireland",
+   "countryCode": "IE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 37.7021521,
+   "longitude": -121.9357918,
+   "formattedAddress": "Dublin, Alameda County, California, 94568, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "California",
+   "zipcode": "94568",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 32.5404447,
+   "longitude": -82.903754,
+   "formattedAddress": "Dublin, Laurens County, Georgia, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "Georgia",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 32.086135,
+   "longitude": -98.3422331,
+   "formattedAddress": "Dublin, Erath County, Texas, 76446, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "Texas",
+   "zipcode": "76446",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 40.0992294,
+   "longitude": -83.1140771,
+   "formattedAddress": "Dublin, Washington Township, Franklin County, Ohio, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "Ohio",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 53.4064939,
+   "longitude": -6.287060576851394,
+   "formattedAddress": "Dublin, Éire / Ireland",
+   "country": "Éire / Ireland",
+   "countryCode": "IE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 37.1056784,
+   "longitude": -80.6853435,
+   "formattedAddress": "Dublin, Pulaski County, Virginia, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "Virginia",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.9075823,
+   "longitude": -72.0625817,
+   "formattedAddress": "Dublin, Cheshire County, New Hampshire, 03444, United States",
+   "country": "United States",
+   "city": "Dublin",
+   "state": "New Hampshire",
+   "zipcode": "03444",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Munich": [
+  {
+   "latitude": 48.1371079,
+   "longitude": 11.5753822,
+   "formattedAddress": "München, Bayern, Deutschland",
+   "country": "Deutschland",
+   "city": "München",
+   "state": "Bayern",
+   "countryCode": "DE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 48.669174,
+   "longitude": -98.832631,
+   "formattedAddress": "Munich, Cavalier County, North Dakota, United States",
+   "country": "United States",
+   "city": "Munich",
+   "state": "North Dakota",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 41.5126232,
+   "longitude": 1.6481048038348325,
+   "formattedAddress": "Munich, la Serra, Vilanova d'Espoia, la Torre de Claramunt, Anoia, Barcelona, Catalunya, España",
+   "country": "España",
+   "city": "Vilanova d'Espoia",
+   "state": "Catalunya",
+   "countryCode": "ES",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.908945700000004,
+   "longitude": 0.07824448328490319,
+   "formattedAddress": "Munich, Gravesend, Albury, East Hertfordshire, Hertfordshire, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "East Hertfordshire",
+   "state": "England",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 9.2216223,
+   "longitude": -75.111154,
+   "formattedAddress": "Munich, Sincé, Sabanas, Sucre, Colombia",
+   "country": "Colombia",
+   "state": "Sucre",
+   "countryCode": "CO",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -18.4723192,
+   "longitude": -70.2963614,
+   "formattedAddress": "Munich, Barrio San José, Arica, Provincia de Arica, Región de Arica y Parinacota, 1020759, Chile",
+   "country": "Chile",
+   "city": "Arica",
+   "state": "Región de Arica y Parinacota",
+   "zipcode": "1020759",
+   "streetName": "Munich",
+   "countryCode": "CL",
+   "neighbourhood": "Barrio San José",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -18.4739804,
+   "longitude": -70.2977684,
+   "formattedAddress": "Munich, Barrio San José, Arica, Provincia de Arica, Región de Arica y Parinacota, 1020759, Chile",
+   "country": "Chile",
+   "city": "Arica",
+   "state": "Región de Arica y Parinacota",
+   "zipcode": "1020759",
+   "streetName": "Munich",
+   "countryCode": "CL",
+   "neighbourhood": "Barrio San José",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -34.1536027,
+   "longitude": -70.734037,
+   "formattedAddress": "Munich, Población Recreo, Rancagua, Provincia de Cachapoal, Región del Libertador General Bernardo O'Higgins, 2852046, Chile",
+   "country": "Chile",
+   "city": "Rancagua",
+   "state": "Región del Libertador General Bernardo O'Higgins",
+   "zipcode": "2852046",
+   "streetName": "Munich",
+   "countryCode": "CL",
+   "neighbourhood": "Población Recreo",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 23.2239985,
+   "longitude": -106.3999415,
+   "formattedAddress": "Munich, Azteca, Benito Juárez, Mazatlán, Sinaloa, 82000, México",
+   "country": "México",
+   "city": "Mazatlán",
+   "state": "Sinaloa",
+   "zipcode": "82000",
+   "streetName": "Munich",
+   "countryCode": "MX",
+   "neighbourhood": "Azteca",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -34.9587407,
+   "longitude": -71.2158303,
+   "formattedAddress": "Munich, Don Sebastián de Rauquén, Curicó, Provincia de Curicó, Región del Maule, 3345390, Chile",
+   "country": "Chile",
+   "city": "Curicó",
+   "state": "Región del Maule",
+   "zipcode": "3345390",
+   "streetName": "Munich",
+   "countryCode": "CL",
+   "neighbourhood": "Don Sebastián de Rauquén",
+   "provider": "openstreetmap"
+  }
  ]
 }
