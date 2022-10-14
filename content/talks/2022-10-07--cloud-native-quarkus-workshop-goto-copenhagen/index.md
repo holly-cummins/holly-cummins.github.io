@@ -4,6 +4,8 @@ category: "cloud native"
 title: "Cloud Native Development With Quarkus (masterclass)"
 event: "GOTO Copenhagen"
 location: Copenhagen
+slides:
+  url: https://speakerdeck.com/hollycummins/cloud-native-development-with-quarkus-goto-masterclass
 oembeds:
   - url: https://hollycummins.com/quarkus-workshops/
     title: Workshop instructions
