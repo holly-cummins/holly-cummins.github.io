@@ -16,6 +16,5 @@ tweets:
  - https://twitter.com/davearonson/status/1576172304924479488?s=21&t=gpoH36F8M3sQP9mVcjiKNA
  - https://twitter.com/voxxedathens/status/1576170723781091328?s=21&t=gpoH36F8M3sQP9mVcjiKNA
  - https://twitter.com/alexkazan87/status/1576183016203747329?s=21&t=gpoH36F8M3sQP9mVcjiKNA
- - 
 ---
 The cloud is just someone else's data center, but it has fundamentally changed how we design software and what we expect from our platforms. Our applications have gotten bigger, more distributed, and more complicated, and there are whole new categories of mistakes we can make. Some things that were a good idea ten years ago turn out to be a terrible idea in the cloud; and what used to be ‘good enough’ for testing really isn’t anymore. Managing microservices architecture demands a lot of us, to ensure observability, operational resiliency, and organisational agility. With a focus on Java, this talk will introduce some of the new tools, patterns, and best practices for modern distributed application development. It also gives a tour of some of the most painful anti-patterns Holly has seen as a cloud consultant.
