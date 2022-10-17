@@ -6,7 +6,7 @@ event: "Devoxx"
 location: Antwerp
 author: Eric Deandrea and Holly Cummins
 video: 
- url: https://www.youtube.com/watch?v=d5fRQg5RrO4&list=PL-Ie_Wj8OrDs4fww0pWZQr6ceB_Fi2Vwf&index=5
+ url: "https://www.youtube.com/watch?v=vYwkDPrzqV8"
 slides:
   url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
 tweets:
