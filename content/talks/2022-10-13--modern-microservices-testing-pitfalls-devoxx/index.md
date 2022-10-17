@@ -8,6 +8,8 @@ author: Eric Deandrea and Holly Cummins
 elevator: "How can you truly be confident that, even though your tests pass, that your app won't break once it's deployed into production? In this talk we'll spend some time sharing some common testing pitfalls while introducing Quarkus developer joy. We'll use test-driven development to build an app or two and then show how Pact contract testing can help solve the 'shared contract testing' problem."
 slides:
   url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
+video:
+  url: "https://www.youtube.com/watch?v=vYwkDPrzqV8"
 tweets:
   - https://twitter.com/ppalaga/status/1580472025356718080?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/piotrprz/status/1580465223491649536?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
@@ -20,6 +22,7 @@ tweets:
   - https://twitter.com/pact_up/status/1580477249954156545?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/you54f/status/1580479211386437632?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/jagovreede/status/1580837778614808578?s=61&t=DTpTSSlH70ZqMEvjoffFFQ
+  - https://twitter.com/myfear/status/1581519062101729281?s=61&t=y4mxuh6gCXYcWZ2gNnVMew
 ---
 
 
