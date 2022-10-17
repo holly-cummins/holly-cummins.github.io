@@ -3,7 +3,6 @@ type: "talk"
 category: "cloud native"
 title: "Cloud Chaos and Microservices Mayhem"
 event: "OOP"
-location: Munich
 short-abstract: "The cloud has fundamentally changed how we design applications, and introduced whole new categories of software-development disasters. With a focus on Java, this talk will introduce some of the new tools, patterns, and best practices for modern distributed application development. It also gives a tour of some of the most painful anti-patterns Holly has seen as a cloud consultant."
 code: 
  - url: https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample
