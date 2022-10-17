@@ -5,11 +5,10 @@ title: "How to avoid common pitfalls with modern microservices testing"
 event: "Devoxx"
 location: Antwerp
 author: Eric Deandrea and Holly Cummins
-elevator: "How can you truly be confident that, even though your tests pass, that your app won't break once it's deployed into production? In this talk we'll spend some time sharing some common testing pitfalls while introducing Quarkus developer joy. We'll use test-driven development to build an app or two and then show how Pact contract testing can help solve the 'shared contract testing' problem."
-slides:
-  url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
 video: 
  url: https://www.youtube.com/watch?v=d5fRQg5RrO4&list=PL-Ie_Wj8OrDs4fww0pWZQr6ceB_Fi2Vwf&index=5
+slides:
+  url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
 tweets:
   - https://twitter.com/ppalaga/status/1580472025356718080?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/piotrprz/status/1580465223491649536?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
@@ -25,7 +24,6 @@ tweets:
   - https://twitter.com/YOU54F/status/1581051579855417344?s=20&t=ZByFnakHKklBJqzxCEK6HQ
   - https://twitter.com/myfear/status/1581519062101729281?s=61&t=y4mxuh6gCXYcWZ2gNnVMew
 ---
-
 
 Have you ever wondered why your microservices break in production after all the tests have passed during CI/CD? Have you ever wondered if you’re testing too much or too little? If you want to learn about common pitfalls and how to catch them at build time rather than at runtime, this session is for you!
 
