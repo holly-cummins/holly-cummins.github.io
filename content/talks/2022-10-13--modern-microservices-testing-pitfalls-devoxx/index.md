@@ -9,6 +9,12 @@ video:
  url: "https://www.youtube.com/watch?v=vYwkDPrzqV8"
 slides:
   url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
+code: 
+  - title: Sample code from the demo
+    url: "https://github.com/quarkusio/quarkus-super-heroes/pull/165"
+resource:
+  - title: Contract testing section of a Quarkus workshop
+    url: https://hollycummins.com/quarkus-workshops/#contract-testing
 tweets:
   - https://twitter.com/ppalaga/status/1580472025356718080?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
   - https://twitter.com/piotrprz/status/1580465223491649536?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
@@ -23,6 +29,7 @@ tweets:
   - https://twitter.com/jagovreede/status/1580837778614808578?s=61&t=DTpTSSlH70ZqMEvjoffFFQ
   - https://twitter.com/YOU54F/status/1581051579855417344?s=20&t=ZByFnakHKklBJqzxCEK6HQ
   - https://twitter.com/myfear/status/1581519062101729281?s=61&t=y4mxuh6gCXYcWZ2gNnVMew
+  - https://twitter.com/matthewfellows/status/1582265649430032384?s=61&t=5dSOqDo8AncZ6rbvjUhq_w
 ---
 
 Have you ever wondered why your microservices break in production after all the tests have passed during CI/CD? Have you ever wondered if you’re testing too much or too little? If you want to learn about common pitfalls and how to catch them at build time rather than at runtime, this session is for you!
