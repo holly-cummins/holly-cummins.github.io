@@ -11,9 +11,9 @@ slides:
   url: https://speakerdeck.com/hollycummins/how-to-avoid-common-pitfalls-with-modern-microservices-testing-c2a33ee0-ca9d-413e-b01e-cbd25853132a
 code: 
   - title: Sample code from the demo
-    url: "https://github.com/quarkusio/quarkus-super-heroes/pull/165"
+    url: "https://github.com/quarkusio/quarkus-super-heroes"
 resource:
-  - title: Contract testing section of a Quarkus workshop
+  - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
 tweets:
   - https://twitter.com/ppalaga/status/1580472025356718080?s=61&t=SHHc7DjOsQZ-qWo5g7smIQ
