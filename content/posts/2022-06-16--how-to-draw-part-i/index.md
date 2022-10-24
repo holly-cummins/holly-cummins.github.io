@@ -152,7 +152,7 @@ in terms of "yet". "I'm not good at drawing ... yet."
 If we think our abilities are fixed, when something gets hard, 
 we decide we must not be good at it. We stop trying. Instead of seeing failure as a useful part of the learning process, 
                                                     we treat it as a terminal indictment of our abilities and potential. In fact, 
-if we think our abilities are innate, we don't [try as much](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.451.1077&rep=rep1&type=pdf) even when 
+if we think our abilities are innate, we don't [try as much](https://www.youtube.com/watch?v=hiiEeMN7vbQ) even when 
 we seem to be doing well. This hurts us, because effort and practice are (duh) important for improvement. 
 As Amy Iskioff Newell [says](https://www.amywriteswords.com/p/6-i-took-33000-selfies?s=r),
 
@@ -175,7 +175,7 @@ _and_ I have to [cheat](/how-to-draw-part-ii/).
 I will never ever draw 
 that well, growth mindset or not, practice or not. But I'll keep trying. 
 Another finding of Carol Dweck's is that, after a disappointing result, students with a fixed mindset tended to seek out
-work from others who'd [done worse](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.992.4902&rep=rep1&type=pdf), so they could feel better about themselves. 
+work from others who'd [done worse](https://www.youtube.com/watch?v=hiiEeMN7vbQ), so they could feel better about themselves. 
 Those with a 
  growth mindset wanted to look at what people who scored higher produced, so they could _get_ better. 
  So, yeah. I'm never going to be a [@MalwareUnicorn](https://twitter.com/malwareunicorn/status/1519434606214148096?s=20&t=hN9GH4SBoaLzSGQOZQ5ndw).
