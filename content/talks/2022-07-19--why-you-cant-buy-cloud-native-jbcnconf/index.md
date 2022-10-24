@@ -7,6 +7,8 @@ location: Barcelona, Spain
 title: Why You Can't Buy Cloud Native
 slides: 
  url: https://speakerdeck.com/hollycummins/why-you-cant-buy-cloud-native-618b8238-d076-42d7-baae-1a4fdaa61ac3
+video:
+ url: https://www.youtube.com/watch?v=QOrepfefjhs&list=PLo0fJV3LkR3z42GevLgXlQfNFP2qfgtrq&index=8
 tweets:
  - https://twitter.com/rmehmandarov/status/1549440614822985728?s=21&t=K7AqBS8aBguL-IzWENUyBQ
  - https://twitter.com/alexcuesta/status/1549322389967851520?s=21&t=uKoxJ05mpD3ngndt1dgLlA
