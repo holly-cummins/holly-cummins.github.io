@@ -30,6 +30,11 @@ tweets:
   - https://twitter.com/YOU54F/status/1581051579855417344?s=20&t=ZByFnakHKklBJqzxCEK6HQ
   - https://twitter.com/myfear/status/1581519062101729281?s=61&t=y4mxuh6gCXYcWZ2gNnVMew
   - https://twitter.com/matthewfellows/status/1582265649430032384?s=61&t=5dSOqDo8AncZ6rbvjUhq_w
+pictures:
+  - https://flickr.com/photos/bejug/52455349336/in/album-72177720303177725/
+  - https://flickr.com/photos/bejug/52455349406/in/album-72177720303177725/
+  - https://flickr.com/photos/bejug/52455874443/in/album-72177720303177725/
+  - https://flickr.com/photos/bejug/52454827057/in/album-72177720303177725/
 ---
 
 Have you ever wondered why your microservices break in production after all the tests have passed during CI/CD? Have you ever wondered if you’re testing too much or too little? If you want to learn about common pitfalls and how to catch them at build time rather than at runtime, this session is for you!
