@@ -1,7 +1,8 @@
 ---
-title: "The Sad Case of the Tech T-Shirt (Fashion and Programming Part ii)"
+title: "The Sad Case of the Tech T-Shirt (Fashion and Programming, part ii)"
 author: holly cummins
-category: meta
+cover: holly-eric-devoxx.jpg
+category: women in tech
 type: blog
 ---
 
@@ -19,7 +20,7 @@ I took a whole blog to try to say:
 [![We say we don't have a dress code in tech and we pretend to have an inclusive culture but in fact we do and this dress code and culture disproportionately affects women.](purity_birir_tweet.png)](https://twitter.com/Purity_Birir/status/1576571676380102656?s=20&t=rzNplttuRCE2XmXZaUUYKg)
 This isn't just about clothes; 
 RedMonk have written about the [Developer Aesthetic](https://redmonk.com/jgovernor/2022/06/09/some-thoughts-on-stock-photos-on-tech-websites-and-the-developer-aesthetic/) without a single mention of hoodies. 
-It's about how communities create their own visual codes, and how that the design choices we as individuals make communicate that we belong in a group. 
+It's about how communities create their own visual codes, and how that the design choices we make as individuals communicate that we belong in a group. 
 Or, if we're unlucky, the choices give an impression we _don't_ belong. (Light mode user here, hi!)
 
 But back to clothes. 
@@ -81,7 +82,8 @@ There's a more subtle problem, too. Tech t-shirts just aren't my natural style. 
 Tech t-shirts look ridiculous with most of the trousers I own, apart from one or two pairs of jeans.
 
 Why can't I just wear what I want? Well, it means I'm not representing. And if I wear the clothes I feel _most_ comfortable in, I get told I look corporate. 
-(This isn't a hypothetical; it happened a few weeks ago while I was in a conference hotel wearing my comfy home clothes, on an 'off day' between events.)
+This isn't a hypothetical; it happened a few weeks ago while I was in a conference hotel wearing my comfy home clothes, on an 'off day' between events.
+No malice was intended, I just ... did look kind of corporate.
 
 What's the solution? I don't really know. 
 We need to focus on what women speakers say, not their shoes or t-shirts.
