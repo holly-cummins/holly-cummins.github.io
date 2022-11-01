@@ -9,7 +9,7 @@ type: blog
 A year or two ago, I wrote about [the connection between fashion and programming](/programming-and-fashion). 
 For reasons I don't totally understand, it's my second most popular blog post, after my [leaving IBM](/leaving-ibm) announcement. 
 Apparently, people do searches for 'fashion coding' and 'coding in fashion'. There's 
-not many results for that kind of search, so my site is the top result. A tech bootcamp has even linked to the article. 
+not many results for that kind of search, so my site is the top result. A coding school has even linked to the article. 
 
 When I was writing that article, I almost deleted it several times, because it was so personal, and frivolous, and resentful. 
 This one has almost been deleted too, for the same reasons. 
