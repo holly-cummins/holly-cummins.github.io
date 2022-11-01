@@ -113,4 +113,6 @@ _© Victoria and Albert Museum, London._
 
 So there we have it. Microservices are the new purple, and programming can be pink.
 
+**November 2022:** I've written a follow-up piece, ["The Sad Case of the Tech T-shirt"](/fashion-and-programming-ii/).
+
 _All of this blog is speaking for me, and not my employer, but since I mention them in this blog, I'll restate - these are my personal opinions._
