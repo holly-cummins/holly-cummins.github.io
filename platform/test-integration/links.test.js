@@ -21,7 +21,9 @@ describe("site links", () => {
     checker.on("link", async result => {
       if (result.state === "BROKEN") {
         // Don't stress about 403s from vimeo because humans can get past the paywall fairly easily and we want to have the link
-        const isPaywalled = result.status === status.FORBIDDEN && result.url.includes("vimeo");
+        const isPaywalled =
+          result.status === status.FORBIDDEN &&
+          (result.url.includes("vimeo") || result.url.includes("inc.com"));
 
         let retryWorked;
         if (result.url.includes("twitter")) {
