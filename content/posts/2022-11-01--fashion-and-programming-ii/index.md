@@ -4,10 +4,28 @@ author: holly cummins
 cover: holly-eric-devoxx.jpg
 category: women in tech
 type: blog
+tweets:
+ - https://twitter.com/aichalaafia/status/1587467594184916993?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/carlylrichmond/status/1587471744528424960?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/t_mammarella/status/1587462952185208837?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/nickiehills/status/1587481964411510784?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/gunnarmorling/status/1587465685088739330?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/de_gijt/status/1587478028472434689?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/alina_yurenko/status/1587465594416283648?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/gracejansen27/status/1587458547188629508?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/gracejansen27/status/1587466595424780289?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/yardenlaif/status/1587475948773023745?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/edeandrea/status/1587446015728173056?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/la77738745/status/1587456817528860674?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/monkchips/status/1587432938668544002?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/la77738745/status/1587452213462450179?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/hansolo_/status/1587431071016136704?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/gunnarmorling/status/1587444950261694466?s=61&t=0OKTIOh_FYDfYXLmka-K9g
+ - https://twitter.com/metacosm/status/1587443495220002816?s=61&t=0OKTIOh_FYDfYXLmka-K9g
 ---
 
-A year or two ago, I wrote about [the connection between fashion and programming](/programming-and-fashion). 
-For reasons I don't totally understand, it's my second most popular blog post, after my [leaving IBM](/leaving-ibm) announcement. 
+A year or two ago, I wrote about [the connection between fashion and programming](/programming-and-fashion/). 
+For reasons I don't totally understand, it's my second most popular blog post, after my [leaving IBM](/leaving-ibm/) announcement. 
 Apparently, people do searches for 'fashion coding' and 'coding in fashion'. There's 
 not many results for that kind of search, so my site is the top result. A coding school has even linked to the article. 
 
