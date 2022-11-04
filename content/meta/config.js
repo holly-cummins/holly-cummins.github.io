@@ -40,6 +40,11 @@ module.exports = {
       display: "@holly_cummins"
     },
     {
+      name: "mastodon",
+      url: "https://hachyderm.io/@holly_cummins",
+      display: "@holly_cummins@hachyderm.io"
+    },
+    {
       name: "linkedin",
       url: "https://www.linkedin.com/in/holly-k-cummins/",
       display: "Holly K Cummins"
