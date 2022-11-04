@@ -3477,5 +3477,123 @@
    "neighbourhood": "Don Sebastián de Rauquén",
    "provider": "openstreetmap"
   }
+ ],
+ "Utrecht": [
+  {
+   "latitude": 52.080985600000005,
+   "longitude": 5.12768396945229,
+   "formattedAddress": "Utrecht, Nederland",
+   "country": "Nederland",
+   "city": "Utrecht",
+   "state": "Utrecht",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.0907006,
+   "longitude": 5.1215634,
+   "formattedAddress": "Utrecht, Nederland",
+   "country": "Nederland",
+   "city": "Utrecht",
+   "state": "Utrecht",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.037247,
+   "longitude": 5.1859604,
+   "formattedAddress": "Utrecht, Nederland",
+   "country": "Nederland",
+   "state": "Utrecht",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -27.6625,
+   "longitude": 30.325,
+   "formattedAddress": "Utrecht, eMadlangeni Ward 2, eMadlangeni Local Municipality, Amajuba District Municipality, KwaZulu-Natal, South Africa",
+   "country": "South Africa",
+   "city": "eMadlangeni Local Municipality",
+   "state": "KwaZulu-Natal",
+   "countryCode": "ZA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 6.734629,
+   "longitude": -58.1379311,
+   "formattedAddress": "Utrecht, Mocha - Arcadia, Demerara-Mahaica, Guyana",
+   "country": "Guyana",
+   "city": "Utrecht",
+   "state": "Demerara-Mahaica",
+   "countryCode": "GY",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.08047675,
+   "longitude": 5.142558869769765,
+   "formattedAddress": "Veiligheidsregio Utrecht, Utrecht, Nederland",
+   "country": "Nederland",
+   "state": "Utrecht",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 53.2020069,
+   "longitude": 5.800345000274763,
+   "formattedAddress": "Utrecht, Tweebaksmarkt, Binnenstad, Binnenstad en Stationskwartier, Leeuwarden, Fryslân, Nederland, 8911 KX, Nederland",
+   "country": "Nederland",
+   "city": "Leeuwarden",
+   "state": "Fryslân",
+   "zipcode": "8911 KX",
+   "streetName": "Tweebaksmarkt",
+   "countryCode": "NL",
+   "neighbourhood": "Binnenstad",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.070736,
+   "longitude": 5.133587,
+   "formattedAddress": "Utrecht, Houtensepad, Utrecht, Nederland, 3524 SB, Nederland",
+   "country": "Nederland",
+   "city": "Utrecht",
+   "state": "Utrecht",
+   "zipcode": "3524 SB",
+   "streetName": "Houtensepad",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.0554162,
+   "longitude": 5.1085972,
+   "formattedAddress": "Utrecht, Winthontlaan, Utrecht, Nederland, 3439 LM, Nederland",
+   "country": "Nederland",
+   "city": "Utrecht",
+   "state": "Utrecht",
+   "zipcode": "3439 LM",
+   "streetName": "Winthontlaan",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 47.2830638,
+   "longitude": -1.552227,
+   "formattedAddress": "Utrecht, Rue d'Utrecht, Les Crétinières, Le Limeur, La Chapelle-sur-Erdre, Nantes, Loire-Atlantique, Pays de la Loire, France métropolitaine, 44240, France",
+   "country": "France",
+   "city": "La Chapelle-sur-Erdre",
+   "state": "Pays de la Loire",
+   "zipcode": "44240",
+   "streetName": "Rue d'Utrecht",
+   "countryCode": "FR",
+   "neighbourhood": "Les Crétinières",
+   "provider": "openstreetmap"
+  }
  ]
 }
