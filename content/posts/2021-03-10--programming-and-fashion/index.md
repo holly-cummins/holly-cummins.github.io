@@ -4,6 +4,8 @@ category: "fashion"
 cover: flaunter-2KbjY_7c7to-unsplash.jpg
 author: holly cummins
 type: blog
+tweets:
+  - https://twitter.com/kentindell/status/1587779049065103361?s=43&t=d_XKtmwMnYju7R4uXrhH6w
 ---
 
 Last night I dreamt that Roger Daltry's wife told me to write about fashion and programming. We were in a small skate-punk shop. It was never made clear how she knew me or why she cared.
