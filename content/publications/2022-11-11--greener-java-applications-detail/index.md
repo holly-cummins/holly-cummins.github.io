@@ -1,8 +1,7 @@
 ---
 title: "Writing greener Java applications"
 url: https://www.redhat.com/en/resources/greener-java-applications-detail
-imageUrl: https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/logo-rh-og-image.png
-cover: logo-rh-og-image.png
+cover: greener-java-excerpt.png
 author: no author
 category: sustainability
 type: blog
