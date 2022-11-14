@@ -4,6 +4,10 @@ category: "cloud"
 cover: boba-jovanovic-FtRkRespN24-unsplash.jpg
 author: holly cummins
 type: blog
+tweets: 
+ - https://twitter.com/vitalethomas/status/1590424634419138561?s=61&t=ZMWYKhhxYBzLLh1HroMVXQ
+ - https://twitter.com/kevindubois/status/1590443507881500673?s=61&t=ZMWYKhhxYBzLLh1HroMVXQ
+ - 
 ---
 
 _There are only two hard things in Computer Science: cache invalidation and naming things._

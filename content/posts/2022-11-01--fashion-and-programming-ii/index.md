@@ -47,6 +47,7 @@ tweets:
  - https://twitter.com/mono_quito89/status/1587500562899406849?s=61&t=T5C7_3uXvknvE9OZ1ut2AQ
  - https://twitter.com/nina_ferara/status/1588216582609715203?s=61&t=iR69WdEqI_zBHP4x16j4vA
  - https://twitter.com/ip_paralegal/status/1588211289687572481?s=61&t=iR69WdEqI_zBHP4x16j4vA
+ - https://twitter.com/mthmulders/status/1588902131154948096?s=20&t=1p6xm5UKCEpfKLOxb6MX5w
 ---
 
 A year or two ago, I wrote about [the connection between fashion and programming](/programming-and-fashion/). 

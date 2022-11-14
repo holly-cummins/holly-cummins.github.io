@@ -5,6 +5,20 @@ cover: flaunter-2KbjY_7c7to-unsplash.jpg
 author: holly cummins
 type: blog
 tweets:
+  - https://twitter.com/trisha_gee/status/1369662232955678722?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/andysc/status/1369916719871983617?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/Payara_Fish/status/1369964594739953669?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/charleshumble/status/1370022961218871305?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/ammbra1508/status/1369750473406885892?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/HelenJoScott/status/1369683194023469058?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/ChloeCondon/status/1369672084419321860?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/ICooper/status/1369794921331359746?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/ShenovaFashion/status/1369715904586522626?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/PriyaheleneKH/status/1369966188298698752?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/rekiwi/status/1369689702328983553?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/caoimhe_tiernan/status/1369685350768074756?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - https://twitter.com/RobeeShepherd/status/1369918841422295041?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
+  - 
   - https://twitter.com/kentindell/status/1587779049065103361?s=43&t=d_XKtmwMnYju7R4uXrhH6w
 ---
 
