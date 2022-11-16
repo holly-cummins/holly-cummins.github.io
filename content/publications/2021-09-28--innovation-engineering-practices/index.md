@@ -1,7 +1,6 @@
 ---
 title: "Software Engineering Unlocked: Driving innovation and engineering practices"
 url: https://www.software-engineering-unlocked.com/innovation-engineering-practices/
-imageUrl: https://www.software-engineering-unlocked.com/wp-content/uploads/2021/09/Dr-Holly-Cummins.jpg
 cover: Dr-Holly-Cummins.jpg
 author: holly cummins
 category: all sorts
