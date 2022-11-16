@@ -14,6 +14,7 @@ tweets:
  - https://twitter.com/jasminfluri/status/1587738399678554113?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
  - https://twitter.com/purity_birir/status/1587736120053350400?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
  - https://twitter.com/common_st/status/1587734694749241348?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
+ - https://twitter.com/catherinebuk/status/1592614741415194625?s=61&t=cz678NiZXO7oAV-5_K3Vew
  - https://twitter.com/geoffreydesmet/status/1587723598634024960?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
  - https://twitter.com/geoffreydesmet/status/1587722668601745409?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
  - https://twitter.com/jlengrand/status/1587718346866364418?s=61&t=cZFzrZP6oDMCnRYQ0t-leA
@@ -48,6 +49,7 @@ tweets:
  - https://twitter.com/nina_ferara/status/1588216582609715203?s=61&t=iR69WdEqI_zBHP4x16j4vA
  - https://twitter.com/ip_paralegal/status/1588211289687572481?s=61&t=iR69WdEqI_zBHP4x16j4vA
  - https://twitter.com/mthmulders/status/1588902131154948096?s=20&t=1p6xm5UKCEpfKLOxb6MX5w
+ - https://twitter.com/catherinebuk/status/1592613312910749696?s=61&t=cz678NiZXO7oAV-5_K3Vew
 ---
 
 A year or two ago, I wrote about [the connection between fashion and programming](/programming-and-fashion/). 
