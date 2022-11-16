@@ -19,7 +19,7 @@ const icons = {
   medium: <MediumIcon />
 };
 
-const ContactPage = props => {
+const ContactPage = () => {
   const platforms = config.authorSocialLinks;
 
   return (
@@ -36,7 +36,9 @@ const ContactPage = props => {
                 <li key={platform.name}>
                   <div>
                     <div className="icon">{icons[platform.name]}</div>
-                    <a href={platform.url}>{platform.display}</a>
+                    <a rel="me" href={platform.url}>
+                      {platform.display}
+                    </a>
                   </div>
                 </li>
               ))}
@@ -58,7 +60,7 @@ const ContactPage = props => {
 
                 div {
                   display: flex;
-                  justify-content: flex-begin;
+                  justify-content: flex-start;
                   align-items: center;
                 }
 
