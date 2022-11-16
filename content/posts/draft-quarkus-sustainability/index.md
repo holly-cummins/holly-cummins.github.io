@@ -16,6 +16,14 @@ The car is faster because it uses more resources. Quarkus is faster because it's
 Of course, there's always a trade-off. With Quarkus, there is a trade-off, but it's not the tradeoff I expected. 
 When running on JVM, Quarkus uses about half the memory footprint of a traditional cloud native framework, and starts about four times faster. 
 
+Counter-intuitive. 
+TANSTAAFL.
+https://en.wikipedia.org/wiki/There_ain%27t_no_such_thing_as_a_free_lunch
+
+"Finer-grained conditional builds" 
+Shorter, smarter, builds does seem like it would be such a massive win, doesn't it? So much compute power is wasted on compiling things that didn't change and then running tests that aren't interesting ... all while slowing down the feedback cycle for engineers.
+
+
 https://www.nytimes.com/interactive/2022/10/26/magazine/climate-change-warming-world.html?unlocked_article_code=nSFmgJkOOM86wP8afjvaX_PQjczJ2geMJRLbprE5vn9LA7umuI0cbtPUQrgDsufHwtq_uAtUZcKmtMlNyHB5iLIlI1s1KBYL7dUee266Dm-viXZSZkwOBBxCVWXQd6Y5U9oaV1AedzecR_Bg_dIdE_R7h6TKAMPmEfgU2wvT9BT689FF83ApOL-gX8kgnyjr6uuPIymwJsMPwTCaawnU_-6eIWu208mi-Whm9PViKp4MhKNToHPCvbgJZLhA-L1Nrg0VvtuPBwnwUI6cxh5SUzbZttxhcyHPH-Ayd9jSbnryf03Fqgce0YwK4ZC8eIm93xW8KmRFcOPQCboT4zji0ePIklmany6HtBT00fUmuBSPIGKPN8f8&smid=share-url
 
 [!["Yep. Climate solutions are just better ways to do the things we want to do.
