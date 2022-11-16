@@ -18,7 +18,6 @@ tweets:
   - https://twitter.com/rekiwi/status/1369689702328983553?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
   - https://twitter.com/caoimhe_tiernan/status/1369685350768074756?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
   - https://twitter.com/RobeeShepherd/status/1369918841422295041?s=20&t=XrsJa6N2I-kdFhtR_R5-pg
-  - 
   - https://twitter.com/kentindell/status/1587779049065103361?s=43&t=d_XKtmwMnYju7R4uXrhH6w
 ---
 
