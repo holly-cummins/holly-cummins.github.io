@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1540369636398612480"
+ ],
+ "id": "1540369636398612480",
+ "author_id": "22511912",
+ "text": "@holly_cummins There’s a very similar command mkcd in the oh-my-zsh bundle for zsh which I’ve been using for a while now. Amazing how much time such a simple function saves. Sending a PR for “-p” on your mkdir. :-) https://t.co/el4viJsAVh",
+ "author": {
+  "description": "logical washing powder",
+  "created_at": "2009-03-02T17:58:53.000Z",
+  "username": "paulmandell",
+  "name": "Paul Mandell",
+  "id": "22511912"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1144244853972320256"
+ ],
+ "author_id": "798900010859581440",
+ "text": "In digital we can incrementally deliver value. We have multiple chances to get it right. Yes there are consequences but with a/b testing and continuous improvement we can limit impact and learn lots! @holly_cummins at #DOES19 @DOES_EUR https://t.co/LRFgKesMCl",
+ "id": "1144244853972320256",
+ "author": {
+  "name": "Carl Molyneux",
+  "username": "dotnetalm",
+  "id": "798900010859581440",
+  "created_at": "2016-11-16T14:46:20.000Z",
+  "description": "Senior Software Developer at FDB UK. Advocate of quality, growth mindset and Agile. Enabler of teams, contributor to culture."
+ }
+}

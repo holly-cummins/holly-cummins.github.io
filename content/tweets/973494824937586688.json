@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "973494824937586688"
+ ],
+ "id": "973494824937586688",
+ "author_id": "1371964652",
+ "text": "Amazing keynote by @holly_cummins at @JavaLandConf https://t.co/lQNvxIrwcx",
+ "author": {
+  "name": "Thorben Janssen",
+  "username": "thjanssen123",
+  "created_at": "2013-04-22T11:57:46.000Z",
+  "description": "independent trainer & consultant, bestselling author of Hibernate Tips (https://t.co/tsGeNu1UBK), JSR 365 EG member, co-organizer @jugpaderborn, father, husband",
+  "id": "1371964652"
+ }
+}

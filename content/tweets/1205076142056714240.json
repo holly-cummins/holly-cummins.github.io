@@ -1,0 +1,15 @@
+{
+ "text": "Gamification is definitely a great to make un-fun things more fun (and get things done!)\nOur SRE team has had awesome results with gamifying observability practices, security vulnerability mitigation and overall operability of services.\n@holly_cummins #FlowCon",
+ "edit_history_tweet_ids": [
+  "1205076142056714240"
+ ],
+ "id": "1205076142056714240",
+ "author_id": "26532187",
+ "author": {
+  "id": "26532187",
+  "name": "Pierre Vincent",
+  "description": "Software Engineer. Speaker and writer on DevOps, InfoSec, SRE & Continuous Delivery. OSCP Pen Tester. He/Him",
+  "username": "PierreVincent",
+  "created_at": "2009-03-25T16:35:18.000Z"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1296087485538344960"
+ ],
+ "id": "1296087485538344960",
+ "author_id": "2244552900",
+ "text": "At #KubeCon Day 2 keynotes, @holly_cummins highlights the way we are using #kubernetes and #cloudnative ecosystem can have a serious impact on planet and #sustainability if we are not cautious about our #config and #FinOps practices #betterUtilisation #dezombizication #kubesprawl https://t.co/Y4TPQCR6sS",
+ "author": {
+  "name": "Philippe Ensarguet",
+  "username": "P_Ensarguet",
+  "created_at": "2013-12-13T21:53:22.000Z",
+  "description": "Senior tech exec | 2021 Awarded CTO | CTO at @orangebusiness | Board advisor @weaveworks @cycloid_io | Speaker | @TechRocksFr curator | Bike addict",
+  "id": "2244552900"
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "author_id": "407175927",
+ "id": "1296085596272820225",
+ "text": "Kubesprawl happens when the cluster is the unit of deployment instead of the container - a lot less efficient and inevitably worse for the environment @holly_cummins giving an awesome keynote at #KubeCon",
+ "edit_history_tweet_ids": [
+  "1296085596272820225"
+ ],
+ "author": {
+  "id": "407175927",
+  "username": "HannahFoxwell",
+  "name": "Hannah Foxwell",
+  "created_at": "2011-11-07T18:54:15.000Z",
+  "description": "#HumanOps #HugOps #DevOps #DevSecOps #SRE Working at @snyksec Organiser of #DevOpsDays London and @OpenUK_UK ambassador (she/her)"
+ }
+}

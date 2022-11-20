@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1369964594739953669"
+ ],
+ "id": "1369964594739953669",
+ "author_id": "2599580401",
+ "text": "The Dev Wears Prada?👗\"Continuous need for novelty drives cyclical tastes, both in hemlines &amp; in software architecture.\" @holly_cummins uses as an example #microservices as the newly fashionable version of #serviceorientatedarchitecture. Do you agree? https://t.co/XGDDzgZ4Df",
+ "author": {
+  "name": "Payara",
+  "username": "Payara_Fish",
+  "created_at": "2014-07-02T09:57:58.000Z",
+  "description": "Jakarta EE & MicroProfile compatible, supported application servers for production and containerized deployments.",
+  "id": "2599580401"
+ }
+}

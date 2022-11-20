@@ -1,0 +1,15 @@
+{
+ "id": "1590424634419138561",
+ "author_id": "330575604",
+ "text": "I wish there was a way to describe @KnativeProject in one sentence without the need to explain that “serverless” doesn’t mean functions/no-servers every time I talk about it (which is often). I like this analysis by @holly_cummins about naming serverless: https://t.co/0lec7g6GHV",
+ "edit_history_tweet_ids": [
+  "1590424634419138561"
+ ],
+ "author": {
+  "username": "vitalethomas",
+  "name": "Thomas Vitale",
+  "id": "330575604",
+  "description": "Cloud Architect and Software Engineer | Author of \"Cloud Native Spring in Action\" | I write about Java, Kubernetes, Cloud Native. https://t.co/h25IRNVwnU",
+  "created_at": "2011-07-06T20:42:23.000Z"
+ }
+}

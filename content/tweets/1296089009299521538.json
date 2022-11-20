@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1296089009299521538"
+ ],
+ "id": "1296089009299521538",
+ "author_id": "23204397",
+ "text": "\"Our industry has a really horrible problem with zombie workloads. This is stuff that is running but does not have any value. \" -- @holly_cummins, IBM #KubeCon #KubeConEU #K8s #CloudNative #KubeCon2020 https://t.co/hgvNbMQXMJ",
+ "author": {
+  "description": "Listening to the Technology / Editor-in-Chief @TheNewStack / He/Him / see also @DiscCheap for the lively arts...",
+  "created_at": "2009-03-07T15:56:20.000Z",
+  "username": "Joab_Jackson",
+  "name": "Joab Jackson",
+  "id": "23204397"
+ }
+}

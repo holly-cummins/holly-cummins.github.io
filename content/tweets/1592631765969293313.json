@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1592631765969293313"
+ ],
+ "id": "1592631765969293313",
+ "author_id": "232148362",
+ "text": "In the #COP27 week, Holly brings us this study about #greencomputing and #quarkus.\nDoing more with less energy should be a top concern of the software industry. https://t.co/e2ukhO6aCD",
+ "author": {
+  "name": "Bruno Baptista",
+  "username": "brunobat_",
+  "description": "Principal Engineer at @redhat. #OpenTelemetry on @quarkusio. Member of @MicroProfileIO @coimbrajug @jnationconf. Opinions are my own. 🇵🇹🇮🇪🇪🇺🇺🇦",
+  "id": "232148362",
+  "created_at": "2010-12-30T10:57:24.000Z"
+ }
+}

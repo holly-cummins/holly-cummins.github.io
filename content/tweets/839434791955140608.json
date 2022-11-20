@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "839434791955140608"
+ ],
+ "id": "839434791955140608",
+ "author_id": "238675857",
+ "text": "\"Anyone can do #IoT.  Any device can be casually connected to the internet.\" @holly_cummins #qconlondon",
+ "author": {
+  "name": "Charles Humble (@charleshumble@mastodon.social)",
+  "username": "charleshumble",
+  "description": "Editor In Chief at Container Solutions, host of the \"Hacking the org\" podcast, freelance tech writer, 1/2 of Twofish. I'd rather be making music.",
+  "id": "238675857",
+  "created_at": "2011-01-15T19:16:14.000Z"
+ }
+}

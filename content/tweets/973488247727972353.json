@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "973488247727972353"
+ ],
+ "id": "973488247727972353",
+ "author_id": "14291232",
+ "text": "\"We're all heroes in our own story\"\n\n@holly_cummins at @JavaLandConf \n\n#JavaLand",
+ "author": {
+  "name": "Ivar Grimstad",
+  "username": "ivar_grimstad",
+  "description": "Java Champion | Jakarta EE Developer Advocate | The guy with the Duke tattoo | @JakartaEE @EclipseFdn",
+  "id": "14291232",
+  "created_at": "2008-04-03T07:38:28.000Z"
+ }
+}

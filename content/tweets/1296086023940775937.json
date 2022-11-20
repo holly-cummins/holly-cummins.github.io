@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1296086023940775937"
+ ],
+ "id": "1296086023940775937",
+ "author_id": "4850302216",
+ "text": "At the Day 2 #KubeCon keynote @holly_cummins discusses carbon emissions and \"kube sprawl\" in a great talk on \"How to Love K8s and Not Wreck the Planet\" https://t.co/8jywPXqGpT",
+ "author": {
+  "description": "@RedMonk analyst, medievalist, and tech comm fangirl. Author of Neomedievalism, Popular Culture, and the Academy (@boydellbrewer). She/her.",
+  "created_at": "2016-01-26T15:58:26.000Z",
+  "username": "drkellyannfitz",
+  "name": "Dr KellyAnn Fitzpatrick",
+  "id": "4850302216"
+ }
+}

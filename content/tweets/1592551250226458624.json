@@ -1,0 +1,15 @@
+{
+ "text": "About efficiently: I recently check our @QuarkusIO application (10 components, around 60 replicas), it's a Kafka messaging app and at our current peak usage (around 250k msg/min) CPU consumption is around 10% (of 0,5 CPU) and heap memory around 60MB.\n\n2/3",
+ "edit_history_tweet_ids": [
+  "1592551250226458624"
+ ],
+ "author_id": "54621149",
+ "id": "1592551250226458624",
+ "author": {
+  "name": "Loïc Mathieu | @loicmathieu@mastodon.online",
+  "username": "loicmathieu",
+  "description": "Software Architect, Java & JVM passionate, performance, #OSS contributor (mainly #Quarkus),  GCP @GoogleDevExpert.\nLike to learn stuff and share what I learnt.",
+  "created_at": "2009-07-07T17:42:10.000Z",
+  "id": "54621149"
+ }
+}

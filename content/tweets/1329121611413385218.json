@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1329121611413385218"
+ ],
+ "id": "1329121611413385218",
+ "author_id": "154083210",
+ "text": "Excellent conversation in the hallway track at #QConPlus; takeaways include \"when we investigated our estate we found it wasn't just 25% zombies, it was 75% zombies\" and \"automating server shut-off out of hours doesn't work so well when our devs are in India, London, and SF.\"",
+ "author": {
+  "id": "154083210",
+  "description": "@RedHat - Senior Principal Software Engineer, working on @QuarkusIO. Ex-IBM. Java Champion, developer, author, #cloud surfer and maker. My views are my own.",
+  "created_at": "2010-06-10T09:38:55.000Z",
+  "name": "Holly Cummins (holly_cummins@hachyderm.io)",
+  "username": "holly_cummins"
+ }
+}

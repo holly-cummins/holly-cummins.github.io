@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1555189030773751808"
+ ],
+ "id": "1555189030773751808",
+ "author_id": "21216448",
+ "text": "I always learn a lot from @holly_cummins https://t.co/FjEU0nPW1o",
+ "author": {
+  "id": "21216448",
+  "description": "Lead editor, software architecture and design @InfoQ; Sr principal engineer @Blackbaud; Lifelong computer nerd; Husband; Geek dad; Outdoorsy; Dog person; He/Him",
+  "created_at": "2009-02-18T17:17:00.000Z",
+  "name": "Thomas Betts (ThomasBetts@hachyderm.io)",
+  "username": "ThomasBetts"
+ }
+}

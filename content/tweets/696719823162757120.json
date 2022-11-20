@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "696719823162757120"
+ ],
+ "author_id": "154083210",
+ "text": "I'm the only one waiting for luggage on my #JFokus flight - suspect I'm the only one with a datacentre and a throwable application server",
+ "id": "696719823162757120",
+ "author": {
+  "name": "Holly Cummins (holly_cummins@hachyderm.io)",
+  "username": "holly_cummins",
+  "id": "154083210",
+  "created_at": "2010-06-10T09:38:55.000Z",
+  "description": "@RedHat - Senior Principal Software Engineer, working on @QuarkusIO. Ex-IBM. Java Champion, developer, author, #cloud surfer and maker. My views are my own."
+ }
+}

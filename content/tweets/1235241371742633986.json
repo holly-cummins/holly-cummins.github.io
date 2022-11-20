@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1235241371742633986"
+ ],
+ "author_id": "16635584",
+ "id": "1235241371742633986",
+ "text": "Reasons for *not* choosing Microservices:\n - small team\n - not planning to release independently\n - don't want complexity of a service mesh - or worse yet, rolling your own\n - Domain Model(s) don't split neatly\n.@holly_cummins #QConLondon https://t.co/eADry8XUpL",
+ "author": {
+  "username": "cfhirschorn",
+  "name": "Crystal Hirschorn",
+  "description": "Director Engineering - Infra, SRE & Dev Experience @snyksec. Tech Committee member @CitizensAdvice. Avid runner.\n#ResilienceEngineering (she/her)",
+  "id": "16635584",
+  "created_at": "2008-10-07T19:47:51.000Z"
+ }
+}

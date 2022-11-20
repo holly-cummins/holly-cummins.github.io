@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "697007912963698689"
+ ],
+ "author_id": "20670837",
+ "text": "Service discovery for microservices. @holly_cummins #jfokus https://t.co/jTw7IXyiMJ",
+ "id": "697007912963698689",
+ "author": {
+  "name": "Tony Collander",
+  "username": "tonycollander",
+  "id": "20670837",
+  "created_at": "2009-02-12T11:44:51.000Z",
+  "description": "Principal Consultant at Valtech: agile, architecture, cm, continuous integration/test/delivery/deploy, devops, lean."
+ }
+}

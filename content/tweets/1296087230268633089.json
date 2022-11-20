@@ -1,0 +1,15 @@
+{
+ "author_id": "19552154",
+ "text": "Because it’s easy tu provision clusters, it.’a easy to have zombies. GitOps makes it easier to destroy things and provision them again later if needed. #KubeCon",
+ "edit_history_tweet_ids": [
+  "1296087230268633089"
+ ],
+ "id": "1296087230268633089",
+ "author": {
+  "description": "Staff Developer Advocate at @loft_sh. Creator of @kubecuddlepod. I tweet about ADHD, Kubernetes, DevOps, SRE. He/him. Mastodon: @richburroughs@hachyderm.io",
+  "id": "19552154",
+  "created_at": "2009-01-26T19:35:35.000Z",
+  "name": "@richburroughs@hachyderm.io",
+  "username": "richburroughs"
+ }
+}

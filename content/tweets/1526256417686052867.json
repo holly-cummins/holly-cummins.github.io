@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1526256417686052867"
+ ],
+ "author_id": "14151945",
+ "text": "Many good tips by @holly_cummins in this @InfoQ podcast 👉 Seven Ways to Fail at Microservices with Holly Cummins https://t.co/aUpXqr9CNs",
+ "id": "1526256417686052867",
+ "author": {
+  "name": "Danilo Poccia",
+  "username": "danilop",
+  "id": "14151945",
+  "created_at": "2008-03-15T08:50:47.000Z",
+  "description": "Chief Evangelist (EMEA) @AWSCloud. AWS, Serverless, IoT, AI/ML. Few pics, some music. My opinions. Complexity is a science. https://t.co/fhAYcErwiX"
+ }
+}

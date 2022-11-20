@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "316934455224840192"
+ ],
+ "id": "316934455224840192",
+ "author_id": "92956986",
+ "text": "Just enjoyed @holly_cummins session on OSGi at #DevoxxUK... I now have a much clearer picture of what it's for! Worth checking out slides.",
+ "author": {
+  "name": "Simon Haslam",
+  "username": "simon_haslam",
+  "description": "Director of Infrastructure & Platforms @eProseed • Oracle ACE Alumnus",
+  "id": "92956986",
+  "created_at": "2009-11-27T12:09:06.000Z"
+ }
+}

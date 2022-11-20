@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1235246810022768640"
+ ],
+ "id": "1235246810022768640",
+ "author_id": "351697758",
+ "text": "I really enjoyed this Cloud Native talk by @holly_cummins at @qconlondon , let's make CI/CD actually continuous 🤔😌 https://t.co/7tkQf4ikA3",
+ "author": {
+  "name": "Blanca Rojo 🌍🌎🌏",
+  "username": "Bla_Rojo",
+  "description": "Coder, ninja, globetrotter, mother, not necessarily in that order 😁",
+  "id": "351697758",
+  "created_at": "2011-08-09T16:30:28.000Z"
+ }
+}

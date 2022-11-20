@@ -1,0 +1,15 @@
+{
+ "edit_history_tweet_ids": [
+  "1296088471291846658"
+ ],
+ "id": "1296088471291846658",
+ "author_id": "2645548548",
+ "text": "Increase utilisation and reduce carbon footprints of data centres. And yeah, there are zombies too! Loved the talk by @holly_cummins at #KubeCon EU. https://t.co/IKLPl42ZIr",
+ "author": {
+  "name": "Peeyush Gupta",
+  "username": "pensu91",
+  "description": "Sr. Developer Advocate @Digitalocean. Ex @IBM. CKA. Talk to me about Containers, Kubernetes, Storage and all things cloud!",
+  "id": "2645548548",
+  "created_at": "2014-07-14T14:21:19.000Z"
+ }
+}
