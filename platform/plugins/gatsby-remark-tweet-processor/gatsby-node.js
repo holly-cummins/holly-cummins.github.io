@@ -76,9 +76,8 @@ const cacheTweet = async (id, cacheDir) => {
 
     const tweet = fetchedTweet.data;
     tweet.author = fetchedTweet?.includes?.users.find(user => (user.id = tweet.author_id));
-    console.log("HOLLY author", tweet.author);
 
-    const images = fetchedTweet?.includes?.media.map(
+    const images = fetchedTweet?.includes?.media?.map(
       async media =>
         await promiseRetry(
           async () => {
