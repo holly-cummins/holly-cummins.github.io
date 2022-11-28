@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1063436472676691968"
+ ],
+ "id": "1063436472676691968",
+ "text": "@holly_cummins Thanks for the entertaining morning talk at devoxx. Fun is serious business indeed.",
+ "author_id": "1675607324",
+ "author": {
+  "name": "Stijn Dejongh",
+  "id": "1675607324",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/928686600242057216/j50jTvIq_normal.jpg",
+  "username": "iamDoji",
+  "created_at": "2013-08-16T12:19:18.000Z",
+  "description": "Java developer. Opinions are my own, unless retweeted.",
+  "imagePath": "j50jTvIq_normal.jpg"
+ },
+ "images": []
+}

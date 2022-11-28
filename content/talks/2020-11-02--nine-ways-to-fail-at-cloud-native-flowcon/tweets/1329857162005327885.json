@@ -1,0 +1,31 @@
+{
+ "edit_history_tweet_ids": [
+  "1329857162005327885"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1329856302244356096",
+   "3_1329856330803318786",
+   "3_1329856383710355456",
+   "3_1329856383752269829"
+  ]
+ },
+ "id": "1329857162005327885",
+ "author_id": "4265142166",
+ "text": "@FlowConFR @holly_cummins @CloudNativeFdn The \"not-actually-continuous\" CI/CD... 😑\n\nCI/CD is a verb —not a tool—, it's something you DO!\n\nFeedback is good #engineering and good #business.\n\n#cicd #tech #flowcon #ProductManagement https://t.co/78xok6tgfh",
+ "author": {
+  "description": "Epicurious #digital & #Agile enthousiast (elle/she) @des_grenouilles founder 🟪 #coaching #product #management #art #culture #diversityandinclusion",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1566047592630439940/btDhpYzV_normal.jpg",
+  "name": "Sara Dufour",
+  "id": "4265142166",
+  "created_at": "2015-11-24T14:12:05.000Z",
+  "username": "ComSaraDufour",
+  "imagePath": "btDhpYzV_normal.jpg"
+ },
+ "images": [
+  "EnSZQtGW4AA_SvS.jpg",
+  "EnSZSXfWEAIkaLQ.jpg",
+  "EnSZVclXYAAUZT4.jpg",
+  "EnSZVcvW8AUjEuU.jpg"
+ ]
+}
