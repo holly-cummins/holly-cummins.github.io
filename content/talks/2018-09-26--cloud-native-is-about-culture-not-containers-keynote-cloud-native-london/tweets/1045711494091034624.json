@@ -1,0 +1,27 @@
+{
+ "id": "1045711494091034624",
+ "edit_history_tweet_ids": [
+  "1045711494091034624"
+ ],
+ "text": "\"#CloudNative shouldn't be a synonym for #microservices. If it has to be a synonym for anything, it should be 'idempotent' (which needs a synonym).\" @holly_cummins closes a fantastic #CloudNativeLondon with a lesson in how CloudNative is all about culture, not #containers ☁️ https://t.co/AZlVTCV6MG",
+ "attachments": {
+  "media_keys": [
+   "3_1045711481940193280",
+   "3_1045711481931739136"
+  ]
+ },
+ "author_id": "783577880060198912",
+ "author": {
+  "description": "Tweetmeister General @skillsmatter. All opinions those of @cartoonnetwork. I have to go now my planet needs me",
+  "created_at": "2016-10-05T08:01:39.000Z",
+  "username": "SophieAtSM",
+  "name": "Soph - skills matter 🤖",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/999082688110776320/vAKaJOwf_normal.jpg",
+  "id": "783577880060198912",
+  "imagePath": "vAKaJOwf_normal.jpg"
+ },
+ "images": [
+  "DoMdDWqXsAAgGRp.jpg",
+  "DoMdDWoWsAAVQ3B.jpg"
+ ]
+}

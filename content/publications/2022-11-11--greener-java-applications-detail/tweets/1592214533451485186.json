@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1592214533451485186"
+ ],
+ "text": "@holly_cummins Anyway, I really enjoyed the paper and its scientific approach 🧪 Fascinating stuff!",
+ "author_id": "2407375189",
+ "id": "1592214533451485186",
+ "author": {
+  "name": "Mike Kowalski",
+  "username": "mikemybytes",
+  "id": "2407375189",
+  "created_at": "2014-03-23T16:21:07.000Z",
+  "description": "Software engineer building #DistributedSystems for fun and living 🤓 Tweets #Java #architecture #Kafka #craftsmanship & beyond 🚀 Mikes his own opinions & bytes",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1323186248081641476/jjwIqUeY_normal.jpg",
+  "imagePath": "jjwIqUeY_normal.jpg"
+ },
+ "images": []
+}

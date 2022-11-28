@@ -13,7 +13,6 @@ tweets:
   - "https://twitter.com/devopsdom/status/1045708022188630021?ref_src=twsrc%5Etfw"
   - "https://twitter.com/anthonyperot/status/1045713927231942656?ref_src=twsrc%5Etfw"
   - "https://twitter.com/anthonyperot/status/1045714744655704065?ref_src=twsrc%5Etfw"
-  - "https://twitter.com/_rokas_/status/1045729462233550848?ref_src=twsrc%5Etfw"
   - "https://twitter.com/errordeveloper/status/1045718907158495232?ref_src=twsrc%5Etfw"
   - "https://twitter.com/dirkjablonski/status/1045791602562793478?ref_src=twsrc%5Etfw"
   - "https://twitter.com/KHobbits/status/1045711162107744256?ref_src=twsrc%5Etfw"

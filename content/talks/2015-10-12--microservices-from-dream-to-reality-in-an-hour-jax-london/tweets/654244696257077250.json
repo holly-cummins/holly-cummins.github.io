@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "654244696257077250"
+ ],
+ "id": "654244696257077250",
+ "author_id": "305099419",
+ "text": "\"Don't create microservices because you want to play with docker, use docker because you need it for your microservices\". @holly_cummins",
+ "author": {
+  "description": "Technologist, public speaker, consultant, aspiring physicist. Co-author of Continuous Delivery in Java (https://t.co/cKXbRUo8bZ). Opinions are mine.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1129065916094996481/2YgFzanJ_normal.png",
+  "name": "Abraham Marín-Pérez",
+  "id": "305099419",
+  "created_at": "2011-05-25T16:54:32.000Z",
+  "username": "AbrahamMarin",
+  "imagePath": "2YgFzanJ_normal.png"
+ },
+ "images": []
+}

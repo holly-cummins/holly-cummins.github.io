@@ -1,0 +1,18 @@
+{
+ "id": "1592551250226458624",
+ "edit_history_tweet_ids": [
+  "1592551250226458624"
+ ],
+ "text": "About efficiently: I recently check our @QuarkusIO application (10 components, around 60 replicas), it's a Kafka messaging app and at our current peak usage (around 250k msg/min) CPU consumption is around 10% (of 0,5 CPU) and heap memory around 60MB.\n\n2/3",
+ "author_id": "54621149",
+ "author": {
+  "description": "Software Architect, Java & JVM passionate, performance, #OSS contributor (mainly #Quarkus),  GCP @GoogleDevExpert.\nLike to learn stuff and share what I learnt.",
+  "created_at": "2009-07-07T17:42:10.000Z",
+  "username": "loicmathieu",
+  "name": "Loïc Mathieu | @loicmathieu@mastodon.online",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1055114256247676928/wnb-1EtJ_normal.jpg",
+  "id": "54621149",
+  "imagePath": "wnb-1EtJ_normal.jpg"
+ },
+ "images": []
+}

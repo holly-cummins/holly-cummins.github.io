@@ -1,0 +1,18 @@
+{
+ "text": "@holly_cummins mkdir whateverdir; cd !$",
+ "author_id": "97816542",
+ "id": "1540424356777566210",
+ "edit_history_tweet_ids": [
+  "1540424356777566210"
+ ],
+ "author": {
+  "created_at": "2009-12-19T04:13:20.000Z",
+  "id": "97816542",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1595117009485938688/Mx1CNZ7U_normal.jpg",
+  "name": "Z : Complex Number",
+  "description": "",
+  "username": "LiuTieWH",
+  "imagePath": "Mx1CNZ7U_normal.jpg"
+ },
+ "images": []
+}

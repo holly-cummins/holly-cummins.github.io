@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1519638347790102529"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1519637628492075010"
+  ]
+ },
+ "id": "1519638347790102529",
+ "author_id": "2244552900",
+ "text": "At #WTFisSRE, @holly_cummins asked what went wrong with the #ops, in the past? Heavily #siloed practices, #manually intensive, and not aligned to business, and with the fear to break things. \n#SRE is much more about software culture and much more automation🚀 https://t.co/FY72ih1mLg",
+ "author": {
+  "description": "Senior tech exec | 2021 Awarded CTO | CTO at @orangebusiness | Board advisor @weaveworks @cycloid_io | Speaker | @TechRocksFr curator | Bike addict",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1483373251132862465/o7shub-F_normal.jpg",
+  "name": "Philippe Ensarguet",
+  "id": "2244552900",
+  "created_at": "2013-12-13T21:53:22.000Z",
+  "username": "P_Ensarguet",
+  "imagePath": "o7shub-F_normal.jpg"
+ },
+ "images": [
+  "FRbWXymWUAIbnrR.jpg"
+ ]
+}

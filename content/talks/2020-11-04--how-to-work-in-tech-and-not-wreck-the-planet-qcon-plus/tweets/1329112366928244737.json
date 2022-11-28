@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1329112366928244737"
+ ],
+ "text": "Can I steal that slide for #KubeCon please @holly_cummins :) https://t.co/g0Rdjcsqdu",
+ "id": "1329112366928244737",
+ "attachments": {
+  "media_keys": [
+   "3_1329112198178893826"
+  ]
+ },
+ "author_id": "17757889",
+ "author": {
+  "username": "jpetazzo",
+  "name": "Jérôme Petazzoni",
+  "created_at": "2008-11-30T17:19:22.000Z",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/658025644865916928/uIY6m8Sr_normal.jpg",
+  "id": "17757889",
+  "description": "Also on Mastodon: @jpetazzo@mastodon.social\n\nContainers, diversity, languages, music. International speaker.\n\nhttps://t.co/o7aiNPH6eW",
+  "imagePath": "uIY6m8Sr_normal.jpg"
+ },
+ "images": [
+  "EnH0gJcXcAIn16I.jpg"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "attachments": {
+  "media_keys": [
+   "3_1296083659313672193",
+   "3_1296086930459787264"
+  ]
+ },
+ "id": "1296087449546809344",
+ "edit_history_tweet_ids": [
+  "1296087449546809344"
+ ],
+ "author_id": "12387972",
+ "text": "#KubeCon @holly_cummins talked about how to get rid of zombie workloads to reduce the carbon footprint of #Kubernetes \n- increase utilization\n- setup expiry on VMs reduced usage by 50% for a bank\n- gitops give us disposable infrastructure https://t.co/bbnjHGV3lv",
+ "author": {
+  "username": "arungupta",
+  "name": "Arun Gupta",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1129247222925746178/lWdezfZX_normal.jpg",
+  "description": "Runner, Lifter, Author, Father, @menkag hubby, work @intel, Java Champion and Leader, Docker Captain, Minecraft, Devoxx4Kids, Open Source, he/him, opinions own…",
+  "created_at": "2008-01-18T05:44:36.000Z",
+  "id": "12387972",
+  "imagePath": "lWdezfZX_normal.jpg"
+ },
+ "images": [
+  "EfydOKCUcAEyRem.jpg",
+  "EfygMkAVAAAXKjZ.jpg"
+ ]
+}

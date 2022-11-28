@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "654244318799114240"
+ ],
+ "id": "654244318799114240",
+ "author_id": "82099356",
+ "text": "\"Don't even think about #microservices without #DevOps\" @holly_cummins",
+ "author": {
+  "username": "jaxlondon",
+  "id": "82099356",
+  "description": "Hybrid | October 3 – 6, 2022. The ultimate forum and premier pure-play Java & Software Innovation conference.",
+  "name": "JAX London",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/606372250535628800/RRks2Pq3_normal.jpg",
+  "created_at": "2009-10-13T13:53:04.000Z",
+  "imagePath": "RRks2Pq3_normal.jpg"
+ },
+ "images": []
+}

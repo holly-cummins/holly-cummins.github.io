@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1043524945849069568"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1043524927356317701"
+  ]
+ },
+ "id": "1043524945849069568",
+ "author_id": "26640695",
+ "text": ".@Holly_Cummins from @IBM introduces us to the field of #QuantumComputing and provides a sneak peek into the future of quantum computers. #EPAMSEC https://t.co/NcHSTnGBiB",
+ "author": {
+  "description": "Official global Twitter account of #EPAM, a leading global provider of #ProductDevelopment and #SoftwareEngineering solutions.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1491514837356236804/AVwD_tXD_normal.jpg",
+  "name": "EPAM Systems",
+  "id": "26640695",
+  "created_at": "2009-03-26T00:28:32.000Z",
+  "username": "EPAMSystems",
+  "imagePath": "AVwD_tXD_normal.jpg"
+ },
+ "images": [
+  "DntYZIFWsAUaQ4a.jpg"
+ ]
+}

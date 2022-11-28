@@ -14,7 +14,6 @@ video:
 tweets:
   - "https://twitter.com/twitter/status/529987164533444608"
   - "https://twitter.com/twitter/status/529039750783852544"
-  - "https://twitter.com/twitter/status/529990115507314689"
   - "https://twitter.com/twitter/status/529204292146561025"
   - "https://twitter.com/twitter/status/529246106090487809"
 

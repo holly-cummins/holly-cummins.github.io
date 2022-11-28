@@ -1,0 +1,25 @@
+{
+ "id": "1045711162107744256",
+ "attachments": {
+  "media_keys": [
+   "3_1045711141039730693"
+  ]
+ },
+ "author_id": "19537163",
+ "edit_history_tweet_ids": [
+  "1045711162107744256"
+ ],
+ "text": "@devopsdom @holly_cummins Cloud native isn't about micro services, it's about idempotency (and space pens). https://t.co/5moXwEYYeU",
+ "author": {
+  "username": "KHobbits",
+  "description": "Systems Automation Engineer :::  Bukkit/Essentials Developer ::: Working at The Mill",
+  "id": "19537163",
+  "created_at": "2009-01-26T14:47:13.000Z",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/707018312513953792/4-b_Uwbg_normal.jpg",
+  "name": "Robert - KHobbits",
+  "imagePath": "4-b_Uwbg_normal.jpg"
+ },
+ "images": [
+  "DoMcvgtXcAUkmZ9.jpg"
+ ]
+}

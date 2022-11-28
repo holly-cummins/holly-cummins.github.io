@@ -1,0 +1,25 @@
+{
+ "attachments": {
+  "media_keys": [
+   "3_1063389541254479872"
+  ]
+ },
+ "text": "„We don‘t have automated tests“ really means „we don’t know if our code works“. \nSo you need end-to-end tests to make #cloudNative work.\n@holly_cummins #Devoxx https://t.co/WysWvudBct",
+ "author_id": "16804761",
+ "id": "1063389549420834816",
+ "edit_history_tweet_ids": [
+  "1063389549420834816"
+ ],
+ "author": {
+  "username": "roesslerj",
+  "name": "Jeremias Roessler",
+  "id": "16804761",
+  "created_at": "2008-10-16T09:20:53.000Z",
+  "description": "Strategic Projects @SAP. Former #Founder & #CEO of @retest_en. #Keynote #speaker and #developer. Views are my own.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1107778810265640961/d5QEwDJo_normal.jpg",
+  "imagePath": "d5QEwDJo_normal.jpg"
+ },
+ "images": [
+  "DsHrJ1hWwAASQsS.jpg"
+ ]
+}

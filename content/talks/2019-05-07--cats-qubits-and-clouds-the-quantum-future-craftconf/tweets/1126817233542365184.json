@@ -1,0 +1,27 @@
+{
+ "edit_history_tweet_ids": [
+  "1126817233542365184"
+ ],
+ "text": "Interested in quantum mechanics and quantum computing? @holly_cummins doing a great job of setting up the topic with real world problems that we can't solve classically, at least within reason. #travelingsalesman https://t.co/XpZZle7zLx",
+ "author_id": "47707747",
+ "id": "1126817233542365184",
+ "attachments": {
+  "media_keys": [
+   "3_1126817215507046400",
+   "3_1126817215544795136"
+  ]
+ },
+ "author": {
+  "name": "Phil Estes",
+  "username": "estesp",
+  "id": "47707747",
+  "created_at": "2009-06-16T18:51:55.000Z",
+  "description": "Principal Engineer for @AWS, #CNCF Ambassador, @containerd OSS maintainer, @OCI_ORG TOB, ex-@IBMCloud, father, husband, worship leader/guitarist, cyclist",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1589664410175504387/oH7o8Wvf_normal.jpg",
+  "imagePath": "oH7o8Wvf_normal.jpg"
+ },
+ "images": [
+  "D6NCSZEXoAAe7Ij.jpg",
+  "D6NCSZNXoAA0P65.jpg"
+ ]
+}

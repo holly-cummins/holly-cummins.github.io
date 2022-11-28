@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1329111684485701633"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1329111587848921095"
+  ]
+ },
+ "id": "1329111684485701633",
+ "author_id": "14100646",
+ "text": "As climate change accelerates, where do we, as engineers, fit in? Are we part of the problem or part of the solution? @holly_cummins discusses some of the trade-offs and provides a roadmap to figuring out the right thing. #QConPlus \n\n#climatechange https://t.co/FDW6kOkjfk",
+ "author": {
+  "description": "Uncover emerging trends and practices from the world’s most innovative software professionals to help you validate your software roadmap. Celebrating 16 years.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1410535228645548036/9wadAp_L_normal.png",
+  "name": "QCon Software Development Conferences 2006-2022",
+  "id": "14100646",
+  "created_at": "2008-03-08T15:39:53.000Z",
+  "username": "QCon",
+  "imagePath": "9wadAp_L_normal.png"
+ },
+ "images": [
+  "EnHz8nyXIAcrQBk.jpg"
+ ]
+}

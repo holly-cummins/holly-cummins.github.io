@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1519636029921271809"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1519635579092316160"
+  ]
+ },
+ "id": "1519636029921271809",
+ "author_id": "1365973041453359106",
+ "text": "#WTFisSRE has brought the dragons 🐉 in with @holly_cummins talking about The Good, the Bad and the Ouch about #SRE https://t.co/zgnLcQBzWE",
+ "author": {
+  "description": "https://t.co/0z6R6sVd7w | Senior Dev Advocate @digitalocean | #DevGitSecInfraNoBizAIOps | @timothymamo@hachyderm.io",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1582057006504054785/kA3YTv0U_normal.jpg",
+  "name": "Timothy Mamo",
+  "id": "1365973041453359106",
+  "created_at": "2021-02-28T10:32:24.000Z",
+  "username": "timothy_mamo",
+  "imagePath": "kA3YTv0U_normal.jpg"
+ },
+ "images": [
+  "FRbUgf_XsAAE9q8.jpg"
+ ]
+}

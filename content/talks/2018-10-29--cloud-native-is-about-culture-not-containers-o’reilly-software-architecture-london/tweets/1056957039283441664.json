@@ -1,0 +1,25 @@
+{
+ "author_id": "1077011760",
+ "edit_history_tweet_ids": [
+  "1056957039283441664"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1056957027996590080"
+  ]
+ },
+ "text": "Great seeing @holly_cummins from @IBMcloud talking about the characteristics of cloud native at @OReillySACon https://t.co/2Jv3DrMPn4",
+ "id": "1056957039283441664",
+ "author": {
+  "username": "bradtopol",
+  "description": "Distinguished Engineer, Open Tech & Dev Advocacy@IBM. Kube contributor & member of Kube Conformance Workgroup. Kube Doc Maintainer. My tweets; my opinions",
+  "created_at": "2013-01-10T16:24:09.000Z",
+  "name": "Brad Topol",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/3104572419/b9bf0b9c41707445b19476fe1d3e9107_normal.jpeg",
+  "id": "1077011760",
+  "imagePath": "b9bf0b9c41707445b19476fe1d3e9107_normal.jpeg"
+ },
+ "images": [
+  "DqsQ0SSW4AACOBB.jpg"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "654247662041100288"
+ ],
+ "id": "654247662041100288",
+ "author_id": "305099419",
+ "text": "\"If you slice your application into microservices, don't forget to slice your DB too\" @holly_cummins",
+ "author": {
+  "username": "AbrahamMarin",
+  "id": "305099419",
+  "description": "Technologist, public speaker, consultant, aspiring physicist. Co-author of Continuous Delivery in Java (https://t.co/cKXbRUo8bZ). Opinions are mine.",
+  "name": "Abraham Marín-Pérez",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1129065916094996481/2YgFzanJ_normal.png",
+  "created_at": "2011-05-25T16:54:32.000Z",
+  "imagePath": "2YgFzanJ_normal.png"
+ },
+ "images": []
+}

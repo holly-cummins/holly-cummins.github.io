@@ -1,0 +1,18 @@
+{
+ "author_id": "37418699",
+ "edit_history_tweet_ids": [
+  "317037677314707456"
+ ],
+ "text": "Great talk on OSGi by @holly_cummins earlier at #devoxxuk. Interesting point/reminder that most app containers use it http://t.co/tmk0fZOSAn",
+ "id": "317037677314707456",
+ "author": {
+  "username": "danielbryantuk",
+  "description": "Head of DevRel @ambassadorlabs, News/Podcast @InfoQ | Web 2.0 coder, platform engineer, Java Champion, CS PhD | cloud/K8s, APIs, IPAs, running | learner/teacher",
+  "created_at": "2009-05-03T13:44:28.000Z",
+  "name": "Daniel Bryant",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1246138897802964992/QQOmlOOo_normal.jpg",
+  "id": "37418699",
+  "imagePath": "QQOmlOOo_normal.jpg"
+ },
+ "images": []
+}

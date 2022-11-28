@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "573523370303614977"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_573523370152607745"
+  ]
+ },
+ "id": "573523370303614977",
+ "author_id": "113479524",
+ "text": ".@holly_cummins explores the limits of embeddable hardware, presents a getting-started-guide to #iot at #qconlondon http://t.co/JaQxNQFx3m",
+ "author": {
+  "description": "Uncover emerging trends and practices from the world’s most innovative software professionals to help you validate your software roadmap. Celebrating 16 years.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1357604752377470976/tTMWJpMp_normal.png",
+  "name": "QCon London Software Development Conference",
+  "id": "113479524",
+  "created_at": "2010-02-11T22:18:45.000Z",
+  "username": "qconlondon",
+  "imagePath": "tTMWJpMp_normal.png"
+ },
+ "images": [
+  "B_WQd2xUwAEUe3Z.jpg"
+ ]
+}

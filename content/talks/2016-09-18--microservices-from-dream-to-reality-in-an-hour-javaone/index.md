@@ -11,8 +11,6 @@ event: "JavaOne"
 location: "San Francisco, CA, USA"
 author: "holly cummins"
 cover: large-0.jpg
-tweets:
-  - "https://twitter.com/ebullientworks/status/779064202107297792?ref_src=twsrc%5Etfw"
 
 ---
 Are microservices a wonder-pattern for rescuing intractably complex applications? Or are they just a restatement of the software engineering best practices we all should be following anyway? Or something in between?

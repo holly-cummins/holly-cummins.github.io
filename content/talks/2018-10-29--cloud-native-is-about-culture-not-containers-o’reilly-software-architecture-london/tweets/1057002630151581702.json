@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1057002630151581702"
+ ],
+ "id": "1057002630151581702",
+ "author_id": "154083210",
+ "text": "Credit to @samnewman's awesome talk for at least part of this, although I had the picture before he helpfully reminded me of the history and the supporting metaphor :) https://t.co/HAneZ5WCmM",
+ "author": {
+  "description": "@RedHat - Senior Principal Software Engineer, working on @QuarkusIO. Ex-IBM. Java Champion, developer, author, #cloud surfer and maker. My views are my own.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1587180801606799360/d1Ndrj4X_normal.jpg",
+  "name": "Holly Cummins (holly_cummins@hachyderm.io)",
+  "id": "154083210",
+  "created_at": "2010-06-10T09:38:55.000Z",
+  "username": "holly_cummins",
+  "imagePath": "d1Ndrj4X_normal.jpg"
+ },
+ "images": []
+}

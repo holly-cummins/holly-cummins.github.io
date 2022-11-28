@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1063392515989139456"
+ ],
+ "id": "1063392515989139456",
+ "author_id": "2680758350",
+ "text": "\"It's not an MVP if it doesn't provide feedback. An MVP should hurt because it's not perfect.\" - @holly_cummins #devoxx",
+ "author": {
+  "username": "gitbisect",
+  "id": "2680758350",
+  "description": "@DatadogHQ DevRel, @DevOpsDays core team, Advocate of nuance & cooler takes. This account is closed. Hit me up at jason.yee@datadoghq.com",
+  "name": "Jason Yee",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1384729331646095366/tLywd0t-_normal.jpg",
+  "created_at": "2014-07-25T23:47:27.000Z",
+  "imagePath": "tLywd0t-_normal.jpg"
+ },
+ "images": []
+}

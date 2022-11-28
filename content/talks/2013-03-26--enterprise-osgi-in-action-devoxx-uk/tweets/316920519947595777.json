@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "316920519947595777"
+ ],
+ "text": "And now @holly_cummins about #osgi http://t.co/SyqyY82HdW",
+ "author_id": "14206328",
+ "id": "316920519947595777",
+ "attachments": {
+  "media_keys": [
+   "3_316920519951790082"
+  ]
+ },
+ "author": {
+  "name": "Markus Eisele",
+  "username": "myfear",
+  "id": "14206328",
+  "created_at": "2008-03-24T08:57:46.000Z",
+  "description": "Head of Developer Tools Marketing at @RedHat. Legal thinks you need to know that I'm speaking for myself here. I believe you knew.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1587867813028532231/scpX27ea_normal.jpg",
+  "imagePath": "scpX27ea_normal.jpg"
+ },
+ "images": [
+  "BGXtiKXCMAIU_vN.jpg"
+ ]
+}

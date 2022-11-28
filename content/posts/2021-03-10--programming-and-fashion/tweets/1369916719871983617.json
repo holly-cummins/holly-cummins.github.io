@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1369916719871983617"
+ ],
+ "id": "1369916719871983617",
+ "author_id": "9900492",
+ "text": "Microservices are the new purple. Captivating blog by @holly_cummins https://t.co/jUMXhxAMhd",
+ "author": {
+  "username": "andysc",
+  "id": "9900492",
+  "description": "Innovation Leader - IBM SPEED team. Distinguished Engineer, Master Inventor. Also on: @andysc@mastodon.iow.social. Co-inventor of MQTT. My views are my own.",
+  "name": "Andy Stanford-Clark",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1381248880726130689/ggpt5mP1_normal.jpg",
+  "created_at": "2007-11-02T22:28:40.000Z",
+  "imagePath": "ggpt5mP1_normal.jpg"
+ },
+ "images": []
+}

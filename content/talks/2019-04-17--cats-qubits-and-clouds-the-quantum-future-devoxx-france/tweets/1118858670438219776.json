@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1118858670438219776"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1118858663207284737"
+  ]
+ },
+ "id": "1118858670438219776",
+ "author_id": "2305447611",
+ "text": "Very interesting quantum computer conf with @holly_cummins @Devoxx 👍 https://t.co/KRP4m07svJ",
+ "author": {
+  "description": "Software craftsman @saagie_io - Technology enthusiast - Love #microService #DDD #CQRS #Spring and #Graph",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1062691675070521345/xwNVsTfm_normal.jpg",
+  "name": "Vivien brissat",
+  "id": "2305447611",
+  "created_at": "2014-01-26T11:02:09.000Z",
+  "username": "VBrissat",
+  "imagePath": "xwNVsTfm_normal.jpg"
+ },
+ "images": [
+  "D4b8BrZWsAEjVPQ.jpg"
+ ]
+}

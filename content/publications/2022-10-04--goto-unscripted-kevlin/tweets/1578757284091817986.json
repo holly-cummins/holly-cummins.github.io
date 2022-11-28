@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1578757284091817986"
+ ],
+ "id": "1578757284091817986",
+ "author_id": "1055927612",
+ "text": "An interesting &amp; practical conversation about #microservices, developer’s mental model &amp; experience, #contractTesting …\n\nhttps://t.co/AZUlfWjLNm\n@holly_cummins @KevlinHenney\n@GOTOcon",
+ "author": {
+  "username": "MarkoLohert",
+  "id": "1055927612",
+  "description": "software developer | speaker | mentor | STEM | volunteering | robotics | coffee",
+  "name": "Marko Lohert",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1316821507037896704/I9Vd71po_normal.jpg",
+  "created_at": "2013-01-02T19:38:11.000Z",
+  "imagePath": "I9Vd71po_normal.jpg"
+ },
+ "images": []
+}
