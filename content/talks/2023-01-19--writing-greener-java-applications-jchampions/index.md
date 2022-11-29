@@ -1,7 +1,7 @@
 ---
 type: talk
 title: Writing Greener Java Applications
-event: Java Champions Conference
+event: Java Champions Conf
 category: sustainability
 
 ---
