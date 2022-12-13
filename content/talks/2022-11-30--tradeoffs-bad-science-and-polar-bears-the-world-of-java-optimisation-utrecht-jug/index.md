@@ -5,7 +5,6 @@ category: java
 type: talk
 event: Utrecht JUG
 location: Utrecht
-cover: slide_0.jpg
 slides: 
   url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-f5a5a60f-644e-40ff-a23f-d2b9b4afec32
 tweets: 
