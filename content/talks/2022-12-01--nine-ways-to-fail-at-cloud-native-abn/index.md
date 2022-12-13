@@ -4,6 +4,7 @@ category: "cloud native"
 title: "Nine Ways To Fail at Cloud Native"
 event: "ABN AMRO DevCon"
 location: Amsterdam
+cover: failure.png
 
 ---
 Cloud native – the perfect recipe for innovation, adaptability, and engineering excellence. 
