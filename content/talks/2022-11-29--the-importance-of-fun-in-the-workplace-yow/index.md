@@ -39,5 +39,6 @@ tweets:
   - https://twitter.com/CatherineStenso/status/1597589562154442752?s=20&t=leNcHEygqTRGCiw7lryvPw
   - https://twitter.com/jessitron/status/1597589310882168832?s=20&t=leNcHEygqTRGCiw7lryvPw
   - https://twitter.com/JessicaCregg/status/1597588621388922886?s=20&t=leNcHEygqTRGCiw7lryvPw
+  - https://medium.com/@tolisapostolidis/cutting-through-the-elon-twitter-noise-about-software-engineering-d5762bf25047
 ---
 An in-depth look at what makes software development a roller coaster where the highs of 0 compiler warnings are quickly cancelled out by the pain of long hours, bad requirements, endless configuration, clueless managers and a plethora of other issues which make death by a thousand cuts seem like a good idea…. They will answer questions such as: “Why is programming often called an art despite having its underpinnings in formal logic?” “How can I rediscover the delight I felt when I first started coding?” “What’s that rush I feel when my test passes? Am I addicted to TDD?” Combining Psychology, Philosophy and Computer Science, Holly will present a series of practical tips to help you rediscover the euphoria that you felt the very first time a metal box in front of you came to life and cried out “Hello World”.
