@@ -2,7 +2,9 @@
 type: talk
 title: The Cloud Should be Fun … and if not, you're probably doing it wrong
 event: WTFinar
-category: cloud native
+category: fun
+slides:
+  url: https://speakerdeck.com/hollycummins/the-cloud-should-be-fun-dot-dot-dot-and-if-not-youre-probably-doing-it-wrong
 ---
 Some days, everything seem like it’s hard, and getting harder. 
 Credentials, and configurations, and audits, and provisioning, and checklists, and versions, and tracing, and where is that bug? 
