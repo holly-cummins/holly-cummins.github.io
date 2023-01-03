@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1564991413749702657"
+ ],
+ "id": "1564991413749702657",
+ "text": "Hi @skillsmatter #JavaForum, here’s some other resources on testing microservices. \n\nI learned *so* much from @hamvocke’s ‘Practical Test Pyramid’: https://t.co/iCwDj93Yce. It’s a textbook for modern testing.  \n\n🧵",
+ "author_id": "154083210",
+ "author": {
+  "created_at": "2010-06-10T09:38:55.000Z",
+  "description": "@RedHat - Senior Principal Software Engineer, working on @QuarkusIO. Ex-IBM. Java Champion, developer, author, #cloud surfer and maker. My views are my own.",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1598650282552041479/fb0ZqGX2_normal.jpg",
+  "id": "154083210",
+  "name": "Holly Cummins (holly_cummins@hachyderm.io)",
+  "username": "holly_cummins",
+  "imagePath": "fb0ZqGX2_normal.jpg"
+ },
+ "images": []
+}

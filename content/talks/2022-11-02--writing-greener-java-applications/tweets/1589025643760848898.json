@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1589025643760848898"
+ ],
+ "text": "Another photo of @Java_Champions @holly_cummins visit to #dubjug last week @TechMeetupSpace https://t.co/NePa2qfY93",
+ "author_id": "1573766612",
+ "attachments": {
+  "media_keys": [
+   "3_1589025638891094018"
+  ]
+ },
+ "id": "1589025643760848898",
+ "author": {
+  "id": "1573766612",
+  "name": "Dublin Java User Grp",
+  "description": "Working with the global Java community to amplify technical knowledge for the benefit of Irish based developers and businesses. https://t.co/2YEzwH4XZy",
+  "created_at": "2013-07-06T22:15:40.000Z",
+  "username": "DubJug",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1518520826177466370/uzNjUFtz_normal.jpg",
+  "imagePath": "uzNjUFtz_normal.jpg"
+ },
+ "images": [
+  "Fg1aZkkXgAImCkv.jpg"
+ ]
+}

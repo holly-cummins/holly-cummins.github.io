@@ -1,0 +1,25 @@
+{
+ "author_id": "3131050642",
+ "edit_history_tweet_ids": [
+  "1186980124928991232"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1186980118687879168"
+  ]
+ },
+ "text": "#CloudNative is about culture and not about containers @holly_cummins @GOTOber #GOTOber #Cloud https://t.co/fCC0UQp2Ic",
+ "id": "1186980124928991232",
+ "author": {
+  "description": "Software architect and engineer. Tweeting about software engineering, distributed systems, k8s, devops, innovation, and video games.",
+  "created_at": "2015-04-01T10:38:13.000Z",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1515253060523679748/2G-PrCQr_normal.jpg",
+  "id": "3131050642",
+  "username": "andreaslanderer",
+  "name": "Andreas 🇪🇺",
+  "imagePath": "2G-PrCQr_normal.jpg"
+ },
+ "images": [
+  "EHkAIQnXkAASl_h.jpg"
+ ]
+}

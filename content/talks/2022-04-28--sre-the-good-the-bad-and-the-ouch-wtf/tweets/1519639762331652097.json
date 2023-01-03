@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1519639762331652097"
+ ],
+ "text": "At #WTFisSRE, @holly_cummins put the focus on the fact that being #automated and having the #scripts did not mean automatically that we know when it's the right moment to #trigger them! It's key to have the data to make the link between behavior and actions...🤔\n#SRE https://t.co/yJWEJj4IC1",
+ "author_id": "2244552900",
+ "attachments": {
+  "media_keys": [
+   "3_1519638990508511234"
+  ]
+ },
+ "id": "1519639762331652097",
+ "author": {
+  "id": "2244552900",
+  "name": "Philippe Ensarguet",
+  "description": "Senior tech exec | 2021 Awarded CTO | CTO at @orangebusiness | Board advisor @weaveworks @cycloid_io | Speaker | @TechRocksFr curator | Bike addict",
+  "created_at": "2013-12-13T21:53:22.000Z",
+  "username": "P_Ensarguet",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1483373251132862465/o7shub-F_normal.jpg",
+  "imagePath": "o7shub-F_normal.jpg"
+ },
+ "images": [
+  "FRbXnEgX0AIrg4z.jpg"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1116967042610081792"
+ ],
+ "text": "@holly_cummins explain how to get fun at work with your daily tasks! @IBMItalia @IBMChampions #VDM19 #ibmchampion #IBM https://t.co/FuMfxCUEWf",
+ "author_id": "736414754",
+ "attachments": {
+  "media_keys": [
+   "3_1116967032128405504"
+  ]
+ },
+ "id": "1116967042610081792",
+ "author": {
+  "id": "736414754",
+  "name": "michele buccarello @sighup_ // kubecon2022",
+  "description": "kubernetes Architect #IBMChampion 2018-2022",
+  "created_at": "2012-08-04T09:07:49.000Z",
+  "username": "buccarellom",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/982981441846996994/_y2hYrYR_normal.jpg",
+  "imagePath": "_y2hYrYR_normal.jpg"
+ },
+ "images": [
+  "D4BDmQfWAAApuZU.jpg"
+ ]
+}

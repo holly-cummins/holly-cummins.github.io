@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1549307303299522563"
+ ],
+ "text": "Senior Principal Software Engineer at @rhdevelopers @holly_cummins explains 'Why You Can’t Buy Cloud Native' #jbcn22 https://t.co/KPiGT02wHy",
+ "id": "1549307303299522563",
+ "attachments": {
+  "media_keys": [
+   "3_1549307301890342914"
+  ]
+ },
+ "author_id": "2976595450",
+ "author": {
+  "id": "2976595450",
+  "username": "dev_bcn",
+  "description": "DevBcn (previously @JBCNConf), Barcelona Developers Conference: backend (JVM, .NET, golang), frontend, devops, agile, cloud & more\n{ 3-5th July 2023 }",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1550078630423830528/RPuzTHJG_normal.jpg",
+  "name": "DevBcn",
+  "created_at": "2015-01-13T15:02:01.000Z",
+  "imagePath": "RPuzTHJG_normal.jpg"
+ },
+ "images": [
+  "FYA-yFEXwAIU8we.jpg"
+ ]
+}

@@ -8,6 +8,7 @@ category: sustainability
 type: news
 tweets: 
   - https://mastodon.social/@paulsq/109517690601934245
+  - https://twitter.com/P_Ensarguet/status/1603368806113476609?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
 ---
 
 The imperative for more sustainable and power efficient applications and systems is stronger than ever. Not only is the green agenda becoming more pressing, but recent energy price spikes mean that…

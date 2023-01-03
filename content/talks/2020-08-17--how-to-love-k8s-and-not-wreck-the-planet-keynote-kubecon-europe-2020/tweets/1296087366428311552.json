@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1296087366428311552"
+ ],
+ "text": "Zombie workloads are a big problem says @holly_cummins. K8s is no exception. It's wasting electricity, burning fossil fuels and causing climate change. When you're done with your K8s cluster, turn it off. #KubeCon #CloudNativeCon https://t.co/rRiZ0viuI4",
+ "author_id": "18088152",
+ "attachments": {
+  "media_keys": [
+   "3_1296087202078683137"
+  ]
+ },
+ "id": "1296087366428311552",
+ "author": {
+  "id": "18088152",
+  "name": "Libby Clark",
+  "description": "Open source community marketing & strategy @AWS. Opinions are my own.",
+  "created_at": "2008-12-12T22:49:19.000Z",
+  "username": "LibbyMClark",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/927778245759471616/s4ahyl11_normal.jpg",
+  "imagePath": "s4ahyl11_normal.jpg"
+ },
+ "images": [
+  "EfygcX3UcAEsOg5.jpg"
+ ]
+}

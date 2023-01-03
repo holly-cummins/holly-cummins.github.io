@@ -1,0 +1,29 @@
+{
+ "author_id": "16127142",
+ "edit_history_tweet_ids": [
+  "1534221832160780288"
+ ],
+ "attachments": {
+  "media_keys": [
+   "3_1534221820039143425",
+   "3_1534221824787111938",
+   "3_1534221829883174913"
+  ]
+ },
+ "text": "The final Quarkus talks by @phillipkruger @janmartiska @geoand86 and @holly_cummins https://t.co/DtBLcrjxfx",
+ "id": "1534221832160780288",
+ "author": {
+  "description": "FroMage. Works on Quarkus, Vert.x, Ceylon for Red Hat, co-lead of Riviera JUG, Riviera DEV and is generally French…",
+  "created_at": "2008-09-04T09:46:26.000Z",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/463620106367410177/Wp_41ZD2_normal.jpeg",
+  "id": "16127142",
+  "username": "UnFroMage",
+  "name": "Stéphane Épardaud",
+  "imagePath": "Wp_41ZD2_normal.jpeg"
+ },
+ "images": [
+  "FUqmnd4WIAEnOwh.jpg",
+  "FUqmnvkWYAICbfK.jpg",
+  "FUqmoCjWIAEtZ3L.jpg"
+ ]
+}

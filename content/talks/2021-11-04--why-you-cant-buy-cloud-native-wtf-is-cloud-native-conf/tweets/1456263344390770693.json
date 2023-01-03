@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1456263344390770693"
+ ],
+ "author_id": "154083210",
+ "text": "@charleshumble I'm glad this slide got tweeted 😀\n\"Microservices: buy 1, get 8 free.\"",
+ "id": "1456263344390770693",
+ "author": {
+  "username": "holly_cummins",
+  "id": "154083210",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1598650282552041479/fb0ZqGX2_normal.jpg",
+  "name": "Holly Cummins (holly_cummins@hachyderm.io)",
+  "created_at": "2010-06-10T09:38:55.000Z",
+  "description": "@RedHat - Senior Principal Software Engineer, working on @QuarkusIO. Ex-IBM. Java Champion, developer, author, #cloud surfer and maker. My views are my own.",
+  "imagePath": "fb0ZqGX2_normal.jpg"
+ },
+ "images": []
+}

@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1580479211386437632"
+ ],
+ "author_id": "2848135337",
+ "text": "@ppalaga @pact_up @QuarkusIO @holly_cummins @edeandrea This talk looks amazing, nice one! Can’t wait to see a video if/when it goes up. Would also love to connect with you all about contract testing, we are launching our Pact plug-in ecosystem to expand into more protocols such as gRPC, and allow others to create thier own plug-ins.",
+ "id": "1580479211386437632",
+ "author": {
+  "username": "YOU54F",
+  "id": "2848135337",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1525248967562481665/SnqTQysg_normal.jpg",
+  "name": "Saf",
+  "created_at": "2014-10-28T12:35:29.000Z",
+  "description": "Devo 🥑 @ Pactflow | Community Shepherd @ Pact | API Tech Evangelist @ SmartBear",
+  "imagePath": "SnqTQysg_normal.jpg"
+ },
+ "images": []
+}

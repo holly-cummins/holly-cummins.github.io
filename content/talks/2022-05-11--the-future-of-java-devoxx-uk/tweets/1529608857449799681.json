@@ -1,0 +1,18 @@
+{
+ "edit_history_tweet_ids": [
+  "1529608857449799681"
+ ],
+ "author_id": "149047889",
+ "id": "1529608857449799681",
+ "text": "@holly_cummins @myfear @DevoxxUK A very successful presentation. 👏 @holly_cummins you are amazing. 🙏",
+ "author": {
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1226217384131932168/cB6KORSo_normal.jpg",
+  "username": "mimaraslan",
+  "id": "149047889",
+  "name": "Mimar Aslan",
+  "description": "Leader @TurkeyJUG, JakartaEE Ambassador,JCP JSR Contributor, Educator,Author, Agile Coach/Scrum, Senior Software #Java/#DevOps Developer, MSc. Computer Engineer",
+  "created_at": "2010-05-28T08:13:01.000Z",
+  "imagePath": "cB6KORSo_normal.jpg"
+ },
+ "images": []
+}

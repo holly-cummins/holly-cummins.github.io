@@ -1,0 +1,18 @@
+{
+ "author_id": "25103",
+ "edit_history_tweet_ids": [
+  "1597592953626976257"
+ ],
+ "text": "Going back and adding tests is no fun.\n\nTDD is basically gamified testing! You make a red thing, and then you make it go green. It’s so satisfying!\n\n@holly_cummins #YowLondon",
+ "id": "1597592953626976257",
+ "author": {
+  "description": "Symmathecist. Engineering Manager of Developer Relations, @honeycombio. Tweets are mine, license CC0. @jessitron@hachyderm.io pronouns=she/her",
+  "created_at": "2006-11-27T15:57:55.000Z",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1541457409834631169/fPwd59zW_normal.jpg",
+  "id": "25103",
+  "username": "jessitron",
+  "name": "Jessica Joy Kerr",
+  "imagePath": "fPwd59zW_normal.jpg"
+ },
+ "images": []
+}

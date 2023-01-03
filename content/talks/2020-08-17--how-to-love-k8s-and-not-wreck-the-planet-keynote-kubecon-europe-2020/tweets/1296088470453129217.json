@@ -1,0 +1,18 @@
+{
+ "text": "Watching the great @holly_cummins at #KubeCon talking about wasted resources and efficiency.  Can't help but think in the @VMware world these are almost all solved problems at the IaaS layer that now should be exposed to #Kubernetes cluster, not re-solved !\n\n@VMwareTanzuUK",
+ "id": "1296088470453129217",
+ "author_id": "214628738",
+ "edit_history_tweet_ids": [
+  "1296088470453129217"
+ ],
+ "author": {
+  "id": "214628738",
+  "profile_image_url": "https://pbs.twimg.com/profile_images/492012990330179584/Ly1Uixpq_normal.jpeg",
+  "created_at": "2010-11-11T21:23:15.000Z",
+  "name": "Ed Hoppitt",
+  "description": "Traveller. VMware EMEA Technical Leadership. Cloud Evangelist, Consultant, sailor, skiier and Robot Wars World Champion. All tweets my own",
+  "username": "edhoppitt",
+  "imagePath": "Ly1Uixpq_normal.jpeg"
+ },
+ "images": []
+}

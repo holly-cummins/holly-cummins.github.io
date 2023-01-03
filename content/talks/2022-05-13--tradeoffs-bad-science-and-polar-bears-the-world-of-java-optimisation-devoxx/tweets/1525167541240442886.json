@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1525167541240442886"
+ ],
+ "author_id": "51147845",
+ "attachments": {
+  "media_keys": [
+   "3_1525167511183974407"
+  ]
+ },
+ "id": "1525167541240442886",
+ "text": "Great talk by @holly_cummins today at #DevoxxUK, and proud she joined our team of @QuarkusIO  engineering. Powerful thoughts too: we all should take Quarkus in consideration, it's irresponsible to overlook the benefits it could bring :) https://t.co/9Ki4f1IWuh",
+ "author": {
+  "profile_image_url": "https://pbs.twimg.com/profile_images/2734209260/0babdf58e01a274a7c5ca468f716d4d1_normal.jpeg",
+  "username": "SanneGrinovero",
+  "id": "51147845",
+  "name": "Sanne",
+  "description": "Hibernate team lead & Quarkus R&D. Architect @ Red Hat. Java Champion. Maniacal tendencies to improve any OSS project he likes.",
+  "created_at": "2009-06-26T17:37:30.000Z",
+  "imagePath": "0babdf58e01a274a7c5ca468f716d4d1_normal.jpeg"
+ },
+ "images": [
+  "FSp7xU8WYAcSb6r.jpg"
+ ]
+}

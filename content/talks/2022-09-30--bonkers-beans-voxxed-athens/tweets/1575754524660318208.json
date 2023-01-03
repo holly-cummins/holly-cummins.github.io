@@ -1,0 +1,25 @@
+{
+ "edit_history_tweet_ids": [
+  "1575754524660318208"
+ ],
+ "author_id": "280254669",
+ "attachments": {
+  "media_keys": [
+   "3_1575754511737622528"
+  ]
+ },
+ "id": "1575754524660318208",
+ "text": "\"Good ideas often come mixed in with bad ideas. Every time you have a failed experience, what you are actually doing is learning - and learning is really important.\"\n\n-@holly_cummins\n#VoxxedDaysAthens https://t.co/IxmlA45YdG",
+ "author": {
+  "profile_image_url": "https://pbs.twimg.com/profile_images/1235678826203496448/Yj7r1PMI_normal.jpg",
+  "username": "quorralyne",
+  "id": "280254669",
+  "name": "Heather Downing",
+  "description": "Software dev & speaker. Human relational db. Principal Dev Advocate @Okta/@auth0 & Microsoft MVP. #dotNET, APIs, voice & identity. @womendotnet in KC, Missouri.",
+  "created_at": "2011-04-10T23:54:24.000Z",
+  "imagePath": "Yj7r1PMI_normal.jpg"
+ },
+ "images": [
+  "Fd40YTVXEAAaMTS.jpg"
+ ]
+}

@@ -4,6 +4,11 @@ cover: holly.png
 author: holly cummins
 category: fun
 type: blog
+tweets:
+ - https://twitter.com/monkchips/status/1473355970113937409?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
+ - https://twitter.com/DanielWithCats/status/1603416147063365632?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
+ - https://twitter.com/Simon_Verhoeven/status/1603410376950964225?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
+ - https://twitter.com/holly_cummins/status/1473363667890679808?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
 ---
 
 ![holly](holly.png)
