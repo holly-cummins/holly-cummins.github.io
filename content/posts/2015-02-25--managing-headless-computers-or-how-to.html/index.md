@@ -18,7 +18,7 @@ I then use nmap to find the pi on the network, as follows:`sudo nmap -sn 192.168
 
 This isn't so useful for the pcDuino, which doesn't have a fixed MAC address, but it really helps identify the pi, which will always have a MAC address in the b8:27:eb range.
 
-_Edit - other options:_ I haven't tried these, but twitter has spoken! If you have a flock (or even a small handful) of identical devices, including [ipspeak](https://gist.github.com/andysc/5605183) in the bootable image bypasses the need for any mmap sleuthing. You can plug headphones into the device and it will read out its ip address every thirty seconds. Alternatively, if you have individually configured devices, [avahi](http://www.avahi.org/) allows them to be addressed using a memorable name.
+_Edit - other options:_ I haven't tried these, but twitter has spoken! If you have a flock (or even a small handful) of identical devices, including [ipspeak](https://gist.github.com/andysc/5605183) in the bootable image bypasses the need for any mmap sleuthing. You can plug headphones into the device and it will read out its ip address every thirty seconds. Alternatively, if you have individually configured devices, [avahi](https://www.avahi.org/) allows them to be addressed using a memorable name.
 
 ## Acknowledgements
 
