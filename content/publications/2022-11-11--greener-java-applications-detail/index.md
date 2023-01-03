@@ -1,5 +1,5 @@
 ---
-title: "Writing greener Java applications"
+title: "How to write greener Java applications"
 url: https://www.redhat.com/en/resources/greener-java-applications-detail
 cover: greener-java-excerpt.png
 author: no author
