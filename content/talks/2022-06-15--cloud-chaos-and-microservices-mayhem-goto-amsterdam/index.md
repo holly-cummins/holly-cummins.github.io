@@ -6,6 +6,8 @@ event: "GOTO Amsterdam"
 location: Amsterdam
 slides:
  url: https://speakerdeck.com/hollycummins/cloud-chaos-and-microservices-mayhem
+video: 
+ url: https://www.youtube.com/watch?v=sk1NPkAzYSM
 code: 
  - url: https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample
    title: Demo code showing Pact contract testing on Quarkus
