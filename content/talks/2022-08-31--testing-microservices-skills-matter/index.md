@@ -6,6 +6,8 @@ event: Skills Matter Java Forum
 title: Uh, Does This Thing Actually Work? Modern Microservices Testing
 slides:
   url: https://speakerdeck.com/hollycummins/uh-does-this-thing-actually-work-modern-microservices-testing
+video:
+  url: https://www.youtube.com/watch?v=vts6TdJch3M
 code:
   - title: "Example Pact contract testing application"
     url: "https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample"
