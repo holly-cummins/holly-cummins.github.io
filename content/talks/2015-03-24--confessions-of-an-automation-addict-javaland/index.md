@@ -5,6 +5,8 @@ title: "Confessions of an Automation Addict"
 event: "JavaLand"
 location: "50321 Brühl, Germany"
 cover: audience.jpg
+slides:
+  url: "https://noti.st/holly-cummins/r76rQx/confessions-of-an-automation-addict"
 tweets:
   - "https://twitter.com/ndrssmn/status/580400221940785153?ref_src=twsrc%5Etfw"
   - "https://twitter.com/kopfstuetze/status/580482105530052609?ref_src=twsrc%5Etfw"
