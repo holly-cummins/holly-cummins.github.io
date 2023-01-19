@@ -40,3 +40,6 @@ https://www.nytimes.com/interactive/2022/10/26/magazine/climate-change-warming-w
    What needs to be done is not sacrifice - it's advancement"](foley-tweet.png)](https://twitter.com/GlobalEcoGuy/status/1549989438142517248?s=20&t=RHDNuiSmnr6oGhQsW15eQw)
 
 These are called [co-benefits](https://www.nature.com/articles/nclimate2814.epdf?sharing_token=VlpmIlyn640CzXagdfTDmtRgN0jAjWel9jnR3ZoTv0NOZ8EsNUkEgIIbXwUUlQaRYTEdJ_XrLsXlsMYhj6MV20ShP6BtO6BHrO3ZC9mrlho6mIxBRJTkPipwDTJYemIQl8stojzWgacrPWYgZpgjKWpK9DVpKqx0_sKI5gvkuieycWY11i32_VNUFLC37MBd8Bf7x8QBOxNOkFkGaGz86plcW2avILwmFyeXGpeOWCpw7B8oxH9RJudWlKm-oxQAtC3nkG6YSZDjxHJL3V6GvTjBcQphy49HOqzdk9Y-7-o%3D).
+
+https://www.ox.ac.uk/news/2022-09-14-decarbonising-energy-system-2050-could-save-trillions-oxford-study
+Decarbonising the energy system by 2050 could save trillions - Oxford study 
