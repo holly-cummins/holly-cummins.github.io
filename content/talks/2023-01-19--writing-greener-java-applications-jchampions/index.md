@@ -13,6 +13,7 @@ tweets:
  - https://twitter.com/edeandrea/status/1616208982128922645?s=61&t=LV78HLRfHjlfiyXtTdXTIg
  - https://mastodon.social/@dashorst/109717676018261113
  - https://det.social/@felix_eckhardt/109717934730142741
+ - https://digitalcourage.social/@mbremer/109976138459607302
 
 ---
 The code we write has a climate impact. But how big is that impact? How do we measure it? How do we reduce it? Is the cloud helping? What’s going on with Virginia? Are we still allowed to do CI/CD? Will native compilation save us? Is Java even a good choice anymore? This talk discusses some of the trade-offs for a modern software developer, and provides a roadmap to figuring out the right thing.
