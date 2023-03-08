@@ -5,7 +5,7 @@ imageUrl: https://img.youtube.com/vi/A2Tq8Gk3g7U/0.jpg
 cover: 0.jpg
 author: James Governor
 category: sustainability
-type: news
+type: blog
 tweets: 
   - https://mastodon.social/@paulsq/109517690601934245
   - https://twitter.com/P_Ensarguet/status/1603368806113476609?s=20&t=PZMKo5BOiujf5wkFkQ1xsQ
