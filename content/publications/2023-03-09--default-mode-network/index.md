@@ -8,5 +8,7 @@ category: innovation
 type: blog
 tweets: 
  - https://twitter.com/arhayward/status/1634266872089837569?s=61&t=7OJt173Aoear21855Nvhqw
+ - https://twitter.com/charleshumble/status/1634157191035846660?s=20
+ - https://twitter.com/SanneGrinovero/status/1634328385382932480?s=20
 ---
 
