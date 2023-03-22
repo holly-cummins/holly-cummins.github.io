@@ -2,8 +2,8 @@
 type: "talk"
 category: "microservices"
 title: "How to avoid common pitfalls with modern microservices testing"
-event: "Devnexus"
-location: Atlanta, Georgia
+event: "DevBCN"
+location: Barcelona
 author: Eric Deandrea and Holly Cummins
 code: 
   - title: Sample code from the demo

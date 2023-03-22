@@ -4058,5 +4058,123 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Barcelona": [
+  {
+   "latitude": 41.3828939,
+   "longitude": 2.1774322,
+   "formattedAddress": "Barcelona, Barcelonès, Barcelona, Catalunya, 08001, España",
+   "country": "España",
+   "city": "Barcelona",
+   "state": "Catalunya",
+   "zipcode": "08001",
+   "countryCode": "ES",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 41.75786995,
+   "longitude": 2.031182036159852,
+   "formattedAddress": "Barcelona, Catalunya, España",
+   "country": "España",
+   "state": "Catalunya",
+   "countryCode": "ES",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -5.9514918,
+   "longitude": -35.9260284,
+   "formattedAddress": "Barcelona, Região Geográfica Imediata de São Paulo do Potengi, Região Geográfica Intermediária de Natal, Rio Grande do Norte, Região Nordeste, 59410-000, Brasil",
+   "country": "Brasil",
+   "city": "Barcelona",
+   "state": "Rio Grande do Norte",
+   "zipcode": "59410-000",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 10.1325951,
+   "longitude": -64.6819583,
+   "formattedAddress": "Barcelona, Parroquia San Cristóbal, Municipio Simón Bolívar, Anzoátegui, 6001, Venezuela",
+   "country": "Venezuela",
+   "city": "Barcelona",
+   "state": "Anzoátegui",
+   "zipcode": "6001",
+   "countryCode": "VE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 50.3547004,
+   "longitude": -4.5028673,
+   "formattedAddress": "Barcelona, Pelynt, Cornwall, England, PL13 2JU, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Barcelona",
+   "state": "England",
+   "zipcode": "PL13 2JU",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 12.8682088,
+   "longitude": 124.1418908,
+   "formattedAddress": "Barcelona, Sorsogon, Bicol Region, 4712, Philippines",
+   "country": "Philippines",
+   "city": "Barcelona",
+   "state": "Sorsogon",
+   "zipcode": "4712",
+   "countryCode": "PH",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -5.9814530999999995,
+   "longitude": -35.93054991379833,
+   "formattedAddress": "Barcelona, Região Geográfica Imediata de São Paulo do Potengi, Região Geográfica Intermediária de Natal, Rio Grande do Norte, Região Nordeste, 59410-000, Brasil",
+   "country": "Brasil",
+   "city": "Barcelona",
+   "state": "Rio Grande do Norte",
+   "zipcode": "59410-000",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -17.8930817,
+   "longitude": -51.7400691,
+   "formattedAddress": "Barcelona, Jataí, Região Geográfica Imediata de Jataí-Mineiros, Região Geográfica Intermediária de Rio Verde, Goiás, Região Centro-Oeste, Brasil",
+   "country": "Brasil",
+   "city": "Jataí",
+   "state": "Goiás",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -20.1722242,
+   "longitude": -40.2534531,
+   "formattedAddress": "Barcelona, Carapina, Serra, Região Geográfica Imediata de Vitória, Região Metropolitana da Grande Vitória, Região Geográfica Intermediária de Vitória, Espírito Santo, Região Sudeste, Brasil",
+   "country": "Brasil",
+   "city": "Serra",
+   "state": "Espírito Santo",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -24.9081799,
+   "longitude": -53.439201,
+   "formattedAddress": "Barcelona, Interlagos, Cascavel, Região Geográfica Imediata de Cascavel, Região Geográfica Intermediária de Cascavel, Paraná, Região Sul, 85814-760, Brasil",
+   "country": "Brasil",
+   "city": "Cascavel",
+   "state": "Paraná",
+   "zipcode": "85814-760",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }

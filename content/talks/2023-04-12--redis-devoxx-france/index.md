@@ -1,0 +1,13 @@
+---
+type: "talk"
+category: "sustainability"
+title: "Redis: du cache à la time series!"
+event: "Devoxx France"
+location: "Paris"
+
+---
+
+
+Redis est devenu extrêmement populaire. Redis est souvent utilisé comme solution de cache ou pour stocker les sessions utilisateurs. Mais Redis a beaucoup d’autres fonctionnalités et devient le couteau suisse des applications Cloud. En effet, Redis peut être utilisé comme base de données spatiales, queue d’exécution, time series, moteur de recherche. On peut stocker des documents textes, binaires ou du JSON, des graphes et même des structures mathématiques tel que des filtres Bloom ou Cuckoo.
+
+Cette présentation explique les différents types de données que Redis peut manipuler et comment l’API Redis intégré à Quarkus vous permet de développer avec ces types facilement, et rapidement. Après cette présentation, vous ne verrez plus votre Redis comme avant!
