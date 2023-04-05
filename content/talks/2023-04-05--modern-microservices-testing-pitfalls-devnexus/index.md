@@ -13,6 +13,8 @@ code:
 resource:
   - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
+tweets:
+  - https://twitter.com/__sunix_/status/1643640197530243074?s=20
 ---
 
 Have you ever wondered why your microservices break in production after all the tests have passed during CI/CD? Have you ever wondered if you’re testing too much or too little? If you want to learn about common pitfalls and how to catch them at build time rather than at runtime, this session is for you!
