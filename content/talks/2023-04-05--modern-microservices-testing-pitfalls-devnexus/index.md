@@ -5,6 +5,8 @@ title: "How to avoid common pitfalls with modern microservices testing"
 event: "Devnexus"
 location: Atlanta, Georgia
 author: Eric Deandrea and Holly Cummins
+slides:
+ url: https://speakerdeck.com/hollycummins/avoiding-common-pitfalls-with-modern-microservices-testing
 code: 
   - title: Sample code from the demo
     url: "https://github.com/edeandrea/pact-quarkus-wookie-carpet-demo"

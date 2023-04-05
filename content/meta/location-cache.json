@@ -4176,5 +4176,114 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Rotterdam": [
+  {
+   "latitude": 51.9244424,
+   "longitude": 4.47775,
+   "formattedAddress": "Rotterdam, Zuid-Holland, Nederland",
+   "country": "Nederland",
+   "city": "Rotterdam",
+   "state": "Zuid-Holland",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.9233986,
+   "longitude": 4.489568107470266,
+   "formattedAddress": "Rotterdam, Zuid-Holland, Nederland",
+   "country": "Nederland",
+   "state": "Zuid-Holland",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.7870209,
+   "longitude": -73.9709583,
+   "formattedAddress": "Town of Rotterdam, Schenectady County, New York, United States",
+   "country": "United States",
+   "city": "Town of Rotterdam",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.7809319,
+   "longitude": -73.96199723108137,
+   "formattedAddress": "Rotterdam, Town of Rotterdam, Schenectady County, New York, United States",
+   "country": "United States",
+   "city": "Town of Rotterdam",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 6.1802798,
+   "longitude": -57.5360393,
+   "formattedAddress": "Rotterdam, Belle Vue, Enfield - New Doe Park, East Berbice-Corentyne, Guyana",
+   "country": "Guyana",
+   "city": "Belle Vue",
+   "state": "East Berbice-Corentyne",
+   "countryCode": "GY",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 6.8251743,
+   "longitude": -58.2100112,
+   "formattedAddress": "Rotterdam, Nouvelle Flanders-La Jalousie Village District, La Jalousie - Nouvelle Flanders, Essequibo Islands, Guyana",
+   "country": "Guyana",
+   "city": "Rotterdam",
+   "state": "Essequibo Islands",
+   "countryCode": "GY",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 60.7757472,
+   "longitude": 10.2097082,
+   "formattedAddress": "Rotterdam, Søndre Land, Innlandet, 2879, Norge",
+   "country": "Norge",
+   "zipcode": "2879",
+   "countryCode": "NO",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 59.3482433,
+   "longitude": 18.1113637,
+   "formattedAddress": "Rotterdam, Ladugårdsgärdet, Östermalms stadsdelsområde, Stockholm, Stockholms kommun, Stockholms län, 115 83, Sverige",
+   "country": "Sverige",
+   "city": "Stockholm",
+   "zipcode": "115 83",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.0943849,
+   "longitude": 6.812714,
+   "formattedAddress": "Rotterdam, Spindsodden, Farsund, Agder, 4550, Norge",
+   "country": "Norge",
+   "city": "Farsund",
+   "zipcode": "4550",
+   "countryCode": "NO",
+   "neighbourhood": "Spindsodden",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.8530467,
+   "longitude": 4.476376756849403,
+   "formattedAddress": "Arrondissement Rotterdam, Zuid-Holland, Nederland",
+   "country": "Nederland",
+   "state": "Zuid-Holland",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
