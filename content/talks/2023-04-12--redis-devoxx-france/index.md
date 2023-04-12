@@ -4,6 +4,11 @@ category: "sustainability"
 title: "Redis: du cache à la time series!"
 event: "Devoxx France"
 location: "Paris"
+slides:
+  url: https://speakerdeck.com/hollycummins/redis-du-cache-a-la-time-series
+code:
+  - title: "Cache-cache application"
+    url: https://github.com/holly-cummins/redis-cache-cache
 
 ---
 
