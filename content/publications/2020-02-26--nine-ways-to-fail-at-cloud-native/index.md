@@ -2,6 +2,7 @@
 title: "Nine Ways to Fail At Cloud Native"
 url: https://web.archive.org/web/20221007160941/https://www.ibm.com/blogs/think/uk-en/nine-ways-to-fail-at-cloud-native/
 author: holly cummins
+cover: placeholder.png
 category: cloud native
 type: blog
 ---
