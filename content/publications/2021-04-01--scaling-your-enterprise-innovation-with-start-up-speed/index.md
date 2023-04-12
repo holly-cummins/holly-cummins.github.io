@@ -1,8 +1,6 @@
 ---
 title: "Scaling your enterprise innovation with start-up speed"
-url: https://www.ibm.com/blogs/think/uk-en/scaling-your-enterprise-innovation-with-start-up-speed/
-imageUrl: https://www.ibm.com/blogs/think/uk-en/wp-content/uploads/sites/27/2021/04/FBIBM_Garage_virtual_background_Cyan.jpg
-cover: FBIBM_Garage_virtual_background_Cyan.jpg
+url: https://web.archive.org/web/20220811094449/https://www.ibm.com/blogs/think/uk-en/scaling-your-enterprise-innovation-with-start-up-speed/
 author: Sabine VanderLinden and holly cummins
 category: ibm garage
 type: blog
