@@ -1,8 +1,6 @@
 ---
 title: "The Future of Work is (More) Fun - Part 2 - IBM UK Blog"
-url: https://www.ibm.com/blogs/think/uk-en/the-future-of-work-is-more-fun-part-2/
-imageUrl: https://www.ibm.com/blogs/think/uk-en/wp-content/uploads/sites/27/2019/06/Future-of-work-facebook-1.jpg
-cover: Future-of-work-facebook-1.jpg
+url: https://web.archive.org/web/20220201024022/https://www.ibm.com/blogs/think/uk-en/the-future-of-work-is-more-fun-part-2/
 author: holly cummins
 category: fun
 type: blog
