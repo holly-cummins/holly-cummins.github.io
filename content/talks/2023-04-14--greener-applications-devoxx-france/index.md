@@ -4,7 +4,8 @@ category: "sustainability"
 title: "Writing Greener Java Applications"
 event: "Devoxx France"
 location: "Paris"
-
+slides:
+  url: https://speakerdeck.com/hollycummins/writing-greener-java-applications-af4494ef-bb72-4375-999e-519c750b5f1c
 ---
 
 

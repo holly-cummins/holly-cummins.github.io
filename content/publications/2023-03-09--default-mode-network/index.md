@@ -10,5 +10,7 @@ tweets:
  - https://twitter.com/arhayward/status/1634266872089837569?s=61&t=7OJt173Aoear21855Nvhqw
  - https://twitter.com/charleshumble/status/1634157191035846660?s=20
  - https://twitter.com/SanneGrinovero/status/1634328385382932480?s=20
+ - https://twitter.com/emilyfhjiang/status/1646429827858157568?s=20
+ - https://twitter.com/P_Ensarguet/status/1646426086509625344?s=20
 ---
 

@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "sustainability"
+category: "quarkus"
 title: "Redis: du cache à la time series!"
 event: "Devoxx France"
 location: "Paris"
@@ -9,7 +9,13 @@ slides:
 code:
   - title: "Cache-cache application"
     url: https://github.com/holly-cummins/redis-cache-cache
-
+tweets:
+  - https://twitter.com/ZinebBendhiba/status/1646178296625782791?s=20
+  - https://twitter.com/Lilian_Benoit/status/1646248339640401923?s=20
+  - https://twitter.com/LoozBonita/status/1646179573007020035?s=20
+  - https://twitter.com/danieloh30/status/1646179312364560385?s=20
+  - https://twitter.com/Lilian_Benoit/status/1646177359274409985?s=20
+  - https://twitter.com/aheritier/status/1646285713854300160?s=20
 ---
 
 
