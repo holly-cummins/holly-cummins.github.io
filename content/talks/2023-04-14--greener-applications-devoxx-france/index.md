@@ -6,6 +6,15 @@ event: "Devoxx France"
 location: "Paris"
 slides:
   url: https://speakerdeck.com/hollycummins/writing-greener-java-applications-af4494ef-bb72-4375-999e-519c750b5f1c
+tweets:
+  - https://twitter.com/lenra_dev/status/1646823354450563074?s=20
+  - https://twitter.com/auritamh/status/1646819865964040196?s=20
+  - https://twitter.com/bdauvissat/status/1646813650282328066?s=20
+  - https://twitter.com/ZinebBendhiba/status/1646813166154776576?s=20
+  - https://twitter.com/ZinebBendhiba/status/1646812208242782208?s=20
+  - https://riduidel.wordpress.com/2023/04/14/devoxx-writing-greener-java-applications/
+  - https://twitter.com/riduidel/status/1646961795805085696?s=20
+  - https://twitter.com/riduidel/status/1647939102338162688?s=20
 ---
 
 
