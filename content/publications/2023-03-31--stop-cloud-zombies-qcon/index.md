@@ -4,7 +4,7 @@ url: https://www.infoq.com/news/2023/03/stop-cloud-zombies-qcon/
 imageUrl: https://res.infoq.com/news/2023/03/stop-cloud-zombies-qcon/en/headerimage/generatedHeaderImage-1680125002305.jpg
 cover: generatedHeaderImage-1680125002305.jpg
 author: Steef-Jan Wiggers
-category: untagged
+category: sustainability
 type: news
 ---
 
