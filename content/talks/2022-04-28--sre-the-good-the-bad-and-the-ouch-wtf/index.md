@@ -8,6 +8,8 @@ author: holly cummins
 cover: goldfishops.png
 slides:
  url: https://speakerdeck.com/hollycummins/sre-the-good-the-bad-and-the-ouch
+video: 
+  url: https://www.youtube.com/watch?v=wr2YuqVwsrU
 tweets: 
  - https://twitter.com/scarletalphabet/status/1519646820573581312?s=20&t=OOkO4xZOdYn-gAa-llty7Q
  - https://twitter.com/containersoluti/status/1519635034122207234?s=20&t=OOkO4xZOdYn-gAa-llty7Q
