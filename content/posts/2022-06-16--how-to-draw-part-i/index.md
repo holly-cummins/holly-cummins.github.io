@@ -31,7 +31,7 @@ _2021. Talks work better with graphics._
 Like many other presenters, I used photographs in my presentations. 
 But the right photograph can be hard to find, and [copyright predators](https://doctorow.medium.com/a-bug-in-early-creative-commons-licenses-has-enabled-a-new-breed-of-superpredator-5f6360713299) are an increasing concern.
 You're limited in what you can express with existing photos.
-I tried [taking my own photographs], but staging photographs is hard work. 
+I tried taking my own photographs, but staging photographs is hard work. 
 My breaking point came when I spent hours and hours making batches of coloured fresh spaghetti 
 and arranging it in different configurations to illustrate classloaders, jars, coupling, testing and services
 for a talk on [software modularity](https://noti.st/holly-cummins/iNasA3/everything-i-know-about-software-i-learnt-from-spaghetti-bolognese). I even invested in a light tent. 
