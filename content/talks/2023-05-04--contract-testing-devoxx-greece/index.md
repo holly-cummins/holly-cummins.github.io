@@ -9,6 +9,8 @@ slides:
 code: 
  - url: https://github.com/holly-cummins/pact-quarkus-sweater-demo
    title: Demo code showing Pact contract testing on Quarkus
+tweets:
+ - https://twitter.com/TheDonRaab/status/1654116422988046336?s=20
 ---
 Every time you change one microservice, the others break. But you had unit tests! 
 What’s going on? Unit tests aren’t enough to give system-level confidence, even with a microservices architecture. 
