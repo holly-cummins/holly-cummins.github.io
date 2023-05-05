@@ -89,7 +89,7 @@ source code](https://shenovafashion.com/blogs/shenova-fashion/my-computer-code-d
 ## Labour ethics
 
 One of the reasons I liked sewing my own clothes, is I knew they were produced under humane conditions, and the worker (me!) was treated well. The garment industry has some of the [lowest pay
-in the world](https://www.vox.com/2018/2/27/17016704/living-wage-clothing-factories), and life-threatening accidents are [not uncommon](https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm). Programmers, on the other hand, are are well-paid and are extremely unlikely to die at work. Nonetheless, labour exploitation is a concern, even for developers. If they
+in the world](https://www.vox.com/2018/2/27/17016704/living-wage-clothing-factories), and life-threatening accidents are [not uncommon](https://web.archive.org/web/20230401193235/https://www.ilo.org/global/topics/geip/WCMS_614394/lang--en/index.htm). Programmers, on the other hand, are are well-paid and are extremely unlikely to die at work. Nonetheless, labour exploitation is a concern, even for developers. If they
 had the misfortune to create a popular open source project, individuals sometimes find themselves expected to work [for free](https://www.ashedryden.com/blog/the-ethics-of-unpaid-labor-and-the-oss-community) for the [benefit of profit-making corporations](https://www.wired.com/story/altruism-open-source-fuels-web-businesses-love-to-exploit-it/).
 
 [![Tweet: Never ever ever "bump" a github issue on an open source repo the maintainer isn't getting paid to work on. You're saying "please do work for me for free"](bump-issue.png)](https://twitter.com/penelope_zone/status/1302732113578528769)
