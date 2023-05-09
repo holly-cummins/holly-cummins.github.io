@@ -5,6 +5,8 @@ title: "How to avoid common pitfalls with modern microservices testing"
 event: "Devoxx UK"
 location: London, UK
 author: Eric Deandrea and Holly Cummins
+slides:
+  url: https://speakerdeck.com/hollycummins/avoiding-common-pitfalls-with-modern-microservices-testing-e2f41b66-5b5d-40e9-a19b-5703c344292d
 code: 
   - title: Sample code from the demo
     url: "https://github.com/edeandrea/pact-quarkus-wookie-carpet-demo"
