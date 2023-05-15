@@ -8,6 +8,10 @@ on:
     types: [ opened, synchronize, reopened ]
   workflow_dispatch:
 
+defaults:
+  run:
+    working-directory: platform
+
 jobs:
   unit-test:
     runs-on: ubuntu-latest
@@ -34,6 +38,7 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: pages
+          working-dir: platform
           skip-publish: ${{ ! (github.ref == 'refs/heads/main' && github.event_name != 'pull_request') }}
         env:
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
