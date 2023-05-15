@@ -6,6 +6,11 @@ const contentDir = fs.existsSync("../content") ? "../content" : "./content";
 const config = require(`${contentDir}/meta/config`);
 const transformer = require("./src/utils/algolia");
 
+const algoliaMissing =
+  process.env.ALGOLIA_APP_ID === undefined || process.env.ALGOLIA_APP_ID === "";
+
+console.log("HOLLY SO ", algoliaMissing, process.env.ALGOLIA_APP_ID, "---");
+
 const query = `{
   allMarkdownRemark( filter: { fields: { slug: { ne: null } } }) {
     edges {
@@ -41,11 +46,9 @@ module.exports = {
     description: config.siteDescription,
     siteUrl: config.siteUrl,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        : "",
-      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
+      appId: process.env.ALGOLIA_APP_ID,
+      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY,
+      indexName: process.env.ALGOLIA_INDEX_NAME
     }
   },
   plugins: [
@@ -299,11 +302,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-        apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
         queries,
-        chunkSize: 10000 // default: 1000
+        chunkSize: 10000, // default: 1000
+        dryRun: algoliaMissing,
+        continueOnFailure: algoliaMissing
       }
     }
   ]
