@@ -4,17 +4,16 @@ on:
   push:
     branches:
       [ main ]
-
-defaults:
-  run:
-    working-directory: platform
+  pull_request:
+    types: [ opened, synchronize, reopened ]
+  workflow_dispatch:
 
 jobs:
   unit-test:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '14'
       - run: npm install
@@ -24,8 +23,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '14'
       - run: npm install
@@ -35,13 +34,13 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: pages
-          working-dir: platform
+          skip-publish: ${{ ! (github.ref == 'refs/heads/main' && github.event_name != 'pull_request') }}
         env:
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_SEARCH_ONLY_API_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
           ALGOLIA_ADMIN_API_KEY: ${{ secrets.ALGOLIA_ADMIN_API_KEY }}
           ALGOLIA_INDEX_NAME: ${{ secrets.ALGOLIA_INDEX_NAME }}
-          MICROANALYTICS_ID: ${{secrets.MICROANALYTICS_ID}}
+          MICROANALYTICS_ID: ${{secrets.MICROANALYTICS_ID}} || "none"
           BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
           NODE_ENV: production
           GATSBY_ACTIVE_ENV: production
