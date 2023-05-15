@@ -6,6 +6,8 @@ event: "Devoxx Greece"
 location: "Athens"
 slides:
   url: https://speakerdeck.com/hollycummins/contract-testing-with-pact-and-quarkus
+video:
+  url: https://www.youtube.com/watch?v=4xoJmz6bWB4
 code: 
  - url: https://github.com/holly-cummins/pact-quarkus-sweater-demo
    title: Demo code showing Pact contract testing on Quarkus
