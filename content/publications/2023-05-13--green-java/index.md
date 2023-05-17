@@ -6,6 +6,8 @@ cover: logo-big.jpg
 author: Olimpiu Pop
 category: sustainability
 type: media
+tweets:
+  - https://twitter.com/P_Ensarguet/status/1658367930613084161?s=20
 ---
 
 At her Devoxx UK presentation, Holly Cummins, senior software principal engineer at Redhat, presented approaches that could make Java applications more cost and energy efficient. Moreover, the busines
