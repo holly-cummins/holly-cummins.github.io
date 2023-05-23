@@ -6,6 +6,8 @@ event: "Devoxx UK"
 location: "London"
 slides:
  url: https://speakerdeck.com/hollycummins/writing-greener-java-applications-9b06e698-e2b3-4bb0-9e5f-9fc34705c19a
+video:
+ url: https://www.youtube.com/watch?v=kwnnbvwXVXY
 links:
   - url: https://twitter.com/InfoQ/status/1657405615671775240?s=20
 tweets:
