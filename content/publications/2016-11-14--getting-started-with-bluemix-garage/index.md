@@ -2,7 +2,6 @@
 title: "IBM Garage radically changes how you deliver tech-enabled innovation"
 url: https://web.archive.org/web/20221203003041/https://www.ibm.com/blogs/cloud-archive/2016/11/getting-started-with-bluemix-garage/
 cover: bluemix-garage-london-1.png
-cover: bluemix-garage-london-1.png
 author: holly cummins
 category: ibm garage
 type: blog
