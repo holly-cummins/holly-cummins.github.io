@@ -5,7 +5,7 @@ title: "Cloud Native Development With Quarkus (masterclass)"
 event: "GOTO Aarhus"
 location: Aarhus
 slides:
-  url: https://speakerdeck.com/hollycummins/cloud-native-development-with-quarkus-goto-masterclass
+  url: https://speakerdeck.com/hollycummins/cloud-native-development-with-quarkus-goto-masterclass-a9a0d7ff-4c33-45ec-9b25-7774fedd7f17
 oembeds:
   - url: https://hollycummins.com/quarkus-workshops/
     title: Workshop instructions
