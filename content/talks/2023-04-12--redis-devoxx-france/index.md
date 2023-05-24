@@ -6,6 +6,8 @@ event: "Devoxx France"
 location: "Paris"
 slides:
   url: https://speakerdeck.com/hollycummins/redis-du-cache-a-la-time-series
+video:
+  url: https://www.youtube.com/watch?v=bi3s32jBJFg
 code:
   - title: "Cache-cache application"
     url: https://github.com/holly-cummins/redis-cache-cache
