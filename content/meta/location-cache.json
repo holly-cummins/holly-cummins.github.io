@@ -4285,5 +4285,120 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Arnhem": [
+  {
+   "latitude": 51.984257,
+   "longitude": 5.9108573,
+   "formattedAddress": "Arnhem, Gelderland, Nederland",
+   "country": "Nederland",
+   "city": "Arnhem",
+   "state": "Gelderland",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.0056642,
+   "longitude": 5.8762345077641305,
+   "formattedAddress": "Arnhem, Gelderland, Nederland",
+   "country": "Nederland",
+   "state": "Gelderland",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.9844332,
+   "longitude": 5.9011598,
+   "formattedAddress": "Arnhem Centraal, 17, Renssenstraat, Stationsplein, Arnhem, Gelderland, Nederland, 6811 MC, Nederland",
+   "country": "Nederland",
+   "city": "Arnhem",
+   "state": "Gelderland",
+   "zipcode": "6811 MC",
+   "streetName": "Renssenstraat",
+   "streetNumber": "17",
+   "countryCode": "NL",
+   "neighbourhood": "Stationsplein",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 14.317192,
+   "longitude": 120.8735105,
+   "formattedAddress": "Arnhem, Buenavista I, General Trias, Cavite, Calabarzon, 4107, Philippines",
+   "country": "Philippines",
+   "city": "General Trias",
+   "state": "Cavite",
+   "zipcode": "4107",
+   "streetName": "Arnhem",
+   "countryCode": "PH",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.9764724,
+   "longitude": 5.96312,
+   "formattedAddress": "N325 IJsseloord, Arnhem, IJsseloordweg, Over het Lange Water, Arnhem, Gelderland, Nederland, 6825 LS, Nederland",
+   "country": "Nederland",
+   "city": "Arnhem",
+   "state": "Gelderland",
+   "zipcode": "6825 LS",
+   "streetName": "IJsseloordweg",
+   "countryCode": "NL",
+   "neighbourhood": "Over het Lange Water",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.0121948,
+   "longitude": 5.9115749,
+   "formattedAddress": "Remise, Arnhem (Gld.), 4, Hoeferlaan, Alteveer/Cranevelt, Arnhem, Gelderland, Nederland, 6816 SG, Nederland",
+   "country": "Nederland",
+   "city": "Arnhem",
+   "state": "Gelderland",
+   "zipcode": "6816 SG",
+   "streetName": "Hoeferlaan",
+   "streetNumber": "4",
+   "countryCode": "NL",
+   "neighbourhood": "Alteveer/Cranevelt",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.1875851,
+   "longitude": 1.5765466552377412,
+   "formattedAddress": "Arnhem, Fitches Lane, Aldringham cum Thorpe, Aldringham, East Suffolk, Suffolk, England, IP16 4QQ, United Kingdom",
+   "country": "United Kingdom",
+   "city": "East Suffolk",
+   "state": "England",
+   "zipcode": "IP16 4QQ",
+   "streetName": "Fitches Lane",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 59.6263647,
+   "longitude": 17.8328785,
+   "formattedAddress": "Arnhem, Solbrinken, Steninge, Ekilla, Sigtuna kommun, Stockholms län, 195 32, Sverige",
+   "country": "Sverige",
+   "city": "Ekilla",
+   "zipcode": "195 32",
+   "streetName": "Solbrinken",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 58.985801,
+   "longitude": -3.218412050377209,
+   "formattedAddress": "Arnhem, A965, Stenness, Orkney Islands, Alba / Scotland, KW16 3JX, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Stenness",
+   "state": "Alba / Scotland",
+   "zipcode": "KW16 3JX",
+   "streetName": "A965",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
