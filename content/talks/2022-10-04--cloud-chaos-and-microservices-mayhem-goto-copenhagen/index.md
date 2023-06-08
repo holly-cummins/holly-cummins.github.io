@@ -6,6 +6,8 @@ event: "GOTO Copenhagen"
 location: Copenhagen
 slides:
   url: https://speakerdeck.com/hollycummins/cloud-chaos-and-microservices-mayhem-55b7effe-85d2-4518-a36a-0981f2e76764
+video:
+  url: https://www.youtube.com/watch?v=zJiUNKXZA1E
 code: 
  - url: https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample
    title: Demo code showing Pact contract testing on Quarkus
