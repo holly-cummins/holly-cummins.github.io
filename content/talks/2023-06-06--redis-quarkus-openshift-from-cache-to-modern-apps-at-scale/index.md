@@ -1,6 +1,5 @@
 ---
 title: "Redis, Quarkus, OpenShift From Cache to Modern Apps at Scale"
-imageUrl: https://redis.com/wp-content/uploads/2023/04/redis-redhat-tech-talk-pre-event-social-url-preview-1200x628-1.png
 cover: redis-redhat-tech-talk-pre-event-social-url-preview-1200x628-1.png
 author: clement escoffier, luigi fugaro, and holly cummins
 category: quarkus
