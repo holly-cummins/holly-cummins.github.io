@@ -4,7 +4,7 @@ url: https://www.youtube.com/watch?v=d9CSY8HuZ9U
 cover: youtube.png
 author: holly cummins
 category: microservices
-type: webinar
+type: livestream
 code: 
  - url: https://github.com/holly-cummins/pact-quarkus-sweater-demo
    title: Demo code showing Pact contract testing on Quarkus
