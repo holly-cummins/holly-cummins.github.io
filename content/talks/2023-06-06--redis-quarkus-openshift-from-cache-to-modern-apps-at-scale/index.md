@@ -11,7 +11,7 @@ code:
 slides: 
   url: https://speakerdeck.com/hollycummins/redis-quarkus-openshift-from-cache-to-modern-apps-at-scale
 resources:
-  - title: "Registration page"
+  - title: "On-demand video"
     url: https://redis.com/events-and-webinars/redis-quarkus-openshift-from-cache-to-modern-apps-at-scale/
 ---
 
