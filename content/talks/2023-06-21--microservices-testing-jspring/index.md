@@ -4,6 +4,12 @@ category: "testing"
 title: "Uh, Does This Thing Actually Work? Modern Microservices Testing"
 event: "J-Spring"
 location: Utrecht
+slides:
+  url: https://speakerdeck.com/hollycummins/modern-microservices-testing-jspring
+code:
+  - title: "Example Pact contract testing application"
+    url: "https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample"
+
 ---
 To realise the promise of microservices, individual services must be independently deployable, and they should be deployed often. But that’s easier said than done.
 Releases take confidence.
