@@ -5,7 +5,7 @@ title: "Uh, Does This Thing Actually Work? Modern Microservices Testing"
 event: "J-Spring"
 location: Utrecht
 slides:
-  url: https://speakerdeck.com/hollycummins/modern-microservices-testing-jspring
+  url: https://speakerdeck.com/hollycummins/uh-does-this-thing-actually-work-modern-microservices-testing-b78a3cbc-2a4e-4725-a17e-ed27c8bc7ddc
 code:
   - title: "Example Pact contract testing application"
     url: "https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample"
