@@ -9,6 +9,10 @@ slides:
 code:
   - title: "Example Pact contract testing application"
     url: "https://github.com/holly-cummins/house-of-microservices-quarkus-contract-testing-sample"
+tweets:
+  - https://www.linkedin.com/feed/update/urn:li:activity:7077377869605138432/
+  - https://www.linkedin.com/feed/update/urn:li:activity:7077377869605138432/
+  - https://www.linkedin.com/feed/update/urn:li:activity:7077597014753992704/
 
 ---
 To realise the promise of microservices, individual services must be independently deployable, and they should be deployed often. But that’s easier said than done.

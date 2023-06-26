@@ -23,6 +23,7 @@ tweets:
   - https://twitter.com/Japplis/status/1671804956792303617?s=20
   - https://twitter.com/Japplis/status/1671619152279228416?s=20
   - https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A7079023240647471104
+  - https://www.linkedin.com/feed/update/urn:li:activity:7077377869605138432/
 ---
 
 The code we write has a climate impact. But how big is that impact? How do we measure it? How do we reduce it? Is the cloud helping? What’s going on with Virginia? Are we still allowed to do CI/CD? Will native compilation save us? Is Java even a good choice anymore? This talk discusses some of the trade-offs for a modern software developer, and provides a roadmap to figuring out the right thing.
