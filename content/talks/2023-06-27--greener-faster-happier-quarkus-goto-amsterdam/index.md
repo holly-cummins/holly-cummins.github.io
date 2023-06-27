@@ -1,6 +1,6 @@
 ---
 type: "talk"
-category: "cloud native"
+category: "quarkus"
 title: "Faster, greener, and happier- why Quarkus should be your next tech stack"
 event: "GOTO Amsterdam"
 location: Amsterdam
