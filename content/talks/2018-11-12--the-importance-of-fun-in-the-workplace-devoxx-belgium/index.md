@@ -4,6 +4,8 @@ category: "fun"
 title: "The Importance of Fun in the Workplace"
 slides:
   url: "https://noti.st/holly-cummins/h3llaW/the-importance-of-fun-in-the-workplace"
+video:
+  url: https://m.youtube.com/watch?v=Ob7PxkPCY8s
 event: "Devoxx Belgium"
 location: "Antwerp, Belgium"
 author: "holly cummins"
