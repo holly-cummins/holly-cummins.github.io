@@ -24,7 +24,7 @@ I sometimes think we could use a “my second extension” guide, but we haven�
 - [A walkthrough of writing an extension to log to Amazon cloud watch](https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/), which is an excellent general tutorial about writing an extension. This is the tutorial I followed when writing my first extension.
 - How extensions can help with byte-code rewriting and other similar use cases:
     - [Stripping out methods which have a problematic annotation](https://quarkus.io/blog/solving-problems-with-extensions/) 
-    - [Resolving an annotation conflict by transforming breaking annotations into happy ones]https://quarkus.io/blog/solving-problems-with-extensions-2/
+    - [Resolving an annotation conflict by transforming breaking annotations into happy ones](https://quarkus.io/blog/solving-problems-with-extensions-2/)
 
 - [My and Georgios Andrianakis's talk about writing extensions](https://hollycummins.com/why-youre-missing-out-quarkus-extensions/) with an introduction to writing extensions. The demo is using minecraft for logging. I'm hoping to keep the [source code](https://github.com/holly-cummins/quarkus-minecraft-observability-extension) for that extension up to date as a bit of a reference for some extension scenarios.
 Apart from the chicken-proliferation-jokes, this is my favourite bit of that talk, and it's not in other resources, so I've included it here as an animation. 
