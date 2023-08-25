@@ -40,8 +40,8 @@ Many collectors hybridise these two approaches, combining frequent sweeping with
 
 Copying collectors divide the heap into two areas, a to-space and from-space. All objects are allocated in the to-space. When the new space is full, a collection is performed and the spaces are swapped. All reachable objects in the to-space are copied to the from-space, which is declared the new to-space. New allocation is then performed in the new to-space.
 
-Copying collectors have a number of advantages over marking collectors. Because copying is done  
-in the same phase as tracing, it is not necessary to maintain a space-consuming list of which objects have been marked. Because no sweep is performed, the cost of the collection is proportional only to the amount of live data.
+Copying collectors have a number of advantages over marking collectors. 
+Because copying is done in the same phase as tracing, it is not necessary to maintain a space-consuming list of which objects have been marked. Because no sweep is performed, the cost of the collection is proportional only to the amount of live data.
 
 If most objects are unreachable, a copying collecton can be very efficient. The corollary is that if most objects remain reachable, or if some very large objects remain reachable, the collection will be woefully inefficient, because a large amount of memory will need to be copied every collection.
 
