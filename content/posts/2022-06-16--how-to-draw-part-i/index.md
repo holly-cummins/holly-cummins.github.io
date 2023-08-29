@@ -7,7 +7,7 @@ type: blog
 ---
 
 I've never been particularly artistic. As a kid, like all young children, I liked drawing.
-At some point, probably once I started having art class in school, it became obvious to me I wasn't very good at it_.
+At some point, probably once I started having art class in school, it became obvious to me I wasn't very good at it.
 My more talented peers were producing beautiful pictures, and clumsy me was drawing lumpy figures that only barely looked human.
 Luckily, I knew the solution. I gave up. 
 
