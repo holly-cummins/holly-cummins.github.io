@@ -6,6 +6,8 @@ event: "YOW!"
 location: "London, UK"
 slides:
  url: https://speakerdeck.com/hollycummins/the-importance-of-fun-in-the-workplace-f8bddead-2ffc-443d-a847-a48fa3d671e0
+video:
+ url: https://www.youtube.com/watch?v=trsDnGh-x4U
 tweets:
   - https://twitter.com/Digitaldaze_io/status/1597605058669051905?s=20&t=leNcHEygqTRGCiw7lryvPw
   - https://twitter.com/AimForTheMoon_/status/1597598053090959360?s=20&t=leNcHEygqTRGCiw7lryvPw
