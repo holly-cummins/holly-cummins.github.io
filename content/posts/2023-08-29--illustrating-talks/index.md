@@ -26,7 +26,13 @@ Images in presentations are valuable in several different ways, and the best par
 
 Images are great, but there’s a problem. For most of us, making new words is easy, but making new pictures is hard. Like, really hard.
 
-The good news is, this doesn't need to stop you having lots of pictures in your talks. Here's how I source visual content:
+The good news is, this doesn't need to stop you having lots of pictures in your talks. You have three kinds of visual content available: 
+
+- Icons
+- Drawings
+- Photos
+
+Here's how I source them, along with some of their advantages and disadvantages.
 
 ### Icons
 
@@ -39,6 +45,8 @@ Don’t underestimate the effectiveness of a single over-sized icon or emoji on 
 ### Drawings
 
 Drawing it yourself is a great way of generating images for a presentation. “But I can’t draw,” I hear you wail. I can’t draw either, but [practice](https://hollycummins.com/how-to-draw-part-i/) and a [series of cheat’s techniques](https://hollycummins.com/how-to-draw-part-ii/) have helped me a lot. 
+
+![A purple horse running away from a barn door](horse.png)_A 2022 slide about the impact of heavy governance on IT provisioning behaviour, illustrated by me. Being able to draw something was useful, because it would have been pretty hard to find a photo of a horse running away from an open barn door. The fact that I could sneakily make the escaping horse look a bit like a Charity-Majors-approved My Little Pony was a bonus._
 
 But honestly, drawing skill isn’t necessary. Some of the most effective presentation’s I’ve seen are Felienne Hermans’s. I don’t think she’d mind me saying that her drawings are not especially skilled. 
 
@@ -91,7 +99,7 @@ The fire icon reinforces the meaning of the fire photo:
 On the other hand, in this slide the photo and icon are complementary. The photo contributes one piece of information (what a Bramble Cay melomys looks like, because people are unlikely to know), and
 the icon adds extra context (uh oh, it's extinct). 
 
-![A furry small animal with a skull icon layered over top](extinction.png)
+![A small furry animal with a skull icon layered over top](extinction.png)
 
 
 ## Image selection 
@@ -102,4 +110,12 @@ Figuring out what image goes with what concept is hard! Sometimes I have a good 
 
 Some topic-and-image associations have become clichéed. Instead of choosing a predictable image, can you find something unexpected which will add an extra layer of meaning, or make the audience laugh with an incongruous association? For example, if the topic is “working at home”, the obvious image might be a desk with a computer on it, but maybe you could show an unmade bed, or a pair of comically fluffy slippers. When I talk about under-utilized servers, I don’t show pictures of data centres or load meters; instead, I take the opportunity to draw cute zombies.
 
-For a deep dive into drawing and visual communications, I loved _Understanding Comics_ by Scott McCloud. 
+![An icon-style zombie](line-zombies.png)_A hand-drawn zombie from 2020. Notice that the visual style combines the shape of icons and with a rough hand-drawn finish. I traced icons to get some of the proportions right._
+
+Here's a later zombie illustration, conveying the same idea in a different style.
+![An icon-style zombie](green-zombies.png)_Another zombie, from 2023. It looks a little bit like a grinch, which wasn't my intention, but at least it makes people smile._
+
+Have I mentioned already that I'm not an expert on this? I try to draw a zombie and end up with a grinch. 
+I've shared the patterns that work for me, but styles evolve, so I expect in a few years time I'd have a different set of recommendations. 
+I try to keep experimenting, and when I see a visually effective talk, I try and figure out what makes it work. 
+As a final reference, _Understanding Comics_ by Scott McCloud is notionally about comic books, but it's actually a great deep dive into drawing and visual communication. I loved it. 
