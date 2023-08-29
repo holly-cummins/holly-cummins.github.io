@@ -22,6 +22,9 @@ Images in presentations are valuable in several different ways, and the best par
 - Hold an audience’s attention by having something change on screen
 - Cue for the presenter (me) about what I should be saying
 
+![A man pointing to an illustrated slide](illustrated-talk.png)_Pictures make talks better. Fact._
+
+
 ## Sourcing images
 
 Images are great, but there’s a problem. For most of us, making new words is easy, but making new pictures is hard. Like, really hard.
