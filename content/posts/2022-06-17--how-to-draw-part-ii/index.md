@@ -1,7 +1,7 @@
 ---
 title: "How to draw when you can’t draw, part ii: no really, how to draw"
 author: holly cummins
-category: meta
+category: presentation skills
 cover: book.png
 type: blog
 ---

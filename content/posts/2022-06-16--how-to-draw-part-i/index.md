@@ -2,7 +2,7 @@
 title: "How to draw when you can’t draw, part i: a growth mindset story"
 cover: snorkelling.png
 author: holly cummins
-category: meta
+category: presentation skills
 type: blog
 ---
 
