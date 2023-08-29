@@ -1,6 +1,6 @@
 ---
 title: "Where Can I Get Pictures for Talks?"
-cover: blank.png
+cover: illustrated-talk.png
 author: holly cummins
 category: presentation skills
 type: blog
@@ -79,7 +79,7 @@ What happens if you’re trying to stick to a style, but you can’t find what y
 
 I think we can all agree this is *not* the [Duke, the Java mascot](https://wiki.openjdk.org/display/duke/Gallery) with grey hair and a beard:
 
-![An unrecognisable logo](dalle-java.png)_DALL-E output for "A version of the Java Duke Mascot, but with grey hair and a beard"_
+![An unrecognisable logo](dalle-java.png)_DALL-E output for "A version of the Java Duke Mascot, but with grey hair and a beard". Yes, the text appears to say JAJAAVVE._
 
 On the other hand, if you need a photo of a duck wearing a fedora, you won’t do better than this unless you’re a skilled photographer with access to well-trained ducks:
 
@@ -106,7 +106,7 @@ the icon adds extra context (uh oh, it's extinct).
 
 We’ve talked a lot about how stuff looks. But what about the actual *content* of the pictures?
 
-Figuring out what image goes with what concept is hard! Sometimes I have a good idea when drafting out the talk, but often I leave a ‘TODO graphic here’ and then wait for inspiration. When choosing an image, think about the purposes of the image; does it need to convey extra meaning, or is it just there to entertain the audience?
+Figuring out what image goes with what concept is hard! Sometimes I have a good idea when drafting out the talk, but more often I draw a blank (do you see what I did there?!). When I'm stuck, I just leave a ‘TODO graphic here’ and then go running until inspiration hits. When choosing an image, think about the purposes of the image; does it need to convey extra meaning, or is it just there to entertain the audience?
 
 Some topic-and-image associations have become clichéed. Instead of choosing a predictable image, can you find something unexpected which will add an extra layer of meaning, or make the audience laugh with an incongruous association? For example, if the topic is “working at home”, the obvious image might be a desk with a computer on it, but maybe you could show an unmade bed, or a pair of comically fluffy slippers. When I talk about under-utilized servers, I don’t show pictures of data centres or load meters; instead, I take the opportunity to draw cute zombies.
 
@@ -115,7 +115,8 @@ Some topic-and-image associations have become clichéed. Instead of choosing a p
 Here's a later zombie illustration, conveying the same idea in a different style.
 ![An icon-style zombie](green-zombies.png)_Another zombie, from 2023. It looks a little bit like a grinch, which wasn't my intention, but at least it makes people smile._
 
-Have I mentioned already that I'm not an expert on this? I try to draw a zombie and end up with a grinch. 
+Have I mentioned already that I'm not an expert on this? I attempt to draw a zombie and end up with a grinch. 
 I've shared the patterns that work for me, but styles evolve, so I expect in a few years time I'd have a different set of recommendations. 
-I try to keep experimenting, and when I see a visually effective talk, I try and figure out what makes it work. 
+I aim to keep experimenting, and when I see a visually effective talk, I try and figure out what makes it work. 
+There's no right answer, but we can always learn from others.
 As a final reference, _Understanding Comics_ by Scott McCloud is notionally about comic books, but it's actually a great deep dive into drawing and visual communication. I loved it. 
