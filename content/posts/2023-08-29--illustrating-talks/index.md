@@ -67,7 +67,7 @@ Those cautions aside, photos are still good! Remember, [I can’t draw](https://
 
 I usually get my photos from [Unsplash](http://unsplash.com). It’s also worth considering stock images, which can be pretty affordable. Be cautious with other sources, which are vulnerable to [copyright predators](https://pluralistic.net/2023/04/01/pixsynnussija/#pilkunnussija) or the opposite, image theft. Also be cautious of also Unsplash images with identifiable people in them (where a model release might be needed).    
 
-I sometimes also use Flickr, but check the license carefully. It’s best to search by license, and then search by “Commercial Use Allowed”. That should bring up images with Creative Commons Attributions >4  licenses; but be careful to attribute correctly. 
+I sometimes also use [Flickr](https://www.flickr.com/search/?license=4%2C5%2C6%2C9%2C10), but check the license carefully. It’s best to search by license, and then search by “Commercial Use Allowed”. That should bring up images with Creative Commons Attributions licenses; but be careful to attribute correctly. I usually avoid Creative Commons Share Alike for my presentations, since I don't necessarily want to release them under a creative commons license. 
 
 
 ## Visual consistency
