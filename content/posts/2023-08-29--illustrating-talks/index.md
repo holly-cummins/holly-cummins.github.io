@@ -44,7 +44,7 @@ Don’t underestimate the effectiveness of a single over-sized icon or emoji on 
 
 ### Drawings
 
-Drawing it yourself is a great way of generating images for a presentation. “But I can’t draw,” I hear you wail. I can’t draw either, but [practice](https://hollycummins.com/how-to-draw-part-i/) and a [series of cheat’s techniques](https://hollycummins.com/how-to-draw-part-ii/) have helped me a lot. 
+Drawing it yourself is a great way of generating images for a presentation. “But I can’t draw,” I hear you wail. I can’t draw either, but [practice](https://hollycummins.com/how-to-draw-part-i/) and a [series of cheat’s techniques](https://hollycummins.com/how-to-draw-part-ii/) have helped me a lot. I've written up my tips for getting started with drawing in ["How to Draw When You Can't Draw".](https://hollycummins.com/how-to-draw-part-i/)
 
 ![A purple horse running away from a barn door](horse.png)_A 2022 slide about the impact of heavy governance on IT provisioning behaviour, illustrated by me. Being able to draw something was useful, because it would have been pretty hard to find a photo of a horse running away from an open barn door. The fact that I could sneakily make the escaping horse look a bit like a Charity-Majors-approved My Little Pony was a bonus._
 
@@ -61,6 +61,9 @@ The second reason is that photos have a lot of detail, and detail can distract t
 The final argument against photos is that they’re pretty static. I like to use lots of animations and builds in my decks. You can’t build up layers or use animations to tell a story with photos. Well, you can’t do that unless you’re a photoshop wizard, which I am not.
 
 Those cautions aside, photos are still good! Remember, [I can’t draw](https://hollycummins.com/how-to-draw-part-i/), so some things are just too hard to represent in a drawing. Icons lack _all_ detail (by design), so they’re no good for representing  complex things. 
+
+![Stairs painted to look like a piano in Tokyo](piano-stairs.png)_It would be almost impossible to communicate what piano stairs look like without a photo._
+
 
 I usually get my photos from [Unsplash](http://unsplash.com). It’s also worth considering stock images, which can be pretty affordable. Be cautious with other sources, which are vulnerable to [copyright predators](https://pluralistic.net/2023/04/01/pixsynnussija/#pilkunnussija) or the opposite, image theft. Also be cautious of also Unsplash images with identifiable people in them (where a model release might be needed).    
 
@@ -91,15 +94,14 @@ Although image generation is cool, be aware that generating images is energy int
 ### Hybrid styles 
 
 Sometimes it just doesn’t work to stick to only-photos or only-drawings. It can be quite effective to layer line drawings or icons over photos. It can also look fresher and more modern than plain photos.
-For an example, take a look at [the first image in this Noun Project article](https://blog.thenounproject.com/explore-the-unusual-april-fools/), or this slide from a 2019 talk of mine. 
-The fire icon reinforces the meaning of the fire photo:
+For an example, take a look at [the first image in this Noun Project article](https://blog.thenounproject.com/explore-the-unusual-april-fools/), or this slide, where the fire icon reinforces the meaning of the fire photo:
 
-![A fire icon layered on a fire photo](fires.png)
+![A fire icon layered on a fire photo](fires.png)_A slide from a 2019 talk. The icon and image reinforce each other._
 
 On the other hand, in this slide the photo and icon are complementary. The photo contributes one piece of information (what a Bramble Cay melomys looks like, because people are unlikely to know), and
 the icon adds extra context (uh oh, it's extinct). 
 
-![A small furry animal with a skull icon layered over top](extinction.png)
+![A small furry animal with a skull icon layered over top](extinction.png)_Another slide from the same talk. The icon and image each tell a different part of the story._
 
 
 ## Image selection 
