@@ -52,7 +52,7 @@ Don’t underestimate the effectiveness of a single over-sized icon or emoji on 
 -  [FontAwesome](https://fontawesome.com/search?m=free&o=r) (free, if you stick to the free set)
 -  IBM’s [Carbon design icons](https://carbondesignsystem.com/guidelines/icons/library/) (free, but limited selection)
 
-![A home office desk, with a computer showing a slide with a large icon of a person next to an aquarium](desk-and-stories-slide.png)_The Noun Project have icons for everything, including aquariums. For this slide, I combined two oversized icons. The aquarium comes in because I was talking about a project where we used AI to count fish._
+![A home office desk, with a computer showing a slide with a large icon of a person next to an aquarium](desk-and-stories-slide.png)_The Noun Project have icons for everything, including aquariums. For this slide, I combined two oversized icons. The aquarium comes in because I was talking about a project where we used AI to count pet fish._
 
 
 ### Drawings
