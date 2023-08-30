@@ -46,7 +46,7 @@ Here's how I source them, along with some of their advantages and disadvantages.
 
 ### Icons
 
-Don’t underestimate the effectiveness of a single over-sized icon or emoji on a slide. Here are some options:
+Don’t underestimate the effectiveness of a single over-sized icon or emoji on a slide. Here are some places to find them:
 -  Your operating system’s built-in emojis (free, but limited)
 -  [The Noun Project](https://thenounproject.com/) (icons need to be paid for, or attributed in really big text; but a subscription can be worth it, because there’s a huge selection)
 -  [FontAwesome](https://fontawesome.com/search?m=free&o=r) (free, if you stick to the free set)
