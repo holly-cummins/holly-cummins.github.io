@@ -54,6 +54,7 @@ Don’t underestimate the effectiveness of a single over-sized icon or emoji on 
 
 ![A home office desk, with a computer showing a slide with a large icon of a person next to an aquarium](desk-and-stories-slide.png)_The Noun Project have icons for everything, including aquariums. For this slide, I combined two oversized icons. The aquarium comes in because I was talking about a project where we used AI to count pet fish._
 
+Note that icons are *not* the same as clip art. Tastes change; at the moment, icons look stylish, and clip art looks [unacceptably dated](https://www.duarte.com/cliche-of-the-week-clip-art/). 
 
 ### Drawings
 
