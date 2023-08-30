@@ -124,7 +124,7 @@ Figuring out what image goes with what concept is hard! Sometimes I have a good 
 
 Some topic-and-image associations have become clichéed. Instead of choosing a predictable image, can you find something unexpected which will add an extra layer of meaning, or make people laugh with an incongruous association? For example, if the topic is “working at home”, the obvious image might be a desk with a computer on it, but maybe you could show an unmade bed, or a pair of comically fluffy slippers. When I talk about under-utilized servers, I don’t show pictures of data centres or load meters; instead, I take the opportunity to draw cute zombies.
 
-![An icon-style zombie](line-zombies.png)_A slide from 2020, with a hand-drawn zombie. Notice that the visual style combines the shape of icons and with a rough hand-drawn finish. I traced icons to get some of the proportions right._
+![An icon-style zombie](line-zombies.png)_A slide from 2020, with a hand-drawn zombie. Notice that the visual style combines the shape of icons and a rough hand-drawn finish. I traced icons to get some of the proportions right._
 
 Here's a later zombie illustration, conveying the same idea in a different style.
 ![An icon-style zombie](green-zombies.png)_Another zombie slide, from 2023. The zombie looks a little bit like a grinch, which wasn't my intention, but at least it makes people smile._
