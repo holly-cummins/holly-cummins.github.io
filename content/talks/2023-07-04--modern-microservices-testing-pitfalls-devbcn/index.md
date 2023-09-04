@@ -10,6 +10,8 @@ code:
     url: "https://github.com/edeandrea/pact-quarkus-wookie-carpet-demo"
 slides:
   url: https://speakerdeck.com/hollycummins/avoiding-common-pitfalls-with-modern-microservices-testing?slide=12
+video:
+  url: 
 resource:
   - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
