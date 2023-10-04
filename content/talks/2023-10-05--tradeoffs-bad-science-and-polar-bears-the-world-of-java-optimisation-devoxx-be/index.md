@@ -5,6 +5,8 @@ category: java
 type: talk
 event: Devoxx
 location: Antwerp
+slides:
+  url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-9d47f27b-0aa7-4973-bc62-74d5e9497eeb
 
 ---
 
