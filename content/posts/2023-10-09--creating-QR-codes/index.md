@@ -1,6 +1,6 @@
 ---
 title: "Creating Custom QR Codes"
-cover: myqr.png
+cover: portrait-qr.png
 author: holly cummins
 category: presentation skills
 type: blog
@@ -135,7 +135,10 @@ private static BufferedImage addOverlayImage(Graphics2D g, BufferedImage qrImage
 
 Note that this code doesn't scale the image down, so if you pass in a huge image, you wouldn't see any QR code under it. 
 I did that the first time I was testing, and got confused! 
-If the image is medium-sized you'll see a QR code, but it won't work properly. You can play around with finding the right size for the image. How big you can go before hitting errors will depend a bit on the exact url you're encoding and also on the image you're embedding.
+If the image is medium-sized you'll see a QR code, but it won't work properly. You can play around with finding the right size for the image. How big you can go before hitting errors will depend a bit on the exact url you're encoding and also on the image you're embedding. 
+You can also play around with transparency, so that your image has a shape and not all parts are opaque. 
+That can looks cool, and lets you go bigger.
+
 
 Finally, the last piece of code takes care of reading command-line arguments and kicking off the image creation. 
 
