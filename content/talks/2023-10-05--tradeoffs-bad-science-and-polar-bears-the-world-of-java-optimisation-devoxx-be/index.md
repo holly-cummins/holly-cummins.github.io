@@ -7,6 +7,8 @@ event: Devoxx
 location: Antwerp
 slides:
   url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-9d47f27b-0aa7-4973-bc62-74d5e9497eeb
+video:
+  url: https://www.youtube.com/watch?v=PvZaDo_I21g
 tweets:
   - https://mastodon.online/@jqno/111181495952923092
   - https://fosstodon.org/@MBoegie/111181335692242676
