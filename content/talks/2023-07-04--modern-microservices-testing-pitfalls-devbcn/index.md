@@ -11,7 +11,7 @@ code:
 slides:
   url: https://speakerdeck.com/hollycummins/avoiding-common-pitfalls-with-modern-microservices-testing?slide=12
 video:
-  url: 
+  url: https://www.youtube.com/watch?v=yMi5Xyf7PDc
 resource:
   - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
