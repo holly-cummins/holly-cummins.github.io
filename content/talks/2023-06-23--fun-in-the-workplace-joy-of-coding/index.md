@@ -6,6 +6,8 @@ event: "Joy of Coding"
 location: Rotterdam
 slides:
   url: https://speakerdeck.com/hollycummins/the-importance-of-fun-in-the-workplace-af517fbc-6471-4a92-98de-fbf30c2da10b
+video:
+  url: https://www.youtube.com/watch?v=33S8UPQF_fI
 tweets:
   - https://twitter.com/GarthGilmour/status/1672229490196467713?s=20
   - https://twitter.com/MaritvanDijk77/status/1672192144373686272?s=20s
