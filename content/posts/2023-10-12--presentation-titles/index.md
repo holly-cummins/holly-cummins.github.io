@@ -1,5 +1,5 @@
 ---
-title: "Eight Presentation Title Mistakes We've All Made"
+title: "Eight Talk Title Mistakes We've All Made"
 cover: speaker-your-formula.png
 author: holly cummins
 category: presentation skills
@@ -17,7 +17,7 @@ But because it's only sensible to hold off writing my talk until after it’s be
 Even in the good case, I only know what the talk’s about once I’ve finished all the slides. 
 In the bad case, I have to deliver a talk a few times before I properly figure out what my point even is, but that’s a topic for another post.
 
-Just because I’m bad at talk titles myself doesn’t mean I don’t notice other people’s mistakes. So here’s my “do as I say, not as a I do” guide to choosing a good title. 
+Just because I’m bad at talk titles myself doesn’t mean I don’t notice other people’s mistakes. So here’s my “do as I say, not as I do” guide to choosing a good title. 
 
 
 ## Your title has to work hard, because people will select a talk based only on the title 
@@ -69,7 +69,9 @@ Sometimes speakers don’t just forget to include the topic of their talk, they 
 
 ## Don’t have the same talk titles as everyone else 
 
-Now we get to the part where I contradict all of my previous advice. That’s why writing talk titles is hard! Because titles are trying to do a lot in a small number of characters, many of them pretty bland. After all, if you’re not allowed to have plays on words, or words which aren’t working hard, and you want to avoid offending anyone, you’re not left with much space for colour. So then conference programmes end up with columns of “Lessons learned doing [process]”, “Lessons learned: [other process]”, “[Technology]: [claimed benefit]”, “[Other technology]: [other claimed benefit]”. I have written many of those utilitarian titles myself. 
+Now we get to the part where I contradict all of my previous advice. That’s why writing talk titles is hard! Because titles are trying to do a lot in a small number of characters, many of them pretty bland. After all, if you’re not allowed to have plays on words, or words which aren’t working hard, and you want to avoid treading in dark political undercurrents, you’re not left with much space for colour. 
+So then conference programmes end up with columns of “Lessons learned doing [process]”, “Lessons learned: [other process]”, “[Technology]: [claimed benefit]”, “[Other technology]: [other claimed benefit]”. 
+I have written many of those utilitarian titles myself. 
 
 It’s hard, but it _is_ possible to do better. Devoxx recently had a talk called “Understanding Probabilistic Data Structures with 112,092 UFO Sightings”. This is a great title. There’s a clear topic and objective: how to work with probabilistic data structures. Even the ‘understanding’ part is doing work; it suggests this talk is aimed at a beginner audience, who don’t already understand probabilistic data structures. And then we move on to the colour. Including a concrete number makes the title memorable: if the it had been  “Understanding Probabilistic Data Structures with UFO Sightings” it would not have been as strong. Finally, the title surfaces the fact that there will be a demo (good), and the demo domain is likely to be flying-saucer-entertaining (excellent) and pop-psychology-informative (unexpected bonus!). It would have been a shame to keep such a great demo topic buried in the abstract. But the most important thing about the title is that every single word in the title is adding something to our understanding of what to expect from the talk.
 
