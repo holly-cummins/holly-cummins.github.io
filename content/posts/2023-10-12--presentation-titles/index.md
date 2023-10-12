@@ -1,5 +1,5 @@
 ---
-title: "Eight Talk Title Mistakes We've All Made"
+title: "8 Talk Title Mistakes We've All Made"
 cover: speaker-your-formula.png
 author: holly cummins
 category: presentation skills
