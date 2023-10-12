@@ -41,7 +41,7 @@ The other problem with “Take a walk on the client side” as a talk title is t
 
 A talk title's most important job is to tell the audience what they’re going to get out of the session, and it doesn't have many words to do it in. 
 If all but one or two words of the title are just recycling something from J K Rowling or Tolkien or Lou Reed or whoever, it leaves very few words to explain what the talk is about. 
-For example, “Does my bus look big in this?” ([true talk title](https://www.infoq.com/presentations/soa-without-esb/)), there’s only one word in the whole title doing real work. That’s just not enough information density. 
+For example, in “Does my bus look big in this?” ([true talk title](https://www.infoq.com/presentations/soa-without-esb/)), there’s only one word in the whole title doing real work. That’s just not enough information density. 
 
 I get why people write this type of light-hearted title. When we choose a witty riff on a well-known phrase, we _are_ trying to communicate what people will get out of the session, but in an indirect way. We’re saying “what you’ll get out of this talk is <mumble> something vague about [topic], and also a lot of entertainment, because I am Witty and Fun.” 
 That’s a _totally_ legitimate objective for a conference talk. However, it’s a high bar. I get frustrated if I go to a talk with a fun title, and the talk turns out not to be a-laugh-a-minute. 
@@ -55,7 +55,7 @@ No, you don't.
 
 ## Avoid flab 
 
-Many years ago I had a talk called “OSGi and Java EE: a match made in a … box?”. The information density is kind of ok(ish), because three of four words (“OSGi”, “Java EE,” and “match”) are all doing work. However, “box” isn’t contributing any meaning at all. It was supposed to be adding humour, but in hindsight I think it only added confusion. If I’m honest, I got a bit stuck for a title and filled in the gap with words that seemed to fit, instead of really thinking about what point I was trying to make.
+Many years ago I had a talk called “OSGi and Java EE: a match made in a … box?”. The information density is kind of ok(ish), because three of four words (“OSGi”, “Java EE,” and “match”) are all doing work. However, “made in a box” isn’t contributing any meaning at all. It was supposed to be adding humour, but in hindsight I think it only added confusion. If I’m honest, I got a bit stuck for a title and filled in the gap with words that seemed to fit, instead of really thinking about what point I was trying to make.
 
 Recently, I spotted (but did not go to) a talk called “Take your shot of Vitamin!” Vitamin is not a well-known tool (I had to look it up, as would most people). “Take your shot of” isn’t doing anything to help explain what Vitamin is. Something like “How Decathlon Improve Productivity with the Vitamin Design System” is wordy, and a bit clunky, and deeply boring, but at least it would allow people to understand what the talk is about without having to read an abstract. Alternatively, “How Decathlon Improve Vitality with the Vitamin Design System” is a bit less generic, and it retains the original’s playing with the double meaning of ‘vitamin.’ 
 
@@ -69,13 +69,13 @@ Sometimes speakers don’t just forget to include the topic of their talk, they 
 
 ## Don’t have the same talk titles as everyone else 
 
-This advice contradicts a lot of my previous advice. That’s why writing talk titles is hard! Because talk titles are trying to do a lot in a small number of characters, many of them pretty bland. After all, if you’re not allowed to have plays on words, or words which aren’t working hard, and you want to avoid offending anyone, you’re not left with much space for colour. So then conference programmes end up with columns of “Lessons learned doing [process]”, “Lessons learned: [other process]”, “[Technology]: [claimed benefit]”, “[Other technology]: [other claimed benefit]”. I have written many of those utilitarian titles myself. 
+Now we get to the part where I contradict all of my previous advice. That’s why writing talk titles is hard! Because titles are trying to do a lot in a small number of characters, many of them pretty bland. After all, if you’re not allowed to have plays on words, or words which aren’t working hard, and you want to avoid offending anyone, you’re not left with much space for colour. So then conference programmes end up with columns of “Lessons learned doing [process]”, “Lessons learned: [other process]”, “[Technology]: [claimed benefit]”, “[Other technology]: [other claimed benefit]”. I have written many of those utilitarian titles myself. 
 
 It’s hard, but it _is_ possible to do better. Devoxx recently had a talk called “Understanding Probabilistic Data Structures with 112,092 UFO Sightings”. This is a great title. There’s a clear topic and objective: how to work with probabilistic data structures. Even the ‘understanding’ part is doing work; it suggests this talk is aimed at a beginner audience, who don’t already understand probabilistic data structures. And then we move on to the colour. Including a concrete number makes the title memorable: if the it had been  “Understanding Probabilistic Data Structures with UFO Sightings” it would not have been as strong. Finally, the title surfaces the fact that there will be a demo (good), and the demo domain is likely to be flying-saucer-entertaining (excellent) and pop-psychology-informative (unexpected bonus!). It would have been a shame to keep such a great demo topic buried in the abstract. But the most important thing about the title is that every single word in the title is adding something to our understanding of what to expect from the talk.
 
 Information theory can help us understand what’s wrong with many titles. The entropy of “Lessons learned doing [process]” is slightly higher than that of “Does my bus look big in this?”, but both have a pretty low [entropy](https://www.quantamagazine.org/how-claude-shannons-concept-of-entropy-quantifies-information-20220906/). That is, if you wrote a clever compressor-for-talk-titles that had access to a pop-culture-database, they’d both compress down pretty easily. There's a pretty obvious formula going on in both cases. On the other hand, any title including the phrase “112,092 UFO Sightings” will have a high entropy, because no other talk will have the number “112,092” in its title. (I checked on YouTube. There really are no others.) 
 
-Aim for high entropy -  find a way to add personality and surprise readers while _also_ adding meaning and without descending into cliché. If you find a way to do that, it’s is a total win. Share your tips with me?
+Aim for high entropy -  find a way to add personality and surprise readers while _also_ adding meaning and without descending into cliché. If you find a way to do that, it’s a total win. Share your tips with me?
 
 ![A series of ones and zeros](ones-zeros.png)
 
@@ -91,4 +91,4 @@ However, I do make exceptions. I wrote a talk that promised to be about testing 
 It's also a bit more informative about what's in the talk because it introduces the idea of co-benefits (what I call “the double win”). 
 Even if people don’t care about saving the world, there are other reasons to be green, like saving money. I talk about that a lot in the talk, so it makes sense to include it in the title.
 
-_I was prompted to write this after reading QCon’s excellent guidance for speakers about talk titles. Much of their advice is similar to what I’ve doled out myself over the years, but I re-used “Does my Bus look big in this?” from their document._
+_I was prompted to write this after reading QCon’s excellent guidance for speakers about talk titles. Much of their advice is similar to what I’ve doled out myself over the years, but I re-used “Does my Bus look big in this?” from their document. Thanks, QCon!_
