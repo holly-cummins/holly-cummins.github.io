@@ -84,7 +84,7 @@ So if there’s no one-stop website, what next? Once you have built a network of
 
 Helen Scott has written some great tips on doing [a good CFP submission](https://www.helenjoscott.com/2021/06/30/responding-to-a-developer-conference-cfp/). I don’t have much to add to what she wrote, apart from a plea for empathy with the programme committee. Remember that the programme committee are human, and are trying to juggle reviewing talks with their day job. Make their life easier. Don’t submit six proposals. Don’t submit proposals that are six variations on the same theme – the reviewers don’t want to be flipping back and forth between the tabs trying to figure out what the differences are. Do give them links to videos of the same talk, if you have it, or videos of other talks. If you don’t have videos, share links to writing, and if you don’t have that, explain what speaking experience you have. 
 
-
+(Actually, I do have one thing to add to Helen's excellent advice - here's some advice on [crafting a good title](/presentation-titles).)
 
 ## How do I get invited to invite-only conferences?
 
