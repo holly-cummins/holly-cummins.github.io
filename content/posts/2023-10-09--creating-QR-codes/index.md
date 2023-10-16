@@ -39,6 +39,8 @@ make it executable, install jbang if you don't have it already, and then run
 ./QrCode.java <your-url> <path-to-a-tiny-image-to-embed> <output-file>
 ``` 
 
+If you want an even easier execution experience, have a look at how Max Anderson [uses JBang aliases to invoke the script.](https://xam.dk/blog/qrcode-rabbit-hole-with-monkeys/)
+
 What's under the covers?
 
 This code at the top of the class file declares the dependencies (with no build file, because of the magic of jbang), and also handles launching:
@@ -139,6 +141,7 @@ If the image is medium-sized you'll see a QR code, but it won't work properly. Y
 You can also play around with transparency, so that your image has a shape and not all parts are opaque. 
 That can looks cool, and lets you go bigger.
 
+(My code doesn't work with SVGs, but Max Anderson has [extended it](https://xam.dk/blog/qrcode-rabbit-hole-with-monkeys/) to support SVGs, and also to adjust the image size in the code itself. Go have a look, it's nice!)
 
 Finally, the last piece of code takes care of reading command-line arguments and kicking off the image creation. 
 
