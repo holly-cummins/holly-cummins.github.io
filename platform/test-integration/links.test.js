@@ -63,7 +63,8 @@ describe("site links", () => {
       "https://owlcation.com/humanities/Novels-Inspired-by-Dreams", // Seems to have a trigger-happy rate limiter
       "https://community.element14.com/technologies/open-source-hardware/f/forum/21938/quick-start-of-pcduino-without-a-hdmi-monitor-and-serial-debug-cable", // Does not work will with linkinator
       "https://trishagee.com/", // Can return 0 to some hosts
-      "https://trishagee.com/2014/03/20/atom-to-hugo/"
+      "https://trishagee.com/2014/03/20/atom-to-hugo/",
+      "https://headrush.typepad.com/creating_passionate_users/2006/12/tech_tshirts_ar.html"
     ]; // We know these links are good, and we want to not hit the rate limiters since they appear everywhere
     // NOTE: The Manning, Medium, and GitHub D is For Duck is fictitious by design, so exclude them
     // DO NOT search and replace these with your own name
