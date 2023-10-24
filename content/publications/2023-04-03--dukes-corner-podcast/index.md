@@ -3,7 +3,7 @@ title: "Duke's Corner podcast"
 url: https://podcasts.apple.com/us/podcast/holly-cummins-in-the-engine-room-of-java/id1200664984?i=1000606778299
 cover: duke_corner_podcast_3000x3000.png
 author: Jim Grisanzio and holly cummins
-category: allsorts
+category: all sorts
 type: podcast
 ---
 
