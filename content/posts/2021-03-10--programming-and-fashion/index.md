@@ -46,7 +46,7 @@ This is me, just before my interview with IBM, doing a quantum computing experim
 
 [![A picture of me with pink hair, in a BBC article about science.](hollybbc.png)](http://news.bbc.co.uk/1/hi/education/374507.stm)
 
-I have such admiration for people like Trisha Gee, who are brave enough to bring their whole [short-skirted self](https://dzone.com/articles/should-you-notice-im-woman) to work, and who [write thoughtfully](https://trishagee.github.io/post/st_what_to_wear/) about it. Folks like Chloe Condon and April Speight go further and directly link their coding and fashion interests in their public persona. Check out April's twitter handle.
+I have such admiration for people like Trisha Gee, who are brave enough to bring their whole [short-skirted self](https://trishagee.com/2014/02/10/should_you_notice_im_a_woman_should_i_care/) to work, and who [write thoughtfully](https://trishagee.github.io/post/st_what_to_wear/) about it. Folks like Chloe Condon and April Speight go further and directly link their coding and fashion interests in their public persona. Check out April's twitter handle.
 
 [![Tweet: what a developer looks like.](vogueandcodedevlookslike.png)](https://twitter.com/vogueandcode/status/1364241435466231810?s=20)
 
