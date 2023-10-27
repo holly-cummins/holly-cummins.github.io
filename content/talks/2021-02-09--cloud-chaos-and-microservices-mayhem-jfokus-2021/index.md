@@ -7,7 +7,7 @@ slides:
 code:
   - title: "Demo application"
     url: "https://github.com/IBM/house-of-microservices-openliberty-contract-testing-sample"
-event: "JFokus"
+event: "Jfokus"
 cover: large-0.jpg
 
 ---

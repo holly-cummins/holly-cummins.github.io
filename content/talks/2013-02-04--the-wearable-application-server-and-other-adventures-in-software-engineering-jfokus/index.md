@@ -7,7 +7,7 @@ slides:
 resource:
   - title: "OmegaPoint blog (in Swedish)"
     url: "http://blog.omegapoint.se/2013/02/the-wearable-application-server-and.html"
-event: "JFokus"
+event: "Jfokus"
 author: holly cummins
 location: "Stockholm, Sweden"
 video:

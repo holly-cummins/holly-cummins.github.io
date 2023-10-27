@@ -4,7 +4,7 @@ category: "osgi"
 title: "OSGi vs Spaghetti - Part II, The Enterprise strikes back"
 slides:
   url: "https://noti.st/holly-cummins/x12Tur/osgi-vs-spaghetti-part-ii-the-enterprise-strikes-back"
-event: "JFokus"
+event: "Jfokus"
 location: "Stockholm, Sweden"
 author: "holly cummins"
 cover: large-0.jpg
