@@ -30,7 +30,10 @@ Why is 'vroom model' not finding anything? Two reasons:
 - I index the titles of externally hosted content such as talks, but not the contents. I should sort that out, but it's a bit involved.
 - I am an idiot, and gave my model a un-searchable name. I didn't actually call my model 'vroom model,' I called it 'vrrrooooom model'. Or perhaps it was 'vrooooom' model. Or maybe 'vrrooom model'? The number of 'r's and 'o's in 'vrrrooooooom' is totally non-deterministic. That looks cute on a slide, but is hopeless for trying to find it by text search. When I looked, I discovered that I've used several different spellings, even in my own writing. More evidence, if any were needed, that naming is the hardest problem in computer science.
 
-# Ok but what is The Vrrroooooooooom Model?
+How hard is naming? Well, it turns out there already _is_ something called the Vroom Model (one 'r', two 'o's). It was invented in 1973 by Victor Vroom, working alongside Phillip Yetton and Arthur Jago. 
+The original Vroom Model, or, to be more complete, [Vroom-Yetton-Jago Normative Decision Model](https://en.wikipedia.org/wiki/Vroom–Yetton_decision_model) is about decision making, not about sustainability. 
+
+# Ok but what is Holly's Vrrroooooooooom Model?
 
 While we're here, I'll explain. Calculating carbon emissions is important, but hard. 
 Sometimes it's important to be accurate, but if you're optimising, you don't need a 
@@ -87,3 +90,4 @@ have a [lower energy consumption](https://www.redhat.com/en/resources/greener-ja
 I think we can take a lot of encouragement from both the vroom model and the economic model. 
 Everybody likes low bills and fast software. 
 Cheap and speedy IT is its own reward, but the economic and vroom models tell us that it is also _green_. Result. 
+
