@@ -8,13 +8,13 @@ type: blog
 
 # TL;DR
 
-If you're looking for the talk where I describe the Vroom Model, the best source is this [GOTO Aarhus talk](five-tricks-making-your-applications-greener-goto-aarhus/). 
+If you're looking for the talk where I describe the Vroom Model, the best source is this [GOTO Aarhus talk](/five-tricks-making-your-applications-greener-goto-aarhus). 
 
-You might also like to browse everything I have about [sustainability](category/sustainability). 
+You might also like to browse everything I have about [sustainability](/category/sustainability). 
 
 # Background 
 
-I use [Algolia](https://www.algolia.com/) in my [site stack](tech-stack). 
+I use [Algolia](https://www.algolia.com/) in my [site stack](/tech-stack). 
 It's one of the more pointless parts of the site, because it doesn't get used much. 
 Every week Algolia mails me to tell me that no one has searched for anything.
 
