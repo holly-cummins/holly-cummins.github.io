@@ -84,6 +84,6 @@ Going beyond languages to frameworks, we see a similar pattern with Quarkus.
 Applications built on top of Quarkus tend to have a [higher throughput](https://www.redhat.com/en/resources/mi-quarkus-lab-validation-idc-analyst-paper), and they also 
 have a [lower energy consumption](https://www.redhat.com/en/resources/greener-java-applications-detail). 
 
-I think both the vroom model and the economic model are very encouraging. 
+I think we can take a lot of encouragement from both the vroom model and the economic model. 
 Everybody likes low bills and fast software. 
 Cheap and speedy IT is its own reward, but the economic and vroom models tell us that it is also _green_. Result. 
