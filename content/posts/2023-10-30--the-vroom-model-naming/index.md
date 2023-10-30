@@ -56,7 +56,7 @@ The proper name is "economic input-output life cycle assessment."
 That's a bit of a mouthful, which is why Adrian calls it the economic model. 
 In the simplest terms, if you reduce your company's cloud bill, or data centre bill, or electricity bill, 
 you're probably reducing your cloud footprint. 
-This only works if you keep everything else the same; you can't just shift consumption from one account to another and claim a win, or move to a cheap-and-dirty supplier and claim a win. 
+This only works if you keep everything else the same; you can't just shift consumption from one account to another and claim a win, or move to a cheap-but-polluting supplier and claim a win. 
 
 ## The Vrrrrrroooom Model
 
