@@ -15,7 +15,7 @@ Most of us who work with software spend _a lot_ of effort trying to keep our app
 
 ## Ryuk and the god of death
 
-But you know what? Death is a necessary fact of life, _especially_ in the land of bits and bytes. I realised this when I was trying to sort out some compatibility issues between Quarkus, Podman, and Testcontainers. In order to get Quarkus Dev Services (which use Testcontainers under the covers) to [work with Podman](https://quarkus.io/guides/podman), I had to adjust my environment variables to disable something called Ryuk:
+But you know what? Death is a necessary fact of life, _especially_ in the land of bits and bytes. I realised this when I was trying to sort out some compatibility issues between Quarkus, Podman, and Testcontainers. In order to get Quarkus Dev Services (which use Testcontainers under the covers) to [work with Podman](https://quarkus.io/guides/podman) on my Mac, I had to adjust my environment variables to disable something called Ryuk:
 
 ```
 export TESTCONTAINERS_RYUK_DISABLED=true # this is a bad idea
@@ -30,12 +30,12 @@ How does Testcontainers shut down abandoned containers? This is where Ryuk comes
 ![Ryuk writing in the death note book](ryuk.png)
 
 So Ryuk definitely isn’t something we want to disable. It's garbage collection at the process level. No one wants stray containers living forever. 
-The right way to configure Testcontainers for Podman is to edit ~/.testcontainers.properties and add the following line:
+The right way to configure Testcontainers for Podman, on Mac, is to edit ~/.testcontainers.properties and add the following line:
 ```
 ryuk.container.privileged=true
 ```
 
-What’s this doing? It’s making Ryuk, the death god, a bit more god-like. You will probably also need to run Podman in rootful mode, so that it has privileges to pass on to Ryuk:
+What’s this doing? It’s making Ryuk, the death god, a bit more god-like. You will also need to run Podman in rootful mode, so that it has privileges to pass on to Ryuk:
 ```
 podman machine set --rootful
 ```
