@@ -30,12 +30,12 @@ How does Testcontainers shut down abandoned containers? This is where Ryuk comes
 ![Ryuk writing in the death note book](ryuk.png)
 
 So Ryuk definitely isn’t something we want to disable. It's garbage collection at the process level. No one wants stray containers living forever. 
-The right way to configure Testcontainers for Podman is todit ~/.testcontainers.properties and add the following line:
+The right way to configure Testcontainers for Podman is to edit ~/.testcontainers.properties and add the following line:
 ```
 ryuk.container.privileged=true
 ```
 
-What’s this doing? It’s making Ryuk, the death god, a bit more god-like. You will also need to run Podman in rootful mode, so that it has privileges to pass on to Ryuk:
+What’s this doing? It’s making Ryuk, the death god, a bit more god-like. You will probably also need to run Podman in rootful mode, so that it has privileges to pass on to Ryuk:
 ```
 podman machine set --rootful
 ```
