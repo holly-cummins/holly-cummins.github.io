@@ -4,7 +4,14 @@ cover: ryuk.png
 author: holly cummins
 category: spooking
 type: blog
+tweets:
+ - https://x.com/bsideup/status/1719729901782151676?s=20
+ - https://x.com/sethi_pratik/status/1719622544704381386?s=20
+ - https://x.com/P_Ensarguet/status/1719408264884974002?s=20
+ - https://hachyderm.io/@ebullient/111338070588743002
+ - https://x.com/oleg_nenashev/status/1719467161393975341?s=20
 ---
+_Sometimes, death is a feature, not a defect_
 
 ![A carved pumpkin](pumpkin.png)
 
@@ -27,7 +34,7 @@ Testcontainers does two really useful things; it has libraries in all the popula
 
 How does Testcontainers shut down abandoned containers? This is where Ryuk comes in. The [Ryuk service](https://github.com/testcontainers/moby-ryuk) is a specialised container whose job is to clean up other containers. That is, it’s a container-killer. A helpful, appreciated, container-killer. And the name? Ryuk is named after Ryuk in the _Death Note_ [manga series](https://en.wikipedia.org/wiki/Death_Note). Ryuk is a [_shinigami_](https://www.historydefined.net/shinigami/), or death god. Although _Death Note_’s Ryuk is capricious and self-interested, in Japanese folk culture _shinigami_ are often presented as helpers that lead people towards the world of the dead, a bit like a friendlier version of the grim reaper. 
 
-![Ryuk writing in the death note book](ryuk.png)
+    ![Ryuk writing in the death note book](ryuk.png)
 
 So Ryuk definitely isn’t something we want to disable. It's garbage collection at the process level. No one wants stray containers living forever. 
 The right way to configure Testcontainers for Podman, on Mac, is to edit ~/.testcontainers.properties and add the following line:
