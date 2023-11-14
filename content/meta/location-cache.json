@@ -4465,5 +4465,49 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Stockholm": [
+  {
+   "latitude": 59.3251172,
+   "longitude": 18.0710935,
+   "formattedAddress": "Stockholms kommun, Solna kommun, Stockholms län, Sverige",
+   "country": "Sverige",
+   "city": "Stockholms kommun",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 47.042522,
+   "longitude": -68.139954,
+   "formattedAddress": "Stockholm, Aroostook County, Maine, United States",
+   "country": "United States",
+   "city": "Stockholm",
+   "state": "Maine",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 50.6574522,
+   "longitude": -102.3026019,
+   "formattedAddress": "Stockholm, Division No. 5, Saskatchewan, Canada",
+   "country": "Canada",
+   "city": "Stockholm",
+   "state": "Saskatchewan",
+   "countryCode": "CA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 44.7507485,
+   "longitude": -74.8502288,
+   "formattedAddress": "Town of Stockholm, Saint Lawrence County, New York, United States",
+   "country": "United States",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
