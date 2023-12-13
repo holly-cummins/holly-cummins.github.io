@@ -6,6 +6,8 @@ event: "QCon London"
 location: "London"
 slides: 
   url: https://speakerdeck.com/hollycummins/why-cloud-zombies-are-destroying-the-planet-and-how-you-can-stop-them
+video:
+  url: https://www.infoq.com/presentations/reducing-cloud-footprint  
 tweets:
  - https://mastodon.social/@adrianco/110106309911808395
  - https://fosstodon.org/@billglover/110106315590439706
