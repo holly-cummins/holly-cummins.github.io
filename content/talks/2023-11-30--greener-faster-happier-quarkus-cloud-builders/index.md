@@ -5,6 +5,8 @@ title: "Faster, greener, and happier- why Quarkus should be your next tech stack
 event: "Cloud Builders: Java"
 slides:
   url: https://speakerdeck.com/hollycummins/faster-greener-and-happier-why-quarkus-should-be-your-next-tech-stack-aead2ed6-608f-417b-96e3-89c27af59851
+video:
+  url: https://www.youtube.com/watch?v=-_udZohi5XI&list=PL-Ie_Wj8OrDuk3anwwvHJuY-q-X9JmC-n
 code: 
  - url: https://github.com/holly-cummins/simple-quarkus-demo
    title: The Quarkus application that was live coded in the talk
