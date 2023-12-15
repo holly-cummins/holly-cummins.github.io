@@ -5,6 +5,8 @@ title: "Taming Microservices with Contract Testing"
 event: "DevSecOps: London Gathering"
 slides:
   url: https://speakerdeck.com/hollycummins/contract-testing-with-pact-and-quarkus
+video:
+  url: https://www.youtube.com/live/s2vGPozLiEA?si=W3ffZf1w2TceaSgB&t=1222  
 code: 
  - url: https://github.com/holly-cummins/pact-quarkus-sweater-demo
    title: Demo code showing Pact contract testing on Quarkus
