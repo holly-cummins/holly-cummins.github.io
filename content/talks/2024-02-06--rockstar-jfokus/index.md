@@ -5,6 +5,11 @@ title: "Six things we learned implementing Rockstar on Quarkus"
 event: "Jfokus"
 location: "Stockholm"
 author: Hanno Embregts and Holly Cummins
+slides:
+  url: https://speakerdeck.com/hollycummins/six-things-we-learned-implementing-rockstar-on-quarkus
+code:
+  - title: "Bon Jova Implementation"
+    url: "https://github.com/quarkiverse/quarkus-bon-jova-rockstar/"
 ---
 Let’s run Rockstar programs on Quarkus! What could possibly go wrong?
 
