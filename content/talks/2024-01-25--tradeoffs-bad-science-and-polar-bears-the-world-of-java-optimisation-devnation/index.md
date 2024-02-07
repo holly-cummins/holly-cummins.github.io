@@ -6,6 +6,8 @@ type: talk
 event: DevNation Tech Talks
 slides:
   url: https://speakerdeck.com/hollycummins/tradeoffs-bad-science-and-polar-bears-the-world-of-java-optimisation-9d47f27b-0aa7-4973-bc62-74d5e9497eeb
+video:
+   url: https://www.youtube.com/watch?v=YuZdKZWI2hw
 registration-url: https://www.youtube.com/playlist?list=PLf3vm0UK6HKo2j19t6NItRPFxmgica2ky
 
 ---
