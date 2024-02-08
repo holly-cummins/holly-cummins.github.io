@@ -10,6 +10,14 @@ slides:
 code:
   - title: "Bon Jova Implementation"
     url: "https://github.com/quarkiverse/quarkus-bon-jova-rockstar/"
+tweets:
+  - https://x.com/rmehmandarov/status/1754898423969435885?s=20
+  - https://x.com/t_millstream/status/1754896875516223520?s=20
+  - https://x.com/sebi2706/status/1754898495637496113?s=20
+  - https://x.com/sebi2706/status/1754901206424498680?s=20
+  - https://x.com/ramtop/status/1754898464448627048?s=20
+  - https://x.com/vitalethomas/status/1754984564122878182?s=20
+  - 
 ---
 Let’s run Rockstar programs on Quarkus! What could possibly go wrong?
 
