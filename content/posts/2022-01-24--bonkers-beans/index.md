@@ -198,7 +198,7 @@ Well, it's a bit utopian. Most of our workplaces aren't so luxurious.
 But that doesn't mean we shouldn't strive for space.
 There's a growing body of evidence that healthy workspaces, with [generative cultures](https://itrevolution.com/westrums-organizational-model-in-tech-orgs/)
 and happy employees, are associated with higher business performance.
-An over-emphasis on productivity metrics, like [other metrics](https://twitter.com/holly_cummins/status/1448346379080843273?s=20), could [actually be _lowering_ productivity](https://madned.substack.com/p/the-value-of-screwing-around-at-work).
+An over-emphasis on productivity metrics, like [other metrics](https://twitter.com/holly_cummins/status/1448346379080843273?s=20), could [actually be _lowering_ productivity](https://web.archive.org/web/20230203140605/https://madned.substack.com/p/the-value-of-screwing-around-at-work).
 Even [five day weeks](https://www.bbc.co.uk/news/business-57724779) might be lowering productivity.
 
 What does this mean in practice? As leaders, we need to re-evaluate how reliant we are on superficial productivity metrics,

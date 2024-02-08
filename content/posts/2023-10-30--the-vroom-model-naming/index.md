@@ -84,7 +84,7 @@ but notice how TypeScript is _far_ slower and more energy-hungry. PHP, Perl, and
 _The relationship between energy and execution time for a series of benchmarks. Values are normalised against the results for C. Data source: [Pereira et. al](https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf)_
 
 Going beyond languages to frameworks, we see a similar pattern with Quarkus. 
-Applications built on top of Quarkus tend to have a [higher throughput](https://www.redhat.com/en/resources/mi-quarkus-lab-validation-idc-analyst-paper), and they also 
+Applications built on top of Quarkus tend to have a [higher throughput](https://www.redhat.com/rhdc/managed-files/mi-idc-quarkus-lab-validation-analyst-paper-f23914-202006-en.pdf), and they also 
 have a [lower energy consumption](https://www.redhat.com/en/resources/greener-java-applications-detail). 
 
 I think we can take a lot of encouragement from both the vroom model and the economic model. 

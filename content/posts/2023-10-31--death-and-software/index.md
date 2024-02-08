@@ -59,7 +59,7 @@ The Antithesis institute have done a series of studies to work out how widesprea
 
 What if we raise the bar slightly and look at servers where the utilisation was under 5% (which is still a pretty atrociously low bar)? These ‘under-utilised’ servers made up another 29% of the pool.  If you combine the totally-comatose and mostly-comatose servers, that makes up _two thirds_ of the servers. 
 
-Even systems that are in regular use are often only used for part of the time. In 2021, [$26.9 billion](https://www.business2community.com/cloud-computing/overprovisioning-always-on-resources-lead-to-26-6-billion-in-public-cloud-waste-expected-in-2021-02381033) was wasted on always-on cloud instances. 
+Even systems that are in regular use are often only used for part of the time. In 2021, [$26.9 billion](https://web.archive.org/web/20230321092337/https://www.business2community.com/cloud-computing/overprovisioning-always-on-resources-lead-to-26-6-billion-in-public-cloud-waste-expected-in-2021-02381033) was wasted on always-on cloud instances. 
 
 In other words, we’re paying for hardware, and electricity, for systems that do … nothing. Sustainable, it is not. What our industry needs is a nice friendly _shinigami_ to take down these systems. 
 
