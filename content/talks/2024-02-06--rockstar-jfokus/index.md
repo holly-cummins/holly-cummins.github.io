@@ -10,6 +10,8 @@ slides:
 code:
   - title: "Bon Jova Implementation"
     url: "https://github.com/quarkiverse/quarkus-bon-jova-rockstar/"
+video:
+  url: https://www.youtube.com/watch?v=qG9M1YrrmoE&list=PLUQORQEatnJezysGP4J-EZm34u-OyILC2&index=35
 tweets:
   - https://x.com/rmehmandarov/status/1754898423969435885?s=20
   - https://x.com/t_millstream/status/1754896875516223520?s=20

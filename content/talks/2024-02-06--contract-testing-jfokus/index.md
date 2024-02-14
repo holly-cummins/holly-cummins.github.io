@@ -8,7 +8,9 @@ code:
  - url: https://github.com/holly-cummins/pact-quarkus-sweater-demo
    title: Demo code showing Pact contract testing on Quarkus
 slides:
- url: https://speakerdeck.com/hollycummins/contract-testing-with-pact-and-quarkus
+  url: https://speakerdeck.com/hollycummins/contract-testing-with-pact-and-quarkus
+video:
+  url: https://www.youtube.com/watch?v=Eu4V4PkZly0&list=PLUQORQEatnJezysGP4J-EZm34u-OyILC2&index=23
 tweets:
  - https://x.com/zarinfam/status/1754819154849239425?s=20
  - https://hachyderm.io/@higgins/111884270248984317
