@@ -4509,5 +4509,96 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Zurich": [
+  {
+   "latitude": 47.3744489,
+   "longitude": 8.5410422,
+   "formattedAddress": "Zürich, Bezirk Zürich, Zürich, Schweiz/Suisse/Svizzera/Svizra",
+   "country": "Schweiz/Suisse/Svizzera/Svizra",
+   "city": "Zürich",
+   "state": "Zürich",
+   "countryCode": "CH",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 47.4133024,
+   "longitude": 8.656394,
+   "formattedAddress": "Zürich, Schweiz/Suisse/Svizzera/Svizra",
+   "country": "Schweiz/Suisse/Svizzera/Svizra",
+   "state": "Zürich",
+   "countryCode": "CH",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 39.234454,
+   "longitude": -99.438161,
+   "formattedAddress": "Zurich, Rooks County, Kansas, United States",
+   "country": "United States",
+   "city": "Zurich",
+   "state": "Kansas",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 53.1117662,
+   "longitude": 5.3929759,
+   "formattedAddress": "Zurich, Súdwest-Fryslân, Fryslân, Nederland",
+   "country": "Nederland",
+   "city": "Zurich",
+   "state": "Fryslân",
+   "countryCode": "NL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 43.15062,
+   "longitude": -77.0433046,
+   "formattedAddress": "Zurich, Town of Arcadia, Wayne County, New York, United States",
+   "country": "United States",
+   "city": "Zurich",
+   "state": "New York",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 43.421133,
+   "longitude": -81.624703,
+   "formattedAddress": "Zurich, Bluewater, Huron County, Ontario, N0M 2T0, Canada",
+   "country": "Canada",
+   "city": "Bluewater",
+   "state": "Ontario",
+   "zipcode": "N0M 2T0",
+   "countryCode": "CA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Krakow": [
+  {
+   "latitude": 50.0619474,
+   "longitude": 19.9368564,
+   "formattedAddress": "Kraków, województwo małopolskie, Polska",
+   "country": "Polska",
+   "city": "Kraków",
+   "state": "województwo małopolskie",
+   "countryCode": "PL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 50.0469432,
+   "longitude": 19.997153435836697,
+   "formattedAddress": "Kraków, województwo małopolskie, Polska",
+   "country": "Polska",
+   "state": "województwo małopolskie",
+   "countryCode": "PL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
