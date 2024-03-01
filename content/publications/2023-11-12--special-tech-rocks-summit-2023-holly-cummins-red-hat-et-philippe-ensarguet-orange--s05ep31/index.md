@@ -5,7 +5,7 @@ imageUrl: https://storageprdv2inwink.blob.core.windows.net/9292c332-46c7-4882-9e
 cover: 33288241-46da-4cd5-95d6-2771f8ba5d5e1.png
 author: holly cummins
 category: all sorts
-type: blog
+type: podcast
 ---
 
 🎤  Dans cette nouvelle mini-série dédiée à notre Summit qui se tient les 7 et 8 décembre prochains en hybride, nous avons aujourd'hui le plaisir de recevoir une de nos speakers 2023 : Holly CUMMINS, Senior Principal Software Engineer chez Red Hat, au micro de Philippe ENSARGUET, VP of Software Engineering chez Orange. 
