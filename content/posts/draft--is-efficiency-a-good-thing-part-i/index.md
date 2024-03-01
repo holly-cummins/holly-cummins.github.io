@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: "Is Efficiency A Good Thing, Part I: What is Efficiency, and Are We Any Good At It?"
+title: "Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?"
 category: all sorts
 type: blog
 
@@ -143,7 +143,7 @@ They want to do more with _more_! We measure the status of leaders by how big th
 
 Are we doomed to inefficiency, then? Well, not necessarily. 
 We can get rid of inefficiency, and we can do it without hurting people. 
-_In [part ii](/is-efficiency-a-good-thing-part-ii) I explore some good ways of eliminating inefficiency, and also some bad-and-wrong ways.
+In [part II](/is-efficiency-a-good-thing-part-ii) I explore some good ways of eliminating inefficiency, and also some bad-and-wrong ways.
 
 
 
