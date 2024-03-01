@@ -3,7 +3,7 @@ author: holly cummins
 title: "Is Efficiency A Good Thing? Part II: All the Things That Can Go Wrong"
 category: all sorts
 type: blog
-
+cover: calipers.png
 ---
 
 In [part I](/is-efficiency-a-good-thing-part-i) of this blog, I discussed what efficiency even is, 

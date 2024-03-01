@@ -3,7 +3,7 @@ author: holly cummins
 title: "Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?"
 category: all sorts
 type: blog
-
+cover: waste.png
 ---
 
 _This talk is based on a keynote I presented at [Tech.Rocks Summit](https://events.tech.rocks/summit-2023/). I'm grateful to the organisers for suggesting the topic._
