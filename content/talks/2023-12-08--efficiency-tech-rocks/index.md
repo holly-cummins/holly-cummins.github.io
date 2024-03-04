@@ -9,9 +9,9 @@ keynote: true
 slides:
   url: https://speakerdeck.com/hollycummins/is-efficiency-a-good-thing
 resources:
-    - title: Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?
+    - title: "Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?"
       url: /is-efficiency-a-good-thing-part-i/
-    - title: Is Efficiency A Good Thing? Part II: All the Things That Can Go Wrong
+    - title: "Is Efficiency A Good Thing? Part II: All the Things That Can Go Wrong"
       url: /is-efficiency-a-good-thing-part-ii/    
 tweets:
   - https://x.com/chomb/status/1732761360230920309?s=20
