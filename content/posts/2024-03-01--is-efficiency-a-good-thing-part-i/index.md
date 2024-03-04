@@ -82,7 +82,7 @@ onto a single physical machine.
 
 Our systems are getting quicker, and we've also greatly reduced toil and repetitive tasks. 
 Infrastructure-as-code and GitOps has allowed us to automate our infrastructure.
-AI tools have automated _us_. Dall-E can produce much better kangaroos than I can draw, in just a few second.
+AI tools have automated _us_. Dall-E can produce much better kangaroos than I can draw, in just a few seconds.
 ChatGPT can write an coherent essay exploring the benefits and risks of efficiency in seconds, when it takes me _days_ of effort to write the essay you're reading now. That's not even counting the thinking-time. 
 I started thinking about this topic in March 2023, and it was only in December 2023, nine months later, that I had a draft essay.
 Then it took me a further three months to finish off the draft. That's an elapsed time of _one year_, or 3,153,600 times slower than ChatGPT's elapsed time.
