@@ -1,7 +1,7 @@
 ---
 author: holly cummins
 title: "Is Efficiency A Good Thing? Part II: All the Things That Can Go Wrong"
-category: all sorts
+category: software development
 type: blog
 cover: calipers.png
 ---

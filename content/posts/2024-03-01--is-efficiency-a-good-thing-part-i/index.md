@@ -1,7 +1,7 @@
 ---
 author: holly cummins
 title: "Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?"
-category: all sorts
+category: software development
 type: blog
 cover: waste.png
 ---
