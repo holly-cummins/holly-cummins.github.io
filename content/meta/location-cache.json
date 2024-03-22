@@ -4600,5 +4600,166 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Las Vegas": [
+  {
+   "latitude": 36.1672559,
+   "longitude": -115.148516,
+   "formattedAddress": "Las Vegas, Clark County, Nevada, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "Nevada",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 35.5939325,
+   "longitude": -105.223896,
+   "formattedAddress": "Las Vegas, San Miguel County, New Mexico, 87701, United States",
+   "country": "United States",
+   "city": "Las Vegas",
+   "state": "New Mexico",
+   "zipcode": "87701",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 40.7950056,
+   "longitude": -4.2777553,
+   "formattedAddress": "Vegas de Matute, Segovia, Castilla y León, 40424, España",
+   "country": "España",
+   "city": "Vegas de Matute",
+   "state": "Castilla y León",
+   "zipcode": "40424",
+   "countryCode": "ES",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 14.8747081,
+   "longitude": -88.0735528,
+   "formattedAddress": "Las Vegas, Santa Bárbara, Honduras",
+   "country": "Honduras",
+   "city": "Las Vegas",
+   "state": "Santa Bárbara",
+   "countryCode": "HN",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 10.942814,
+   "longitude": -64.2267823,
+   "formattedAddress": "Las Vegas, Guayacancito, Parroquia Boca del Río, Municipio Macanao, Nueva Esparta, Venezuela",
+   "country": "Venezuela",
+   "city": "Guayacancito",
+   "state": "Nueva Esparta",
+   "countryCode": "VE",
+   "neighbourhood": "Las Vegas",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 10.1568649,
+   "longitude": -67.5490844,
+   "formattedAddress": "Las Vegas, Parroquia San Martín de Porres, Municipio Libertador, Aragua, 2117, Venezuela",
+   "country": "Venezuela",
+   "city": "Las Vegas",
+   "state": "Aragua",
+   "zipcode": "2117",
+   "countryCode": "VE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 10.6747394,
+   "longitude": -62.5758694,
+   "formattedAddress": "Las Vegas, Parroquia Marabal, Municipio Mariño, Sucre, Venezuela",
+   "country": "Venezuela",
+   "city": "Las Vegas",
+   "state": "Sucre",
+   "countryCode": "VE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 9.4195457,
+   "longitude": -64.4519831,
+   "formattedAddress": "Las Vegas, Anaco, Parroquia Anaco, Municipio Anaco, Anzoátegui, 6003, Venezuela",
+   "country": "Venezuela",
+   "city": "Anaco",
+   "state": "Anzoátegui",
+   "zipcode": "6003",
+   "countryCode": "VE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 10.0401479,
+   "longitude": -69.3244601,
+   "formattedAddress": "Las Vegas, Barquisimeto, Parroquia Concepción, Municipio Iribarren, Lara, 3001, Venezuela",
+   "country": "Venezuela",
+   "city": "Barquisimeto",
+   "state": "Lara",
+   "zipcode": "3001",
+   "countryCode": "VE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 6.6904485,
+   "longitude": -71.021829,
+   "formattedAddress": "Las Vegas, Arauquita, Arauca, RAP Llanos, Colombia",
+   "country": "Colombia",
+   "city": "Las Vegas",
+   "state": "Arauca",
+   "countryCode": "CO",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Plovdiv": [
+  {
+   "latitude": 42.1418541,
+   "longitude": 24.7499297,
+   "formattedAddress": "Пловдив, 4000, България",
+   "country": "България",
+   "city": "Пловдив",
+   "zipcode": "4000",
+   "countryCode": "BG",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -2.8650674,
+   "longitude": -78.9881533,
+   "formattedAddress": "Plovdiv, Ciudadela Las Orquideas, Los Angeles, Cuenca, Azuay, 010106, Ecuador",
+   "country": "Ecuador",
+   "city": "Cuenca",
+   "state": "Azuay",
+   "zipcode": "010106",
+   "streetName": "Plovdiv",
+   "countryCode": "EC",
+   "neighbourhood": "Ciudadela Las Orquideas",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.238268500000004,
+   "longitude": 24.788409869462967,
+   "formattedAddress": "Пловдив, България",
+   "country": "България",
+   "countryCode": "BG",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 42.144523500000005,
+   "longitude": 24.751046768934636,
+   "formattedAddress": "Пловдив, България",
+   "country": "България",
+   "countryCode": "BG",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }

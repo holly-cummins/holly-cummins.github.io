@@ -64,7 +64,7 @@ As more people got mechanical alarm clocks, the need for the knocker-up faded.
 The need didn't fade as fast as you might think, though; 
 professional knocking-up lasted to the 1940s and 1950s, and in some parts of England [it hung around until the 1970s.](https://www.bbc.co.uk/news/uk-england-35840393)
 
-Even though it lasted a surprisingly long time, it's easy to see why the knocking-up industry was ultimately doomed:
+Even though it survived a surprisingly long time, it's easy to see why the knocking-up industry was ultimately doomed:
 - A convenient technological alternative was available
 - The pool of the population who need waking up is limited; only people working outside the home on a strict schedule wanted the service
 - Each client needed the service a maximum of once a day; no matter how much marketing a knocker-up did, no matter how great the knocking-up service, people didn't need re-waking once they were already awake 
