@@ -5,6 +5,8 @@ category: sustainability
 type: talk
 event: QCon
 location: London
+slides:
+  url: https://speakerdeck.com/hollycummins/zero-waste-radical-magic-and-italian-graft-quarkus-efficiency-secrets
 
 ---
 
