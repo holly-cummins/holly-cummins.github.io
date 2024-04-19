@@ -6,6 +6,8 @@ event: "GOTO Amsterdam"
 location: Amsterdam
 slides:
   url: https://speakerdeck.com/hollycummins/faster-greener-and-happier-why-quarkus-should-be-your-next-tech-stack
+video:
+  url: https://www.youtube.com/watch?v=0FhQmHb1kLk&list=PLEx5khR4g7PLJ5A3ktI6nJ6lFC0lufrzp
 code: 
  - url: https://github.com/holly-cummins/simple-quarkus-demo
    title: The Quarkus application that was live coded in the talk
