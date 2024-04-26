@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: "Java Annoted Featured Content –– The Long Version"
+title: "Java Annoted Featured Content – The Long Version"
 category: java
 type: blog
 cover: java-annotated-page.jpg
