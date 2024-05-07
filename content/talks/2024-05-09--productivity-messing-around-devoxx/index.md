@@ -6,6 +6,12 @@ event: "Devoxx"
 location: "London"
 author: Trisha Gee and Holly Cummins
 
+slides:
+  url: https://speakerdeck.com/hollycummins/productivity-is-messing-around-and-having-fun
+
+resources:
+  - title: Martin Fowler, "Measuring Developer Productivity in Humans"
+    url: https://martinfowler.com/articles/measuring-developer-productivity-humans.html
 
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 
