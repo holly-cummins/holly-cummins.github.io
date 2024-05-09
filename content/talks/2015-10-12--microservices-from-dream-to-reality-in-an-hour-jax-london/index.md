@@ -7,7 +7,7 @@ slides:
 code:
   - title: "Source code for the sample cat application"
     url: "https://github.com/holly-cummins/catastrophe-microservices"
-resource:
+resources:
   - title: "Microservices: Storm in a teacup, or teacups in a storm?"
     url: "https://jaxenter.com/microservices-storm-in-a-teacup-or-teacups-in-a-storm-120388.html"
 event: "JAX London"

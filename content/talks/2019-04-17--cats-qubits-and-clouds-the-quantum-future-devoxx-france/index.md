@@ -6,7 +6,7 @@ cover: "audience.jpg"
 code:
   - title: "Qiskit Aqua"
     url: "https://github.com/Qiskit/qiskit-aqua"
-resource:
+resources:
   - title: "InfoQ series by Holly on quantum computation"
     url: "https://www.infoq.com/articles/quantum-computing-intro-one/"
 event: "Devoxx France"

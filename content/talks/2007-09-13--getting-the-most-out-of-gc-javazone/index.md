@@ -3,7 +3,7 @@ type: "talk"
 category: "java"
 title: "Getting the most out of garbage collection"
 cover: audience.jpg
-resource:
+resources:
   - title: "Do You Know How to Optimize Your JVM? Video Tech Brief (interview recorded at JavaZone)"
     url: "https://www.theserverside.com/discussions/thread/47121.html"
 event: "JavaZone"

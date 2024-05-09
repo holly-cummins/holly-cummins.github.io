@@ -12,7 +12,7 @@ video:
 code: 
   - title: Sample code from the demo
     url: "https://github.com/edeandrea/pact-quarkus-wookie-carpet-demo"
-resource:
+resources:
   - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
 tweets:

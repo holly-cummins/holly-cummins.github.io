@@ -4,7 +4,7 @@ category: "osgi"
 title: "OSGi and the Enterprise - A match made in a … box?"
 slides:
   url: "https://noti.st/holly-cummins/u44ffu/osgi-and-the-enterprise-a-match-made-in-a-box"
-resource:
+resources:
   - title: "Enterprise OSGi in Action (Manning)"
     url: "https://www.manning.com/books/enterprise-osgi-in-action"
 event: "Paris Java User Group"

@@ -3,7 +3,7 @@ type: "talk"
 category: "osgi"
 title: "Enterprise OSGi in Action"
 cover: audience.jpg
-resource:
+resources:
   - title: "Enterprise OGSi in Action (the book!)"
     url: "https://www.manning.com/books/enterprise-osgi-in-action"
 event: "Devoxx UK"

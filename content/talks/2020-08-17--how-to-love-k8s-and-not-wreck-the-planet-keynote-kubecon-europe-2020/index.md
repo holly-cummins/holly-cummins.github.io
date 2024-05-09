@@ -4,7 +4,7 @@ category: "sustainability"
 title: "How to Love K8s and Not Wreck The Planet"
 slides:
   url: "https://noti.st/holly-cummins/cTfFg9/how-to-love-k8s-and-not-wreck-the-planet-keynote"
-resource:
+resources:
   - title: "Talk blog - Part I"
     url: "https://medium.com/ibm-garage/how-to-love-kubernetes-and-not-wreck-the-planet-part-i-elasticity-and-utilization-19fcae120628"
   - title: "Talk blog - Part II"

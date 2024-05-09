@@ -4,7 +4,7 @@ category: "cloud native"
 title: "Nine Ways To Fail at Cloud Native"
 slides:
   url: "https://noti.st/holly-cummins/mHaE0c/nine-ways-to-fail-at-cloud-native"
-resource:
+resources:
   - title: "Video and transcript"
     url: "https://www.infoq.com/presentations/fail-cloud-native-migration/"
 event: "InfoQ Live"

@@ -12,7 +12,7 @@ slides:
 code: 
   - title: Sample code from the demo
     url: "https://github.com/quarkusio/quarkus-super-heroes"
-resource:
+resources:
   - title: Contract testing section of a Quarkus workshop (in heroes, villains, and fight submodules)
     url: https://hollycummins.com/quarkus-workshops/#contract-testing
 tweets:

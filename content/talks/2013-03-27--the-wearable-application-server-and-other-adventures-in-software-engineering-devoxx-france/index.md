@@ -2,7 +2,7 @@
 type: "talk"
 category: "IoT"
 title: "The Wearable Application Server and Other Adventures in Software Engineering"
-resource:
+resources:
   - title: "Enterprise OGSi in Action (the book!)"
     url: "https://www.manning.com/books/enterprise-osgi-in-action"
 event: "Devoxx France"

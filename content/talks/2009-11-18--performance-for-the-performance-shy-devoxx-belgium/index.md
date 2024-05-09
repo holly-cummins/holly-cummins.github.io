@@ -3,7 +3,7 @@ type: "talk"
 category: "java"
 title: "Performance for the Performance-Shy"
 cover: audience.jpg
-resource:
+resources:
   - title: "Summary blog by Michaël Figuière"
     url: "https://blog.engineering.publicissapient.fr/2009/11/27/devoxx-jour-4-java-performance-tuning/"
   - title: "Summary blog by Michael Peeters"

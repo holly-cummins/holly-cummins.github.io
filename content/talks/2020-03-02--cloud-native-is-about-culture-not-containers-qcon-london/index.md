@@ -4,7 +4,7 @@ category: "cloud native"
 title: "Cloud Native is about Culture, not Containers"
 slides:
   url: "https://noti.st/holly-cummins/vhDNLK/cloud-native-is-about-culture-not-containers"
-resource:
+resources:
   - title: "InfoQ Transcript"
     url: "https://www.infoq.com/presentations/cloud-native-culture/"
 event: "QCon London"

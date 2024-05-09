@@ -4,7 +4,7 @@ category: "sustainability"
 title: "People, Planet, Clouds"
 slides:
   url: "https://noti.st/holly-cummins/tFVJqC/people-planet-clouds"
-resource:
+resources:
   - title: "People, Planet, Clouds blog"
     url: "https://medium.com/ibm-garage/people-planet-clouds-b5f181cd58a9"
 event: "LJC Unconference"

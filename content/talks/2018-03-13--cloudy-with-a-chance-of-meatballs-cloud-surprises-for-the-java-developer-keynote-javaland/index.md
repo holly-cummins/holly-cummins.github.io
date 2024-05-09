@@ -4,7 +4,7 @@ category: "cloud native"
 title: "Cloudy with a Chance of Meatballs: Cloud Surprises for the Java Developer"
 slides:
   url: "https://noti.st/holly-cummins/7swvb0/cloudy-with-a-chance-of-meatballs-cloud-surprises-for-the-java-developer-keynote"
-resource:
+resources:
   - title: "JavaLand newspaper interview"
     url: "https://www.javaland.eu/en/home/news/news/?tx_news_pi1%5Bnews%5D=1578&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=42753e288c5ed9457971177521f284b7"
   - title: "The Hero’s Journey to Cloud: Why Star Wars, Prometheus, and Cloud Are All Interconnected"

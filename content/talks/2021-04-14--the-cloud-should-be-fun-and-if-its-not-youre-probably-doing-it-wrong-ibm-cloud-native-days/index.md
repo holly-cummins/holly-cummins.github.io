@@ -7,7 +7,7 @@ slides:
 code:
   - title: "Sample code for Code Engine demo"
     url: "https://github.com/holly-cummins/CodeEngine/"
-resource:
+resources:
   - title: "Cloud Engine console"
     url: "https://cloud.ibm.com/codeengine/overview"
 event: "IBM Cloud Native Days"

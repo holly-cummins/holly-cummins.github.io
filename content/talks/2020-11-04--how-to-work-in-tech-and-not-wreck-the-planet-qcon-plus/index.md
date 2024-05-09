@@ -4,7 +4,7 @@ category: "sustainability"
 title: "How to work in Tech and Not Wreck The Planet"
 slides:
   url: "https://noti.st/holly-cummins/FvH0U9/how-to-work-in-tech-and-not-wreck-the-planet"
-resource:
+resources:
   - title: "Transcript and video"
     url: "https://www.infoq.com/presentations/tradeoff-climate-change/?itm_source=infoq&itm_campaign=footer_links&itm_medium=footer_links_category_page"
 event: "QCon Plus"

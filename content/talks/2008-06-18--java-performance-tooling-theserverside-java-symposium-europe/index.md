@@ -4,7 +4,7 @@ category: "java"
 title: "Java Performance Tooling"
 slides:
   url: "https://noti.st/holly-cummins/F6heeR/java-performance-tooling"
-resource:
+resources:
   - title: "Ola Bini’s conference recap"
     url: "https://dzone.com/articles/theserverside-java-symposium-e"
 event: "TheServerSide Java Symposium Europe"

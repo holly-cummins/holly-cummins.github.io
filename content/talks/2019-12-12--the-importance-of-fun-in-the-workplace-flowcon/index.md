@@ -4,7 +4,7 @@ category: "fun"
 title: "The Importance of Fun in the Workplace"
 slides:
   url: "https://noti.st/holly-cummins/VZE7ib/the-importance-of-fun-in-the-workplace"
-resource:
+resources:
   - title: "The Importance of Fun in the Workplace (InfoQ interview)"
     url: "https://www.infoq.com/news/2019/12/fun-workplace/"
 event: "FlowCon"

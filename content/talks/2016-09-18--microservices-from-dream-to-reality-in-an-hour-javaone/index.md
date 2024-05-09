@@ -4,7 +4,7 @@ category: "microservices"
 title: "Microservices: from dream to reality in an hour"
 slides:
   url: "https://noti.st/holly-cummins/z9QwK6/microservices-from-dream-to-reality-in-an-hour"
-resource:
+resources:
   - title: "Accompanying article"
     url: "https://jaxenter.com/microservices-storm-in-a-teacup-or-teacups-in-a-storm-120388.html"
 event: "JavaOne"
