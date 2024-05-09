@@ -43,3 +43,6 @@ These are called [co-benefits](https://www.nature.com/articles/nclimate2814.epdf
 
 https://www.ox.ac.uk/news/2022-09-14-decarbonising-energy-system-2050-could-save-trillions-oxford-study
 Decarbonising the energy system by 2050 could save trillions - Oxford study 
+
+Moloch trap is the opposite, win-lose: 
+https://www.sustainabilitybynumbers.com/p/moloch-trap

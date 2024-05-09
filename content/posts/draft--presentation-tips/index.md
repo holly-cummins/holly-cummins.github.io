@@ -21,3 +21,14 @@ https://twitter.com/holly_cummins/status/1577378038773583873?s=21&t=c2hBBqJeKtRB
 reference , wish I had written it
 
 https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/
+
+Stephane Epardaud:
+12:55
+Haha. Yeah, I explain at the beginning that @Stuart Douglas taught me to put cute kittens in talks as a sort of penance to make sure people would remember something positive after a hard explanation. So after every trick explained, there's a cute fox kit, and I encourage the audience to make an "awwwww" sound. It is a nice trick to make sure they wake up too :joy:
+
+Each slide should be a gift for the audience. Sometimes that's not possible, so give an extra gift.
+The cute slides serve three purposes: section markers, rewards, and a trigger for audience interaction.
+
+## Enjoy it
+
+When I'm enjoying myself, the audience tends to enjoy themselves. 
