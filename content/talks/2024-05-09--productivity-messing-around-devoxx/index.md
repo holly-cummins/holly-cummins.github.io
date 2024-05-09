@@ -30,10 +30,12 @@ resources:
     url: https://moongirlanddevildinosaur.fandom.com/wiki/Skip_This_Ad...olescence
   - title: Developer Thriving four sociocognitive factors that create resilient productivity on software teams
     url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10491133
-  - title: The Goal (book)
+  - title: The Goal
     url: https://amzn.to/3Wr2U4A
-  - title: The Mythical Man Month (book)
+    type: book 
+  - title: The Mythical Man Month
     url: https://amzn.to/3QrMvt5
+    type: book 
   - title: JetBrains' AI Assistant
     url: https://www.jetbrains.com/ai/
   - title: Quarkus Developer Joy
