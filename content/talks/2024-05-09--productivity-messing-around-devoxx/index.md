@@ -24,6 +24,8 @@ resources:
     url: https://dannorth.net/mckinsey-review/
   - title: LinkedIn Productivity
     url: https://thenewstack.io/linkedin-shares-its-developer-productivity-framework/
+  - title: James Shore, on a better productivity metric
+    url: https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure 
   - title: Default Mode Network
     url: https://en.wikipedia.org/wiki/Default_mode_network
   - title: Moon Girl Devil Dinosaur episode 9
@@ -44,6 +46,14 @@ resources:
     url: https://gradle.com/develocity/
   - title: Copilot
     url: https://copilot.microsoft.com/
+
+tweets:
+  - https://x.com/jrosaproenca/status/1788594115237515668
+  - https://x.com/trisha_gee/status/1788586198811758677
+  - https://x.com/poggs/status/1788585795189694576
+  - https://x.com/poggs/status/1788590498053079045
+  - https://x.com/poggs/status/1788597949397631305
+
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 
 
