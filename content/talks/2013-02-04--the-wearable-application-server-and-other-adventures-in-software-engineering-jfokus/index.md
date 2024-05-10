@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/ZKlHnG/the-wearable-application-server-and-other-adventures-in-software-engineering"
 resources:
   - title: "OmegaPoint blog (in Swedish)"
-    url: "http://blog.omegapoint.se/2013/02/the-wearable-application-server-and.html"
+    url: "https://web.archive.org/web/20210226094939/http://blog.omegapoint.se/2013/02/the-wearable-application-server-and.html"
 event: "Jfokus"
 author: holly cummins
 location: "Stockholm, Sweden"

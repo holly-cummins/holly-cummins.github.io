@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/F6heeR/java-performance-tooling"
 resources:
   - title: "Ola Bini’s conference recap"
-    url: "https://dzone.com/articles/theserverside-java-symposium-e"
+    url: "http://ola-bini.blogspot.com/2008/06/theserverside-java-symposium-europe-is.html"
 event: "TheServerSide Java Symposium Europe"
 location: "Prague, Czechia"
 author: "holly cummins"

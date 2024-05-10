@@ -6,7 +6,7 @@ slides:
   url: "https://noti.st/holly-cummins/7swvb0/cloudy-with-a-chance-of-meatballs-cloud-surprises-for-the-java-developer-keynote"
 resources:
   - title: "JavaLand newspaper interview"
-    url: "https://www.javaland.eu/en/home/news/news/?tx_news_pi1%5Bnews%5D=1578&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=42753e288c5ed9457971177521f284b7"
+    url: "https://www.javaland.eu/en/home/news/news/table-tennis-breaks-serve-a-similar-mental-function-as-a-shower/"
   - title: "The Hero’s Journey to Cloud: Why Star Wars, Prometheus, and Cloud Are All Interconnected"
     url: "https://www.ibm.com/cloud/blog/the-heros-journey-to-cloud-why-star-wars-prometheus-and-cloud-are-all-interconnected"
 event: "JavaLand"
@@ -28,6 +28,7 @@ tweets:
   - "https://twitter.com/twitter/status/973488247727972353"
   - "https://twitter.com/twitter/status/973461147872645120"
   - "https://twitter.com/twitter/status/973485727286784000"
+  - https://www.ridingthecrest.com/blog/2018/03/12/javaland-holly-cummins.html
 
 ---
 Many businesses are moving to the cloud. This journey to the cloud is in fact a quest, complete with a hero (us!), a call to action, a perilous journey, and a glittering reward (no more patching operating systems!).
