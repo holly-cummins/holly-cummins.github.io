@@ -50,6 +50,7 @@ resources:
 tweets:
   - https://x.com/jrosaproenca/status/1788594115237515668
   - https://x.com/trisha_gee/status/1788586198811758677
+  - https://x.com/mariofusco/status/1789298543108259908
   - https://x.com/poggs/status/1788585795189694576
   - https://x.com/poggs/status/1788590498053079045
   - https://x.com/poggs/status/1788597949397631305
