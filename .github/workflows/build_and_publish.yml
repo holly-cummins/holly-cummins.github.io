@@ -19,8 +19,8 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '14'
-      - run: npm install
+          node-version: '18'
+      - run: npm ci
       - run: npm run test
         env:
           CI: true
@@ -30,16 +30,11 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '14'
-      - run: npm install
+          node-version: '18'
+      - run: npm ci
       - run: ./scripts/preprocess-publications.js
       - run: ./scripts/preprocess-talks.js
-      - uses: enriikke/gatsby-gh-pages-action@v2
-        with:
-          access-token: x-access-token:${{ secrets.GITHUB_TOKEN }}
-          deploy-branch: pages
-          working-dir: platform
-          skip-publish: ${{ ! (github.ref == 'refs/heads/main' && github.event_name != 'pull_request') }}
+      - run: npm run build
         env:
           ALGOLIA_APP_ID: ${{ secrets.ALGOLIA_APP_ID }}
           ALGOLIA_SEARCH_ONLY_API_KEY: ${{ secrets.ALGOLIA_SEARCH_ONLY_API_KEY }}
@@ -50,5 +45,13 @@ jobs:
           NODE_ENV: production
           GATSBY_ACTIVE_ENV: production
       - run: npm run test:int
+        env:
+          CI: true
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: ./public # The folder the action should deploy.
+          branch: pages
+      - run: npm run test:links
         env:
           CI: true
