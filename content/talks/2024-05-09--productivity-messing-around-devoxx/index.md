@@ -9,6 +9,9 @@ author: Trisha Gee and Holly Cummins
 slides:
   url: https://speakerdeck.com/hollycummins/productivity-is-messing-around-and-having-fun
 
+video:
+  url: https://www.youtube.com/watch?v=5cINkhmBg1A&list=PLKuh52zVrL6lI2yr3bDE16g_6ur4Z6cPf&index=96
+  
 resources:
   - title: Martin Fowler, "Measuring Developer Productivity in Humans"
     url: https://martinfowler.com/articles/measuring-developer-productivity-humans.html
@@ -54,6 +57,7 @@ tweets:
   - https://x.com/poggs/status/1788585795189694576
   - https://x.com/poggs/status/1788590498053079045
   - https://x.com/poggs/status/1788597949397631305
+  - https://www.linkedin.com/posts/farhath-razzaque-1677b0212_had-an-incredible-few-days-at-devoxx-uk-last-activity-7196089682835783680-lqHR?utm_source=share&utm_medium=member_desktop
 
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 

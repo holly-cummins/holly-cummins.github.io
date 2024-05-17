@@ -7,6 +7,8 @@ location: "London"
 author: Hanno Embregts and Holly Cummins
 slides:
   url: https://speakerdeck.com/hollycummins/six-things-we-learned-implementing-rockstar-on-quarkus
+video:
+  url: https://www.youtube.com/watch?v=UHAezmsWov8&list=PLKuh52zVrL6lI2yr3bDE16g_6ur4Z6cPf
 code:
   - title: "Bon Jova Implementation"
     url: "https://github.com/quarkiverse/quarkus-bon-jova-rockstar/"
