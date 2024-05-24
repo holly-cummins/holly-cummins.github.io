@@ -17,7 +17,10 @@ tweets:
   - https://x.com/mthmulders/status/1788228057087504717
   - https://x.com/codepo8/status/1788490917000659104
   - https://x.com/mthmulders/status/1788360540433121733
-
+photos:
+  - https://www.flickr.com/photos/125714253@N02/53709072566/in/album-72177720316818399/
+  - https://www.flickr.com/photos/125714253@N02/53709398459/in/album-72177720316818399/
+  - https://www.flickr.com/photos/125714253@N02/53709072646/in/album-72177720316818399/
 ---
 Let’s run Rockstar programs on Quarkus! What could possibly go wrong?
 
