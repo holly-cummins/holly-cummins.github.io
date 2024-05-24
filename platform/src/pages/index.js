@@ -19,31 +19,29 @@ class IndexPage extends React.Component {
     const {
       data: {
         entries: { edges: entries = [] },
-        bgDesktop: {
-          resize: { src: desktop }
-        },
-        bgTablet: {
-          resize: { src: tablet }
-        },
-        bgMobile: {
-          resize: { src: mobile }
-        }
+        heroes: { edges: heroFiles = [] }
       }
     } = this.props;
 
-    const filteredEntries = filterOutDrafts(entries);
+    let isContentOutsideMainSourceStructure = false;
+    if (heroFiles?.length > 0) {
+      const heroPath = heroFiles[0].node.dir;
+      // Crude hack to work out if the content directory is above the main src structure
+      isContentOutsideMainSourceStructure =
+        heroPath && !heroPath.includes("gatsby-platform/content");
+    }
 
-    const backgrounds = {
-      desktop,
-      tablet,
-      mobile
-    };
+    const filteredEntries = filterOutDrafts(entries);
 
     return (
       <React.Fragment>
         <ThemeContext.Consumer>
           {theme => (
-            <Hero scrollToContent={this.scrollToContent} backgrounds={backgrounds} theme={theme} />
+            <Hero
+              scrollToContent={this.scrollToContent}
+              isContentOutsideMainSourceStructure={isContentOutsideMainSourceStructure}
+              theme={theme}
+            />
           )}
         </ThemeContext.Consumer>
 
@@ -105,22 +103,13 @@ export const query = graphql`
         }
       }
     }
-    bgDesktop: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 1200, quality: 90, cropFocus: CENTER) {
-        src
-      }
-    }
-    bgTablet: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 800, height: 1100, quality: 90, cropFocus: CENTER) {
-        src
-      }
-    }
-    bgMobile: imageSharp(fluid: { originalName: { regex: "/hero-background/" } }) {
-      resize(width: 450, height: 850, quality: 90, cropFocus: CENTER) {
-        src
+
+    heroes: allFile(filter: { absolutePath: { regex: "/hero-background/" } }) {
+      edges {
+        node {
+          dir
+        }
       }
     }
   }
 `;
-
-// hero-background
