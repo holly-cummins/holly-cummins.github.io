@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: Less waste, more joy, and a lot more green: How Quarkus makes Java better 
+title: Less waste, more joy, and a lot more green – How Quarkus makes Java better 
 category: quarkus
 type: talk
 event: Øredev
