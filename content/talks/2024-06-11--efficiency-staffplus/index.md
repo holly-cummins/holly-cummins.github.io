@@ -5,6 +5,8 @@ category: software development
 type: talk
 event: StaffPlus
 location: London
+slides:
+  url: https://speakerdeck.com/hollycummins/is-efficiency-a-good-thing-3db0037a-a027-4d39-b2a6-34c91ab4e16f
 resources:
     - title: "Is Efficiency A Good Thing? Part I: What is Efficiency, and Are We Any Good At It?"
       url: /is-efficiency-a-good-thing-part-i/
