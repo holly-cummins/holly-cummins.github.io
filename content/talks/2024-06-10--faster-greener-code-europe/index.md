@@ -6,7 +6,7 @@ type: talk
 event: Code Europe
 location: Krakow
 slides:
-  url: https://speakerdeck.com/hollycummins/faster-greener-and-happier-why-quarkus-should-be-your-next-tech-stack-4d183c82-b18c-4ea1-a394-15fa07311f49
+  url: https://speakerdeck.com/hollycummins/faster-greener-and-happier-why-quarkus-should-be-your-next-tech-stack-75923130-947c-4336-8d75-2be05507315c
   
 ---
 
