@@ -4761,5 +4761,61 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Malmo": [
+  {
+   "latitude": 55.6052931,
+   "longitude": 13.0001566,
+   "formattedAddress": "Malmö, Malmö kommun, Skåne län, Sverige",
+   "country": "Sverige",
+   "city": "Malmö",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 41.2661152,
+   "longitude": -96.7222503,
+   "formattedAddress": "Malmo, Saunders County, Nebraska, United States",
+   "country": "United States",
+   "city": "Malmo",
+   "state": "Nebraska",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 46.333544,
+   "longitude": -93.5192523,
+   "formattedAddress": "Malmo, Aitkin County, Minnesota, 56432, United States",
+   "country": "United States",
+   "city": "Malmo",
+   "state": "Minnesota",
+   "zipcode": "56432",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 34.2660025,
+   "longitude": -78.0988832,
+   "formattedAddress": "Malmo, Brunswick County, North Carolina, 28451, United States",
+   "country": "United States",
+   "city": "Malmo",
+   "state": "North Carolina",
+   "zipcode": "28451",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 55.5836011,
+   "longitude": 13.0027658,
+   "formattedAddress": "Malmö kommun, Skåne län, Sverige",
+   "country": "Sverige",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }

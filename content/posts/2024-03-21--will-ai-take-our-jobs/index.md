@@ -181,3 +181,10 @@ I think we can safely assume that some of the quality issues with generative AI 
 These tools will become embedded in our workflow, just as IDEs and compilers have.
 They will take away some drudgery and toil, but they will not take the jobs.
 The computer assistants are coming, but the people aren't going away.
+
+# Further reading
+
+This topic isn't going away. Here are some other takes that I found well worth reading:
+
+- [Is the “AI developer”a threat to jobs – or a marketing stunt?](https://newsletter.pragmaticengineer.com/p/is-the-ai-developera-threat-to-jobs), Gergely Orosz. March 19, 2024.
+- [Generative AI Is Not Going To Build Your Engineering Team For You](https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/), by Charity Majors. June 10, 2024. 
