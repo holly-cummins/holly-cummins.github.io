@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: TBD; something about efficiency
+title: The Efficiency Paradox and How to Save Yourself and the World
 category: software development
 type: talk
 event: GOTO
