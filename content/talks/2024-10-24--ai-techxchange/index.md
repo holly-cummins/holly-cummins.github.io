@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: The Power of LLMs in Java: Leveraging Quarkus and LangChain4j
+title: The Power of LLMs in Java – Leveraging Quarkus and LangChain4j
 category: ai
 type: talk
 event: IBM TechXchange
