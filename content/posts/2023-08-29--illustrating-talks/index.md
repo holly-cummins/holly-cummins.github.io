@@ -86,13 +86,13 @@ I sometimes also use [Flickr](https://www.flickr.com/search/?license=4%2C5%2C6%2
 
 A source I've recently discovered is [The Library of Congress free-to-use archive](https://www.loc.gov/free-to-use/).
 The images tend to have a vintage feel (because they're older and thus out of copyright), but there are also some new ones. 
-There's a range of [bridges](https://www.loc.gov/free-to-use/cats/), [public service posters](https://www.loc.gov/free-to-use/wpa-posters/), [landmarks](https://www.loc.gov/free-to-use/historical-travel-pictures/), and all sorts of other potentially useful images. 
+There's a range of [bridges](https://www.loc.gov/free-to-use/bridges/), [public service posters](https://www.loc.gov/free-to-use/wpa-posters/), [landmarks](https://www.loc.gov/free-to-use/historical-travel-pictures/), and all sorts of other potentially useful images. 
 
 For example, these are two of my favourites, and I can imagine using either in a talk:
 
 ![a woman who looks a bit like Rosie the Riveter, operating a drill](vengeance-drill.png)_A woman operating a hand drill at Vultee-Nashville, 1943. With the red head scarf, it gives the impression of a real-life Rosie the riveter. I love the contrast between the impeccable manicure and heavy industrial context._
 
-Many of the images in the Library of Congress archive would give a slide a dignified or inspiring mood, but not all. There's a whole category for [cats]((https://www.loc.gov/free-to-use/cats/)):
+Many of the images in the Library of Congress archive would give a slide a dignified or inspiring mood, but not all. There's a whole category for [cats](https://www.loc.gov/free-to-use/cats/):
 
  ![a cat in a winged helmet](brunnhilde.png)_A cat, improbably wearing a winged helmet and breastplate armor in the role of the valkyrie Brünnhilde from the opera Der Ring des Niebelungen, 1936. I wonder if the cat also sang?_
 
