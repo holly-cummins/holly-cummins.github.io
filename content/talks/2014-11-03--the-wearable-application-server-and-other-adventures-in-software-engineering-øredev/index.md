@@ -10,7 +10,7 @@ location: "Malmö, Sweden"
 cover: "audience.jpg"
 author: "holly cummins"
 video:
-  url: "https://player.vimeo.com/video/111048054?app_id=122963"
+  url: "https://player.vimeo.com/video/111048054"
 tweets:
   - "https://twitter.com/twitter/status/529987164533444608"
   - "https://twitter.com/twitter/status/529039750783852544"
