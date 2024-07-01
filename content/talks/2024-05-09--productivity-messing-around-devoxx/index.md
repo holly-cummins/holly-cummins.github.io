@@ -13,6 +13,8 @@ video:
   url: https://www.youtube.com/watch?v=5cINkhmBg1A&list=PLKuh52zVrL6lI2yr3bDE16g_6ur4Z6cPf&index=96
   
 resources:
+  - title: The background story behind the talk, and a transcript
+    url: https://trishagee.com/2024/06/30/are-developer-productivity-and-developer-joy-opposites/
   - title: Martin Fowler, "Measuring Developer Productivity in Humans"
     url: https://martinfowler.com/articles/measuring-developer-productivity-humans.html
   - title: No Human Programmers article
