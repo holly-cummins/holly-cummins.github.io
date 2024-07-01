@@ -1,6 +1,6 @@
 ---
 title: "Chatbot Best Practices"
-url: https://www.ibm.com/cloud/blog/chatbot-best-practices
+url: https://web.archive.org/web/20230322142100/https://www.ibm.com/cloud/blog/chatbot-best-practices
 imageUrl: https://1.cms.s81c.com/sites/default/files/styles/ibm_cloud_wide_background/public/2019-06-17/Leadspace-1130540135.jpg?itok=sONm8Lpf
 cover: Leadspace-1130540135.jpg
 author: holly cummins

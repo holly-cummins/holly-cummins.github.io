@@ -1,6 +1,6 @@
 ---
 title: "Working out how much a project will cost"
-url: https://www.ibm.com/cloud/blog/working-much-project-will-cost
+url: https://web.archive.org/web/20230322142100/https://www.ibm.com/cloud/blog/working-much-project-will-cost
 imageUrl: https://1.cms.s81c.com/sites/default/files/styles/ibm_cloud_wide_background/public/2019-01-18/Cloud-Leadspace_3.jpg?itok=uw-YSGvT
 cover: Cloud-Leadspace_3.jpg
 author: holly cummins

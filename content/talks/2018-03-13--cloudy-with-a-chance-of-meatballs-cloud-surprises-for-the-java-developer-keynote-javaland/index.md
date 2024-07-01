@@ -8,7 +8,7 @@ resources:
   - title: "JavaLand newspaper interview"
     url: "https://www.javaland.eu/en/home/news/news/table-tennis-breaks-serve-a-similar-mental-function-as-a-shower/"
   - title: "The Hero’s Journey to Cloud: Why Star Wars, Prometheus, and Cloud Are All Interconnected"
-    url: "https://www.ibm.com/cloud/blog/the-heros-journey-to-cloud-why-star-wars-prometheus-and-cloud-are-all-interconnected"
+    url: "https://web.archive.org/web/20230322142100/https://www.ibm.com/cloud/blog/the-heros-journey-to-cloud-why-star-wars-prometheus-and-cloud-are-all-interconnected"
 event: "JavaLand"
 location: "50321 Brühl, Germany"
 author: "holly cummins"
