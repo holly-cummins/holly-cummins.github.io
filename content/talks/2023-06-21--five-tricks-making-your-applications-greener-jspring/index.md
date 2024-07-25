@@ -7,6 +7,8 @@ location: Utrecht
 keynote: true
 slides:
   url: https://speakerdeck.com/hollycummins/these-five-tricks-can-make-your-apps-greener-cheaper-and-nicer-40c62b96-7b87-4d6d-90fb-b684582fc9d6
+video:
+  url: https://www.youtube.com/watch?v=eCQKYStnqW8
 tweets:
   - https://twitter.com/jhkuperus/status/1671477427904692224?s=20
   - https://twitter.com/royvanrijn/status/1671478733323083778?s=20
