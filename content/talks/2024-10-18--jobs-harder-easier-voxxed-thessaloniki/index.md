@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: The future of development: Are our jobs getting harder or easier? 
+title: The future of development – Are our jobs getting harder or easier? 
 category: software development
 type: talk
 event: Voxxed Days
