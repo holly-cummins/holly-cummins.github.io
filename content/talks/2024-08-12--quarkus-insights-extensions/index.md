@@ -2,7 +2,7 @@
 author: holly cummins and Emil Lefkof
 title: How to create your own Quarkus extension  
 category: quarkus
-type: webinar
+type: talk
 event: Quarkus Insights
 slides:
   url: https://speakerdeck.com/hollycummins/how-to-create-your-own-quarkus-extension
