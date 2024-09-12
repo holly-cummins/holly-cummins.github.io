@@ -4,7 +4,7 @@ title: "Zero Waste, Radical Magic, and Italian Graft – Quarkus Efficiency Secr
 category: sustainability
 type: talk
 event: Devoxx
-location: Belgium
+location: Antwerp
 slides:
 tweets:
 
