@@ -1,5 +1,5 @@
 ---
-author: holly cummins
+author: holly cummins and Ian Robinson
 title: Refactoring to Kube-native Java with Quarkus
 category: quarkus
 type: talk

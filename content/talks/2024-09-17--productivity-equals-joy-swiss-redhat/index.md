@@ -1,10 +1,10 @@
 ---
 author: holly cummins
-title: The Efficiency Paradox and How to Save Yourself and the World
+title: Developer Joy == Developer Productivity (really!)
 category: software development
 type: talk
-event: GOTO
-location: Copenhagen
+event: Swiss Dev Confederation
+location: Zurich
 slides:
 tweets:
 
