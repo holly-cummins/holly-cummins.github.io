@@ -1,4 +1,16 @@
 {
+ "Thessaloniki": [
+  {
+   "county": "Thessaloniki Regional Unit",
+   "state_district": "Central Macedonia",
+   "ISO3166-2-lvl5": "GR-B",
+   "state": "Macedonia and Thrace",
+   "country": "Greece",
+   "countryCode": "GR",
+   "latitude": "40.6403167",
+   "longitude": "22.9352716"
+  }
+ ],
  "Amsterdam": [
   {
    "latitude": 52.3727598,

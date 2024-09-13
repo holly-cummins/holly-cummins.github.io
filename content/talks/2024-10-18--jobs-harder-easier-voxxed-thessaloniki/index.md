@@ -4,7 +4,7 @@ title: The future of development – Are our jobs getting harder or easier?
 category: software development
 type: talk
 event: Voxxed Days
-location: Thessaloniki, Greece
+location: Thessaloniki
 keynote: true
 slides:
   url: https://speakerdeck.com/hollycummins/the-future-of-development-are-our-jobs-getting-harder-or-easier
