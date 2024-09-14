@@ -5,7 +5,7 @@ category: software development
 type: talk
 event: Swiss Dev Confederation
 location: Zurich
-slides:
+slides: https://speakerdeck.com/hollycummins/developer-joy-equals-equals-developer-productivity-really
 tweets:
 
 ---
