@@ -63,9 +63,13 @@ Drawing it yourself is a great way of generating images for a presentation. “B
 
 ![A purple horse running away from a barn door](horse.png)_A 2022 slide about the impact of heavy governance on IT provisioning behaviour, illustrated by me. Being able to draw something was useful, because it would have been pretty hard to find a photo of a horse running away from an open barn door. The fact that I could sneakily make the escaping horse look a bit like a Charity-Majors-approved My Little Pony was a bonus._
 
-But honestly, drawing skill isn’t necessary. Some of the most effective presentation’s I’ve seen are Felienne Hermans’s. I don’t think she’d mind me saying that her drawings are not especially skilled. 
+But honestly, drawing skill isn’t necessary. Some of the most effective presentations I’ve seen are Felienne Hermans’s. I don’t think she’d mind me saying that her drawings are not especially skilled, but they work very very well to convey her message. 
 
 ![Some hand drawn text and simple people](felienne-hedy.png)_Felienne Hermans at GOTO Amsterdam, June 2022_
+
+#### Other people's drawings
+
+When it comes to drawings, your own are always best, even if they're, technically speaking, the worst. However, if you really don't want to go there, [Coco Material](https://cocomaterial.com/) is a sweet little library of open source illustrations. Some of them do look a bit clip-art-y, so choose carefully. Because the drawings are simple, the Coco Material site is also a great learning resource. Study the drawings: how did they make that bottle of soya sauce so unmistakable with just a few coloured areas? How did they give that cat so much expression with just a few lines? The Coco Material license would also allow tracing, if you wanted to split the difference between drawing your own and re-using someone else's.
 
 ### Photos
 
