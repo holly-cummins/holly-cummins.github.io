@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: NLJUG academy masterclass: Create Java-based AI applications with Quarkus and LangChain4j
+title: NLJUG academy masterclass – Create Java-based AI applications with Quarkus and LangChain4j
 category: ai
 type: talk
 event: NLJUG
