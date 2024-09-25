@@ -5,6 +5,8 @@ category: ai
 type: talk
 event: NLJUG
 location: Utrecht
+slides:
+  url: https://speakerdeck.com/hollycummins/create-java-based-ai-applications-with-quarkus-and-langchain4j
 code:
   - title: "The samples shown in the talk"
     url: "https://github.com/kdubois/quarkus-langchain4j-samples"
@@ -12,6 +14,9 @@ code:
     url: "https://github.com/kdubois/quarkus-langchain4j-samples"
   - title: "A self-paced Quarkus + LangChain4j workshop"
     url: https://cescoffier.github.io/quarkus-langchain4j-workshop/ 
+resources:
+  - title: "Red Hat Developer Quarkus Tutorial (including AI)"
+    url: "https://redhat-developer-demos.github.io/quarkus-tutorial/quarkus-tutorial/17_prompts.html" 
 ---
 
 Generative AI has taken the world by storm over the last year, and it seems like every executive leader out there is telling us “regular” Java application developers to “add AI” to our applications. Does that mean we need to drop everything we’ve built and become data scientists instead now?
