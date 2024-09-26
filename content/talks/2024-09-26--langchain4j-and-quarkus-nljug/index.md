@@ -14,6 +14,8 @@ code:
     url: "https://github.com/kdubois/quarkus-langchain4j-samples"
   - title: "A self-paced Quarkus + LangChain4j workshop"
     url: https://cescoffier.github.io/quarkus-langchain4j-workshop/ 
+  - title: "An example of using Quarkus + LLM + Drools rules engine"
+    url:  https://github.com/mariofusco/quarkus-drools-llm
 resources:
   - title: "Red Hat Developer Quarkus Tutorial (including AI)"
     url: "https://redhat-developer-demos.github.io/quarkus-tutorial/quarkus-tutorial/17_prompts.html" 
