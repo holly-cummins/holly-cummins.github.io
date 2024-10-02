@@ -6,6 +6,7 @@ type: talk
 event: GOTO
 location: Copenhagen
 slides:
+  url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world
 tweets:
 
 ---
