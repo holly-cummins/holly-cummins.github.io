@@ -7,7 +7,7 @@ location: "Antwerp"
 author: Trisha Gee and Holly Cummins
 
 slides:
-  url: https://speakerdeck.com/hollycummins/productivity-is-messing-around-and-having-fun
+  url: https://speakerdeck.com/hollycummins/productivity-is-messing-around-and-having-fun-ba405468-eb79-420c-bcdd-b203bdf69ddc
 
 video:
   url: https://www.youtube.com/watch?v=5cINkhmBg1A&list=PLKuh52zVrL6lI2yr3bDE16g_6ur4Z6cPf&index=96
