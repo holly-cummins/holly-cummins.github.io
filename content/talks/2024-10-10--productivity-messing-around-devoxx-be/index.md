@@ -59,6 +59,7 @@ tweets:
  - https://x.com/TCoolsIT/status/1844348840742412703
  - https://x.com/danieloh30/status/1844346736359489814
  - https://www.linkedin.com/posts/activity-7250184745995710466-0NK9
+ - https://www.linkedin.com/posts/florence-mary_womenintech-womenwhocode-womenwhorock-activity-7250127954075095040-Abx_
 
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 
