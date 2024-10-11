@@ -8,6 +8,11 @@ location: Copenhagen
 slides:
   url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world
 tweets:
+  - https://x.com/RomainTYS/status/1841763968139886735
+  - https://freiburg.social/@flq/113243116278452335
+  - https://www.linkedin.com/posts/karenskjerbaek_gotocph-activity-7247589605271580672-RKtE
+  - https://www.linkedin.com/posts/jennyvej_conference-neurodiversity-audhd-activity-7247904887642935296-Pfne
+  - 
 
 ---
 Inefficiency is ruining our planet and our lives. Efficiency is ruining our happiness, and weirdly, it’s also ruining our efficiency. Heeeeelppp!? What’s a techie to do? Zombie servers and slow code are a big climate problem, but the vrrrooom model gives us double-win hope. Holly walks through a range of techniques that can be used to find and eliminate software waste and reduce climate impacts. 

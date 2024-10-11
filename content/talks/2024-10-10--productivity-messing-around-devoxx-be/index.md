@@ -53,13 +53,12 @@ resources:
     url: https://copilot.microsoft.com/
 
 tweets:
-  - https://x.com/jrosaproenca/status/1788594115237515668
-  - https://x.com/trisha_gee/status/1788586198811758677
-  - https://x.com/mariofusco/status/1789298543108259908
-  - https://x.com/poggs/status/1788585795189694576
-  - https://x.com/poggs/status/1788590498053079045
-  - https://x.com/poggs/status/1788597949397631305
-  - https://www.linkedin.com/posts/farhath-razzaque-1677b0212_had-an-incredible-few-days-at-devoxx-uk-last-activity-7196089682835783680-lqHR?utm_source=share&utm_medium=member_desktop
+ - https://x.com/iam_carpenter/status/1844357498264068331
+ - https://x.com/wimdeblauwe/status/1844351741405561012
+ - https://x.com/edeandrea/status/1844349411021009387
+ - https://x.com/TCoolsIT/status/1844348840742412703
+ - https://x.com/danieloh30/status/1844346736359489814
+ - https://www.linkedin.com/posts/activity-7250184745995710466-0NK9
 
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 

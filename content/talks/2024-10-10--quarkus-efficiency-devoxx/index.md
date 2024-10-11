@@ -6,6 +6,9 @@ type: talk
 event: Devoxx
 location: Antwerp
 slides:
+  url: https://speakerdeck.com/hollycummins/zero-waste-radical-magic-and-italian-graft-quarkus-efficiency-secrets-97d77fb7-5d21-4eac-b1f2-8668ccc4e315
+video:
+  url: https://www.youtube.com/watch?v=vnrXXvnqriA&t=734s
 tweets:
 
 ---
