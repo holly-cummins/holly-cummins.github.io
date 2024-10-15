@@ -60,7 +60,15 @@ tweets:
  - https://x.com/danieloh30/status/1844346736359489814
  - https://www.linkedin.com/posts/activity-7250184745995710466-0NK9
  - https://www.linkedin.com/posts/florence-mary_womenintech-womenwhocode-womenwhorock-activity-7250127954075095040-Abx_
-
+ - https://x.com/Shvunzlootcha/status/1844701872801661365
+photos:
+ credit: @dimitrisDoutsiopoulos, Devoxx photographer
+ images:
+ - https://www.flickr.com/photos/bejug/54057752337/in/album-72177720321110769/
+ - https://www.flickr.com/photos/bejug/54059078865/in/album-72177720321110769/
+ - https://www.flickr.com/photos/bejug/54058627646/in/album-72177720321110769/
+ - https://www.flickr.com/photos/bejug/54058627621/in/album-72177720321110769/
+ - https://www.flickr.com/photos/bejug/54058949634/in/album-72177720321110769/
 ---
 What is the happy path, for developers? It’s less boredom, and more play. 
 

@@ -6,6 +6,7 @@ type: talk
 event: Red Hat Summit Connect
 location: London
 slides:
+  url: https://speakerdeck.com/hollycummins/faster-greener-and-happier-why-quarkus-should-be-your-next-tech-stack-4d183c82-b18c-4ea1-a394-15fa07311f49
 tweets:
 resources:
 

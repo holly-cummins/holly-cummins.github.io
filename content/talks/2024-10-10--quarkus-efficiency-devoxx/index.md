@@ -11,6 +11,12 @@ video:
   url: https://www.youtube.com/watch?v=vnrXXvnqriA&t=734s
 tweets:
 
+photos:
+ credit: @dimitrisDoutsiopoulos, Devoxx photographer
+ images: 
+   - https://www.flickr.com/photos/bejug/54058625081/in/album-72177720321110769
+   - https://www.flickr.com/photos/bejug/54057749757/in/album-72177720321110769/
+ 
 ---
 
 What makes software efficient? Is it how quickly code executes, or is it how quickly developers can use it to solve problems? Quarkus makes both people and hardware more efficient. That’s cool, but how does it work? Usually, we expect to trade-off developer experience against runtime efficiency. In this session, Holly will dive into some of the technical underpinnings of Quarkus’s efficiency. She’ll give advice for those using or considering Quarkus - Do native binaries run fastest? Are verbose programs more efficient? She’ll also share general principles and transferrable discoveries from the engineering team, such as knowing what you’re optimising for, avoiding cache pollution, and how to be static-but-dynamic.
