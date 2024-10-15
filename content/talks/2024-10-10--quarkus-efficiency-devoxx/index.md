@@ -12,10 +12,10 @@ video:
 tweets:
 
 photos:
- credit: @dimitrisDoutsiopoulos, Devoxx photographer
- images: 
-   - https://www.flickr.com/photos/bejug/54058625081/in/album-72177720321110769
-   - https://www.flickr.com/photos/bejug/54057749757/in/album-72177720321110769/
+  - credit: @dimitrisDoutsiopoulos, Devoxx photographer
+    images: 
+      - https://www.flickr.com/photos/bejug/54058625081/in/album-72177720321110769
+      - https://www.flickr.com/photos/bejug/54057749757/in/album-72177720321110769/
  
 ---
 
