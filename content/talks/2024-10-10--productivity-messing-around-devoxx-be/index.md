@@ -62,7 +62,7 @@ tweets:
  - https://www.linkedin.com/posts/florence-mary_womenintech-womenwhocode-womenwhorock-activity-7250127954075095040-Abx_
  - https://x.com/Shvunzlootcha/status/1844701872801661365
 photos:
- - credit: @dimitrisDoutsiopoulos, Devoxx photographer
+ - credit: "@dimitrisDoutsiopoulos, Devoxx photographer"
    images:
    - https://www.flickr.com/photos/bejug/54057752337/in/album-72177720321110769/
    - https://www.flickr.com/photos/bejug/54059078865/in/album-72177720321110769/
