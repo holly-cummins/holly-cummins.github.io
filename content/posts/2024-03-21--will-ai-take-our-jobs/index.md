@@ -60,6 +60,7 @@ Knockers-up would visit their clients and wake them up, either by tapping on the
 (If you're reading this and are confused or horrified, the important context you're missing is that 'knocking up' means 'to wake someone up' in UK English. 
 In North American English 'knocking up' means 'to impregnate', but that kind of service was definitely outside the job description here.)
 
+Knocking-up was a job created by the changing technology of the industrial revolution, but changing technology also eliminated the profession. 
 As more people got mechanical alarm clocks, the need for the knocker-up faded. 
 The need didn't fade as fast as you might think, though; 
 professional knocking-up lasted to the 1940s and 1950s, and in some parts of England [it hung around until the 1970s.](https://www.bbc.co.uk/news/uk-england-35840393)
@@ -188,3 +189,4 @@ This topic isn't going away. Here are some other takes that I found well worth r
 
 - [Is the “AI developer”a threat to jobs – or a marketing stunt?](https://newsletter.pragmaticengineer.com/p/is-the-ai-developera-threat-to-jobs), Gergely Orosz. March 19, 2024.
 - [Generative AI Is Not Going To Build Your Engineering Team For You](https://stackoverflow.blog/2024/06/10/generative-ai-is-not-going-to-build-your-engineering-team-for-you/), by Charity Majors. June 10, 2024. 
+- At GOTO Copenhagen, Kent Beck was asked if AI would end the job of a developer. He had a two-word answer: "Jevon's Paradox." In other words, reducing the cost of a thing increases demand for it. This is a simular argument to mine, but I hadn't thought of linking it to Jevon's Paradox, even though I actually spend a lot of time thinking about Jevon's paradox in other contexts. 
