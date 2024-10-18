@@ -7,7 +7,7 @@ event: Voxxed Days
 location: Thessaloniki
 keynote: true
 slides:
-  url: https://speakerdeck.com/hollycummins/the-future-of-development-are-our-jobs-getting-harder-or-easier
+  url: https://speakerdeck.com/hollycummins/the-future-of-development-are-our-jobs-getting-harder-or-easier-18ad19a6-63ec-4d11-9ca7-d5230b60e35e
 tweets:
 
 ---
