@@ -10,6 +10,7 @@ tweets:
  - https://x.com/P_Ensarguet/status/1719408264884974002?s=20
  - https://hachyderm.io/@ebullient/111338070588743002
  - https://x.com/oleg_nenashev/status/1719467161393975341?s=20
+ - https://x.com/sasaunde/status/1849190387946283189
 ---
 _Sometimes, death is a feature, not a defect_
 
@@ -53,7 +54,7 @@ Do we have evidence how useful stopping things actually is? We do.
 
 If a Testcontainers container doesn’t stop, it’s a minor irritation. It might consume a little bit of CPU and memory until your laptop is next rebooted, or in the worst cases, it might cause interference and weird results in subsequent test runs. But when “not stopping things” is multiplied across an entire industry, the consequences can be serious. 
 
-The Antithesis institute have done a series of studies to work out how widespread zombie servers are. They found that [25-30%](https://www.nrdc.org/sites/default/files/data-center-efficiency-assessment-IB.pdf) of servers are “comatose” – that is, they haven’t done any useful work for six months. Here, “useful work” doesn’t mean “they weren’t just serving cat videos,” it means they haven't delivered any information or computing services for six months or more. That’s a shockingly low bar, and yet 25% of systems still didn’t meet it. 
+The Anthesis institute have done a series of studies to work out how widespread zombie servers are. They found that [25-30%](https://www.nrdc.org/sites/default/files/data-center-efficiency-assessment-IB.pdf) of servers are “comatose” – that is, they haven’t done any useful work for six months. Here, “useful work” doesn’t mean “they weren’t just serving cat videos,” it means they haven't delivered any information or computing services for six months or more. That’s a shockingly low bar, and yet 25% of systems still didn’t meet it. 
 
 ![A green zombie](zombie.png)
 
