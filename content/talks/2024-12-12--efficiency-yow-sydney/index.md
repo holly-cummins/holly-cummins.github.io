@@ -5,7 +5,7 @@ category: software development
 type: talk
 event: YOW!
 keynote: true
-location: Sydney
+location: Sydney, Australia
 slides:
   url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world
 tweets:
