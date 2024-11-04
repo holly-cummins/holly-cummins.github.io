@@ -4,6 +4,8 @@ title: "Zombie Menace, Vampire Peril"
 category: sustainability
 type: blog
 cover: vampire.png
+tweets:
+  - https://x.com/P_Ensarguet/status/1847240872418594868
 ---
 
 It's the spookiest time of year! 
