@@ -89,7 +89,7 @@ It's bad.
 That wouldn't be terrible, except a machine running with such low utilization still uses 30-60% of its maximum power. (This ratio is called "energy proportionality," if you want to bring out the technical terms.)
 Things are even more disproportionate when we look at the hardware side. Building an unused server emits _exactly_ the same amount of carbon and consumes the same amount of natural resources as building a well-utilised server. The cost to us and the planet is the same, but the value is far far lower. 
 
-A [2017 survey](https://www.anthesisgroup.com/wp-content/uploads/2019/11/Comatose-Servers-Redux-2017.pdf) found that, over a six month period, 29% of servers had utilisation less than 5%.
+A 2017 survey from the Anthesis Institute found that, over a six month period, 29% of servers had utilisation less than 5%.
 A quarter of the servers had no utilization at all; they were _completely unused_. 
 
 That quarter figure is the average over a large sample, and included a number of different companies. In some unlucky organisations, the proportion of zombies can be higher. 
