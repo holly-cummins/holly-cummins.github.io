@@ -1,5 +1,5 @@
 ---
-author: holly cummins
+author: georgios andrianakis and holly cummins
 title: Leverage LLMs in Java with LangChain4j and Quarkus
 category: ai
 type: talk
