@@ -6,6 +6,7 @@ type: talk
 event: Øredev
 location: Malmo
 slides:
+  url: https://speakerdeck.com/hollycummins/less-waste-more-joy-and-a-lot-more-green-how-quarkus-makes-java-better
 tweets:
 resources:
   - title: Quarkus Efficiency Secrets talk
