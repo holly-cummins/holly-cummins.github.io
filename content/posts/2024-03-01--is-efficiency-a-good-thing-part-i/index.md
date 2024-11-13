@@ -6,7 +6,7 @@ type: blog
 cover: waste.png
 ---
 
-_This talk is based on a keynote I presented at [Tech.Rocks Summit](https://events.tech.rocks/summit-2023/). I'm grateful to the organisers for suggesting the topic._
+_This blog is based on a keynote I presented at [Tech.Rocks Summit](https://events.tech.rocks/summit-2023/). I'm grateful to the organisers for suggesting the topic._
 
 Is efficiency a good thing? On the face of it, the question seems absurd. 
 Of _course_ efficiency is a good thing. None of aspire to be inefficient. 
