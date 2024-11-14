@@ -33,8 +33,12 @@ Why is 'vroom model' not finding anything? Two reasons:
 How hard is naming? Well, it turns out there already _is_ something called the Vroom Model (one 'r', two 'o's). It was invented in 1973 by Victor Vroom, working alongside Phillip Yetton and Arthur Jago. 
 The original Vroom Model, or, to be more complete, [Vroom-Yetton-Jago Normative Decision Model](https://en.wikipedia.org/wiki/Vroom–Yetton_decision_model) is about decision making, not about sustainability. 
 
+If you use Google search for "vrrroooom model," it will search instead for "vroom model," and show you Dr. Vroom's model. 
+If you force it to search for the original spelling, with all the r's and o's, it will show you a set of images which are barely safe for work. They involve cars. And bikinis. 
+
 # Ok but what is Holly's Vrrroooooooooom Model?
 
+Let's assume you're interested in green software rather than sexy vehicles. What's the vrrrooooom model, in that context?
 While we're here, I'll explain. Calculating carbon emissions is important, but hard. 
 Sometimes it's important to be accurate, but if you're optimising, you don't need a 
 perfectly precise absolute number, you just need to be consistent in your measurements
