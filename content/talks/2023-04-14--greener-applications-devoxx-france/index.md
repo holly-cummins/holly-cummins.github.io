@@ -7,7 +7,7 @@ location: "Paris"
 slides:
   url: https://speakerdeck.com/hollycummins/writing-greener-java-applications-af4494ef-bb72-4375-999e-519c750b5f1c
 video:
-  url: https://www.youtube.com/watch?v=bi3s32jBJFg
+  url: https://www.youtube.com/watch?v=DSMgqAfwfUA
 tweets:
   - https://twitter.com/lenaing/status/1648812282581753856?s=20
   - https://twitter.com/lenra_dev/status/1646823354450563074?s=20
