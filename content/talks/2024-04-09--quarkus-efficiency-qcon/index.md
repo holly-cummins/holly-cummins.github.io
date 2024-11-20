@@ -1,7 +1,7 @@
 ---
 author: holly cummins
 title: "Zero Waste, Radical Magic, and Italian Graft – Quarkus Efficiency Secrets"
-category: sustainability
+category: quarkus
 type: talk
 event: QCon
 location: London
