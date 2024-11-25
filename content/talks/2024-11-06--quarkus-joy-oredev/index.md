@@ -7,6 +7,8 @@ event: Øredev
 location: Malmo
 slides:
   url: https://speakerdeck.com/hollycummins/less-waste-more-joy-and-a-lot-more-green-how-quarkus-makes-java-better
+video:
+  url: https://www.youtube.com/watch?v=mx4p2zytjvc&list=PLOUKmSqExtAFpg3krEd6CXr3uIyUgP97b&index=12
 tweets:
   - https://x.com/gracejansen27/status/1854147735781285930
 ---
