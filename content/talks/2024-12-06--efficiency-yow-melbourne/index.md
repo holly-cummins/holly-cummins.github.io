@@ -7,7 +7,7 @@ event: YOW!
 keynote: true
 location: Melbourne, Australia
 slides:
-  url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world
+  url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world-a96d352f-22d3-4151-9140-f16692e2a03a
 tweets:
 
 ---
