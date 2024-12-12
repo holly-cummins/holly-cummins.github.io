@@ -12,7 +12,7 @@ tweets:
   - https://freiburg.social/@flq/113243116278452335
   - https://www.linkedin.com/posts/karenskjerbaek_gotocph-activity-7247589605271580672-RKtE
   - https://www.linkedin.com/posts/jennyvej_conference-neurodiversity-audhd-activity-7247904887642935296-Pfne
-  - 
+  - https://bsky.app/profile/dmitrykandalov.bsky.social/post/3ld226w2stk2f
 
 ---
 Inefficiency is ruining our planet and our lives. Efficiency is ruining our happiness, and weirdly, it’s also ruining our efficiency. Heeeeelppp!? What’s a techie to do? Zombie servers and slow code are a big climate problem, but the vrrrooom model gives us double-win hope. Holly walks through a range of techniques that can be used to find and eliminate software waste and reduce climate impacts. 
