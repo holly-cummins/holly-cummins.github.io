@@ -26,7 +26,7 @@ resources:
   - title: LinkedIn Productivity
     url: https://thenewstack.io/linkedin-shares-its-developer-productivity-framework/
   - title: James Shore, on a better productivity metric
-    url: https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure 
+    url: http://web.archive.org/web/20240909145058/https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure 
   - title: Default Mode Network
     url: https://en.wikipedia.org/wiki/Default_mode_network
   - title: Moon Girl Devil Dinosaur episode 9
