@@ -36,7 +36,7 @@ module.exports = {
     authorSocialLinks: [
         {
             name: "bluesky",
-            url: "https://bsky.app/profile/holly-cummins.bsky.social",
+            url: "https://bsky.app/profile/hollycummins.com",
             display: "@holly-cummins.bsky.social"
         },
         {
