@@ -2,12 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
-import { FaArrowRight } from "react-icons/fa/";
-import { FaArrowLeft } from "react-icons/fa/";
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
+import { useTheme } from "../../layouts/theme";
 
 const NextPrev = props => {
   const {
-    theme,
     next: {
       fields: { prefix: nextPrefix, slug: nextSlug } = {},
       frontmatter: { title: nextTitle } = {}
@@ -18,6 +18,8 @@ const NextPrev = props => {
     } = {}
   } = props;
 
+  const theme = useTheme();
+
   return (
     <React.Fragment>
       <div className="links">
@@ -25,7 +27,8 @@ const NextPrev = props => {
           <Link to={nextSlug}>
             <FaArrowRight />
             <h4>
-              {nextTitle} <time>{nextPrefix} </time>
+              {nextTitle}
+              <time>{nextPrefix} </time>
             </h4>
           </Link>
         )}
@@ -33,7 +36,8 @@ const NextPrev = props => {
           <Link to={prevSlug}>
             <FaArrowLeft />
             <h4>
-              {prevTitle} <time>{prevPrefix}</time>
+              {prevTitle}
+              <time>{prevPrefix}</time>
             </h4>
           </Link>
         )}
@@ -71,6 +75,7 @@ const NextPrev = props => {
           margin: 0;
           font-size: 1.1em;
         }
+
         time {
           color: ${theme.color.neutral.gray.g};
           display: block;
@@ -91,6 +96,7 @@ const NextPrev = props => {
             :global(a:nth-child(2)) {
               margin: 0;
             }
+
             :global(svg) {
               transition: all 0.5s;
               margin: ${theme.space.inline.s};
@@ -110,8 +116,8 @@ const NextPrev = props => {
 
 NextPrev.propTypes = {
   next: PropTypes.object,
-  prev: PropTypes.object,
-  theme: PropTypes.object.isRequired
+  prev: PropTypes.object
+
 };
 
 export default NextPrev;

@@ -2,23 +2,26 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import config from "../../utils/configger";
-import { graphql, StaticQuery } from "gatsby";
+import { graphql, useStaticQuery } from "gatsby";
+import { useTheme } from "../../layouts/theme";
 
-const Author = props => {
+export const Author = props => {
   const {
     note,
-    theme,
     data: {
       file: { publicURL: avatar }
     }
   } = props;
+
+  const theme = useTheme();
+
 
   return (
     <React.Fragment>
       <div className="author">
         <div className="avatar">
           <img
-            src={config.gravatarImgMd5 == "" ? avatar : config.gravatarImgMd5}
+            src={config.gravatarImgMd5 === "" ? avatar : config.gravatarImgMd5}
             alt={config.siteTitle}
           />
         </div>
@@ -70,23 +73,19 @@ const Author = props => {
 
 function QueryAuthor(props) {
   // The image could be in ./content or ../content, so use a query
-  return (
-    <StaticQuery
-      query={graphql`
+  const data = useStaticQuery(graphql`
         query AuthorQuery {
           file(base: { eq: "author.jpg" }) {
             publicURL
           }
         }
-      `}
-      render={data => <Author data={data} {...props} />}
-    />
-  );
+      `);
+
+  return (<Author data={data} {...props} />);
 }
 
 Author.propTypes = {
   note: PropTypes.string.isRequired,
-  theme: PropTypes.object.isRequired,
   data: PropTypes.shape({
     file: PropTypes.shape({
       publicURL: PropTypes.string.isRequired

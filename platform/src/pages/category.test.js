@@ -2,17 +2,10 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import CategoryPage from "./category";
 
-import { ThemeContext } from "../layouts";
 import { cover } from "../../__mocks__/site.js";
 
-import theme from "../theme/theme.yaml";
 import config from "../utils/configger";
 import { setToProd, restoreOldEnvironment } from "../utils/filters.test";
-
-// @see https://testing-library.com/docs/react-testing-library/setup#custom-render
-const renderWithTheme = (ui, theme) => {
-  return render(<ThemeContext.Provider value={theme}>{ui}</ThemeContext.Provider>);
-};
 
 const layoutData = {
   bgDesktop: {
@@ -33,7 +26,7 @@ describe("CategoryPage", () => {
       posts: { edges: [] }
     };
     beforeEach(async () => {
-      renderWithTheme(<CategoryPage data={data} />, theme);
+      render(<CategoryPage data={data} />);
     });
 
     it("renders the title", async () => {
@@ -80,7 +73,7 @@ describe("CategoryPage", () => {
     };
 
     beforeEach(async () => {
-      renderWithTheme(<CategoryPage data={data} />, theme);
+      render(<CategoryPage data={data} />);
     });
 
     it("renders the category name", async () => {

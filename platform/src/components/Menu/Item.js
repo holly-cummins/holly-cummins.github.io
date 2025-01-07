@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
+import { useTheme } from "../../layouts/theme";
 
 const Item = props => {
-  const { theme, item: { label, to, icon: Icon } = {}, onClick } = props;
+  const { item: { label, to, icon: Icon } = {}, onClick } = props;
+  const theme = useTheme();
 
   return (
     <React.Fragment>
@@ -14,7 +16,7 @@ const Item = props => {
           onClick={onClick}
           data-slug={to}
         >
-          {Icon && <Icon />} {label}
+          {Icon && <Icon size={20} />} {label}
         </Link>
       </li>
 
@@ -85,6 +87,7 @@ const Item = props => {
 
             & :global(a.inHiddenItem) {
               color: ${theme.text.color.primary};
+
               &:hover {
                 color: ${theme.color.brand.primary};
               }
@@ -100,8 +103,8 @@ Item.propTypes = {
   item: PropTypes.object,
   hidden: PropTypes.bool,
   onClick: PropTypes.func,
-  icon: PropTypes.object,
-  theme: PropTypes.object.isRequired
+  icon: PropTypes.object
+
 };
 
 export default Item;

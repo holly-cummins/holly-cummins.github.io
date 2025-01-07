@@ -8,7 +8,6 @@ import Seo from "../components/Seo";
 import Article from "../components/Article";
 import Post from "../components/Post";
 import Talk from "../components/Talk";
-import { ThemeContext } from "../layouts";
 
 const PostTemplate = props => {
   const {
@@ -21,17 +20,13 @@ const PostTemplate = props => {
 
   return (
     <React.Fragment>
-      <ThemeContext.Consumer>
-        {theme => (
-          <Article theme={theme}>
-            {post.frontmatter.type === "talk" ? (
-              <Talk post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
-            ) : (
-              <Post post={post} next={next} prev={prev} authornote={authorNote} theme={theme} />
-            )}
-          </Article>
+      <Article>
+        {post.frontmatter.type === "talk" ? (
+          <Talk post={post} next={next} prev={prev} authornote={authorNote} />
+        ) : (
+          <Post post={post} next={next} prev={prev} authornote={authorNote} />
         )}
-      </ThemeContext.Consumer>
+      </Article>
 
       <Seo data={post} />
     </React.Fragment>

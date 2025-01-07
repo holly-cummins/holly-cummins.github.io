@@ -1,9 +1,8 @@
-import { FaTag } from "react-icons/fa/";
+import { FaTag } from "react-icons/fa";
 import PropTypes from "prop-types";
 import React from "react";
 import { graphql } from "gatsby";
 import Seo from "../components/Seo";
-import { ThemeContext } from "../layouts";
 import Article from "../components/Article";
 import Headline from "../components/Article/Headline";
 import List from "../components/List";
@@ -17,32 +16,28 @@ const CategoryTemplate = props => {
     }
   } = props;
 
+
   const filteredEntries = filterOutDrafts(edges);
   const totalCount = filteredEntries.length;
 
   // The display category may vary within the category so just grab it off the first entry
-  const displayCategory =
-    filteredEntries.length > 0 ? filteredEntries[0].node.fields.displayCategory : category;
+  const displayCategory = filteredEntries.length > 0 ? filteredEntries[0].node.fields.displayCategory : category;
 
   return (
     <React.Fragment>
-      <ThemeContext.Consumer>
-        {theme => (
-          <Article theme={theme}>
-            <header>
-              <Headline theme={theme}>
-                <span>Posts in category</span> <FaTag />
-                {displayCategory}
-              </Headline>
-              <p className="meta">
-                There {totalCount > 1 ? "are" : "is"} <strong>{totalCount}</strong> post
-                {totalCount > 1 ? "s" : ""} in the category.
-              </p>
-              <List edges={filteredEntries} theme={theme} />
-            </header>
-          </Article>
-        )}
-      </ThemeContext.Consumer>
+      <Article>
+        <header>
+          <Headline>
+            <span>Posts in category</span> <FaTag />
+            {displayCategory}
+          </Headline>
+          <p className="meta">
+            There {totalCount > 1 ? "are" : "is"} <strong>{totalCount}</strong> post
+            {totalCount > 1 ? "s" : ""} in the category.
+          </p>
+        </header>
+        <List edges={filteredEntries} />
+      </Article>
 
       <Seo />
     </React.Fragment>
@@ -61,27 +56,27 @@ export default CategoryTemplate;
 
 // eslint-disable-next-line no-undef
 export const categoryQuery = graphql`
-  query PostsByCategory($category: String) {
-    allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [fields___prefix], order: DESC }
-      filter: { fields: { slug: { ne: "" }, category: { eq: $category } } }
-    ) {
-      edges {
-        node {
-          fields {
-            slug
-            prefix
-            draft
-            category
-            displayCategory
-            title
-          }
-          frontmatter {
-            type
-          }
+ query PostsByCategory($category: String) {
+  allMarkdownRemark(
+    limit: 1000
+    sort: {fields: {prefix: DESC}}
+    filter: {fields: {slug: {ne: ""}, category: {eq: $category}}}
+  ) {
+    edges {
+      node {
+        fields {
+          slug
+          prefix
+          draft
+          category
+          displayCategory
+          title
+        }
+        frontmatter {
+          type
         }
       }
     }
   }
+}
 `;

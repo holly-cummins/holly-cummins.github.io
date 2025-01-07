@@ -1,14 +1,16 @@
 import React from "react";
 import PropTypes from "prop-types";
-import TextFit from "react-textfit";
+import TextFit from "react-textfitfix";
 import { Link } from "gatsby";
-import { Badge20 as Star } from "@carbon/icons-react";
+import { Badge as Star } from "@carbon/icons-react";
+import { useTheme } from "../../layouts/theme";
 
 const EventList = props => {
-  const { edges, theme, showDate, listener } = props;
+  const { edges, showDate, listener } = props;
+  const theme = useTheme();
 
   return (
-    <React.Fragment>
+    (<React.Fragment>
       <ul data-testid="event-list-wrapper">
         {edges.map(edge => {
           const {
@@ -39,7 +41,7 @@ const EventList = props => {
                   {showDate ? cleanDate : event}
                 </TextFit>
               </div>
-              <div className="keynoteIndicator">{keynote ? <Star /> : <></>}</div>
+              <div className="keynoteIndicator">{keynote ? <Star size={20} /> : <></>}</div>
               <div className="talkTitle">{title}</div>
             </div>
           );
@@ -57,7 +59,6 @@ const EventList = props => {
           );
         })}
       </ul>
-
       {/* --- STYLES --- */}
       <style jsx>{`
         ul {
@@ -100,13 +101,12 @@ const EventList = props => {
           flex: 75%;
         }
       `}</style>
-    </React.Fragment>
+    </React.Fragment>)
   );
 };
 
 EventList.propTypes = {
   edges: PropTypes.array.isRequired,
-  theme: PropTypes.object.isRequired,
   showDate: PropTypes.bool,
   listener: PropTypes.func
 };
