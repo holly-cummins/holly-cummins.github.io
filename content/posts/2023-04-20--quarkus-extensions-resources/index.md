@@ -19,7 +19,13 @@ The Quarkus Team have two guides about writing extensions, a simple one, and a d
 
 The deeper guide is now linked from the top menu bar of [quarkus.io](http://quarkus.io) as “Create Extensions” to make it easier to find. 
 
-I sometimes think we could use a “my second extension” guide, but we haven’t written one yet. (Remember, the todo list is infinite.) However, there are some great community blogs/instructions that fill in that gap:
+As of autumn 2024, there are also now two companion guides:
+- [A maturity matrix for extensions](https://quarkus.io/guides/extension-maturity-matrix)
+- [Extension FAQs](https://quarkus.io/guides/extension-faq)
+
+I wrote them, so I think they're useful. :) 
+
+I sometimes think we could also use a “my second extension” guide, but we haven’t written one yet. (Remember, the todo list is infinite.) However, there are some great community blogs/instructions that fill in that gap:
 
 - [A walkthrough of writing an extension to log to Amazon cloud watch](https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/), which is an excellent general tutorial about writing an extension. This is the tutorial I followed when writing my first extension.
 - [A thorough walk through of writing an extension, including a dev service](https://dev.to/onepoint/quarkus-greener-better-faster-stronger-55ea). This is relatively recent, and it's great.
