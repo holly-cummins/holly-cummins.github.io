@@ -4829,5 +4829,198 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Melbourne, Australia": [
+  {
+   "latitude": -37.8142454,
+   "longitude": 144.9631732,
+   "formattedAddress": "Melbourne, City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "city": "Melbourne",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -37.8123825,
+   "longitude": 144.94826486608156,
+   "formattedAddress": "City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -37.8141705,
+   "longitude": 144.9655616,
+   "formattedAddress": "Melbourne, City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "city": "Melbourne",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Brisbane, Australia": [
+  {
+   "latitude": -27.4689682,
+   "longitude": 153.0234991,
+   "formattedAddress": "City of Brisbane, Queensland, Australia",
+   "country": "Australia",
+   "state": "Queensland",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Sydney": [
+  {
+   "latitude": -33.8698439,
+   "longitude": 151.2082848,
+   "formattedAddress": "Sydney, Council of the City of Sydney, New South Wales, Australia",
+   "country": "Australia",
+   "city": "Sydney",
+   "state": "New South Wales",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 46.1382112,
+   "longitude": -60.1941912,
+   "formattedAddress": "Sydney, Cape Breton Regional Municipality, Cape Breton County, Nova Scotia, Canada",
+   "country": "Canada",
+   "city": "Sydney",
+   "state": "Nova Scotia",
+   "countryCode": "CA",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -33.8890382,
+   "longitude": 151.2050386296839,
+   "formattedAddress": "Council of the City of Sydney, New South Wales, Australia",
+   "country": "Australia",
+   "state": "New South Wales",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Sydney, Australia": [
+  {
+   "latitude": -33.8698439,
+   "longitude": 151.2082848,
+   "formattedAddress": "Sydney, Council of the City of Sydney, New South Wales, Australia",
+   "country": "Australia",
+   "city": "Sydney",
+   "state": "New South Wales",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -33.8890382,
+   "longitude": 151.2050386296839,
+   "formattedAddress": "Council of the City of Sydney, New South Wales, Australia",
+   "country": "Australia",
+   "state": "New South Wales",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Melbourne": [
+  {
+   "latitude": -37.8142454,
+   "longitude": 144.9631732,
+   "formattedAddress": "Melbourne, City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "city": "Melbourne",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 28.0785034,
+   "longitude": -80.6077908,
+   "formattedAddress": "Melbourne, Brevard County, Florida, United States",
+   "country": "United States",
+   "city": "Melbourne",
+   "state": "Florida",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 41.9430186,
+   "longitude": -93.1030319,
+   "formattedAddress": "Melbourne, Logan Township, Marshall County, Iowa, United States",
+   "country": "United States",
+   "city": "Melbourne",
+   "state": "Iowa",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -37.8123825,
+   "longitude": 144.94826486608156,
+   "formattedAddress": "City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -37.8141705,
+   "longitude": 144.9655616,
+   "formattedAddress": "Melbourne, City of Melbourne, Victoria, Australia",
+   "country": "Australia",
+   "city": "Melbourne",
+   "state": "Victoria",
+   "countryCode": "AU",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 52.8228134,
+   "longitude": -1.4283564,
+   "formattedAddress": "Melbourne CP, King's Newton, South Derbyshire, Derbyshire, East Midlands, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "South Derbyshire",
+   "state": "England",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 36.0595148,
+   "longitude": -91.9084819,
+   "formattedAddress": "Melbourne, Izard County, Arkansas, 72556, United States",
+   "country": "United States",
+   "city": "Melbourne",
+   "state": "Arkansas",
+   "zipcode": "72556",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 39.0297843,
+   "longitude": -84.3663279,
+   "formattedAddress": "Melbourne, Campbell County, Kentucky, United States",
+   "country": "United States",
+   "city": "Melbourne",
+   "state": "Kentucky",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
