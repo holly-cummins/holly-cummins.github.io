@@ -6,6 +6,9 @@ type: blog
 cover: yak.png
 ---
 
+TLDR: GitHub runners come with yq pre-installed. There's no need to install it, or use a third-party action.
+
+
 A problem of modern search engines is that it's much easier to index the presence of something than the absence of it. 
 (LLMs have this problem too, which is why ChatGPT will sometimes misunderstand a programming model and generate pages of unnecessary boilerplate.)
 
@@ -25,7 +28,7 @@ The yq project itself had a marketplace installer. Clearly, I needed to install 
 I wrote my workflow, using the action from the yq project itself, and sent it off to review. My colleague George Gastaldi looked at what I'd done, and pointed out yq was available on the runners. This matters, because we try and limit our use of external, 'non-official' actions, for supply chain security reasons. 
 
 So I searched again to confirm, and ... still found very little. To actually confirm, I had to merge and experiment. 
-And, indeed, the GitHub runners do come with yq pre-installed.
+And, indeed, the GitHub runners do come with yq pre-installed. They've had `yq` since 2021.
 
 This is the workflow step which alphabetises an antora playbook:
 
