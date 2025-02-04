@@ -7,6 +7,8 @@ event: QCon
 location: London
 slides:
   url: https://speakerdeck.com/hollycummins/zero-waste-radical-magic-and-italian-graft-quarkus-efficiency-secrets
+video:
+  url: https://www.infoq.com/presentations/quarkus-efficiency/  
 tweets:
   - https://x.com/Bla_Rojo/status/1777737879432687795
   - https://x.com/qconlondon/status/1777752732616573125
