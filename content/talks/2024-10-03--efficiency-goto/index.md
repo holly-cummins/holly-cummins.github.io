@@ -7,6 +7,8 @@ event: GOTO
 location: Copenhagen
 slides:
   url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world
+video: 
+  url: https://www.youtube.com/watch?v=dU_WHead0oY
 tweets:
   - https://x.com/RomainTYS/status/1841763968139886735
   - https://freiburg.social/@flq/113243116278452335
