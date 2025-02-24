@@ -13,7 +13,7 @@ tweets:
 
 ![holly](holly.png)
 
-I love this time of year. There are [so many celebrations](https://www.shondaland.com/live/family/a34874979/a-look-at-the-most-widely-celebrated-winter-holidays), both new (Kwanzaa) and ancient (Winter Solstice).
+I love this time of year. There are [so many celebrations](http://web.archive.org/web/20230329145857/https://www.shondaland.com/live/family/a34874979/a-look-at-the-most-widely-celebrated-winter-holidays/), both new (Kwanzaa) and ancient (Winter Solstice).
 My friends' timelines become a happy jumble of Christmas, Hanukkah, and the New Year. Imprinted in our modern
 traditions we can still see the shadow of older holidays, such as [Yule](https://theconversation.com/the-holly-and-the-ivy-how-pagan-practices-found-their-way-into-christmas-52343) and [Saturnalia](https://www.historytoday.com/archive/did-romans-invent-christmas). The appeal of celebration is so strong that even countries with no religious connection to Christmas get in on the Yule fun with showpiece trees and (slightly baffling) [Kentucky Fried Chicken rituals](https://www.bbc.com/worklife/article/20161216-why-japan-celebrates-christmas-with-kfc).
 

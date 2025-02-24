@@ -10,9 +10,7 @@ code:
     url: "https://github.com/holly-cummins/redis-cache-cache/tree/europe"
 slides: 
   url: https://speakerdeck.com/hollycummins/redis-quarkus-openshift-from-cache-to-modern-apps-at-scale
-resources:
-  - title: "On-demand video"
-    url: https://redis.com/events-and-webinars/redis-quarkus-openshift-from-cache-to-modern-apps-at-scale/
+
 ---
 
 Redis, Kubernetes OpenShift, and the Quarkus Java stack is a powerful combo for deploying highly available, clustered databases at scale.
