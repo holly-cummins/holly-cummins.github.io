@@ -1,6 +1,6 @@
 ---
 author: holly cummins
-title: "Efficient Software: A Developer’s Manual for Saving The World "
+title: "Efficient Software: A Developer’s Manual for Saving The World"
 category: sustainability
 type: talk
 event: Devoxx
