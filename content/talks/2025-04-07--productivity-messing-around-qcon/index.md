@@ -48,9 +48,7 @@ resources:
     url: https://gradle.com/develocity/
   - title: Copilot
     url: https://copilot.microsoft.com/
-
-slides: 
-  url: 
+  
 tweets:
 
 ---
