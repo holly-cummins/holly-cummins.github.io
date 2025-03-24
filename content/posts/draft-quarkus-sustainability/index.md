@@ -44,5 +44,12 @@ These are called [co-benefits](https://www.nature.com/articles/nclimate2814.epdf
 https://www.ox.ac.uk/news/2022-09-14-decarbonising-energy-system-2050-could-save-trillions-oxford-study
 Decarbonising the energy system by 2050 could save trillions - Oxford study 
 
+Double win 
+
+IKEA is a climate success story: it has slashed its carbon footprint by 30 percent in the last ten years while growing its profits 24 percent over the same period. “There is a very strong myth in society today that climate smart comes at a premium,” Jesper told Time. “Now, it’s quite easy to dismantle that myth.”
+
+
 Moloch trap is the opposite, win-lose: 
 https://www.sustainabilitybynumbers.com/p/moloch-trap
+
+Katherine hayhoe says climate denial is often just solution aversion; if a solution is better than status quo, …
