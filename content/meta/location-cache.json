@@ -5022,5 +5022,47 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Coimbra": [
+  {
+   "latitude": 40.2111931,
+   "longitude": -8.4294632,
+   "formattedAddress": "Coimbra, Portugal",
+   "country": "Portugal",
+   "city": "Coimbra",
+   "countryCode": "PT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": -20.8563255,
+   "longitude": -42.8026943,
+   "formattedAddress": "Coimbra, Região Geográfica Imediata de Viçosa, Região Geográfica Intermediária de Juiz de Fora, Minas Gerais, Região Sudeste, 36550-000, Brasil",
+   "country": "Brasil",
+   "state": "Minas Gerais",
+   "zipcode": "36550-000",
+   "countryCode": "BR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 40.22153715,
+   "longitude": -8.338105934554843,
+   "formattedAddress": "Coimbra, Portugal",
+   "country": "Portugal",
+   "countryCode": "PT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 40.2204397,
+   "longitude": -8.447153512890905,
+   "formattedAddress": "Coimbra (Sé Nova, Santa Cruz, Almedina e São Bartolomeu), Coimbra, Portugal",
+   "country": "Portugal",
+   "city": "Coimbra",
+   "countryCode": "PT",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
