@@ -5,7 +5,8 @@ category: sustainability
 type: talk
 event: KubeCon | CloudNativeCon
 location: London
-
+slides:
+  url: https://speakerdeck.com/hollycummins/practical-zombie-hunting-for-kubernetes-users
 
 ---
 
