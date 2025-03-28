@@ -1,7 +1,8 @@
 ---
 author: holly cummins
 title: "Efficiency and Rock n’ Roll (Really!)"
-category: sustainability
+category: software development
+keynote: true
 type: talk
 event: JNation
 location: Coimbra
