@@ -7,7 +7,8 @@ event: Open Conf
 location: Athens
 slides:
   url: https://speakerdeck.com/hollycummins/leverage-llms-in-java-with-langchain4j-and-quarkus
-
+video:
+  url: https://www.youtube.com/watch?v=9c93uj1OKGI
 code:
   - title: "The samples shown in the talk"
     url: "https://github.com/kdubois/quarkus-langchain4j-samples"
