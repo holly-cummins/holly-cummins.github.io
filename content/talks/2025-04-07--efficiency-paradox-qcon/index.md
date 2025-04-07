@@ -5,6 +5,8 @@ category: sustainability
 type: talk
 event: QCon
 location: London
+slides:
+  url: https://speakerdeck.com/hollycummins/the-efficiency-paradox-and-how-to-save-yourself-and-the-world-6597f55d-77c3-4b90-b616-6cac1a3d918f
 
 tweets:
 

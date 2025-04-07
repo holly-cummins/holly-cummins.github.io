@@ -50,6 +50,7 @@ resources:
     url: https://copilot.microsoft.com/
   
 tweets:
+  - https://www.linkedin.com/posts/lornajane_qconlondon-activity-7314945309531385857-Pw0d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJ5eOoBt0AcMzIzAu2mkXUS8W7Yskq830E
 
 ---
 
