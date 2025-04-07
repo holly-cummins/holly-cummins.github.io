@@ -1,5 +1,5 @@
 ---
-author: holly cummins
+author: Trisha Gee and holly cummins
 title: "Productivity is Messing Around and Having Fun"
 category: fun
 type: talk
