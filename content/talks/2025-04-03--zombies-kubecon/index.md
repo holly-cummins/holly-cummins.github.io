@@ -7,6 +7,8 @@ event: KubeCon | CloudNativeCon
 location: London
 slides:
   url: https://speakerdeck.com/hollycummins/practical-zombie-hunting-for-kubernetes-users
+tweets:
+  - https://bsky.app/profile/kwaio.net/post/3llz66afdjc2c
 
 ---
 
