@@ -8,7 +8,8 @@ event: KubeCon | CloudNativeCon
 location: London
 slides:
   url: https://speakerdeck.com/hollycummins/the-weight-of-data-rethinking-cloud-native-systems-for-the-age-of-ai
-
+video:
+  url: https://www.youtube.com/watch?v=W_EF1HnP4tU
 tweets:
   - https://bsky.app/profile/thomasvitale.com/post/3llvjpjjgb223
   - https://bsky.app/profile/danieloh30.bsky.social/post/3llvjh3gb7c24
