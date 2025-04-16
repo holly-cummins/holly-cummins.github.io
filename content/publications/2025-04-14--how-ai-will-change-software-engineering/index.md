@@ -5,7 +5,7 @@ imageUrl: https://leaddev.com/wp-content/uploads/2025/04/mandate-brink-02.jpg
 cover: mandate-brink-02.jpg
 author: Kari McMahon
 category: ai
-type: blog
+type: media
 ---
 
 No one can agree how AI will change software engineering. Here’s how to prepare anyway.
