@@ -11,6 +11,7 @@ video:
   url: https://www.youtube.com/watch?v=1c2va5nATmQ  
 tweets:
   - https://bsky.app/profile/kwaio.net/post/3llz66afdjc2c
+  - https://bsky.app/profile/ijimenez.bsky.social/post/3lnq62ghfxc27
 
 ---
 
