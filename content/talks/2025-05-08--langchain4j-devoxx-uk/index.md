@@ -5,6 +5,8 @@ category: ai
 type: talk
 event: Devoxx
 location: London
+slides:
+  url: https://speakerdeck.com/kdubois/devoxx-uk-java-meets-ai-build-llm-powered-apps-with-langchain4j
 
 tweets:
 
