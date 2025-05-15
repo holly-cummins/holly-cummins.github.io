@@ -8,6 +8,9 @@ location: London
 
 tweets:
 
+photos: 
+  - https://www.flickr.com/photos/125714253@N02/54513885509/in/album-72177720326050482
+  - https://www.flickr.com/photos/125714253@N02/54513964548/in/album-72177720326050482
 ---
 
 Generative AI has taken the world by storm, and it seems like every executive leader out there is telling us “regular” Java devs to “add AI” to our apps. Does that mean we need to drop everything we’ve built and become data scientists instead now?

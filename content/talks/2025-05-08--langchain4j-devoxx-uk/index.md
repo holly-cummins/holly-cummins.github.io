@@ -7,8 +7,16 @@ event: Devoxx
 location: London
 slides:
   url: https://speakerdeck.com/kdubois/devoxx-uk-java-meets-ai-build-llm-powered-apps-with-langchain4j
-
+video:
+  url: https://www.youtube.com/watch?v=EURZxFVL2dI&list=PLKuh52zVrL6mkQpYN7WZR7JRtEP8rnFpc&index=96
 tweets:
+
+photos:
+  - https://www.flickr.com/photos/125714253@N02/54513748651/in/album-72177720326072719
+  - https://www.flickr.com/photos/125714253@N02/54512882917/in/album-72177720326072719
+  - https://www.flickr.com/photos/125714253@N02/54514101000/in/album-72177720326072719
+  - https://www.flickr.com/photos/125714253@N02/54512882807/in/album-72177720326072719
+
 
 ---
 
