@@ -1,11 +1,13 @@
 ---
 author: holly cummins
-title: "Efficiency and Rock n’ Roll (Really!)"
+title: "Efficiency and Rock 'n’ Roll (Really!)"
 category: software development
 keynote: true
 type: talk
 event: JNation
 location: Coimbra
+slides:
+  url: https://speakerdeck.com/hollycummins/efficiency-and-rock-n-roll-really
 
 tweets:
 
