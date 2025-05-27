@@ -10,6 +10,10 @@ slides:
   url: https://speakerdeck.com/hollycummins/efficiency-and-rock-n-roll-really
 
 tweets:
+  - https://bsky.app/profile/riferrei.com/post/3lq5dz2jkes2j
+  - https://bsky.app/profile/thomasvitale.com/post/3lq5dk7zjpc2l
+  - https://bsky.app/profile/ericdeandrea.dev/post/3lq5d2miafs2q
+  - https://www.linkedin.com/posts/jnation_jnation-java-coimbra-activity-7333076501845774336-dfDh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJ5eOoBt0AcMzIzAu2mkXUS8W7Yskq830E
 
 ---
 
