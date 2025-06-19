@@ -20,4 +20,14 @@ photos:
 
 ---
 
-Development is about working with computers, right? Well, not quite. Development is all about working with computers (easy), and working with people (hard). Oh, and it’s about physics. Things like the speed of light and thermodynamics influence APIs, because they influence hardware and networking. If, like Holly, you slept through statistics modules in university, it will be a surprise to discover how statistics has changed our development workflows. Finally, we mustn’t forget economics. The end of zero-interest-rates has changed the employment landscape for many of us. In this wide-ranging talk, Holly will cover why the end of Moore’s law means we might finally need to get to grips with concurrent programming, why is Loom a good idea now when green threads were a bad idea, why is AOT a good idea now when it used to be a bad idea, and how much you should care about business studies, finance, and statistics. 
+Join us for a guided tour through the possibilities of the LangChain4j framework! Chat with virtually any LLM provider (
+OpenAI, Gemini, HuggingFace, Azure, AWS, ...)? Generate AI images straight from your Java application with Dall-E and
+Gemini? Have LLMs return POJOs? Interact with local models on your machine? LangChain4j makes it a piece of cake! We
+will explain the fundamental building blocks of LLM-powered applications, show you how to chain them together into AI
+Services, and how to interact with your knowledge base using advanced RAG.
+
+Then, we take a deeper dive into the Quarkus LangChain4j integration. We'll show how little code is needed when using
+Quarkus, how live reload makes experimenting with prompts a breeze and finally we'll look at its native image generation
+capabilities, aiming to get your AI-powered app deployment-ready in no time. By the end of this session, you will have
+all the technical knowledge to get your hands dirty, along with plenty of inspiration for designing the apps of the
+future.
