@@ -6,6 +6,8 @@ cover: holly-cummins-twitter-card-1750072197882.jpg
 author: Shane Hastie and holly cummins
 category: fun
 type: podcast
+tweets:
+  - https://bsky.app/profile/alexksbr.bsky.social/post/3lsg37bm5pc2t
 ---
 
 In this podcast, Shane Hastie, Lead Editor for Culture & Methods, spoke to Holly Cummins about productivity in creative

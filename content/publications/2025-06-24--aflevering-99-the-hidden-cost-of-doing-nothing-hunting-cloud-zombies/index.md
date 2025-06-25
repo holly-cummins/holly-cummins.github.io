@@ -6,6 +6,9 @@ cover: 6859c6e1c092f51b370a049c_Aflevering%2099%20-%20interview.png
 author: Jan Stomphorst, Ronald Kers and holly cummins
 category: sustainability
 type: podcast
+resources:
+
+Watch the video version here: https://www.youtube.com/watch?v=m5ouNc8IN1I”
 ---
 
 Holly explains that waste in our infrastructure is often easier to solve than we think. With simple automation,
