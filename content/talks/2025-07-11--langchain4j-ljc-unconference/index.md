@@ -16,7 +16,7 @@ resources:
     url: quarkus.io/quarkus-workshop-langchain4j/
 code:
   - title: The demo code
-    url: https://github.com/holly-cummins/langchain4j-demo/
+    url: https://github.com/holly-cummins/quarkus-langchain4j-pet-adoption-demo
 
 
 ---
