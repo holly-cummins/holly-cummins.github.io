@@ -10,7 +10,7 @@ tweets:
 slides:
   url: https://speakerdeck.com/hollycummins/langchain4j-java-and-you
 resources:
-  - title: IBM Survey
+  - title: Are you using AI? IBM would love to hear from you (survey link)
     url: https://your.feedback.ibm.com/jfe/form/SV_7VEiWFFuufvkDVs
   - title: Quarkus LangChain4j workshop
     url: quarkus.io/quarkus-workshop-langchain4j/
