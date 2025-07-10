@@ -7,6 +7,16 @@ event: LJC Unconference
 keynote: true
 location: London
 tweets:
+slides:
+  url: https://speakerdeck.com/hollycummins/langchain4j-java-and-you
+resources:
+  - title: IBM Survey
+    url: https://your.feedback.ibm.com/jfe/form/SV_7VEiWFFuufvkDVs
+  - title: Quarkus LangChain4j workshop
+    url: quarkus.io/quarkus-workshop-langchain4j/
+code:
+  - title: The demo code
+    url: https://github.com/holly-cummins/langchain4j-demo/
 
 
 ---
