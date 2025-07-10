@@ -6,8 +6,6 @@ type: talk
 event: Devoxx
 location: London
 
-tweets:
-
 slides:
   url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job
 video:
