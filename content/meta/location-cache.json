@@ -5064,5 +5064,42 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Gothenburg": [
+  {
+   "latitude": 57.7072326,
+   "longitude": 11.9670171,
+   "formattedAddress": "Göteborg, Göteborgs Stad, Västra Götalands län, 411 10, Sverige",
+   "country": "Sverige",
+   "city": "Göteborg",
+   "zipcode": "411 10",
+   "countryCode": "SE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 40.9277324,
+   "longitude": -100.1619896,
+   "formattedAddress": "Gothenburg, Dawson County, Nebraska, United States",
+   "country": "United States",
+   "city": "Gothenburg",
+   "state": "Nebraska",
+   "countryCode": "US",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Madrid, Spain": [
+  {
+   "latitude": 40.4167047,
+   "longitude": -3.7035825,
+   "formattedAddress": "Madrid, Comunidad de Madrid, España",
+   "country": "España",
+   "city": "Madrid",
+   "state": "Comunidad de Madrid",
+   "countryCode": "ES",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
