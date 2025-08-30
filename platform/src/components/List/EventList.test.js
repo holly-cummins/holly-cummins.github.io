@@ -49,6 +49,10 @@ describe("EventList", () => {
       expect(container.querySelector("svg")).toBeFalsy();
     });
 
+    it("does not render the slides icon", () => {
+      expect(container.querySelector("svg")).toBeFalsy();
+    });
+
     it("calls a listener on hover", () => {
       expect(listener).toHaveBeenCalledTimes(0);
       const eventText = screen.getByText("QuackCon");
@@ -96,10 +100,10 @@ describe("EventList", () => {
       });
 
       it("renders the correct link", () => {
-        const link = screen.getByRole("link");
+        const link = screen.getAllByRole("link");
         expect(link).toBeTruthy();
         // Hardcoding the host is a bit risky but this should always be true in  test environment
-        expect(link.href).toBe("http://localhost/" + slug);
+        expect(link[0].href).toBe("http://localhost/" + slug);
       });
     });
   });
