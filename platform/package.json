@@ -81,7 +81,6 @@
     "react-qr-code": "^2.0.11",
     "react-scale-text": "^1.2.2",
     "react-share": "^5.2.0",
-    "react-textfitfix": "^1.1.0",
     "react-visibility-sensor": "^5.1.1",
     "request": "^2.88.2",
     "styled-jsx": "^3.4.7",
@@ -89,6 +88,7 @@
     "styled-jsx-plugin-stylelint": "^0.1.0",
     "tinycolor2": "^1.4.1",
     "twitter-api-sdk": "^1.2.1",
+    "use-fit-text": "^2.4.0",
     "use-react-screenshot": "^4.0.0"
   },
   "keywords": [
@@ -100,6 +100,7 @@
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^14.5.2",
+    "ajv": "^8.17.1",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^29.7.0",
     "babel-plugin-dynamic-import-webpack": "^1.0.2",
@@ -153,6 +154,7 @@
     "url-loader": "1.0",
     "url-metadata": "^2.5.0",
     "uuid": "^8.3.2",
+    "webpack": "^5.101.3",
     "webpack-bundle-analyzer": "^4.10.2"
   },
   "engines": {
