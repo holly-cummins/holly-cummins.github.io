@@ -44,6 +44,11 @@ So it's good for me, but it's also good for the audience as a way of reinforcing
 
 # Every slide should be a gift
 
+You give a talk, you don't impose a talk.
+
+The slides have two purposes; as a prompt to help you remember what you want to say, and to help the audience follow
+you, and also entertain ??
+
 # Stories
 
 "Include stories" is standard public speaking advice.
@@ -120,5 +125,5 @@ The cute slides serve three purposes: section markers, rewards, and a trigger fo
 One of the best pieces of speaking advice I ever got was to smile.
 Don't smile so much that you look deranged, but do smile.
 
-When I'm enjoying myself, the audience tends to enjoy themselves. 
+When I'm enjoying myself, the audience tends to enjoy themselves.
 
