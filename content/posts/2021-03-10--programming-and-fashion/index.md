@@ -149,7 +149,8 @@ There have been troubling problems with
 how [sexual harassment cases are handled](https://www.bbc.co.uk/news/technology-46054202), and employee dismay
 over [ethically dubious contracts](https://www.theguardian.com/us-news/2019/jul/11/amazon-ice-protest-immigrant-tech).
 As a result of all this, unionization efforts
-are [gaining momentum](https://www.washingtonpost.com/technology/2021/01/26/tech-unions-explainer/) in the tech
+are [gaining momentum](https://www.technologyreview.com/2021/04/05/1021758/pandemic-amazon-union-vote-alabama/) in the
+tech
 industry.
 
 ## Sustainability
