@@ -12,7 +12,7 @@ resources:
   - title: Are you using AI? IBM would love to hear from you (survey link)
     url: https://your.feedback.ibm.com/jfe/form/SV_7VEiWFFuufvkDVs
   - title: Quarkus LangChain4j workshop
-    url: quarkus.io/quarkus-workshop-langchain4j/
+    url: http://quarkus.io/quarkus-workshop-langchain4j/
 code:
   - title: The demo code
     url: https://github.com/holly-cummins/quarkus-langchain4j-pet-adoption-demo
