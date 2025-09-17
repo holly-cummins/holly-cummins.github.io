@@ -49,6 +49,11 @@ You give a talk, you don't impose a talk.
 The slides have two purposes; as a prompt to help you remember what you want to say, and to help the audience follow
 you, and also entertain ??
 
+People are giving you their time, and I try to be generous in return.
+That means generous in the amount of time I invest in the preparation, and generous in how I try to make the talk useful
+to them, rather than me.
+I don't always succeed in either, but it's a good aspiration.
+
 # Stories
 
 "Include stories" is standard public speaking advice.
