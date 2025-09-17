@@ -8,7 +8,7 @@ location: Madrid, Spain
 keynote: true
 
 slides:
-  url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job
+  url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-cbc2b4d1-06d4-48a8-a185-a3f40a8db3ec
 video:
 photos:
 
