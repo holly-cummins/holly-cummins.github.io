@@ -11,7 +11,7 @@ video:
 tweets:
 code:
    - title: Source code for the demo extension
-     url: https://github.com/holly-cummins/quarkus-minecraft-observability-extension 
+     url: https://github.com/holly-cummins/quarkus-observability-minecraft 
 resources:
    - title: "The quarkiverse hub, with instructions for getting into the catalog and lots of infra support"
      url:  https://hub.quarkiverse.io
@@ -23,4 +23,5 @@ resources:
      url: https://www.youtube.com/watch?v=w5SBQpAQ8m8
 
 ---
+
 Holly Cummins discusses the basics, tips and tricks of creating your own Quarkus extensions.

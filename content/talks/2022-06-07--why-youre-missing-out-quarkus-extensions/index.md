@@ -15,14 +15,17 @@ tweets:
  - https://twitter.com/unfromage/status/1534221832160780288?s=21&t=lPVKPRdapwCCX2CoYHVrnA
  - https://twitter.com/romulets/status/1539616417150111744?s=20&t=55_ZlygT-NEnfzIcn45KrQ
 code: 
- - url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
+ - url: 'https://github.com/holly-cummins/quarkus-observability-minecraft'
    title: Demo extension (it involves Minecraft!)
 oembeds:
  - url: https://youtu.be/w5SBQpAQ8m8
    title: A short version of the demo (less live coding, more explosions)
 ---
+
 Do I need an extension? And how do I write it?
 
-Extensions are a great way of enabling your favourite library to fully take advantage of Quarkus’s capabilities. They can also be used to improve your team’s everyday workflow.
+Extensions are a great way of enabling your favourite library to fully take advantage of Quarkus’s capabilities. They
+can also be used to improve your team’s everyday workflow.
 
-In this talk Georgios and Holly will talk through how extensions can be useful, before live-coding a simple extension. (What it does is a surprise!)
+In this talk Georgios and Holly will talk through how extensions can be useful, before live-coding a simple extension. (
+What it does is a surprise!)

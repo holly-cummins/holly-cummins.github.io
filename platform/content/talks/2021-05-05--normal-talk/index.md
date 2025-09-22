@@ -10,7 +10,7 @@ code:
   - title: Source Code for this website
     url: 'https://github.com/holly-cummins/gatsby-platform'
   - title: Another source code link
-    url: 'https://github.com/holly-cummins/quarkus-minecraft-observability-extension'
+    url: 'https://github.com/holly-cummins/quarkus-observability-minecraft'
 resources:
   - title: Some interesting article
     url: 'https://news.bbc.co.uk'
