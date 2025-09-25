@@ -9,7 +9,10 @@ keynote: true
 
 slides:
   url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-cbc2b4d1-06d4-48a8-a185-a3f40a8db3ec
-video:
+tweets:
+  - https://lnkd.in/p/epwdyAz6
+  - https://lnkd.in/p/eSB67UAv
+  - https://www.linkedin.com/posts/lorenzo-sarti-34b553a8_xconf-thoughtworks-techleadership-activity-7374558570727510016-NrNj
 photos:
 
 
