@@ -16,8 +16,6 @@ tweets:
 photos:
 
 
-tweets:
-
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (
