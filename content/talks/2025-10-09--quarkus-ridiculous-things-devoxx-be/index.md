@@ -8,6 +8,11 @@ location: Antwerp
 
 video:
 photos:
+code:
+  - title: Gen Alpha Filter
+    url: https://github.com/holly-cummins/gen-alpha-iser
+  - title: Minecraft observability
+    url: https://github.com/quarkiverse/quarkus-observability-minecraft
 
 
 tweets:
