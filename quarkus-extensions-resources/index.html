@@ -35,38 +35,53 @@ It’s a topic I’ve been meaning to write more about, but I haven…"/><meta d
   </a>
     </span></p>
 <p>I’m sometimes asked for a list of resources for writing Quarkus extensions.
-It’s a topic I’ve been meaning to write more about, but I haven’t yet, because as Emmanuel Bernard says, the todo list is infinite.
-Every time someone asks me, I re-assemble my list of favourite links. To save redoing that step each time, I’m writing the list down in a permanent place.</p>
+It’s a topic I’ve been meaning to write more about, but I haven’t yet, because as Emmanuel Bernard says, the todo list
+is infinite.
+Every time someone asks me, I re-assemble my list of favourite links. To save redoing that step each time, I’m writing
+the list down in a permanent place.</p>
 <p>The Quarkus Team have two guides about writing extensions, a simple one, and a deeper one.</p>
 <ul>
 <li><a href="https://quarkus.io/guides/building-my-first-extension">My first extension</a></li>
 <li><a href="https://quarkus.io/guides/writing-extensions">Deeper guide</a></li>
 </ul>
-<p>The deeper guide is now linked from the top menu bar of <a href="http://quarkus.io">quarkus.io</a> as “Create Extensions” to make it easier to find.</p>
+<p>The deeper guide is now linked from the top menu bar of <a href="http://quarkus.io">quarkus.io</a> as “Create Extensions” to make
+it easier to find.</p>
 <p>As of autumn 2024, there are also now two companion guides:</p>
 <ul>
 <li><a href="https://quarkus.io/guides/extension-maturity-matrix">A maturity matrix for extensions</a></li>
 <li><a href="https://quarkus.io/guides/extension-faq">Extension FAQs</a></li>
 </ul>
 <p>I wrote them, so I think they’re useful. :)</p>
-<p>I sometimes think we could also use a “my second extension” guide, but we haven’t written one yet. (Remember, the todo list is infinite.) However, there are some great community blogs/instructions that fill in that gap:</p>
+<p>I sometimes think we could also use a “my second extension” guide, but we haven’t written one yet. (Remember, the todo
+list is infinite.) However, there are some great community blogs/instructions that fill in that gap:</p>
 <ul>
-<li><a href="https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/">A walkthrough of writing an extension to log to Amazon cloud watch</a>, which is an excellent general tutorial about writing an extension. This is the tutorial I followed when writing my first extension.</li>
-<li><a href="https://dev.to/onepoint/quarkus-greener-better-faster-stronger-55ea">A thorough walk through of writing an extension, including a dev service</a>. This is relatively recent, and it’s great.</li>
-<li>If you prefer video, Sebastian Daschner has a <a href="https://blog.sebastian-daschner.com/entries/creating-a-quarkus-extension">nice walkthrough of creating a simple extension</a> which integrates to a LED light to show application health</li>
+<li><a href="https://quarkus.io/blog/quarkus-aws-cloudwatch_extension/">A walkthrough of writing an extension to log to Amazon cloud watch</a>,
+which is an excellent general tutorial about writing an extension. This is the tutorial I followed when writing my
+first extension.</li>
+<li><a href="https://dev.to/onepoint/quarkus-greener-better-faster-stronger-55ea">A thorough walk through of writing an extension, including a dev service</a>.
+This is relatively recent, and it’s great.</li>
+<li>If you prefer video, Sebastian Daschner has
+a <a href="https://blog.sebastian-daschner.com/entries/creating-a-quarkus-extension">nice walkthrough of creating a simple extension</a>
+which integrates to a LED light to show application health</li>
 <li>How extensions can help with byte-code rewriting and other similar use cases:
 <ul>
 <li><a href="https://quarkus.io/blog/solving-problems-with-extensions/">Stripping out methods which have a problematic annotation</a></li>
 <li><a href="https://quarkus.io/blog/solving-problems-with-extensions-2/">Resolving an annotation conflict by transforming breaking annotations into happy ones</a></li>
 </ul>
 </li>
-<li><a href="https://hollycummins.com/why-youre-missing-out-quarkus-extensions/">My and Georgios Andrianakis’s talk about writing extensions</a> with an introduction to writing extensions. The demo is using minecraft for logging. I’m hoping to keep the <a href="https://github.com/holly-cummins/quarkus-minecraft-observability-extension">source code</a> for that extension up to date as a bit of a reference for some extension scenarios.</li>
+<li><a href="https://hollycummins.com/why-youre-missing-out-quarkus-extensions/">My and Georgios Andrianakis’s talk about writing extensions</a>
+with an introduction to writing extensions. The demo is using minecraft for logging. I’m hoping to keep
+the <a href="https://github.com/holly-cummins/quarkus-observability-minecraft">source code</a> for that extension up to date as a
+bit of a reference for some extension scenarios.
+Apart from the chicken-proliferation-jokes, this is my favourite bit of that talk, and it’s not in other resources, so
+I’ve included it here as an animation.</li>
 </ul>
-<p>Apart from the chicken-proliferation-jokes, this is my favourite bit of that talk, and it’s not in other resources, so I’ve included it here as an animation.</p>
 <p><img src="/dd415e0e23460bdec32e3141f6044e62/builditems.gif" alt="an animation showing how builditems are chained"></p>
-<p>One of the most important resources is <a href="https://quarkus.io/guides/all-builditems">the list of all build items</a>, the guide which lists all build items.
+<p>One of the most important resources is <a href="https://quarkus.io/guides/all-builditems">the list of all build items</a>, the
+guide which lists all build items.
 The build items are a bit like the SPI for extensions.
-Almost everything that an extension might want to do can be handled by an existing build item or chain of build items. The trick is knowing which one!
+Almost everything that an extension might want to do can be handled by an existing build item or chain of build items.
+The trick is knowing which one!
 It’s a good idea to browse the list of build items to see if there’s one which meets your needs when you get started.
 I also re-review the list every now and then to make sure there’s nothing I’ve forgotten or missed.</p></div><footer><div class="jsx-3900713722 share"><span class="jsx-3900713722 label">SHARE</span><div class="jsx-3900713722 links"><button networkName="bluesky" class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="36" height="36"><circle cx="32" cy="32" r="32" fill="#1185FE"></circle><path d="M21.945 18.886C26.015 21.941 30.393 28.137 32 31.461 33.607 28.137 37.985 21.941 42.055 18.886 44.992 16.681 49.75 14.975 49.75 20.403 49.75 21.487 49.128 29.51 48.764 30.813 47.497 35.341 42.879 36.496 38.772 35.797 45.951 37.019 47.778 41.067 43.833 45.114 36.342 52.801 33.066 43.186 32.227 40.722 32.073 40.27 32.001 40.059 32 40.238 31.999 40.059 31.927 40.27 31.773 40.722 30.934 43.186 27.658 52.801 20.167 45.114 16.222 41.067 18.049 37.019 25.228 35.797 21.121 36.496 16.503 35.341 15.236 30.813 14.872 29.51 14.25 21.487 14.25 20.403 14.25 14.975 19.008 16.681 21.945 18.886Z" fill="white"></path></svg></button><button description="I’m sometimes asked for a list of resources for writing Quarkus extensions.
 It’s a topic I’ve been meaning to write more about, but I haven…" networkName="linkedin" class="react-share__ShareButton" style="background-color:transparent;border:none;padding:0;font:inherit;color:inherit;cursor:pointer"><svg viewBox="0 0 64 64" width="36" height="36"><circle cx="32" cy="32" r="32" fill="#0077B5"></circle><path d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z" fill="white"></path></svg></button></div></div><div class="jsx-751965483 author"><div class="jsx-751965483 avatar"><img src="/static/2aa426d551bd9d0114ad0e571f6408b2/author.jpg" alt="Holly Cummins" class="jsx-751965483"/></div><div class="jsx-751965483 note"><p><strong>Holly Cummins</strong>. Holly Cummins is a Senior Principal Software Engineer at Red Hat, in the Quarkus Team. She is a
