@@ -9,6 +9,9 @@ location: Copenhagen
 slides:
   url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-cbc2b4d1-06d4-48a8-a185-a3f40a8db3ec
 tweets:
+  - https://www.linkedin.com/posts/danielbryantuk_loved-the-goto-copenhagen-keynote-from-holly-ugcPost-7379496761951678464-T_Tg
+  - https://www.linkedin.com/feed/update/urn:li:activity:7379454200453308416?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7379454200453308416%2C7379487630943748096%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287379487630943748096%2Curn%3Ali%3Aactivity%3A7379454200453308416%29
+  - https://www.linkedin.com/feed/update/urn:li:activity:7379454200453308416?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7379454200453308416%2C7379485750125473793%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287379485750125473793%2Curn%3Ali%3Aactivity%3A7379454200453308416%29
 
 ---
 
