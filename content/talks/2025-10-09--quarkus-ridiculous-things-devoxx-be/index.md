@@ -1,20 +1,31 @@
 ---
 author: holly cummins
-title: "Six and a half ridiculous things to do with Quarkus "
+title: "Six and a half ridiculous things to do with Quarkus"
 category: Quarkus
 type: talk
 event: Devoxx
 location: Antwerp
 
+slides:
+  url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus
 video:
 photos:
 code:
   - title: Gen Alpha Filter
     url: https://github.com/holly-cummins/gen-alpha-iser
+  - title: The LOLifier coding assistant
+    url: https://github.com/phillip-kruger/quarkus-jokes
+  - title: Rockstarlang Quarkus compiler
+    url: https://github.com/quarkiverse/quarkus-bon-jova-rockstar
+  - title: Hallucination generaor
+    url: https://github.com/holly-cummins/hallucination-generator
   - title: Minecraft observability
     url: https://github.com/quarkiverse/quarkus-observability-minecraft
   - title: Meme generator
     url: https://github.com/holly-cummins/meme-generator
+  - title: Quarkus vs Spring perf comparison apps
+    url: https://github.com/quarkusio/spring-quarkus-perf-comparison
+
 
 
 tweets:
