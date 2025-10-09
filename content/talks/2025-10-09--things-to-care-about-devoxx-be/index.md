@@ -11,9 +11,9 @@ slides:
 video:
 photos:
 
-
 tweets:
-
+  - https://bsky.app/profile/stevendegroote.bsky.social/post/3m2r6fv7xt22m
+  - https://bsky.app/profile/nicolas.henneaux.io/post/3m2r72d77p22j
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (

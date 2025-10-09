@@ -28,9 +28,9 @@ code:
   - title: Quarkus vs Spring perf comparison apps
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
 
-
-
 tweets:
+  - https://bsky.app/profile/zinebbendhiba.com/post/3m2retgviwk2b
+
 
 ---
 
