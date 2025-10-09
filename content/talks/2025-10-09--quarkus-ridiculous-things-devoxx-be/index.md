@@ -23,6 +23,8 @@ code:
     url: https://github.com/quarkiverse/quarkus-observability-minecraft
   - title: Meme generator
     url: https://github.com/holly-cummins/meme-generator
+  - title: Containerised Quarkus vs Spring perf comparison apps, with just files
+    url: https://github.com/jponge/volcamp25-quarkus
   - title: Quarkus vs Spring perf comparison apps
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
 
