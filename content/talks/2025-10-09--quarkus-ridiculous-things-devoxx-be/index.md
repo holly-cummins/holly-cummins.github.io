@@ -9,6 +9,7 @@ location: Antwerp
 slides:
   url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus
 video:
+  url: https://www.youtube.com/watch?v=s9d6JPjegRU
 photos:
 code:
   - title: Gen Alpha Filter
@@ -30,6 +31,7 @@ code:
 
 tweets:
   - https://bsky.app/profile/zinebbendhiba.com/post/3m2retgviwk2b
+  - https://www.linkedin.com/posts/salaboy_quarkus-devex-devoxxbe-activity-7382061903243657218-L9b_
 
 
 ---

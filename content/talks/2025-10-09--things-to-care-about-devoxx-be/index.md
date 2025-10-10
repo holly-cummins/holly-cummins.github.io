@@ -9,6 +9,7 @@ location: Antwerp
 slides:
   url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-fee57714-c9f9-402a-8e5a-afd6e39f4f8c
 video:
+  url: https://www.youtube.com/watch?v=_zO7YtLmNuA&list=PLRsbF2sD7JVrgzHNkX4wUHmoGICMaE446
 photos:
 
 tweets:
