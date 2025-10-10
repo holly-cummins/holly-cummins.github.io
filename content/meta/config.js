@@ -2,7 +2,7 @@ module.exports = {
     siteTitle: "Holly Cummins", // <title>
     shortSiteTitle: "Holly Cummins", // <title> ending for posts and pages
     siteDescription:
-        "Red Hatter, Java Champion, occasional maker and regular speaker.",
+        "IBMer, Java Champion, occasional maker and regular speaker.",
     siteUrl: "http://hollycummins.com",
     pathPrefix: "",
     siteImage: "/preview.png",
