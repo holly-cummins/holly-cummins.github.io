@@ -132,3 +132,23 @@ Don't smile so much that you look deranged, but do smile.
 
 When I'm enjoying myself, the audience tends to enjoy themselves.
 
+## Beginnings
+
+I find starting to give a talk hard. I'm nervous, I don't know how to kick off. Here are some techniques I find helpful:
+
+- Think carefully (and possibly script) about the very first words I say. Do I say hello? Do I repeat the title of the
+  talk? What's the transition between the title slide and the first slide like?
+- Start with an easy topic. This is partly for the benefit of the audience, but mostly for my benefit. I did a talk
+  recently where, for reasons, the introductory slides were about a subject I didn't know very well. Because I wasn't
+  warmed up, I'm sure I sounded nervous and unsure. In fact, I was probably downright confusing. It set me off on the
+  wrong foot for the rest of the talk.
+- If you can bring in some humour early on, this gets people relaxed, and also gives you some early positive feedback.
+  But just like technical topics, humour near the beginning of a talk need to be *easy*, or I can't deliver it well.
+  Another recent talk had an opening slide that was supposed to be really funny, but no one laughed, because the joke
+  was too
+  early.
+- I have read advice to chat with the audience before starting. Ask them some questions, get yourself talking, get them
+  talking. This can be a great way of warming up the room and also warming up your vocal cords. It's much nicer than
+  just standing nervously at the front of the room while people stare at you. It might also give you some information
+  you can use to loop back later with some jokes. ("I know some of you are from <wherever>, and ..."). So do I do this?
+  No. But I always wish I would. 
