@@ -151,4 +151,9 @@ I find starting to give a talk hard. I'm nervous, I don't know how to kick off. 
   talking. This can be a great way of warming up the room and also warming up your vocal cords. It's much nicer than
   just standing nervously at the front of the room while people stare at you. It might also give you some information
   you can use to loop back later with some jokes. ("I know some of you are from <wherever>, and ..."). So do I do this?
-  No. But I always wish I would. 
+  No. But I always wish I would
+
+## Never mention the slides
+
+It's a bit like fight club. Don't draw attention to errors on the slides, don't apologise for the slides being
+confusing. 
