@@ -12,6 +12,7 @@ slides:
 tweets:
   - https://bsky.app/profile/juulia.bsky.social/post/3m3rf5wy2ns25
   - https://www.linkedin.com/posts/stenholmdaniel_reflected-upon-three-emerged-and-interconnected-activity-7386765933538664448-OR3v
+  - https://www.linkedin.com/posts/rebeckabergqvist_thoseab-thehomeofselfemployed-paradigmskifte-activity-7387382450189983744-XWSm?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJ5eOoBt0AcMzIzAu2mkXUS8W7Yskq830E
 ---
 
 Ever been told “work is not a place to be happy?” It’s not true! As developers, our job is to be productive, and we’re

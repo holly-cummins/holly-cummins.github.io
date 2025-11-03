@@ -156,4 +156,9 @@ I find starting to give a talk hard. I'm nervous, I don't know how to kick off. 
 ## Never mention the slides
 
 It's a bit like fight club. Don't draw attention to errors on the slides, don't apologise for the slides being
-confusing. 
+confusing.
+
+--
+
+presentation zen
+Slideology
