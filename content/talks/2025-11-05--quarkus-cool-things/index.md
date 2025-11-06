@@ -15,6 +15,8 @@ code:
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
   - title: Energy measurement utilities
     url: https://github.com/metacosm/power-server
+  - title: Instructions for converting the Spring application to Quarkus, using the compatibility libraries
+    url: https://github.com/quarkusio/spring-quarkus-perf-comparison/blob/main/spring-conversion.md
   - title: Meme generator
     url: https://github.com/holly-cummins/meme-generator
   - title: Running Photon image manipulation in WASM in Quarkus

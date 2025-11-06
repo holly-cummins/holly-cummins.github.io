@@ -28,6 +28,8 @@ code:
     url: https://github.com/jponge/volcamp25-quarkus
   - title: Quarkus vs Spring perf comparison apps
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
+  - title: Instructions for converting the Spring application to Quarkus, using the compatibility libraries
+    url: https://github.com/quarkusio/spring-quarkus-perf-comparison/blob/main/spring-conversion.md
   - title: Energy measurement utilities
     url: https://github.com/metacosm/power-server
 
