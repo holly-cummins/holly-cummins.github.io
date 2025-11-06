@@ -23,7 +23,8 @@ Here's what I've tried this year:
 ### Sennheiser Game One
 
 We use these headsets in the IBM Garage
-for [remote pair-programming](https://www.ibm.com/garage/method/practices/code/remote-pair-programming/). Because the
+for [remote pair-programming](https://web.archive.org/web/20210915172925/https://www.ibm.com/garage/method/practices/code/remote-pair-programming/).
+Because the
 headset mic only picks up noise right near the microphone, typing is almost inaudible. This is a must for pairing, where
 people need to type and talk simultaneously and definitely don't want to be always fussing around with mute buttons.
 These headphones also very comfortable, even for long periods (another must for pairing). One of my favourite features
