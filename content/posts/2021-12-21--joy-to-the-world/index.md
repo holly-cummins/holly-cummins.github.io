@@ -160,7 +160,8 @@ an article inviting developers
 to ["enjoy your cloud again"](hhttps://web.archive.org/web/20220518012926/https://www.ibm.com/cloud/blog/ibm-cloud-code-engine-enjoy-your-cloud-again).
 Quarkus have [developer joy](https://quarkus.io/developer-joy/) as a core requirement. James Governor has been pointing
 out for a while that prioritising developer experience (DX)
-is [good business sense](https://redmonk.com/jgovernor/2021/03/18/the-developer-experience-multiple/). Frankly, some of
+is [good business sense](https://web.archive.org/web/20250716170852/https://redmonk.com/jgovernor/2021/03/18/the-developer-experience-multiple/).
+Frankly, some of
 the tools we have to use every day are definitely not
 frictionless, so I'm not sure everyone is listening - but it's good to see momentum picking up in this area.
 
