@@ -8,7 +8,9 @@ location: London
 
 slides:
   url: https://speakerdeck.com/hollycummins/productivity-is-messing-around-and-having-fun-6b2ffe42-c176-4cc5-82f6-49e231e2c919
-  
+video:
+  url: https://www.infoq.com/presentations/productivity-enjoyment/
+
 resources:
   - title: The background story behind the talk, and a transcript
     url: https://trishagee.com/2024/06/30/are-developer-productivity-and-developer-joy-opposites/
@@ -16,7 +18,7 @@ resources:
     url: https://martinfowler.com/articles/measuring-developer-productivity-humans.html
   - title: No Human Programmers article
     url: https://decrypt.co/147191/no-human-programmers-five-years-ai-stability-ceo
-  - title: New GitHub Copilot Research Finds 'Downward Pressure on Code Quality' 
+  - title: New GitHub Copilot Research Finds 'Downward Pressure on Code Quality'
     url: https://visualstudiomagazine.com/Articles/2024/01/25/copilot-research.aspx
   - title: Space Framework
     url: https://queue.acm.org/detail.cfm?id=3454124
@@ -27,7 +29,7 @@ resources:
   - title: LinkedIn Productivity
     url: https://thenewstack.io/linkedin-shares-its-developer-productivity-framework/
   - title: James Shore, on a better productivity metric
-    url: http://web.archive.org/web/20240909145058/https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure 
+    url: http://web.archive.org/web/20240909145058/https://www.jamesshore.com/v2/blog/2024/a-useful-productivity-measure
   - title: Default Mode Network
     url: https://en.wikipedia.org/wiki/Default_mode_network
   - title: Moon Girl Devil Dinosaur episode 9
@@ -36,10 +38,10 @@ resources:
     url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10491133
   - title: The Goal
     url: https://amzn.to/3Wr2U4A
-    type: book 
+    type: book
   - title: The Mythical Man Month
     url: https://amzn.to/3QrMvt5
-    type: book 
+    type: book
   - title: JetBrains' AI Assistant
     url: https://www.jetbrains.com/ai/
   - title: Quarkus Developer Joy
@@ -48,14 +50,20 @@ resources:
     url: https://gradle.com/develocity/
   - title: Copilot
     url: https://copilot.microsoft.com/
-  
+
 tweets:
   - https://www.linkedin.com/posts/lornajane_qconlondon-activity-7314945309531385857-Pw0d?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAJ5eOoBt0AcMzIzAu2mkXUS8W7Yskq830E
 
 ---
 
-Developer satisfaction, developer joy, and business results are strongly correlated. Developer productivity frameworks like SPACE recognize this, with Satisfaction being a key metric. And yet - our jobs are frustrating, filled with mindless work, and free of joy. How do we fix that? Is annoying waste inevitable? Can developer performance be tuned? Are productivity measurements helping or hurting us? And how can you persuade management to invest in boredom?
+Developer satisfaction, developer joy, and business results are strongly correlated. Developer productivity frameworks
+like SPACE recognize this, with Satisfaction being a key metric. And yet - our jobs are frustrating, filled with
+mindless work, and free of joy. How do we fix that? Is annoying waste inevitable? Can developer performance be tuned?
+Are productivity measurements helping or hurting us? And how can you persuade management to invest in boredom?
 
-Except... it's not the boss we need to convince. Sometimes, it's ourselves. We're so in the habit of running to meet deadlines, running from one problem to the next, of aiming for 100% efficiency, we're the first ones to say "I don't have time for fun". In this talk, Holly and Trisha will try to convince you that fun isn't a luxury, but a necessity.
+Except... it's not the boss we need to convince. Sometimes, it's ourselves. We're so in the habit of running to meet
+deadlines, running from one problem to the next, of aiming for 100% efficiency, we're the first ones to say "I don't
+have time for fun". In this talk, Holly and Trisha will try to convince you that fun isn't a luxury, but a necessity.
 
-Holly is an expert on play at work, unwise automations, and polar bears. Trisha is an expert on performance tuning, tooling and productivity. Come to this talk to find out what these topics have in common.
+Holly is an expert on play at work, unwise automations, and polar bears. Trisha is an expert on performance tuning,
+tooling and productivity. Come to this talk to find out what these topics have in common.
