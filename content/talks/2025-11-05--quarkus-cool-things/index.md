@@ -36,8 +36,9 @@ resources:
 3. Embed WASM.
 4. Run Spring code.
 5. AI, for real.
-   5½. Use Minecraft as an observability client. Ok, this one isn’t cool, it’s stupid, but Holly’s
-   done it anyway.
+
+5½. Use Minecraft as an observability client. Ok, this one isn’t cool, it’s stupid, but Holly’s
+done it anyway.
 
 In this demo-driven session, Holly will show some of her favorite Quarkus capabilities. Some are established and
 important, some are less well-known, and some are plain silly. But they’re all cool. Whether you’re new to Quarkus or an
