@@ -8,6 +8,8 @@ location: Malmö
 
 slides:
   url: https://speakerdeck.com/hollycummins/five-and-a-half-cool-things-you-can-do-with-quarkus
+video:
+  url: https://www.youtube.com/watch?v=4rbw9GJUaIU&list=PLOUKmSqExtAHc3rXfV7nIhfgXDpi4cOeg&index=9
 code:
   - title: Containerised Quarkus vs Spring perf comparison apps, with just files
     url: https://github.com/jponge/volcamp25-quarkus
