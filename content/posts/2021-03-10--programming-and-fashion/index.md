@@ -203,7 +203,8 @@ created the right conditions for the cloud, or lightweight containers created th
 Chanel had a saying for this, too - she insisted "Fashion is not something that exists in dresses only. Fashion is in
 the sky, in the street, fashion has to do with ideas, the way we live, what is happening." Even in clothes, styles were
 heavily influenced by technological innovations.
-Lightweight [steel for crinolines](https://www.racked.com/2017/12/7/16717206/cage-crinoline-feminism-class) enabled the
+Lightweight [steel for crinolines](https://web.archive.org/web/20240217042758/https://www.racked.com/2017/12/7/16717206/cage-crinoline-feminism-class)
+enabled the
 huge skirts of the mid-Victorian era. A few decades later, the discovery that brightly
 coloured [dye could be extracted from coal tar](https://fashionhistory.fitnyc.edu/aniline-dyes/)
 enabled "mauve mania", a fashion for the newly-possible lurid-purple clothes.
