@@ -4,7 +4,7 @@ title: "Things You Thought You Didn’t Need To Care About That Have a Big Impac
 category: software development
 type: talk
 event: Agile Manchester
-location: Manchester
+location: Manchester, UK
 keynote: true
 ---
 
