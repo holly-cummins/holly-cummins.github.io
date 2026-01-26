@@ -30,7 +30,7 @@ code:
 resources:
   - title: "Silvia O'Dwyer's original Photon site"
     url: https://silvia-odwyer.github.io/photon/
-  - title: "10 *other* cool things to do with Quarkus, by Markus Eisele
+  - title: "10 *other* cool things to do with Quarkus", by Markus Eisele
     url: https://www.the-main-thread.com/p/hidden-quarkus-features-java-developers
 
 ---
