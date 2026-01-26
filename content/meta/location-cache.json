@@ -5101,5 +5101,18 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Manchester, UK": [
+  {
+   "latitude": 53.4794892,
+   "longitude": -2.2451148,
+   "formattedAddress": "Manchester, Greater Manchester, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Manchester",
+   "state": "England",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
