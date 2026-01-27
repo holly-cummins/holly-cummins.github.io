@@ -4,7 +4,8 @@ title: "Six and a half ridiculous things to do with Quarkus"
 category: Quarkus
 type: talk
 event: JChampions
-
+video:
+  url: https://www.youtube.com/watch?v=hdcaq7pN-vo
 slides:
   url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus
 photos:
