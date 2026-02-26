@@ -115,6 +115,10 @@ reference , wish I had written it
 
 https://www.morling.dev/blog/ten-tips-make-conference-talks-suck-less/
 
+I've seen slide:ology recommended, but I haven't read it myself. I almost bought it to check the recommendation, while I
+was writing this blog, but it's sixteen years old, which made me cautious. Some communication patterns don't date, and
+some do.
+
 Stephane Epardaud:
 12:55
 Haha. Yeah, I explain at the beginning that @Stuart Douglas taught me to put cute kittens in talks as a sort of penance
