@@ -6,7 +6,8 @@ type: talk
 event: QCon
 location: London
 keynote: true
-
+slides:
+  url: https://speakerdeck.com/hollycummins/the-free-lunch-guide-to-idea-circularity
 
 
 ---
