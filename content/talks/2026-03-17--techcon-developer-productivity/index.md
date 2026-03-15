@@ -4,7 +4,8 @@ title: "Developer Journey: Accelerating Developer Productivity"
 category: quarkus
 type: talk
 event: IBM TechCon
-
+slides:
+  url: https://speakerdeck.com/hollycummins/developer-journey-accelerating-developer-productivity
 
 
 ---
