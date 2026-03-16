@@ -4,6 +4,6 @@ url: https://airhacks.fm/#episode_382
 cover: airhacks.png
 author: Adam Bien and Holly Cummins
 category: all sorts
-type: blog
+type: podcast
 ---
 
