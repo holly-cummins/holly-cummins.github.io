@@ -3,10 +3,11 @@ author: Sanne Grinovero and holly cummins
 title: Fixing The Open Source Bus Number
 category: open source
 type: talk
-event: Monkigras
+event: Monki Gras
 location: London
 
-
+slides:
+  url: https://speakerdeck.com/hollycummins/fixing-the-open-source-bus-number
 
 ---
 

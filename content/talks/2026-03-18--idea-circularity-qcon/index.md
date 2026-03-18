@@ -8,7 +8,8 @@ location: London
 keynote: true
 slides:
   url: https://speakerdeck.com/hollycummins/the-free-lunch-guide-to-idea-circularity
-
+tweets:
+  - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
 
 ---
 
