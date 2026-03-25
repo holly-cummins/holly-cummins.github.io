@@ -8,6 +8,17 @@ location: London
 
 slides:
   url: https://speakerdeck.com/hollycummins/fixing-the-open-source-bus-number
+tweets:
+  - https://bsky.app/profile/lilylachance.bsky.social/post/3mhglnnqy5s2m
+  - https://bsky.app/profile/pdj.bsky.social/post/3mhgki4zr6s2c
+  - https://bsky.app/profile/pdj.bsky.social/post/3mhgl6xinbs2p
+  - https://bsky.app/profile/monkchips.com/post/3mhgkv56gy223
+  - https://bsky.app/profile/pdj.bsky.social/post/3mhgldqsgn22p
+  - https://bsky.app/profile/monkchips.com/post/3mhgjtpbtos23
+
+reviews:
+  - https://diginomica.com/monkigras-2026-most-important-thing-open-source-isnt-code
+
 
 ---
 

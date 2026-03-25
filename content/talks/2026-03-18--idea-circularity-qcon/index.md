@@ -10,6 +10,10 @@ slides:
   url: https://speakerdeck.com/hollycummins/the-free-lunch-guide-to-idea-circularity
 tweets:
   - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
+  - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
+  - https://www.linkedin.com/posts/danielbryantuk_qconlondon-activity-7440132249217458176-bnQC
+  - https://www.linkedin.com/posts/aimanrizwan_qconlondon-growthmindset-careerdevelopment-activity-7442295070487126017-ztXF
+
 
 ---
 
