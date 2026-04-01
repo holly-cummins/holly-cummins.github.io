@@ -13,6 +13,9 @@ tweets:
   - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
   - https://www.linkedin.com/posts/danielbryantuk_qconlondon-activity-7440132249217458176-bnQC
   - https://www.linkedin.com/posts/aimanrizwan_qconlondon-growthmindset-careerdevelopment-activity-7442295070487126017-ztXF
+  - https://www.linkedin.com/posts/lanchuhuong_the-hiring-market-is-tough-today-many-blame-activity-7443292608119922689-U1xq
+conversation:
+  - https://aistoriesweekly.substack.com/p/why-tech-keeps-hiring-and-firing
 
 
 ---
