@@ -3,18 +3,12 @@ author: holly cummins
 title: "Six and a half ridiculous things to do with Quarkus"
 category: Quarkus
 type: talk
-event: Voxxed
-location: Amsterdam
+event: Devoxx
+location: Poland
 
 slides:
   url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus-d3becfab-bd8d-4180-a88d-ebfb2b83d557
 
-photos:
-  - attribution: Dimitris
-  - links:
-      - https://www.flickr.com/photos/bejug/55186036492/in/album-72177720332890380
-      - https://www.flickr.com/photos/bejug/55186926181/in/album-72177720332890380
-      - https://www.flickr.com/photos/bejug/55187324810/in/album-72177720332890380
 code:
   - title: Gen Alpha Filter
     url: https://github.com/holly-cummins/gen-alpha-iser

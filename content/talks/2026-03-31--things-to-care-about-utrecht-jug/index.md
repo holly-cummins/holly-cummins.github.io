@@ -11,6 +11,8 @@ slides:
 photos:
 
 tweets:
+  - https://www.linkedin.com/posts/tiesvandeven_happy-to-be-hear-celebrating-10-years-of-activity-7444781610761129984-TzOd
+  - 
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (
