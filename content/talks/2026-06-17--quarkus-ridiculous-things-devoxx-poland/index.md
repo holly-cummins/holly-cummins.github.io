@@ -4,7 +4,7 @@ title: "Six and a half ridiculous things to do with Quarkus"
 category: Quarkus
 type: talk
 event: Devoxx
-location: Poland
+location: Krakow
 
 slides:
   url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus-d3becfab-bd8d-4180-a88d-ebfb2b83d557

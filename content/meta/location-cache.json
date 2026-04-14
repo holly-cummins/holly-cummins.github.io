@@ -5140,5 +5140,16 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Poland": [
+  {
+   "latitude": 52.215933,
+   "longitude": 19.134422,
+   "formattedAddress": "Polska",
+   "country": "Polska",
+   "countryCode": "PL",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
