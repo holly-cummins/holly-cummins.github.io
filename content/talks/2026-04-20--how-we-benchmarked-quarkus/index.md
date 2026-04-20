@@ -2,6 +2,7 @@
 title: "How We Benchmarked Quarkus: Patterns and anti-patterns"
 event: Quarkus Insights
 author: Eric Deandrea, Franceso Nigro, and Holly Cummins
+type: talk
 video:
   url: https://www.youtube.com/watch?v=LTS2ppoHacI
 slides:
