@@ -5,7 +5,7 @@ author: Eric Deandrea, Franceso Nigro, and Holly Cummins
 video:
   url: https://www.youtube.com/watch?v=LTS2ppoHacI
 slides:
-  url:https://speakerdeck.com/hollycummins/how-we-benchmarked-quarkus-patterns-and-anti-patterns
+  url: https://speakerdeck.com/hollycummins/how-we-benchmarked-quarkus-patterns-and-anti-patterns
 category: quarkus
 resources:
   - title: "The Quarkus benchmark"
