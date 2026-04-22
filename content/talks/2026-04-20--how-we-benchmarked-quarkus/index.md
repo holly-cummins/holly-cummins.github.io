@@ -13,6 +13,8 @@ resources:
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
   - title: "The Quarkus benchmarks results repository"
     url: https://github.com/quarkusio/benchmarks
+  - title: Creating a reproducible measurement environment
+    url: https://easyperf.net/blog/2019/08/02/Perf-measurement-environment-on-Linux
 ---
 
 Holly, Eric, and Franz discuss some of the lessons learned in creating the new Quarkus benchmark suite.
