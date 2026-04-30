@@ -9,9 +9,9 @@ tweets:
 
 I was inspired by Dylan Beattie's ["We're Gonna Build a Framework"](https://dylanbeattie.net/songs/framework.html) (go
 watch it, it's so good!) to make a song called "We're Gonna Build a Benchmark". (Dylan was of course, himself, riffing
-on Billy Joel's "we Didn't Start the Fire," but I think I've listened to Dylan's version more than Billy Joel's, so
+on Billy Joel's "We Didn't Start the Fire," but I think I've listened to Dylan's version more than Billy Joel's, so
 Dylan's are the lyrics I hear in my head.) Sadly, I lack Dylan's musical talent, so I had to use Suno for the music
-production. I's not all cheating, because I wrote the lyrics myself.
+production. It's not all cheating, because I wrote the lyrics myself.
 
 The rendered song is [here, on Suno](https://suno.com/s/1rXurHspQYwYlest_).
 
