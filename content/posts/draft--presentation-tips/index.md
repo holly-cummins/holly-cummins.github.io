@@ -162,6 +162,19 @@ I find starting to give a talk hard. I'm nervous, I don't know how to kick off. 
 It's a bit like fight club. Don't draw attention to errors on the slides, don't apologise for the slides being
 confusing.
 
+## Pencil first, PowerPoint last
+
+Or Keynote. Or reveal.js. Whatever you use, don't use it.
+
+That is, it should be one of the last stages in preparing a talk. Start with sketches. Even if you can't draw,start with
+sketches.
+Among other things, it ensures you can't put too many words on each slide.
+
+This topic was less visual than some, so my sketches don't have many pictures.
+
+![](sketch-of-talk.png)
+![](rink-notes.png)
+
 --
 
 presentation zen
