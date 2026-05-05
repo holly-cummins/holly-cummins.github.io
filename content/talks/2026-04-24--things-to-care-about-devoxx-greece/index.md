@@ -7,6 +7,12 @@ event: Devoxx
 location: Athens, Greece
 slides:
   url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-fee57714-c9f9-402a-8e5a-afd6e39f4f8c
+photos:
+  - attribution: Dimitris Doutsiopoulos
+    images:
+      - https://www.flickr.com/photos/bejug/55239571527/in/album-72177720333387760
+      - https://www.flickr.com/photos/bejug/55240477201/in/album-72177720333387760
+
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (
