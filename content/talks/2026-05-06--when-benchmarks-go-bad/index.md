@@ -6,6 +6,9 @@ type: talk
 event: Devoxx
 location: London
 
+tweets:
+  - https://bsky.app/profile/rmoff.net/post/3ml737lwhsc25
+  - https://bsky.app/profile/rmoff.net/post/3ml6y4wzdzc27
 slides:
   url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong
 

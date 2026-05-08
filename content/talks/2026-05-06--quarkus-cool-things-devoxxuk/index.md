@@ -30,7 +30,8 @@ resources:
     url: https://silvia-odwyer.github.io/photon/
   - title: "10 *other* cool things to do with Quarkus, by Markus Eisele"
     url: https://www.the-main-thread.com/p/hidden-quarkus-features-java-developers
-
+tweets:
+  - https://www.linkedin.com/posts/scottgerring_just-landed-back-in-ch-from-my-first-devoxx-ugcPost-7458155206321668097-EPmB
 ---
 
 1. Save the world.
