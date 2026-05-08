@@ -13,7 +13,7 @@ code:
   - title: Gen Alpha Filter
     url: https://github.com/holly-cummins/gen-alpha-iser
   - title: The LOLifier coding assistant
-    url: https://github.com/phillip-kruger/quarkus-jokes
+    url: https://github.com/quarkiverse/quarkus-jokes
   - title: Rockstarlang Quarkus compiler
     url: https://github.com/quarkiverse/quarkus-bon-jova-rockstar
   - title: Hallucination generaor
