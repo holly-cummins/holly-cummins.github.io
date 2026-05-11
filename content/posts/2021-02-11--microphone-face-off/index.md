@@ -80,7 +80,7 @@ video call.
 
 ![Good sound, ridiculous visuals](not-good-look.png)
 
-Another £40 or so later, I had a [booster amp](https://www.klarkteknik.com/product.html?modelCode=P0DPA) and a second
+Another £40 or so later, I had a booster amp (the Klark Teknik CM-1) and a second
 XLR cable, and I could be heard. I can even be heard with the mic fully off camera, although the sound is better if it's
 a bit closer. So was it worth it? Well, you can decide, but I think there's a clear difference between the sound in
 my [WTFinar](https://youtu.be/ltsoNNTkd_g?t=1444) and Software Circus a month earlier.
