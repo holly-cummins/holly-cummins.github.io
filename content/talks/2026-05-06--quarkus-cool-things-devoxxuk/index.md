@@ -32,6 +32,13 @@ resources:
     url: https://www.the-main-thread.com/p/hidden-quarkus-features-java-developers
 tweets:
   - https://www.linkedin.com/posts/scottgerring_just-landed-back-in-ch-from-my-first-devoxx-ugcPost-7458155206321668097-EPmB
+photos:
+  - attribution: Dimitris Doutsiopoulos
+    urls:
+      - https://flickr.com/photos/125714253@N02/55259353268/in/album-72177720333556801
+      - https://flickr.com/photos/125714253@N02/55259612345/in/album-72177720333556801
+      - https://flickr.com/photos/125714253@N02/55259353298/in/album-72177720333556801
+      - https://flickr.com/photos/125714253@N02/55259222301/in/album-72177720333556801
 ---
 
 1. Save the world.
