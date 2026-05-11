@@ -37,7 +37,5 @@ performance of your own applications.
 These include:
 
 - How to set up a test system
-
 - Recommended load generators
-
 - The USE method
