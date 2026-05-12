@@ -12,8 +12,8 @@ describe("EventList", () => {
   const node = {
     node: {
       frontmatter: { category: "test-stuff", event: "QuackCon" },
-      fields
-    }
+      fields,
+    },
   };
   const edges = [node];
   let listener;
@@ -39,7 +39,7 @@ describe("EventList", () => {
     });
 
     it("renders the correct link", () => {
-      const link = screen.getByRole("link");
+      const link = screen.getAllByRole("link")[0];
       expect(link).toBeTruthy();
       // Hardcoding the host is a bit risky but this should always be true in  test environment
       expect(link.href).toBe("http://localhost/" + slug);
@@ -75,15 +75,13 @@ describe("EventList", () => {
       const keynoteNode = {
         node: {
           frontmatter: { category: "fluffy-stuff", event: "VIPCon", keynote: true },
-          fields
-        }
+          fields,
+        },
       };
 
       beforeEach(() => {
         cleanup();
-        const rendered = render(
-          <EventList edges={[keynoteNode]} listener={listener} />
-        );
+        const rendered = render(<EventList edges={[keynoteNode]} listener={listener} />);
         container = rendered.container;
       });
 
