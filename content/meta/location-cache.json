@@ -5151,5 +5151,19 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Sophia Antipolis, France": [
+  {
+   "latitude": 43.6195225,
+   "longitude": 7.0518158,
+   "formattedAddress": "Sophia Antipolis, Valbonne, Grasse, Alpes-Maritimes, Provence-Alpes-Côte d'Azur, France métropolitaine, 06560, France",
+   "country": "France",
+   "city": "Valbonne",
+   "state": "Provence-Alpes-Côte d'Azur",
+   "zipcode": "06560",
+   "countryCode": "FR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }
