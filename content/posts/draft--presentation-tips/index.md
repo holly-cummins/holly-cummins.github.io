@@ -175,6 +175,23 @@ This topic was less visual than some, so my sketches don't have many pictures.
 ![](sketch-of-talk.png)
 ![](rink-notes.png)
 
+## Energy and confidence
+
+I have never seen a presentation and thought "this would be better if the speaker had less energy."
+
+By confidence, I don't mean telling the audience how awesome you are. In fact, I generally try and do the opposite in my
+talks, by sharing mistakes. I think people learn more from failure than success, and (from the audiences perspective)
+failures are better when they're not their own.
+
+Watching a nervous presenter can be uncomfortable for the audience. Put them at ease, by appearing to be at ease
+yourself. Does that mean you can't be nervous? Of course not. I'm nervous before every single talk. It's all about the
+pretending.
+
+Try and avoid hiding behind the podium. With live coding, this is kind of unavoidable. Sometimes lighting setups force
+you into one part of the stage, but if you can, move around. Pacing can read as nervous, but do centre yourself on the
+stage and then use the whole width of it. Even if you're forced into a static position because of stage constraints, you
+have arms. Use them!
+
 --
 
 presentation zen
