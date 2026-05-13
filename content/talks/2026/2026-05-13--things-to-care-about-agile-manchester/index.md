@@ -6,6 +6,11 @@ type: talk
 event: Agile Manchester
 location: Manchester, UK
 keynote: true
+slides:
+  url: https://speakerdeck.com/hollycummins/things-you-thought-you-didnt-need-to-care-about-that-have-a-big-impact-on-your-job-fee57714-c9f9-402a-8e5a-afd6e39f4f8c
+tweets:
+  - https://www.linkedin.com/posts/stuartmunton_agile-manchester-ai-ugcPost-7460258797576474624-xULy
+  - https://www.linkedin.com/feed/update/urn:li:activity:7460276454786846721/
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (
