@@ -46,13 +46,33 @@ jobs:
       - run: npm run test:int
         env:
           CI: true
-      - name: Deploy
-        # Only try and deploy on merged code
-        if: "github.ref_name == 'main' && (github.event_name == 'push' || github.event_name == 'schedule')"
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Publish directory for site deployment
+        uses: actions/upload-artifact@v7
         with:
-          folder: ./public # The folder the action should deploy.
-          branch: pages
-      - run: npm run test:links
-        env:
-          CI: true
+          name: site
+          path: ./public
+          retention-days: 3
+  deploy:
+    # Only try and deploy on merged code
+    if: "github.repository == 'quarkusio/extensions' && github.ref_name == 'main' && (github.event_name == 'push' || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch')"
+    needs: [ unit-test, build ]
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Built site
+        uses: actions/download-artifact@v8
+        with:
+          name: site
+          path: site
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
