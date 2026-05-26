@@ -188,7 +188,12 @@ yourself. Does that mean you can't be nervous? Of course not. I'm nervous before
 pretending.
 
 Try and avoid hiding behind the podium. With live coding, this is kind of unavoidable. Sometimes lighting setups force
-you into one part of the stage, but if you can, move around. Pacing can read as nervous, but do centre yourself on the
+you into one part of the stage, but if you can, occupy the centre. And then move.
+It's quite natural to cling to the safety of the podium. I recently gave a talk where I was wearing a lapel mic, but
+there was also a live mic on the podium. Every time I got too near the podium it created a shriek of feedback. Even as
+a "step away from the podium" person, I was surprised how often I drifted back into range and caused feedback.
+
+Pacing can read as nervous, but do centre yourself on the
 stage and then use the whole width of it. Even if you're forced into a static position because of stage constraints, you
 have arms. Use them!
 
