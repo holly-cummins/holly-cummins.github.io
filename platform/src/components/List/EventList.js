@@ -8,34 +8,30 @@ import { useTheme } from "../../layouts/theme";
 import useFitText from "use-fit-text";
 import EventTitle from "./EventTitle";
 
-const EventList = props => {
+const EventList = (props) => {
   const { edges, showDate, listener } = props;
   const theme = useTheme();
 
   return (
-    (<React.Fragment>
+    <React.Fragment>
       <ul data-testid="event-list-wrapper">
-        {edges.map(edge => {
-
+        {edges.map((edge) => {
           const {
             node: {
               frontmatter: { url, event, keynote, slides, video },
-              fields: { slug, shortDate, title, geography }
-            }
+              fields: { slug, shortDate, title, geography },
+            },
           } = edge;
           const anchor = (content, id) =>
-            url ?
-              (<a href={url}>
-                  {content}
-                </a>
-              ) : id ? (
-                <Link to={`${slug}#${id}`}>{content}</Link>
-              ) : (
-                <Link to={slug}>{content}</Link>
-              );
+            url ? (
+              <a href={url}>{content}</a>
+            ) : id ? (
+              <Link to={`${slug}#${id}`}>{content}</Link>
+            ) : (
+              <Link to={slug}>{content}</Link>
+            );
 
-
-          return (
+          return anchor(
             <li key={slug} className="row">
               <div className="keynoteIndicator">{keynote ? anchor(<Star size={20} />) : <></>}</div>
               <div className={"flag"}>
@@ -49,10 +45,14 @@ const EventList = props => {
                 )}
               </div>
               <EventTitle showDate={showDate} date={shortDate} event={event} listener={listener} />
-              <div className="contentIndicator">{slides ? anchor(<Slide size={20} />, "slides") : <></>}</div>
-              <div className="contentIndicator">{video ? anchor(<Video size={20} />, "video") : <></>}</div>
+              <div className="contentIndicator">
+                {slides ? anchor(<Slide size={20} />, "slides") : <></>}
+              </div>
+              <div className="contentIndicator">
+                {video ? anchor(<Video size={20} />, "video") : <></>}
+              </div>
               <div className="talkTitle">{anchor(title)}</div>
-            </li>
+            </li>,
           );
         })}
       </ul>
@@ -101,14 +101,14 @@ const EventList = props => {
           padding-left: 25px;
         }
       `}</style>
-    </React.Fragment>)
+    </React.Fragment>
   );
 };
 
 EventList.propTypes = {
   edges: PropTypes.array.isRequired,
   showDate: PropTypes.bool,
-  listener: PropTypes.func
+  listener: PropTypes.func,
 };
 
 export default EventList;
