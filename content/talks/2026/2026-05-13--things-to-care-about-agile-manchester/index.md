@@ -11,6 +11,8 @@ slides:
 tweets:
   - https://www.linkedin.com/posts/stuartmunton_agile-manchester-ai-ugcPost-7460258797576474624-xULy
   - https://www.linkedin.com/feed/update/urn:li:activity:7460276454786846721/
+  - https://www.linkedin.com/posts/jitgo_agilemanc-ugcPost-7460605342385815552-ip5W
+  - https://www.linkedin.com/posts/rachel-morgan-trimmer_agilemanc-share-7460600139733303296-S5tf?
 ---
 
 Development is about working with computers, right? Well, not quite. Development is all about working with computers (
