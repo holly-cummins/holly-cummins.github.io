@@ -17,9 +17,16 @@ resources:
     url: https://github.com/quarkusio/benchmarks
   - title: "The Quarkus vs Spring benchmark code"
     url: https://github.com/quarkusio/spring-quarkus-perf-comparison
+  - title: "Microbenchmarking calls for idealized conditions"
+    description: "An accessible introduction to several benchmarking principles, beyond just microbenchmarking. There are interesting discussions of reproducibility, statistics, distributions, and how many times you need to repeat a test."
+    url: https://lemire.me/blog/2018/01/16/microbenchmarking-calls-for-idealized-conditions/
   - title: "Best practices for achieving reproducibility"
     url: https://easyperf.net/blog/2019/08/02/Perf-measurement-environment-on-Linux
-  - title "'Reactive CRUD Performance: A Case Study', a great blog by John O'Hara walking through his investigation of a flawed benchmark"
+  - title: "Benchmarking tips"
+    description: "A concise set of configuration knobs for maximum reproducibility on Linux systems."
+    url: https://llvm.org/docs/Benchmarking.html
+  - title: "Reactive CRUD Performance: A Case Study"
+    description: "A great blog by John O'Hara walking through his investigation of a flawed benchmark"
     url: https://quarkus.io/blog/reactive-crud-performance-case-study/
   - title: "How NOT to measure latency, Gil Tene explaining coordinated omission"
     url: https://www.youtube.com/watch?v=lJ8ydIuPFeU
