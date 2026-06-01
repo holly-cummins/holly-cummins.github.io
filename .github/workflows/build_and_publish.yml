@@ -51,7 +51,7 @@ jobs:
         env:
           CI: true
       - name: Publish directory for site deployment
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v7
         with:
           name: site
           path: ./platform/public
