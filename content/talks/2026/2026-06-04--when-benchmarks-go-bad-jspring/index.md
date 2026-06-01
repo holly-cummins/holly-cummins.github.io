@@ -28,6 +28,9 @@ resources:
     url: https://quarkus.io/blog/reactive-crud-performance-case-study/
   - title: "How NOT to measure latency, Gil Tene explaining coordinated omission"
     url: https://www.youtube.com/watch?v=lJ8ydIuPFeU
+  - title:
+    url: https://users.cs.northwestern.edu/~robby/courses/322-2013-spring/mytkowicz-wrong-data.pdf
+    description: "A more academic exploration of how measurement bias can affect benchmarks, but is rarely discussed. "
   - title: "'We're Gonna Build a Benchmark' lyrics"
     url: https://hollycummins.com/were-gonna-build-a-benchmark/
 
