@@ -27,7 +27,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: actions/setup-node@v6
         with:
           node-version: '18'
@@ -54,7 +54,7 @@ jobs:
         uses: actions/upload-artifact@v7
         with:
           name: site
-          path: ./public
+          path: public
           retention-days: 3
   deploy:
     # Only try and deploy on merged code
