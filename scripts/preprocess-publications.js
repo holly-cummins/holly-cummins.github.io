@@ -30,7 +30,7 @@ const processDirectory = async () => {
         const stat = await fs.promises.stat(markdownPath);
         const cover = metadata.cover;
         const imageUrl = metadata.imageUrl;
-        const imagePath = path.join(dir, publication, cover);
+        const imagePath = path.join(dir, publication, cover).replaceAll("*", "_");
         if (!fs.existsSync(imagePath)) {
           if (imageUrl) {
             console.log("Downloading", imageUrl);
@@ -38,7 +38,7 @@ const processDirectory = async () => {
           } else {
             console.error(
               "ERROR: Cover image does not exist and imageUrl is not set for",
-              publication
+              publication,
             );
           }
         } else {
@@ -53,17 +53,15 @@ const processDirectory = async () => {
 };
 
 const download = async (url, fileName) => {
-  return new Promise(resolve => {
+  return new Promise((resolve) => {
     request.head(url, (err, res, body) => {
-      request(url)
-        .pipe(fs.createWriteStream(fileName))
-        .on("close", resolve);
+      request(url).pipe(fs.createWriteStream(fileName)).on("close", resolve);
     });
   });
 };
 
-const readFile = async fileName => {
-  return new Promise(resolve => {
+const readFile = async (fileName) => {
+  return new Promise((resolve) => {
     fs.readFile(fileName, "utf8", (err, data) => {
       resolve(data);
     });
