@@ -33,6 +33,17 @@ code:
 
 tweets:
 
+photos:
+  - credit: "@dimitrisDoutsiopoulos, Devoxx photographer"
+    images:
+      - https://www.flickr.com/photos/bejug/55347882532/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55348971738/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55348812756/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55349028299/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55348812726/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55347880362/in/album-72177720334340169
+      - https://www.flickr.com/photos/bejug/55349230550/in/album-72177720334340169
+
 
 ---
 
