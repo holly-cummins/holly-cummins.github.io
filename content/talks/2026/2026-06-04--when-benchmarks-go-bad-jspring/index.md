@@ -10,6 +10,13 @@ location: Utrecht
 slides:
   url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong
 
+photos:
+  - credit: "The J-Spring team"
+    images:
+      - standing.jpg
+      - questioning.jpg
+      - height.jpg
+
 resources:
   - title: "The Quarkus benchmarks results repository"
     url: https://github.com/quarkusio/benchmarks
