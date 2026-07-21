@@ -33,7 +33,16 @@ code:
 
 tweets:
 
-
+photos:
+  - credit: "@dimitrisDoutsiopoulos, Devoxx photographer"
+    images:
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipO9tlqc2hQiHv2T5EHrjFPGNW_SWPUnI-pH2gge?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipNkuYZPnPWDUrpEbtATUUmjuwUoYbRkxMFbwktu?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipPoI3bzDLeVn4Bhd991WwcdWhZ3Nosd7Z3-cSYJ?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipPh37QyhmJD-b5wY5fphA-QzzgLgJw8Yck7x4b1?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipMOZ72RAUJ66EEOLDl_XZEQqKoOkmKOwiCKil6p?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipNsqksc9SmveZiS5w-tqpvg9uz4ggohwLLHbCui?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
+      - https://photos.google.com/share/AF1QipNMbWvxAvN_9gKo1qt6kQTfesr43PbSCbRPzYRkotxQ8su9b6K4Jbr2OxpUW398kA/photo/AF1QipN3LHHol-T4ONjhcDQGkDYu6sI7D5VUUdxCP0rX?key=enNuOG45V2FnOXJkT3g2Q21vS0FwREFTZzM1TEVB
 
 ---
 
