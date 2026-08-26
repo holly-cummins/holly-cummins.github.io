@@ -10,6 +10,8 @@ location: Utrecht
 slides:
   url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong
 
+video:
+  url: https://www.youtube.com/watch?v=l30BJZ7joCI
 photos:
   - credit: "The J-Spring team"
     images:
