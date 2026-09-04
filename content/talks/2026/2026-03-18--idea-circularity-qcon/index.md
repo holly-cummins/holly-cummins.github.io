@@ -8,6 +8,8 @@ location: London
 keynote: true
 slides:
   url: https://speakerdeck.com/hollycummins/the-free-lunch-guide-to-idea-circularity
+video:
+  url: https://www.infoq.com/presentations/tech-hype-cycles-architectural-tradeoffs/
 tweets:
   - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
   - https://bsky.app/profile/hillelwayne.com/post/3mhdzaxf2qc2k
