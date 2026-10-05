@@ -1,7 +1,7 @@
 jest.setTimeout(15 * 1000);
 
 // The talks page is particularly problematic in the built version, so test some of those aspects here
-const { port } = require("../jest-puppeteer.config").server;
+const {port} = require("../jest-puppeteer.config").server;
 
 const siteRoot = `http://localhost:${port}`;
 
@@ -78,12 +78,12 @@ describe("main site", () => {
           const main = await page.$("main");
           // Annoyingly this does not have any formatting but I cannot find a more useful output because outerHtml is too busy
           let content = await main.evaluate(el => el.textContent);
-          throw new Error("Could not find a short form date. Page content is \n" + content);
+          throw new Error("Underlying error: " + e + "\nCould not find a short form date. Page content is \n" + content);
         }
 
         // Now do a deeper validation of the date text; we could check every node, but one is probably sufficient
         const date = await page.waitForSelector(dateSelector,
-          { timeout: 5 * 1000 }
+          {timeout: 5 * 1000}
         );
         // Hover again, to try and make sure we're hovered and resolve some test flakiness
         await date.hover();
