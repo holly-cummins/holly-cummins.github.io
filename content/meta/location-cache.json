@@ -5165,5 +5165,53 @@
    "neighbourhood": "",
    "provider": "openstreetmap"
   }
+ ],
+ "Hursley, UK": [
+  {
+   "latitude": 51.0251858,
+   "longitude": -1.3902838,
+   "formattedAddress": "Hursley, Winchester, Hampshire, England, United Kingdom",
+   "country": "United Kingdom",
+   "city": "Winchester",
+   "state": "England",
+   "countryCode": "GB",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
+ ],
+ "Lille": [
+  {
+   "latitude": 50.6365654,
+   "longitude": 3.0635282,
+   "formattedAddress": "Lille, Nord, Hauts-de-France, France métropolitaine, France",
+   "country": "France",
+   "city": "Lille",
+   "state": "Hauts-de-France",
+   "countryCode": "FR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 50.618064,
+   "longitude": 3.0453037,
+   "formattedAddress": "Lille, Nord, Hauts-de-France, France métropolitaine, France",
+   "country": "France",
+   "state": "Hauts-de-France",
+   "countryCode": "FR",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  },
+  {
+   "latitude": 51.238218,
+   "longitude": 4.8242404,
+   "formattedAddress": "Lille, Turnhout, Antwerpen, Vlaanderen, 2275, België / Belgique / Belgien",
+   "country": "België / Belgique / Belgien",
+   "city": "Lille",
+   "state": "Antwerpen",
+   "zipcode": "2275",
+   "countryCode": "BE",
+   "neighbourhood": "",
+   "provider": "openstreetmap"
+  }
  ]
 }

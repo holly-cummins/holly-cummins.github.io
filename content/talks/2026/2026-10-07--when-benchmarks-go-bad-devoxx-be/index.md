@@ -8,7 +8,7 @@ location: Antwerp
 
 
 slides:
-  url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong
+  url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong-4eb43ba5-37df-4149-ba73-14043a029aa2
 
 
 photos:
@@ -17,6 +17,8 @@ photos:
       -
 
 resources:
+  - title: Transcript of the J-Spring version
+    url: /benchmarks-gone-bad/
   - title: "The Quarkus benchmarks results repository"
     url: https://github.com/quarkusio/benchmarks
   - title: "The Quarkus vs Spring benchmark code"

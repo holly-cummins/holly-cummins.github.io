@@ -20,6 +20,8 @@ photos:
       - height.jpg
 
 resources:
+  - title: Transcript
+    url: /benchmarks-gone-bad/
   - title: "The Quarkus benchmarks results repository"
     url: https://github.com/quarkusio/benchmarks
   - title: "The Quarkus vs Spring benchmark code"

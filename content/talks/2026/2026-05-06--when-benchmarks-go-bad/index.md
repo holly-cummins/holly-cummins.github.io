@@ -13,6 +13,8 @@ slides:
   url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong
 
 resources:
+  - title: Transcript of the J-Spring version
+    url: /benchmarks-gone-bad/
   - title: "The Quarkus benchmarks results repository"
     url: https://github.com/quarkusio/benchmarks
   - title: "The Quarkus vs Spring benchmark code"
