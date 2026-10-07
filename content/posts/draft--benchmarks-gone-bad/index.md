@@ -8,13 +8,13 @@ type: blog
 
 This is the transcript of [a talk I gave at J-Spring](/when-benchmarks-go-bad-jspring/), with some
 light editing and corrections by Francesco Nigro.
-Francesco also very kindly transcribed it. The transcription software recorded 148 "um"s and 8 "\[snort\]"s, so I
+Francesco also organised the transcription. The transcription tools recorded 148 "um"s and 8 "\[snort\]"s, so I
 removed
 those in the editing and made a note to snort less in future.
 
 ----
 
-## 1\. Slides 1–3 — Introduction
+## 1. Slides 1–3 — Introduction
 
 Video at [\[00:00\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=0s)
 
@@ -35,21 +35,21 @@ really small piece of work. We already had a benchmark. We just needed to make a
 a little bit of automation so that when we would run the benchmark, our performance numbers on our front page would
 update automatically. How hard can it be, right?
 
-## 2\. Slides 4–5 — Measure, don't guess (is just the beginning)
+## 2. Slides 4–5 — Measure, don't guess (is just the beginning)
 
 Video at [\[01:17\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=77s)
 
 ![][image3]   slide 5
 
-Well, if you if you've done anything in the area of performance or performance analysis, you have probably heard the
+If you if you've done anything in the area of performance or performance analysis, you have probably heard the
 phrase "measure, don't guess". This is absolutely important. I would still very much encourage you to start with
-measure,
-don't guess.
+"measure,
+don't guess".
 
 But measure, don't guess is just the *beginning*. It turns out even once you've made the decision to measure,
 there's a whole bunch of things that can trip you up or go wrong.
 
-## 3\. Slide 6 — Live demo: spring-quarkus-perf-comparison
+## 3. Slide 6 — Live demo: spring-quarkus-perf-comparison
 
 Video at [\[01:47\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=107s)
 
@@ -60,186 +60,232 @@ now publishing on the front page. And I'm going to run a little stress test of Q
 is it's going to first of all, start a database in a container, start an OTel stack, and then it will start the
 application, do a warm-up run, and then it will do a 20-second performance measurement. I do this demo fairly
 regularly now, and every time I do it, I regret my life choices because it turns out that watching a performance test
-run, even if it's only for 20 seconds, is really, really boring. and I keep thinking I could I could make it shorter.
-I could make it shorter. I could make it 10 seconds. I could make it 5 seconds. But then, really, we start to compromise
-the quality in a in a way that I can't live with. but after after that very long period of time, we've got some
-results. So, you can see we did a warm-up run, and then we did a load test, and we got 15,000 requests per second with
-Quarkus. Uh remember those numbers. If I had a whiteboard, I would like write them down, but I don't. and then you
-can see as well this is there's going to be a test at the end. So, our time to first request was 3 seconds, and our RSS
-was 322 meg. So, now let's do the same thing for Spring. So, let's do So, we're going to run the same script. Whoops,
-no, we're not. And while we're doing that, I'll just give you a quick tour of the of the code. So, what we've got here,
-it's we've tried to make the application as similar as possible for both Quarkus and Spring. so, it's just uh simple
-little rest application with a bit of DTO going on, a rest endpoint, and this is the script that we're using to
-measure it. And so, it will be working away. I'll show you while that's going on. Let me show you the Quarkus applica-
-the uh Spring application. So, there you can see similar wherever possible. We've had the code be exactly the
-same in some cases. Of course, you can't have it be exactly the same, and we've got answers. So, you can see we've got
-the warm up, and then we've got results here, which are 13K requests per second. And if we scroll up, we've got 4
-seconds to start and an RSS of 658\
+run, even if it's only for 20 seconds, is really, really boring. I keep thinking I could I could make the measurement
+period shorter.
+I could make it 10 seconds. I could make it 5 seconds. But then, really, we start to compromise
+the quality in a in a way that I can't live with. We've got some
+results!
 
-## 4\. Slides 7–11 — Was this a good measurement? What was wrong?
+So, you can see we did a warm-up run, and then we did a load test, and we got 15,000 requests per second with
+Quarkus. Remember those numbers. If I had a whiteboard, I would like write them down, but I don't.
+So, our time to first request was 3 seconds, and our RSS
+was 322 meg. So, now let's do the same thing for Spring. And while we're doing that, I'll just give you a quick tour of
+the code. We've tried to make the application as similar as possible for both Quarkus and Spring. It's just simple
+little rest application with a bit of DTO going on, a REST endpoint.
+This is the script that we're using to
+measure it.
+The code is exactly the
+same in some cases. Of course, you can't have it be exactly the same everywhere.
+
+We've got answers! So, you can see we've got
+the warm up, and then we've got results here, which are 13K requests per second. And if we scroll up, we've got 4
+seconds to start and an RSS of 658 MB.
+
+## 4. Slides 7–11 — Was this a good measurement? What was wrong?
 
 Video at [\[05:07\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=307s)
 
 ![][image5]   slide 9
 
-![][image6]   slide 10
+And so, let's go back to our slides. Everybody remember those numbers?
+The first question is, was this a good measurement? Did I do things right?
+Hands up if
+you think this was an example of performance best practices. One or two hands.
 
-And so, let's go back to our slides. Everybody remember those numbers? So, Ooh. That was I just showed you completely
-the wrong deck. Which is a novel failure mode. Okay. But we get the same sound effect, don't worry. So, \>\>
-\[laughter\] \>\> so The first question is, was this a good measurement? Did it did Did I do things right? hands up if
-you think this was an example of performance best practices. One or two hands. , hands up if you think that maybe it
-wasn't. Lots of hands. Yeah, I have to say I I I'm inclined to agree with you. , there's there's a whole bunch of things
-that were wrong with that. , but the first thing that I will point out is of course when you run something like this ,
-in front of an audience, there is the demo effect. The first thing is that those results that I showed you are
+Hands up if you think that maybe it
+wasn't. Lots of hands.
+
+I have to say I'm inclined to agree with you. There's there's a whole bunch of things
+that were wrong with that. The first thing that I will point out is of course when you run something like this ,
+in front of an audience, there is the demo effect. Those results that I showed you are
 completely not what I was expecting and are basically completely wrong. I would expect that the throughput of Quarkus
-would be about double the throughput of Spring and we saw that it was maybe like 10% more. So, something something weird
-was going on there. I can I can tell you with my my knowledge of of what it's supposed to do. , but there's a whole
-bunch of other things that were wrong
+would be about double the throughput of Spring and we saw that it was maybe like 10% more. So, with my my knowledge of
+what was supposed to happen, I can tell you something something weird
+was going on there.
+Even if the results had been what I expected, there's a whole
+bunch of other things that were wrong.
 
-## 5\. Slides 12–13 — Building a benchmark is easy. Building a good benchmark is hard.
+## 5. Slides 12–13 — Building a benchmark is easy. Building a good benchmark is hard.
 
 Video at [\[06:37\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=397s)
 
 ![][image8]   slide 13
 
-And what this really shows I think is that you know, it is it is trivially easy to build a benchmark. It is
-trivially easy to build an application and then run it. And we see this all the time. , because I work in the Quarkus
+What my min-fail there shows I is that it is it is trivially easy to build a benchmark. It is
+trivially easy to build an application and then run it.
+And we see this all the time, because I work in the Quarkus
 team we keep an eye on what's going on in the internet and about once a month someone will write an
 article and they'll say I benchmarked Quarkus against Spring and these are my results. Sometimes those results make us
-look really nice. , sometimes those results don't make us look so nice, but in almost every case, no matter what, when
+look really nice. Sometimes those results don't make us look so nice as we should.
+
+But in almost every case, no matter what, when
 we dig into what was done, we can see that oh, actually yeah, this wasn't done quite right and this wasn't done
-quite right. And that's not just a Quarkus Spring thing. That's almost every benchmark you run when you when you dig
-into it a bit, you realize that there was errors and problems. , speaking personally, I find this really depressing
+quite right. And that's not just a Quarkus-Spring thing. That's almost every benchmark you run.
+
+When you when you dig
+into it a bit, you realize that there was errors and problems. Speaking personally, I find this really depressing
 because I want I think benchmarking is important. I think understanding performance is important for all sorts of
 reasons. It's important in terms of understanding how much things cost. It's understanding It's important in
 terms of allowing you to make decisions that will help you and your organization save money. it is important in terms of
-allowing you to choose sustainable options. We're looking at LLMs now and we're starting to write skills for LLMs and of
-course we want to know is our skill making things better or worse and that's a benchmarking challenge. And so it's just
-even if you're not looking at literal performance, every there's so many decisions that you make as a software engineer
-where having data is important and it turns out it's really hard to to get that data. I showed you briefly the script
-that I used the stress.sh script. My original intention when I wrote that script was that it would be five lines and
-when I was doing a live demo it would fit on the screen and you know everybody could understand exactly what was being
-done and you saw as I was scrolling through there was a lot there. And there was a a constant dialogue
-between myself and and my colleagues who were I'm a software engineer, my colleagues were performance engineers to sort
-of say, "Well, like can we do this because it's understandable versus but it's understandable but it's wrong so we need
-to to make it more complex." And so just everything that we've done ends up being this can of worms
+allowing you to choose sustainable options.
 
-## 6\. Slides 14–15 — You are not measuring what you think you are measuring
+We're looking at LLMs now and we're starting to write skills for LLMs and of
+course we want to know is our skill making things better or worse and that's a benchmarking challenge. And so
+even if you're not looking at literal performance, there's so many decisions that you make as a software engineer
+where having data is important and it turns out it's really hard to to get that data.
+
+I showed you briefly the script
+that I used, the `stress.sh` script. My original intention when I wrote that script was that it would be five lines and
+when I was doing a live demo it would fit on the screen and everybody could understand exactly what was being
+done. You saw as I was scrolling through there was a lot more than 5 lines there there.
+
+There was a a constant dialogue
+between myself and and my colleagues. I'm a software engineer, my colleagues were performance engineers, and so we kept
+going back and forth between "can we do this because it's understandable?" versus "it's understandable but it's _wrong_,
+so we need
+to to make it more complex."
+And so just every implementation decision we made ends up being this can of worms.
+
+## 6. Slides 14–15 — You are not measuring what you think you are measuring
 
 Video at [\[09:06\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=546s)
 
 ![][image9]   slide 15
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                    
---------------
-And the fundamental problem is that if you do a measurement but you're not measuring what you think you're measuring
-that measurement is useless. So this this isn't just nitpickingness. This this really matters. I think this principle of
-you are not measuring what you think what you think you're measuring is an important one. So I've tried to come up with
-an acronym for it. unfortunately the acronym is YINMWYTM or Yian Mu Tslam. which is why I don't think this is going to
+The fundamental problem is that if you do a measurement but you're not measuring what you think you're measuring
+that measurement is _useless_. So this this isn't just nitpickingness. This really matters.
+
+This principle
+of
+"you are not measuring what you think what you think you're measuring is an important one". I've tried to come up with
+an acronym for it. Unfortunately the acronym is YINMWYTM or Yian-Mu-Tslam. which is why I don't think this is going to
 be a very successful acronym
 
-## 7\. Slides 16–25 — Workload vs environment / anatomy of a benchmark
+## 7. Slides 16–25 — Workload vs environment / anatomy of a benchmark
 
 Video at [\[09:44\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=584s)
 
 ![][image10]   slide 16
 
-![][image11]   slide 25
-
 But going back to the the the question of of benchmark design, ultimately when you're when you're designing a
 benchmark, there's two parts to it. There's the workload, your actual application, what you're running, and then there's
-all of the surrounding environment, how it's run, how you send load in. And so we can drill into that in a
+all of the surrounding environment, how it's run, how you send load in.
+
+![][image11]   slide 25
+
+And so we can drill into that in a
 little bit more detail. So that app there, that is your workload. There is of course massive opportunity for failure
 here. And then everything around it is the environment. And you'll be surprised to hear we have opportunities for
 failures with all of these, which is depressing, unfortunately. So even things like the CPU and the RAM and
 your and your hardware can can cause problems
 
-## 8\. Slides 26–29 — Reproducibility: you are measuring noise
+## 8. Slides 26–29 — Reproducibility: you are measuring noise
 
 Video at [\[10:33\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=633s)
 
 ![][image12]   slide 28
 
-![][image13]   slide 29
-
 And what what a lot of the problems come down to is a question of reproducibility. What you want is that when you run
 your experiment and then you run it again, and you run it again, you get the exact same number every time. And you saw
 with my experiment that I did just now, I had a massive failure of reproducibility where my my spring results were far
-more positive than I than I expected them to be. And reproducibility matters a lot in the if you know, if you're
-if you're doing like a science experiment and you're you're doing it a few times to get some statistical
+more positive than I than I expected them to be.
+
+![][image13]   slide 29
+
+Reproducibility matters a lot in the if you're doing a science experiment and you're you're doing it a few times to get
+some statistical
 validity, reproducibility matters. But it matters even more if you're doing something like what I was doing, where
-you're measuring two things that are different. If you're measuring two things that are different, you have to make sure
+you're measuring two things that are _different_. If you're measuring two things that are different, you have to make
+sure
 that there's almost no noise in the system, because otherwise your comparison will just be wrong. You think you're
 comparing Spring and Quarkus. You think you're comparing Alice's code and Bob's code. And actually, you're just
-measuring noise instead
+measuring noise instead.
 
-## 9\. Slide 30 — Variation caused by environment issues \~40%
+## 9. Slide 30 — Variation caused by environment issues \~40%
 
 Video at [\[11:42\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=702s)
 
 ![][image14]   slide 30
 
-And the thing about this noise is when I first started talking to my performance engineer colleagues and they were
-saying, "No, it needs to be reproducible." I thought we were being really persnickety and
+The thing about this noise is, when I first started talking to my performance engineer colleagues and they were
+saying, "No, it needs to be reproducible," I thought we were being really persnickety and
 we were talking about like, "Oh it's 5% wrong this way or 5% wrong that way." But actually, the amount of
-difference that these reproducibility problems can make to your results is huge. So, I've I've put up here, you
-know, we see a 40% difference and sometimes it's even more than that. So, getting this right makes a huge difference to
-the numbers you get, which means it makes a huge difference to the answers that you get if you're trying to make a
-decision
+difference that these reproducibility problems can make to your results is huge.
 
-## 10\. Slides 42–43 — Load generation on the same machine
+We see a 40% variation in some measurements and sometimes it's even more than that. So, getting this right makes a huge
+difference to
+the numbers you get, which means it makes a huge difference to the answers that you get if you're trying to make a
+decision.
+
+## 10. Slides 42–43 — Load generation on the same machine
 
 Video at [\[12:28\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=748s)
 
 ![][image15]   slide 43
 
-And so, one of the first things that probably some of you will have looked at what I did and said, "Oh, shouldn't be
-doing that." Is I was driving the load into my application on the exact same hardware that I was using to run the
-workload. This is This is a newbie performance error. You just You cannot do that. I'll come back to that
-though because it it goes both ways. But yeah, this This is a fail. And so, when I ran on my laptop, I had no
+When I did my toy demo, one of the first things that some of you will have noticed, you'll have looked at what I
+did and said, "ooh,
+shouldn't be
+doing that," is I was driving the load into my application on the exact same hardware that I was using to run the
+workload. This is a newbie performance error. You cannot do that. I'll come back to that
+though because it's not quite that obvious. But the way I did it, this is a fail. But when I ran on my laptop, I had no
 choice
-but to to do that
+but to to do that.
 
-## 11\. Laptop thermal throttling
+## 11. Laptop thermal throttling
 
 Video at [\[13:02\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=782s)
 
 But I think the the biggest problem that you will get when you run on a laptop has to do with the thermal behavior of
-your laptop. Laptops are really optimized in order to preserve battery life and also in order to not melt. consumers
+your laptop. Laptops are really optimized in order to preserve battery life and also in order to not melt. Consumers
 tend to get upset if their laptops get destroyed. And so, as soon as the laptop detects that it's a little bit warm, it
-will just throttle everything. It will shut down some CPUs. It will slow the CPUs down because it's got a tiny little
-fan compared to a server. And so, that means that as soon as I start running my presentation, as soon as I start, you
-know, running some benchmarks, my laptop's going to get warm, and then everything starts to change in a really
-non-deterministic way
+will just throttle everything. It will shut down some CPUs. It will slow the CPUs down because it's only got a tiny
+little
+fan compared to a server.
 
-## 12\. Slides 40–41 — CPU frequency is not deterministic
+And so, that means that as soon as I start running my presentation, plus running some benchmarks, my laptop's going to
+get warm, and then everything starts to change in a really
+non-deterministic way. But it's definitely slowing.
+
+## 12. Slides 40–41 — CPU frequency is not deterministic
 
 Video at [\[13:50\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=830s)
 
 ![][image16]   slide 40
 
-![][image17]   slide 41
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-------------
 But, it gets worse than that because even if I'm on a proper server, in a data center, the CPU frequency is not
 deterministic. And we'd kind of forgotten this when we were doing some of our results. And so, only about a couple of
 months ago, we started really in detail measuring the CPU frequency as we were running the experiments and
 seeing it varying all over the place. And it's the exact same thing. Most modern hardware will throttle some CPUs. It
 will ramp up some CPUs in order to control the temperature, in order to optimize the CPU for what it thinks you're
-trying to do, which may not actually be what you're trying to do. So, if you're running on Intel hardware in a lab, and
+trying to do, which may not actually be what you're trying to do.
+
+![][image17]   slide 41
+
+So, if you're running on Intel hardware in a lab, and
 you want to get reproducible results, what you need to do is you need to disable Intel Turbo Boost. You need to disable
 Intel Speed Shift. You need to set the scaling governor to performance. And then, of course, you don't want your process
-to give way to some other process because you're trying to measure that process. So, you need to make sure that nice is
-disabled
+to give way to some other process because you're trying to measure that process. So, you need to make sure that `nice`
+is
+disabled.
 
-## 13\. Slides 31–34 — State is noise, caches are noise
+## 13. Slides 31–34 — State is noise, caches are noise
 
 Video at [\[14:57\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=897s)
 
 ![][image18]   slide 31
 
+And it gets worse anytime you're running an experiment repeatedly, which you probably will in order to get some
+kind of statistical validity, you'll end up with a little bit of state building up. That state is noise.
+
 ![][image19]   slide 32
+
+And computers
+try and cache things because that gives you an efficiency. That cache is noise. So, So have to do a whole bunch of work
+to tell the computer to be as inefficient as possible while running your benchmark. So you have to tell it to drop the
+file system caches. And you also have to tell it to drop the container caches because Podman or Docker or any of these
+container runtimes, they will cache images because not doing that would be ridiculous. So you have to make sure you drop
+the caches.
 
 ![][image20]   slide 33
 
@@ -247,244 +293,296 @@ Video at [\[14:57\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=897s)
 
 -
 
-And it gets worse anytime you're running an experiment repeatedly, which you probably will in order to get some
-kind of statistical validity, you'll end up with a little bit of state building up. That state is noise. And computers
-try and cache things because that gives you an efficiency. That cache is noise. So, So have to do a whole bunch of work
-to tell the computer to be as inefficient as possible while running your benchmark. So you have to tell it to drop the
-file system caches. And you also have to tell it to drop the container caches because Podman or Docker or any of these
-container runtimes, they will cache images because not doing that would be ridiculous. So you have to make sure you drop
-the caches
-
-## 14\. Slides 35–36 — Stale database images (oops)
+## 14. Slides 35–36 — Stale database images (oops)
 
 Video at [\[15:44\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=944s)
 
 ![][image22]   slide 36
 
-                                                                                                                                                                                                                                                                                                                                                                   
---
-We had a problem with this in ours and again only after we'd been running for a couple of months did we
+We had a problem with this in our lab setup. Only after we'd been running for a couple of months did we
 realize that we had a database image that had was pre-populated with some data. And we had changed that at some point to
 make the data more representative. We hadn't wiped the caches. And so we were every time we did a run, we were running
-not measuring what we thought we were. We were measuring something else
+not measuring what we thought we were. We were measuring something else.
 
-## 15\. Slide 45 — Everything is connected to everything
+## 15. Slide 45 — Everything is connected to everything
 
 Video at [\[16:13\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=973s)
 
 ![][image23]   slide 45
 
--
+And the problem with all of this noise is – I studied physics in in university and the
+general scientific practice is, "Okay, well, I just have to run a measurement enough times and it will be valid." But a
+lot
+of these sources of noise are not just random.
 
-And the problem with all of this noise is I did it I I I studied physics in in university and you know, the the
-general scientific thing is, "Okay, well, I just have to run a measurement enough times and it will be valid." But a lot
-of these sources of noise, it's not just random. It's not that it's going to cancel out if you do the experiment enough
-times. It's because performance is really complex and everything is connected to everything else. You can get these
-systemic errors and so some sources of noise may have these really asymmetric effects. And that's what we saw in a lot
-of our experiments, for example
+The noise is _not_ going to cancel out if you do the experiment enough
+times. Performance is really complex and everything is connected to everything else. You can get
+systemic errors and so some sources of noise may have really asymmetric effects. And that's what we saw in a lot
+of our experiments.
 
-## 16\. Slides 44, 46–49 — Quarkus can handle 1.8x more load (isolation was wrong)
+## 16. Slides 44, 46–49 — Quarkus can handle 1.8x more load (isolation was wrong)
 
 Video at [\[16:51\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1011s)
 
+So I mentioned that you really don't want to run your load generator on the same machine as your application. Despite
+that, this is
+actually what we did in our experiments because if you don't do that, you end up measuring a lot of network effects and
+we wanted to rule those out.
+
 ![][image24]   slide 44
+
+So what we did is we pinned some tasks to some cores and some tasks to other cores and then
+we made sure that we had the memory affinity correctly, so that it was as if we were running on different machines, but
+just with this really fast network pipe between them because it was all in the same computer. We thought well, I say
+we did this, we thought we were doing that. We did a set of measurements and we found that Quarkus could handle
+1.8 times more load than Spring. It had 1.8 times more throughput.
 
 ![][image25]   slide 46
 
 ![][image26]   slide 48
 
-![][image27]   slide 49
-
-So I mentioned that you really don't want to run your load generator on the same machine as your application. This is
-actually what we did in our experiments because if you don't do that, you end up measuring a lot of network effects and
-we wanted to rule those out. So what we did is we pinned some tasks to some cores and some tasks to other cores and then
-we made sure that we had the memory affinity correctly, so that it was as if we were running on different machines, but
-just with this really fast network pipe between them because it was all in the same computer. Uh we thought well, I say
-we did this, we thought we were doing that. and so we did a set of measurements and we found that Quarkus could handle
-1.8 times more load than Spring. It had 1.8 times more throughput. We kind of looked at that and we're like, yeah, I was
-kind of expecting that to be higher. Something doesn't seem quite right there. But it was because we'd we'd got it
-wrong. We were using CPU groups and we should have been using task set. The really subtle differences.We had put
+We looked at that and we're like, "yeah, I was
+kind of expecting that to be higher". Something doesn't seem quite right there. That was because we'd got it
+wrong! We were using CPU groups and we made a subtle error setting them up.
+It wasn't what we intended to do, but we had put
 the application, the load generator and the time-to-first-request probe into the same cgroup, so they all shared the
 same CPUs: the 16-thread load generator was competing with the application it was measuring. The fix was to pin each
-component to its own disjoint set of cores (taskset for the processes, a cpuset for the database container). So, once we
+component to its own disjoint set of cores (this was easier with taskset for the processes, and a cpuset for the
+database
+container).
+
+![][image27]   slide 49
+
+So, once we
 fixed that, we all of a sudden were able to handle three times more load. So, just having that proper process isolation,
 which should be something that affects both frameworks equally, ended up really favoring one over the other
 
-## 17\. Slides 50–51 — The setup script
+## 17. Slides 50–51 — The setup script
 
 Video at [\[18:17\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1097s)
 
 ![][image28]   slide 51
 
-So, what we ended up with at the end is a script a bit like this. So, we made sure to drop all the caches, so everything
-ran as slowly as possible. We made sure to disable turbo boost, so that everything ran as slowly as possible. We made
-sure to restrict the application to only a small number of cores, so that it ran as slowly as possible. And then we ran
-our measurements
+What we ended up with at the end is a script a bit like this.
 
-## 18\. Slide 52 — No one would run a real app like this
+We made sure to drop all the caches, so everything
+ran as slowly as possible.
+
+We made sure to disable turbo boost, so that everything ran as slowly as possible.
+
+We made
+sure to restrict the application to only a small number of cores, so that it ran as slowly as possible.
+
+And then we ran
+our measurements.
+
+## 18. Slide 52 — No one would run a real app like this
 
 Video at [\[18:35\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1115s)
-
-![][image29]   slide 52
 
 Was this a good thing to do? It you can see that there's a a new problem here, which is that everything we've done has
 been to slow the application down. And as a performance engineer, they were really happy with this because it gave very
 reproducible results. But as a normal human being who is not a performance engineer, I was looking at this
-and I kept going back to our performance team going, yeah, but this is stupid. No one in their right mind would
+and I kept going back to our performance team going, yeah, but this is _stupid_.
+
+![][image29]   slide 52
+
+No one in their right mind would
 run an application like this. Partly because the script to actually set things up is about 20 lines. And then, once
 you've done that, you end up with a system that's running slower than it would in the real world. You just wouldn't do
-this
+this.
 
-## 19\. Slides 53–54 — Realism / be cautious of micro-benchmarks
+## 19. Slides 53–54 — Realism, and be cautious of micro-benchmarks
 
 Video at [\[19:23\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1163s)
 
+And this is because so far everything that we've been doing has been optimizing for reproducibility, but reproducibility
+isn't the only important thing. You also need to think about realism –- is what I'm doing reflective of what happens in
+the real world?
+
+Let's talk about some benchmarking anti-patterns that cause realism fails.
+
 ![][image30]   slide 54
 
-And this is because so far everything that we've been doing has been optimizing for reproducibility, but reproducibility
-isn't the only important thing. You also need to think about realism. Is what I'm doing reflective of what happens in
-the real world? And quite often, when they're trying to make a decision, people will tend to do microbenchmarks because
-that allows you to really neatly isolate one aspect of the system. But the problem, and they're very reproducible, but
-they tend to not reflect the real world. So again this is something that you have to be careful of
+Quite often, when they're trying to make a decision, people will tend to do microbenchmarks because
+that allows you to really neatly isolate one aspect of the system. But the problem is, although they're very
+reproducible,
+they tend to not reflect the real world. So again this is something that you have to be careful of.
 
-## 20\. Slide 55 — Warm up before measuring
+## 20. Slide 55 — Warm up before measuring
 
 Video at [\[20:03\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1203s)
 
 ![][image31]   slide 55
 
-                                                                                                                                                                                                                    
-------------
-similarly, a normal application, you might care about the performance in the first 30 seconds of its life, but probably
+With a normal application, you might care about the performance in the first 30 seconds of its life, but probably
 you don't. Probably you care about the performance after it's been running for a day. So it's really important to warm
-up before measuring to get that that realism
+up before measuring to get that that realism.
 
-## 21\. Slide 56 — Have data in the database
+## 21. Slide 56 — Have data in the database
 
 Video at [\[20:23\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1223s)
 
 ![][image32]   slide 56
 
-Another thing, of course, is that if you're if you're talking to a database, you need to have data in the database if in
-production you would have data in the database, which you almost certainly would. And so, if you remember that slide
-there with the stale database images, the the problem that we had was that we had this old image that didn't have enough
-data in it. It wasn't realistic enough. And so then that really changed our performance
+If you're talking to a database, you need to have data in the database. That is,
+you need data in the database if in
+production you would have data in the database, which you almost certainly would. If you remember that slide
+there with the stale database images, the problem that we had was that we were using an old image that didn't have
+enough
+data in it.
+It wasn't realistic enough. Fixing that realism gap really changed our performance.
 
-## 22\. Slides 57–59 — "Quarkus is only 1.4x faster" / hardware schedulers
+## 22. Slides 57–59 — "Quarkus is only 1.4x faster" and hardware schedulers
 
 Video at [\[20:55\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1255s)
 
+But even with those good practices, you're still you're still not guaranteed to reflect the reality for everybody else
+who tries your
+benchmark. So one of the things that we did with this benchmark was we really wanted to be as open as and transparent as
+possible and as fair as possible, obviously. Because it was open source, that meant that other people were able to
+try it, which was fantastic. But, then we started having questions coming back like, "I tried your benchmark and even
+with the exact same script, I saw Quarkus is only 1.4 times faster than Spring. What's going on?"
+
 ![][image7]   slide 57
+
+And so, when we
+dug into this, we realized that we're running on one set of hardware in our lab. And if you run on different hardware,
+with different operating systems,
+you can get a really different ratio.
 
 ![][image33]   slide 58
 
 ![][image34]   slide 59
 
-But even with that, you're still you're still not guaranteed to reflect the reality for everybody else who tries your
-benchmark. So one of the things that we did with this benchmark was we really wanted to be as open as and transparent as
-possible and as fair as possible, obviously. But, because it was open source, that meant that other people were able to
-try it, which was fantastic. But, then we started having questions coming back like, "I tried your benchmark and even
-with the exact same script, I saw Quarkus is only 1.4 times faster than Spring. What's What's going on?" And so, when we
-dug into this, we realized that we're running on one set of hardware in our lab. And if you run on different hardware,
-you can get a really different ratio. You can get a different answer and maybe guide a different decision just
-the way the hardwareOS scheduler works, if you're talking about something as complex as an application framework, can
-make a big difference, especially if it creates many platform threads. And so, you have to figure out, well, what kind
-of hardwarewhich kernel version will I be running on in production and make sure you're measuring on that. Not just
-Intel, but possibly on that exact hardwareSo, not just checking the hardware, but the OS too.
+You can get a different answer and maybe guide a different decision depending on
+the way your specific operating system scheduler works.
+If you're talking about something as complex as an application framework, the scheduler can
+make a big difference, especially if the app creates many platform threads.
+And so, you have to figure out, "which kernel version will I be running on in production?" and make sure you're
+measuring on that.
+So, not just checking the hardware, but the OS too.
 
-## 23\. Slides 60–61 — Relevance: are we measuring the right thing?
+## 23. Slides 60–61 — Relevance: are we measuring the right thing?
 
 Video at [\[22:16\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1336s)
+
+And then, we had a new problem, which is because we're not trying to make a decision for our company about our code
+that's only going to run in one environment. We're trying to provide guidance about lots of different
+environments.
 
 ![][image35]   slide 60
 
 ![][image36]   slide 61
 
-And then, we had a new problem, which is because we're not trying to make a decision for our company about our code
-that's only going to run in one environment. We're We're making We're trying to provide guidance about lots of different
-environments. And so, then how do we We can't measure them all because then it's a combinatoric explosion. So, how do
-you How do you choose? And this then really is a question of relevance, which is again, are we measuring the
-right thing? There's lots of things that maybe someone is doing somewhere, but we need to make sure that we're measuring
-the thing that's most relevant to the biggest number of people. We need to make sure that we're
-aiming for this target. We need to make sure that we're actually hitting that target in terms of in terms of what we're
-measuring
+How do we do that?
+We can't measure them all because then it's a combinatoric explosion.
+How do you choose?
 
-## 24\. Slides 62–66 — What even is "faster"? What problem are we trying to solve?
+And this then really is a question of relevance, which is again, are we measuring the
+right thing? There's lots of setups that maybe someone is doing somewhere, but we need to make sure that we're measuring
+the thing that's most relevant to the biggest number of people.
+We need to make sure that we're
+aiming for this target. And we need to make sure that we're actually _hitting_ that target in terms of what we're
+measuring.
+
+## 24. Slides 62–66 — What even is "faster"? What problem are we trying to solve?
 
 Video at [\[23:17\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1397s)
 
+Defining the target starts with defining "what problem are we trying to solve?" Which in this case really is what
+question
+are we trying to ask? What question are we trying to answer? And at a high level, the question seems really easy: which
+is faster? Is it A or B?
+
 ![][image37]   slide 63
 
-![][image38]   slide 64
-
-![][image39]   slide 65
-
-![][image40]   slide 66
-
-And it starts with what problem are we trying to solve? Which in this case really is what question
-are we trying to ask? What question are we trying to answer? And at a high level, the question seems really easy, you
-know, which is faster? Is it A or B? But then you have to drill into it and figure out, well, what what even is faster?
-What do I What do I mean by faster? And when I was preparing this talk, someone posted an issue on our on one of
+But then you have to drill into it and figure out, well, what what even is faster?
+What do I mean by faster? And when I was preparing this talk, someone posted an issue on our on one of
 our discussions and they said, "Oh, I believe compiling natively will offer better performance since the images are
 light and the scaling up is faster." This is a completely reasonable thing to to believe because the images are
 smaller and the scaling up is faster. But again it comes back to what problem are you trying to
-solve? If you If you have something that doesn't need to handle much load and needs to scale up and down often,
+solve?
+
+![][image38]   slide 64
+
+If you have something that doesn't need to handle much load and needs to scale up and down often,
 something like native, something like OpenJ9, that's going to be a really good choice. If you have a different set of
 environments, then actually maybe native is going to be a really poor choice.
 So, there's no such thing as
 better performance without qualifying, well, "what problem am I trying to solve?"
 
-## 25\. Slides 67–71 — "Performance" could be…
+![][image39]   slide 65
+
+## 25. Slides 67–71 — "Performance" could be…
 
 Video at [\[24:51\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1491s)
 
 ![][image43]   slide 71
 
-So, when we talk about performance, it could be throughput. That's the the usual definition that most of us think of is
-like how many transactions per second can this thing handle? How wide is the bottleneck? Or
-it could be response times. How how quick between when the response leaves my system and when it gets to the user, can I
-make that as short as possible? Or it could be memory footprint. In the cloud often memory memory is money. how how
-densely can I packed these thing packed these things onto a machine? You know, how much does it occupy when it's not
-doing anything at all? And then of course, going back to that comment about native, it could be start time. How quickly
+So, when we talk about performance, it could be throughput. That's the usual definition that most of us think of: how
+many transactions per second can this thing handle? How wide is the bottleneck?
+
+Or
+it could be response times. How quick is it between when the response leaves my system and when it gets to the user. Can
+I
+make that as short as possible?
+
+Or it could be memory footprint. In the cloud memory is money. How how
+densely can I pack these thing onto a machine? How much hardware does it occupy when it's not
+doing anything at all?
+
+And then of course, going back to that comment about native, it could be start time. How quickly
 does this thing come start up? How long does it take between when it first is ready to serve requests and when it's
 running at at optimum speed?
 
-## 26\. Slides 72–80 — From metrics to outcomes (…money)
+## 26. Slides 72–80 — From metrics to outcomes (…money)
 
 Video at [\[25:54\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1554s)
 
-![][image44]   slide 72
+With all of these metrics, even once you figure out which of these you care about, usually it's not actually
+one of
+these that you care about.
 
 ![][image45]   slide 73
 
+So for example with start time what you really care about if you're optimizing for start time
+is you care about your operational elasticity. How quickly can I scale things up? How can I afford to scale things down
+knowing that they're going to come back up quickly?
+
+If you care about throughput and memory footprint, the reason you care about those is because you want to minimize your
+hardware requirements.
+
+If you're looking
+at response times, usually the impact there is on user satisfaction. User users tend to get quite annoyed if services
+are slow. They they will go elsewhere. So if you have a user
+facing use case then maybe that's the the metric you want to focus on.
+
 ![][image46]   slide 74
+
+And again, with all of these then with with memory
+footprint and with throughput with the hardware, really what you're trying to optimize is money.
 
 ![][image47]   slide 80
 
-And with all of these even once you figure out you know, which of these you care about usually it's not actually one of
-these that you care about. So for example with start time what you really care about if you're optimizing for start time
-is you care about your operational elasticity. How quickly can I scale things up? How can I afford to scale things down
-knowing that they're going to come back up quickly? If you care about throughput and memory footprint, what you usually
-you know, the reason you care about those is because you want to minimize your hardware requirements. if you're looking
-at response times, usually the impact there is on user satisfaction. User users tend to get quite annoyed if services
-are slow. They they will go elsewhere. So you need to you know, if if you're trying to optimize that if you have a user
-facing then maybe that's the the metric you want to focus on. And again, with all of these then with with memory
-footprint and with throughput with the hardware, really what you're trying to optimize is money.
+Another criteria that this optimisation helps is sustainability. If you can minimize your hardware
+requirements, as well as saving money, you're saving the world. Pretty good.
 
-Another criteria that this really helps is sustainability. If you can minimize your hardware
-requirements, as well as saving money, you're saving the world. Pretty good. And of course with user satisfaction, it
-comes down to money again if your users are satisfied, they will not go elsewhere, they will spend more, they
-will do all of these good things that you may be trying to optimize for. And of course, operational elasticity,
-ultimately, it's about money as well. So with all of these things the ultimate lagging indicator is
+With user satisfaction, it
+comes down to money again; if your users are satisfied, they will not go elsewhere, they will spend more, they
+will do all of these good things that you may be trying to optimize for. And operational elasticity,
+ultimately, it's about money as well.
+
+So with all of these things the ultimate lagging indicator is
 money, but it's up to you to work out the path backwards to the leading indicator, which might be memory
 footprint or throughput or whatever else it is. And that is that is not a trivial exercise.
 
 It's really easy to get
 distracted by what's easiest to measure rather than thinking about what actually makes my management happy with me, what
-actually makes my organization work better. And so again, it comes back to this exact thing of "are you
+actually makes my organization work better. It comes back (again) to this question of "are you
 measuring what you think you're measuring?"
 
-## 27\. Slides 81–84 — Measuring response times the wrong way
+## 27. Slides 81–84 — Measuring response times the wrong way
 
 Video at [\[28:21\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1701s)
 
@@ -494,31 +592,35 @@ Video at [\[28:21\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1701s)
 
 ![][image50]   slide 84
 
-But even once you do that, there's there's all sorts of exciting things that can go wrong once you decide what to
-measure that mean that you're not really measuring what you think you're measuring. And response times is one of the
-things that is easiest to measure completely completely incorrectly. And with response times, there's there's two
+But even once you've defined your metrics, there's there's all sorts of "exciting" things that can go wrong. Often,
+you're not really measuring what you think you're measuring. Response times is one of the
+things that is easiest to measure completely completely incorrectly.
+
+With response times, there's there's two
 problems that can happen. The first is misunderstanding the nature of response times. If you measure response times, you
 can't just measure an average response time. You need to be collecting the distribution. Ideally, you would look at that
 whole distribution, but at in the very least that you need to be looking at something like the P99, the 99th percentile
-for your distribution
+for your distribution.
 
-## 28\. Slides 85–94 — Coordinated omission
+## 28. Slides 85–94 — Coordinated omission
 
 Video at [\[29:07\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1747s)
 
+The other problem that happens is load drivers can cause all sorts of problems with with response time measurement.
+And this is what's called coordinated omission.
+
 ![][image51]   slide 92
 
-![][image52]   slide 93
-
-![][image53]   slide 94
-
-But, the other problem that happens is load drivers can cause all sorts of problems with with response time measurement.
-And this is what's called coordinated omission. Coordinated omission is a problem that happens if, say, we have a
+Say, we have a
 load
 driver and we have our application. My load driver sends requests into the application, and then the application
 sends them back, and then we make a note of the time. It was 2 seconds. We're going to write each time down because
 we
-know we need a distribution. So, we do it again, and we get more response times, and so we write those down. And then,
+know we need a distribution.
+
+![][image52]   slide 93
+
+So, we do it again, and we get more response times, and so we write those down. And then,
 maybe our server gets a little bit sad. And so, instead of sending the request back, something's going on. Something
 awful has happened to our server. So, the request isn't coming back.
 
@@ -526,43 +628,54 @@ Meanwhile, our load driver knows it's supposed to
 be sending a request every 3 seconds, or whatever it's supposed to be doing. So, it starts building up a queue of
 requests. Eventually, those bad requests come back, and we make a note, and we say, "Yep, it was 20 seconds for those
 requests. Gosh, that was bad." Oh, well, on we go. So, we send the next request in, and it goes, and then the server's
-happy again. So, it comes back, and we say, "Hooray\! 2 seconds."
+happy again. So, it comes back, and we say, "Hooray! 2 seconds."
 
 But, this is this is totally wrong, because although
-the actual time in transit was 2 seconds, the time from when we first should have sent that request was way
+the actual time in transit was 2 seconds, the time from when we first _should_ have sent that request was way
 more. It should be at least 20 seconds. And this is coordinated omission. Coordinated omission happens when if your
 system under test starts slowing down, your load driver also starts slowing down because it's not getting the feedback.
 And what that means is that that bad thing that happened, instead of measuring it as this thing that
 affected all of the subsequent requests, you measured it as just a one-off bad event, and you got a really incorrect
-idea about what your response times were.
+idea about what your user-facing response times were.
 
-## 29\. Slides 95–102 — Load generators: not ok / ok
+![][image53]   slide 94
+
+## 29. Slides 95–102 — Load generators: not ok / ok
 
 Video at [\[31:10\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1870s)
 
 ![][image55]   slide 102
 
-|
 What’s most frightening is that it can happen on the load generator side too: if it suffers from some, let’s say, big GC
-pause, and cannot keep up, it needs to correctly report it – and why. Even while correctly accounting for coordinated
-omission, the user risk to blame the system under test, which is wrong. And this isThese are a really common problems in
-load drivers. So, if you're using JMeter, just don't. It suffers from coordinated omission. If you're using work, it
-also suffers from coordinated omission. Better choices are Gatling, work too, or Red Hat have a tool called Hyperfoil.
-Which can diagnose “internal coordinated omission”s too – which is pretty unique. Any of those are safe options.
+pause, and cannot keep up, it needs to correctly report it – and why.
 
-## 30\. Slides 103–106 — Measuring start time: time to first request
+Even while correctly accounting for coordinated
+omission, the temptation is to blame the system under test, which is wrong.
+
+These are a really common
+problems in
+load drivers. So, if you're using JMeter, just don't. It suffers from coordinated omission. If you're using wrk, it
+also suffers from coordinated omission. Better choices are Gatling, wrk 2, or Red Hat have a tool called Hyperfoil.
+Hyperfoil can diagnose “internal coordinated omission”s too, which is pretty unique.
+Any of those are safe options.
+
+## 30. Slides 103–106 — Measuring start time: time to first request
 
 Video at [\[31:39\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1899s)
 
+Another thing that is easy to get wrong is start time. With application frameworks, every application framework will, at
+some point in its startup, give you a little message that says, "Hey, I'm ready to start receiving requests."  That
+might be true, or it might not be true. Trust, but verify.
+
 ![][image56]   slide 103
+
+The only the only way you can actually know when it's
+ready to start serving requests is to fire in requests and see when you get a request back. So, you have to measure the
+time to first request yourself.
 
 ![][image57]   slide 105
 
-Another thing that is easy to get wrong is start time. With application frameworks, every application framework will, at
-some point in its startup, give you a little message that says, "Hey, I'm ready to start receiving requests."  That
-might be true, or it might not be true. Trust, but verify. So, the only the only way you can actually know when it's
-ready to start serving requests is to fire in requests and see when you get a request back. So, you have to measure the
-time to first request yourself. We've been through many variations of the best way to do this. This is the one that
+We've been through many variations of the best way to do this. This is the one that
 we're now happiest with. We've done it with shell scripts, then we wrote a C program to do it, and then we decided that
 the C program actually wasn't better than the shell script, and we went back to the shell script. But, something like
 this, where you just spin on another core, and then fire in requests, will give you the maximum precision. This is
@@ -574,23 +687,21 @@ I apologize. I wish it was the previous one. But needing to
 worry so much about millisecond-level measurement errors is actually, this is
 a lucky place to be, because Quarkus starts fast enough that milliseconds would matter.
 
-## 31\. Slides 107–109 — Memory footprint: RSS, not just heap
+## 31. Slides 107–109 — Memory footprint: RSS, not just heap
 
 Video at [\[32:48\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=1968s)
 
 ![][image60]   slide 109
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
----------
-Okay, what about memory footprint? funnily enough, you'll be surprised to hear that you can make mistakes measuring
-memory footprint. the key thing with memory footprint is that you can't just measure the heap. You have to measure
-what's called the resident set size because it's a bit like an iceberg, right? Well, so it's like an iceberg.
-So, in the in the in a Java application, you have quite a lot of memory that sits in the JVM's heap, and then you have a
+Okay, what about memory footprint? You'll be surprised to hear that you can make mistakes measuring
+memory footprint. The key thing with memory footprint is that you can't just measure the heap. You have to measure
+what's called the resident set size because it's a bit like an iceberg.
+In a Java application, you have quite a lot of memory that sits in the JVM's heap, and then you have a
 portion of memory that is native memory outside of the that heap. I say it's like an iceberg, it's actually like a
 reverse iceberg. So, most of the memory is in the heap, which is kind of reassuring, but then there is some memory
-that's invisible outside of the heap
+that's invisible outside of the heap.
 
-## 32\. Slides 115–118 — Script: time to first request \+ RSS
+## 32. Slides 115–118 — Script: time to first request \+ RSS
 
 Video at [\[33:36\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2016s)
 
@@ -600,47 +711,51 @@ Video at [\[33:36\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2016s)
 
 ![][image61]   slide 118
 
-                                                                                                                                                                                                                                     
------------
-so, to measure RSS, you need to don't ask the JVM, use a PS command, and that will give you a good value. You can
-measure So, you can see I've just tacked this onto the time to first requests. Completely fair and legitimate to measure
-time to requests to first request and RSS in the same experiment
+To measure RSS, don't ask the JVM, use a `ps` command, and that will give you a good value. You can see I've
+just tacked this onto the time to first requests. It's completely fair and legitimate to measure time to requests to
+first request and RSS in the same experiment
 
-## 33\. Slides 110–114 — Metrics affect each other / no "true" RSS
+## 33. Slides 110–114 — Metrics affect each other, there no "true" RSS
 
 Video at [\[33:58\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2038s)
+
+But, in general, measuring more than one of these metrics in the same experiment isn't a great idea. So, for example, if
+you're trying to measure max throughput, if you drive that system as hard as you can to measure the max throughput,
+that's going to have a weird effect on your RSS.
 
 ![][image63]   slide 110
 
 ![][image64]   slide 111
 
-![][image7]   slide 112
+Similarly, if you if you try and constrain your heap to to
+optimize your RSS, then you may find that your throughput goes down. So, there's not really a true RSS even for for
+loosest definition of RSS.
 
 ![][image65]   slide 114
 
-But, in general, measuring more than one of these metrics in the same experiment isn't a great idea. So, for example, if
-you're trying to measure max throughput, if you drive that system as hard as you can to measure the max throughput,
-that's going to have a weird effect on your RSS. Similarly, if you if you try and constrain your heap to to
-optimize your RSS, then you may find that your throughput goes down. So, there's not really a true RSS even for for
-loosest definition of RSS. Depending on the constraints you put on the system, you may get get different values. So, you
-can trade off RSS against CPU by shrinking the heap, for example
+Depending on the constraints you put on the system, you may get get different values. You
+can trade off RSS against CPU by shrinking the heap, for example.
 
-## 34\. Slides 119–120 — Science 101: vary one thing at once
+## 34. Slides 119–120 — Science 101: vary one thing at once
 
 Video at [\[34:41\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2081s)
 
 ![][image66]   slide 119
 
-![][image67]   slide 120
-
-And science 101 is don't vary more than one thing at once. So, since your throughput might vary if you're measuring max
+A core scientific principle is "don't vary more than one thing at once". So, since your throughput might vary if you're
+measuring max
 throughput, you have to kind of not be measuring RSS at the same time. So, you're not measuring what you think you are,
-especially if you're measuring more than one thingWhile running performance tests you’re not supposed to change more
-than one thing at time, because you won’t be able to see the effect of that change in isolation
+especially if you're measuring more than one thing. While running performance tests you’re not supposed to change more
+than one thing at time, because you won’t be able to see the effect of that change in isolation.
 
-## 35\. Slides 121–127 — Reactive CRUD case study: disk bottleneck
+## 35. Slides 121–127 — Reactive CRUD case study: disk bottleneck
 
 Video at [\[35:01\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2101s)
+
+And then this the the question again is, are we measuring what we think we're measuring?
+I mentioned
+that we see lots and lots of blogs that just make us go, "Oh, no, no, no, don't do that.
+Don't do that."
 
 ![][image68]   slide 121
 
@@ -650,143 +765,155 @@ Video at [\[35:01\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2101s)
 
 ![][image71]   slide 127
 
-And then this the the question again is, are we measuring what we think we're measuring? there was a I mentioned
-that we have we see lots and lots of blogs that just make us go, "Oh, no, no, no, don't do that.
-Don't do that."  there was a blog that came out a couple of years ago on a prominent site. And they they did a
-comparison of Quarkus and Spring. And you can see they got two numbers for throughput, which were suspiciously similar.
+There was a blog that came out a couple of years ago on a prominent site.
+And they they did a
+comparison of Quarkus and Spring.
+You can see they got two numbers for throughput, which were suspiciously similar.
 And so, one of our performance team looked at it, and he said, "Hmm, I think those two numbers are too similar." And so,
 he realized that in the experiment, the disk was the bottleneck. It was it couldn't go any faster because it was run
 with a slow disk. When he tried it with a faster disk, he went from 390 requests per second to 25,000 requests per
-second. This is a massive difference just by changing out the disk. we didn't measure it for Spring.
+second. This is a massive difference just by changing out the disk. (We didn't measure it for Spring.)
 
-## 36\. Slide 128 — Is the bottleneck what you think?
+## 36. Slide 128 — Is the bottleneck what you think?
 
 Video at [\[35:56\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2156s)
 
 ![][image72]   slide 128
 
-                                                                                                                                                                                                             
------
-So, a really important question when you're looking at these results is is the bottleneck what you think it is? If the
-bottleneck isn't what you think it is, if you're not measuring what you think you are, it is there's no point. And this
+A really important question when you're looking at these results is "is the bottleneck what you think it is?" If the
+bottleneck isn't what you think it is, if you're not measuring what you think you are, _there's no point._ And this
 this trap is really easy to fall into
 
-## 37\. Slides 129–132 — Rust vs Quarkus: suspiciously similar metrics
+## 37. Slides 129–132 — Rust vs Quarkus: suspiciously similar metrics
 
 Video at [\[36:17\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2177s)
 
 ![][image73]   slide 132
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
--------------
-So, as I was preparing this talk, even after I had just had that that other example in my mind, I went to a talk at
-Devoxx Greece, and it was a talk about Rust for Java developers. But at the end he had some performance numbers, and
+As I was preparing this talk, even after I had just had that that other example in my mind, I went to a talk at
+Devoxx Greece, and it was a talk about Rust for Java developers.
+At the end he had some performance numbers, and
 he'd used Quarkus for his performance numbers. And so, it's quite faint there, but what he found was that Quarkus was
 about 0.14% faster on throughput than Rust, and 0.26% better on response time than Rust. And I saw that, and of course,
-you know, I'm a Quarkus person. I was like, "Yes, that just goes to show, doesn't it? Look, Quarkus is faster than Rust,
-Mona." And so, I shared this to all my team, and of course, my performance colleagues came back, and they were like, "
-Have you noticed that those metrics are suspiciously similar? You're not measuring what you think you're measuring.
-There is There is a bottleneck somewhere. we haven't done the analysis to figure out where the bottleneck is in this
-experiment. It's not our experiment experiment, but we're pretty sure there is a bottleneck somewhere."
+you know, I'm a Quarkus person. I was like, "Yes, that just goes to show, doesn't it? Look, Quarkus is faster than
+Rust."
 
-## 38\. Slides 133–138 — Does this tell us Quarkus is as fast as Rust? No.
+And so, I shared this to all my team, and of course, my performance colleagues came back, and they were pointed out "
+aave you noticed that those metrics are suspiciously similar? You're not measuring what you think you're measuring."
+There is a bottleneck somewhere. We haven't done the analysis to figure out where the bottleneck is in this
+experiment. It's not our experiment, but we're pretty sure there is a bottleneck somewhere.
+
+## 38. Slides 133–138 — Does this tell us Quarkus is as fast as Rust? No.
 
 Video at [\[37:14\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2234s)
 
+So, this is not telling us, sadly, that Quarkus is always as fast as Rust.
+
 ![][image74]   slide 135
+
+But, again, it comes back to what problem are
+you trying to solve? This might be telling us that on many systems that will have that bottleneck Quarkus may as well be
+as fast as Rust because the bottleneck is elsewhere.
 
 ![][image75]   slide 137
 
 ![][image76]   slide 138
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                
-----------
-So, this is not telling us, sadly, that Quarkus is always as fast as Rust. But, again, it comes back to what problem are
-you trying to solve? This might be telling us that on many systems that will have that bottleneck Quarkus may as well be
-as fast as Rust because the bottleneck is elsewhere. So, switching to Rust would be a a waste of effort because the
-wrong question was being asked. So, again these things there's no objective truth. It's all about what
+So, switching to Rust would be a a waste of effort because the
+wrong question was being asked. In this domain there's no objective truth.
+It's all about what
 problem you're trying to solve
 
-## 39\. Slides 139–141 — Load generation on a different machine / all-in-one topology
+## 39. Slides 139–141 — Load generation on a different machine / all-in-one topology
 
 Video at [\[37:56\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2276s)
 
+I mentioned that load generation on different machines can be a fail. When we run our load generator on different
+machines, and the reason that we don't do that, we find that that network all of a sudden becomes the bottleneck. And
+so, we're not measuring what we think we are.
+
 ![][image77]   slide 139
+
+So, that's why we do the load generation on the same machine, even though
+it seems like we just didn't read how to measure performance on the textbook. The network can be the bottleneck.
 
 ![][image78]   slide 140
 
 ![][image79]   slide 141
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
----
-And I mentioned that load generation on different machines can be a fail. When we run our load generator on different
-machines, and the reason that we don't do that, we find that that network all of a sudden becomes the bottleneck. And
-so, we're not measuring what we think we are. So, that's why we do the load generation on the same machine, even though
-it seems like we just didn't read how to measure performance on the textbook the network can be the bottleneck.
-But, if you do that, you do have to do it carefully. So, we pin everything to cores, we use task set, and we use NUMA to
-get the memory memory affinity
+But, if you do everything on one machine, you do have to do it carefully. So, we pin everything to cores, we use task
+set, and we use NUMA to
+get the memory memory affinity.
 
-## 40\. Slides 142–143 — Active benchmarking
+## 40. Slides 142–143 — Active benchmarking
 
 Video at [\[38:33\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2313s)
 
 ![][image80]   slide 143
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
---------------
-But, at this point, this is really hard. You know, there's so many things that can go wrong. And so, then the question
+By now it should be obvious that benchmarking is really hard. There's so many things that can go wrong. Then the
+question
 is, how do you even know what you're measuring? How do you know if you had a bottleneck somewhere else? How do you know
-where the the bottleneck is? There's a technique called active benchmarking that I would really recommend you to to bake
-in from the start when you're doing this because active benchmarking is all about it's observability for benchmarks,
-basically. Can I get enough information out from my historical benchmarks so that I when I look at the results and go, "
-Those numbers are suspiciously similar." I can figure out with hindsight what I was measuring, whether it was what I
-wanted to measure.And if two numbers look suspiciousy similar, despite you know they really shouldn’t, that’s a good
-hint worth investigating. Providing a benchmark requires making it sure it stress what it claim to stress – and enable
-others which use it, to verify it, including yourself
-‍
+where the the bottleneck is?
 
-## 41\. Slides 144–147 — Brendan Gregg's USE method
+There's a technique called active benchmarking that I would really recommend you to to bake
+in from the start when you're doing this. Active benchmarking is all about it's observability for benchmarks,
+basically. If two numbers look suspiciousy similar, despite the fact you assumed they would be different , that’s a good
+hint worth investigating.
+
+Providing a benchmark requires making it sure it stresses what it claim to stress –- and enable
+others who use it, to verify what's being stressed.
+
+## 41. Slides 144–147 — Brendan Gregg's USE method
 
 Video at [\[39:17\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2357s)
 
-![][image81]   slide 144
+There's a useful technique here from Brendan Gregg, who is a bit of a guru in this area. It's called the USE
+method.
 
-![][image82]   slide 147
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-----
-And there's a useful technique here from Brendan Gregg, who is a bit of a guru in this area. And it's called the USE
-method. And so, for every resource, he's thinking very much about hardware resources your disk, your CPU. I
+For every resource -- he's thinking very much about hardware resources your disk, your CPU, I
 would also encourage you to extend that to things like your database and some of your software components. For every
-resource, you want to measure the utilization. Utilization is how much of the time was your resource doing the thing.
-Also, measure the saturation. The saturation is how much of the time was there more stuff coming into it than it could
-handle, so you got a queue building up. And then finally, look at errors. again, this one seems obvious, but it's so
+resource, you want to measure the utilization. Utilization is how much of the time was your resource doing the thing?
+
+![](images/utilization.jpg)
+
+Also measure the saturation. The saturation is how much of the time was there more stuff coming into it than it could
+handle, so you got a queue building up.
+
+![](images/saturation.jpg)
+
+And then finally, look at errors. again, this one seems obvious, but it's so
 easy to miss
 
-## 42\. Slides 148–150 — Errors: tuning keep-alive for Spring
+![](images/errors.jpg)
+
+## 42. Slides 148–150 — Errors: tuning keep-alive for Spring
 
 Video at [\[40:12\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2412s)
 
-![][image83]   slide 148
-
-![][image84]   slide 149
-
-![][image85]   slide 150
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
----------
 So, when we were doing our measurements, what we found was we just we wanted to test everything out of the box.
 And then after a while, because you know, this wasn't the first thing that we did, eventually someone pointed out that
 when
-they looked at the logs, the Spring application was having a bunch of errors. And we thought, well, this isn't a fair
+they looked at the logs, the Spring application was having a bunch of errors.
+
+![][image83]   slide 148
+
+And we thought, well, this isn't a fair
 comparison if we're running Quarkus without errors and Spring with errors. And we needed to do some tuning of how
-transactions were managed in order to get rid of those errors for Spring. So, we had to tune the keep-alive. And again,
-this these for when we did it when we did it, it didn't make that much difference, actually. But sometimes it
+transactions were managed in order to get rid of those errors for Spring. So, we had to tune the keep-alive.
+
+![][image85]   slide 150
+
+For this particular case, when we fixed the errors, it didn't make that much difference, actually. But sometimes it
 can make a huge difference
 
-## 43\. Slides 151–159 — Code that deadlocked: 1.75 req/s
+## 43. Slides 151–159 — Code that deadlocked: 1.75 req/s
 
 Video at [\[40:58\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2458s)
+
+In this in this experiment that I showed you before where changing the disk gave a 10 times improvement in the
+performance, there was an earlier iteration of this benchmark where what they'd done was they measured Spring and they
+got 350 and they measured Quarkus and they got quite a different result.
 
 ![][image86]   slide 151
 
@@ -798,64 +925,84 @@ Video at [\[40:58\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2458s)
 
 ![][image90]   slide 159
 
--|
-So, in this in this experiment that I showed you before where changing the disk gave a 10 times improvement in the
-performance, there was an earlier iteration of this benchmark where what they'd done was they measured Spring and they
-got 350 and they measured Quarkus and they got quite a different result. But it was because with Quarkus, when they
-looked in the log, it was just loads and loads of errors because they had used the wrong transactional annotation. and
-it has to be said, our error message at the time was really terrible and we have now fixed the error message to actually
+It was because with Quarkus, when they
+looked in the log, it was just loads and loads of errors because they had used the wrong transactional annotation.
+It has to be said, our error message at the time was really terrible and we have now fixed the error message to actually
 explain what the problem was. But effectively, the code as they had it written was deadlocking and so it couldn't handle
-more than one transaction at a time. So, they were getting the the 338 with Spring and with Quarkus, they were getting
-one request per second. So, their initial headline was Quarkus has one request per second and Spring has 300 requests
-per second. And it was just well, I mean, it was it was wrong in every way, but it's easy to to make that kind of
+more than one transaction at a time.
+
+So, they were getting the 338 requests per second with Spring and with Quarkus, they were getting
+_1_ request per second. So, their initial headline was Quarkus has one request per second and Spring has 300 requests
+per second. It was it was wrong in every way, but it's easy to to make that kind of
 mistake
 
-## 44\. Slide 174 — Beware the McNamara fallacy
+## 44. Slide 174 — Beware the McNamara fallacy
 
 Video at [\[42:07\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2527s)
 
+When you do these kinds of experiments, unless you do that deep digging in, you're vulnerable to a fallacy called the
+McNamara
+fallacy.
+
 ![][image91]   slide 174
 
-Because when you do these kinds of experiments, unless you do that digging in, there's a fallacy called the McNamara
-fallacy, which is that as soon as you get numbers, those numbers are so seductive, and they make you look so clever and
+The McNamara fallacy is that as soon as you get numbers, those numbers are so seductive, and they make you look so
+clever and
 so professional and so data-driven that you go, "Look, I've got numbers. I am data-driven. I am evidence-based." And you
-don't actually do that next step to go, "Well, wait a minute. Do these Do these numbers make sense? Do I Do I Do I trust
+don't actually do that next step to go, "Well, wait a minute. Do these Do these numbers make sense? Do I trust
 these numbers?"
 
-## 45\. Slides 175–178 — Check in with the real world
+## 45. Slides 175–178 — Check in with the real world
 
 Video at [\[42:37\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2557s)
 
+If you're doing measurements in the lab, it's really important to have that feedback cycle of validation with
+the real world. So, keep checking back.
+
 ![][image92]   slide 175
+
+So, like I showed you when I ran it on my laptop, I was
+really surprised by those results because they don't match what I see everywhere else. So use your lab
+measurements to guide your decisions in the real world, but then continue gathering data about what happens in the real
+world to then validate, "Well, hey, did I measure this right? Or did I do some benchmarking that led us to make a
+completely wrong decision because I had a problem in my in my lab setup?"
 
 ![][image93]   slide 176
 
 ![][image94]   slide 178
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
---
-And so, if you're doing measurements in the lab, it's really important to have that feedback cycle of validation with
-the real world. So, keep checking back. So, like I showed you when I ran it on my laptop, I was
-really surprised by those results because they don't match what I see everywhere else. So use your lab
-measurements to guide your decisions in the real world, but then continue gathering data about what happens in the real
-world to then validate, "Well, hey, did I measure this right? Or did I do some benchmarking that led us to make a
-completely wrong decision because I had a problem in my in my lab setup?"  and with us with Quarkus, we we we've been
+With us with Quarkus, we've been
 doing this, and I have an intuition about about what the performance difference is, and that
-intuition comes from what we hear in the field. So we have references where people will say, "Yes, we
-switched to Quarkus, and our resource consumption went down by a third." And so, that's the kind of the my sense of
-what's correct. If we did an experiment and we found Quarkus was 10 times faster, I'd be like, yeah, no, I don't think
-so. That doesn't seem That doesn't seem right. So, do continue sense checking against whatever your version of the field
-is
+intuition comes from what we hear in the field. We have references where people will say, "Yes, we
+switched to Quarkus, and our resource consumption went down to a third of what it was before." And so, that's guides my
+sense of
+what's correct.
 
-## 46\. Slides 160–167 — Three criteria: reproducibility, realism, relevance
+If we did an experiment and we found Quarkus was 10 times faster, I'd be like, "yeah, no, I don't think
+so. That doesn't seem right." So, do continue sense checking against whatever your version of the field
+is.
+
+## 46. Slides 160–167 — Three criteria: reproducibility, realism, relevance
 
 Video at [\[43:53\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2633s)
 
 ![][image95]   slide 160
 
+I've talked about these three criteria for for thinking about your benchmarks. The first is reproducibility.
+Can I get the same answer repeatedly? Are the results deterministic, or is there a whole bunch of randomness in there?
+
 ![][image96]   slide 162
 
+The next one is realism. Is this reflective of the real world? Is Is the way I'm running my application the way
+applications will be run in the real real world or have I just dialed all the knobs to make everything slower?
+
 ![][image97]   slide 163
+
+The last one is relevance. Am I measuring start times when what actually matters in production is throughput? Am I
+measuring on Intel when in production I'm running on arm? You know, am I am I asking the right questions? Is Is
+this number helping us make a decision or is it just a vanity metric where I get the number and then no
+matter what we just carry on? And is it a question that we really care about or is it just something that makes
+me feel good as an engineer but it doesn't actually move the needle for the business?
 
 ![][image98]   slide 164
 
@@ -865,18 +1012,7 @@ Video at [\[43:53\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2633s)
 
 ![][image101]   slide 167
 
--|
-So, I've talked about these three criteria for for thinking about your benchmarks. The first is reproducibility.
-Can I get the same answer repeatedly? Are the results deterministic, or is there a whole bunch of randomness in there?
-The next one is realism. Is this reflective of the real world? Is Is the way I'm running my application the way
-applications will be run in the real real world or have I just dialed all the knobs to make everything slower? and then
-the last one is relevant. Am I measuring start times when what actually matters in production is throughput? Am I Am I
-you know measuring on Intel when in production I'm running on arm? You know, am I am I asking the right questions? Is Is
-this number helping us make a decision or is it just a vanity metric where I get the number and then no
-matter what we just carry on? And is it a question that we really care about or is it just something that you know makes
-me feel good as an engineer but it doesn't actually move the needle for the business?
-
-## 47\. Slides 168–169 — Easy to make all three worse; choose one
+## 47. Slides 168–169 — Easy to make all three worse; choose one
 
 Video at [\[45:05\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2705s)
 
@@ -884,14 +1020,12 @@ Video at [\[45:05\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2705s)
 
 ![][image103]   slide 169
 
-                                                                                                                                                                                                                                                                                                                                                                              
--------------
-And unfortunately, this is a bit like the iron triangle for product management where you can have you know quality and
+Unfortunately, this is a bit like the iron triangle for product management where you can have quality and
 speed and cost. It is extremely easy to make all three worse. I can with no effort at all make a benchmark that is
 atrocious on all of these metrics. If you want to make things better, unfortunately, usually you have to choose one to
-optimize. You might You might be able to get two but that's kind of the the maximum
+optimize. You might be able to get two but that's generally the best you can do.
 
-## 48\. Slides 170–173 — Which criterion for which purpose
+## 48. Slides 170–173 — Which criterion for which purpose
 
 Video at [\[45:32\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2732s)
 
@@ -901,8 +1035,6 @@ Video at [\[45:32\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2732s)
 
 ![][image105]   slide 173
 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
----------
 So you really have to decide why am I doing this measurement? If I'm trying to evaluate a before and after of a change,
 if you're doing something like me where I'm comparing two frameworks against each other, reproducibility reproducibility
 is really the most important criteria. If you're doing capacity planning or cost estimation or you're trying to measure
@@ -911,68 +1043,53 @@ production. You don't want to turn every knob down to the go slow setting. And t
 you're trying to answer questions, then really relevance is what you should be looking at as well of does
 Does this relate to to anything I care about?
 
-## 49\. Slides 179–190 — The distillate
+## 49. Slides 179–190 — The distillate
 
 Video at [\[46:16\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2776s)
 
-![][image106]   slide 179
+![](images/distillate.jpg)
 
-![][image107]   slide 180
+To summarize, this is really hard stuff. It is so easy to get wrong. Even experts get it wrong. We made so many
+mistakes with really, really qualified people when we were doing this exercise.
 
-![][image108]   slide 181
+But, do aim for reproducibility. So,
+that means isolating applications onto their own hardware, disable turbo boost.
 
-![][image109]   slide 182
+Aim for realism. Get everything,
+including your data, as close to production specifications as you can.
 
-![][image110]   slide 183
-
-![][image111]   slide 184
-
-![][image112]   slide 185
-
-![][image113]   slide 186
-
-![][image114]   slide 187
-
-![][image115]   slide 188
-
-![][image116]   slide 190
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
----
-So, to summarize, this is really hard stuff. It is so easy to get wrong. even even experts get it wrong. We made so many
-mistakes with really, really qualified people when we were doing this exercise. But, do and aim for reproducibility. So,
-that means isolating applications onto their own hardware, disable turbo boost. Aim for realism. So, get everything,
-including your data, as close to production specifications as you can. And then, I think in some ways this is
+And then, I think in some ways this is
 the most important one. Aim for relevance. So, so often you get a number, but it wasn't measuring what you thought you
-were measuring. So, you cannot use that number to make a decision. So, if you if you see similar numbers \>\>
-\>\> for things, almost always, I mean, there is a small chance that the thing doesn't make a difference, but
-almost always you're measuring a bottleneck that you didn't know about. You're not actually measuring the change that
-you were trying to measure. And good scientific principles, don't vary multiple things at once, just vary one thing at
-once. Do the experiment, get the measurements, and adopt active benchmarking practices so that you can actually look
+were measuring. So, you cannot use that number to make a decision. If you see similar numbers for things, almost always,
+I mean, there is a small chance what you were varying genuinely doesn't make a difference, but
+almost always you were measuring a bottleneck that you didn't know about. You're not actually measuring the change that
+you were trying to measure.
+
+Use good scientific principles, don't vary multiple things at once, just vary one thing at
+once.
+
+Do the experiment, get the measurements, and adopt active benchmarking practices so that you can actually look
 back at your results and say, "I was trying to to measure something that was CPU bound. My CPU was at 10%. That tells me
-I had a bottleneck somewhere else. Let me go figure out what my bottleneck was." And don't just Measure them is
-important, but don't just measure for the sake of it. Measure them Measure something with business relevance. So, you
-know, trace back from your lagging indicators to your leading indicators, figure out what they are so you can measure
+I had a bottleneck somewhere else. Let me go figure out what my bottleneck was."
+
+Measurement is
+important, but don't just measure for the sake of it. Measure something with business relevance. Trace back from your
+lagging indicators to your leading indicators, figure out what they are so you can measure
 the right thing
 
-## 50\. Slides 191–192 — Thanks
-
-Video at [\[48:00\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2880s)
-
-![][image117]   slide 192
-
-|
---
-And with that, thank you very much. The slides are here.
-
-## 51\. No slide identified — Outro music
+## 51. Slides 191–192 — Thanks and Outro music
 
 Video at [\[48:08\]](https://www.youtube.com/watch?v=l30BJZ7joCI&t=2888s)
 
-                                                                                                                           
--------
-\>\> I want to build the benchmark. Come on, let's run the test. I never trust the numbers now. My cores run hot. The
-thermals captain stressed. It used to seem so easy, but now it's not...
+### Closing song
+
+_Do you wanna build a benchmark?  
+Come on, let's run the test.  
+I never trust the numbers now.  
+My cores run hot.  
+The
+thermals are stressed.  
+It used to seem so easy, but now it's not..._
 
 [image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAbAAAADzCAIAAABol9QLAACAAElEQVR4XuydB3wcxdn/T5ILtmkGYkoghYQ0ehovvCR/Ainv+4YAoYWSBAIkEEICIQXTMdVgTDOEbmxsMC6Ae2/YuGBsbHC3ZUlWl67pdHfSSbq7/f/2+Xkfj1bFNki2bOb32c9qtTc7Ozs7893nmZmdDThWVlZWVqKAf4eVlZXV51UWiFZWVlbbZIFoZWVltU1tAjGVSmFdX1+fyWSwkc1mufHZVVtbi6gaGxubmprS6XTGE37CWvfg31Ao1NDQ4D/eysrKqnPUJhAhAAtrECrryR/i0wo0BHDr6upM3gGC2KMnRRhH6KkBrKysrDpVbQIxEomAStzuWBpCbdl9yWQyHo9zG3Ds2JNaWVlZta82gXiYqGfPngMGDIDt1oFsikajy5cv33///fnvZZdddtxxx2EjEAhMnz69tLQUGwsXLozFYo6YiuaxVlZWVp2nNoEIKg0bNqygoOCAAw4AwrAnHA4PHjz4ww8/xPa0adNCoRAMOthxY8aMwZ5Zs2ZNnTqVx44cORKGHhiKwKtWrVq8eDH3b9682RHXGBH26tWL2+ecc843v/lNbPft23fcuHF9+vR56KGH6Dg7nttu1dnSVhErq8+nWBHaBGJubu6kSZPKysrgO1911VWOIPLBBx/EGjbjjTfeeOSRR2Lnt7/97Z///Ofg49e+9rV+/fr17t0bO7F92mmn3XrrrTk5OfCOccjVV199yimnBINBRg4gAnzc/ulPf4pIGP/jjz9+1llncT/darYkWnW2/KXDyupzJlaENoEIPI0YMYLbp59++gMPPNCtW7cLL7zwjDPOgHEHonXv3p3BUqnU0Ucf7UiXNP6FzYjtvLw8bBcWFsLnhZl54IEH4l/GhnNXV1ebQISFiGD77bcfgp144onc74j9qAm16lT5S4eV1edMrAhtAvGggw6aPHkyNm677bYpU6bAjYW558hwnNLSUgAR/w4dOhTgAwG/8Y1vAF74Cf82iIC/ww47bM2aNSDd6tWr8S8PBzTxK0LiX47sOfXUU0866SRswLocPXo0WxJxlHWWd6f8pcPK6nMmVoQ2gXj88cfvv//+X/ziF1944YVwOAzX9ZFHHgGtYBi+9dZbCAD/t2fPnhUVFQyPn/r27btixYpQKEQ7EYccfPDBgwYNOuCAA+Lx+ObNm88555y1a9c60jI4ZMgQ2IPA7k033QTHHDyFhTh27FhECNd74sSJSCKCEZpWnS1/6bCy+pyJFaFNIDoy8IUbNNaSySQOg+3G/TASMzK+GhZfTU0NO4VNJRIJrKuqqnAgkAq0lZSU8CdEaA4wBBB11CHC49dIJMKfELMGs+o8+UuHldXnTKwIbQIR1OMrJY7XvwHTT8dLE2H8VePS0YWEJlmGMHCTFZc4SsNjP1hJ2urwQ/yKA0FPxIZfudOqs+UrHFZWnzexIrQJRKvPlfylw8pqR/KXIU/+cHuJmHgLRCtX/tJhZbUj+cuQJ3+4vURMvAWilSt/6bCy+pyJFcEC0cqVv3RYWe1InJWqpfzh9hKxIlggWrnylw4rK09+4O1I/uP3ErEiWCBaufKXDisrT37g7Uj+4/cSsSJYIFq58pcOq8+l/GwTpXdR/uNbyH/WriFWBAtEK1f+0mH1uZSfbaKmXZT/+Bbyn7VriBXBAtHKlb90WO1zaut2Z4xvhCjUGpuLExSkUilzJ9+egDSA+a/5q0Zo4pKmohqMe7wQMmcsEK1c+UuH1T4t04Elm7ihUEu1UH0bMsP4DuevuqdB4GhiUc/uT9+eECuCBaKVK3/psNrn5IOgCoRKi19Mo09ZZqpOlEwmE4Y4PzTEAIo/jUF/1QgViz7Pmqnyp3j3ihXBAtHKlb90WO1zageIpCFQ5SOgKikCBGsNkYnEItcKRMagv/rgaNqJXFsgWnUt+UuH1b4oE4XarqcIU4rFm0t3EoIQt2tqakhGbDCkaTaShioTiJTPVPQBcfcXTp7LAtHKlb90WO1zUtuwHRTSBuRsfqqoJ+6vEeFf/qrbhCMBqrGpTCYqFlsyUeVPfeeLFcEC0cqVv3RY7XMyDcNWUQiRbuFwOGJIgUhxp4ZRMpKGqoQYkua/ykRikUxU97nVVsXdCUdWBAtEK1f+0mG1z4mgIYBIQ9OUI7ZIw2AwWGmoqqoK6/Ly8lJPJSUlxcXFFSIEJiWJS9qP9KZ9QGyViWokWiBadSH5S4fVviIyhYgxgcimPXrEoVAI1APdysrKwLutW7cWN9dWUZEnBgAWER5HEZeIoVpEONK/JhYVuGQiRSaaMsfl+PzobOcPVGRFsEC0cuUvHVb7hJSG4IuOB4QAI6IQ/CoT0fQj9QoLC5V9qkJRQUGB/qpYJBnBRMYDRCJa+tR0qIFFn0+tZFSDsU46qWkzttq26L+2jhYrggWilSt/6bDaJ0Sg0OBqlKbDOvGRQSs6wnR+1QYk9VqqQLTFE7HIQ1SMBKBEnMAi+AjDk1hUP1r7XtRyVIPRtBlbti3uBiayIlggWrnylw6rfUIKRMClVrqPYbuBgzDlaNnR1iPs8vPzN23atFlEAqrIwXxPZKLykXsKxXIkKAnZchFbIbWFkT0wajCaQCQTiUWzbVGZ6L+8DhUrggWilSt/6bDaa6XgoFVFwxDoYQ8JvVq15iASDRAEDTd6Wr9+/YYNG7hnkwgb2LNu3br1Iv6Ko5SPKgJRTUUIJ8Wp2f1CJtZ4g3XY2WLKZyoi8QRiZ9uJrAgWiFau/KXDaq8VkZHxZmpISs8J2wpNFMKUIwqVd0QepdRrCURq7dq1CICdJhPVSOSadiKxyHZGYFH9aMJRWxW1bbElE832xM4zFVkRLBCtXPlLh9VerrR0KIM4sMvgscJ1ZXMhGwRJQ2KO7FP8UfiJZKTlqEAkKwnEbeyUo4hFxqzxF4q0+4VrYJFdLnSitUnRbFj0MdHXnthJTGRFsEC0cuUvHVZ7rcAL3lNfi6H6yICUD3AUMEcaEoJYE2qGN1zAnzaIqcgYTJgSnTQ8lY9koglH0BkJUyCSgD5TkWTUhkW2KprtiR1ORmaaBaKVK3/psNqblZaJvLQrmZ4yaUiuEXwEIpsFFWctmwXJMkobHBHePJBAbCsSPZxpAJ0rKiqQPLYnEn80D31SJtJ3No1EC0SrTpS/dFjttcLdhEkF40vfMNHeZCCJOCMKKUKNCKNVCGl4pZiKO4E5tj9qDCozQmLRJCMjQZKQtpYDFX3uszKRoxTVd7ZAtOpc+UuH1V4rMAKUgQnGpkP4y1tlgGGRmIebxFmmcUcg0qCjwC8GY3gdQNNSIJqJRUZrctaM2WctMmbYrXythUMUSUZTJhPNsTgmEy0QrTpF/tJhtbcJNzEjAjj4Ch1fxaN5WCDDBjd7tiFpSGBxP61CBRappwOtVRxDw/eaCURFrfJxs9cPs8FrWCQQuVY6k6qIjcNxfDKBWOvNvdgSi9qkyBz4LCWZh1sgWrnylw6rvVC8lWAHaKjmIYFIHimkuDZtN+KM/myx9AVzmA7fOVGRhopatRZ5YKE0MhKIehYfEJWeZqdzVIbg+ICoTOTa9J0bRIpFPgmYA/5M2Wkx9ywQrVz5S4fV3qaMfCsK5lJU3lA2x2AXStOhD1K0CknDrSIEUxvQFGe1UXGANzZoJ/IQYpEWpcKXJ+K5zPZESu3EcnnJzwdEfael1mheZH807cSUiGSkkUgmfmqxIlggWrnylw6rvU0EImCh/jJpBUjRk9U2PrUN1eEt8poLaQYSdsq+KkP8l8DlWXgIMao2I7FIGioTyUFpVNx+9i3iRGsHS6tMVNFUNN/w097nz85EVgQLRCtX/tJhtRcKsICpRfPNHGpD7piesum0mqqQrphgMAjYYR0ShVsIO/VXBuZJTbNRrUXS0DQVze0tYqLikCp531nfYNG1ghIbMW++bpBR7cRGeTfR7Gz5dGRkRbBAtHLlLx1We5vAgrAMPFQqFYuzTCCqhbhJWvToq5qdJDQGg6KwMWP2doPNU0Smy2YY5aPaj5WGq64sVgiaMv3oQnnPT88blvdYTCDqTv4bk5egdXwifefPyERWBAtEK1f+0mG1twloCMtk1xVejwebBaECecNko4i+qgnEUm8GQxyrrXXsymD7HY0yUwQTIWXaiezMUSLTEzfdZ6bBBCJdaYIbMFXOmkBU8uoG9ms3izrObE+Unudtg3L8edSuWBEsEK1c+UuH1d4mAAIEATLKpS+YBlqBiC139JdJHwKITKS1Rd+TNKGpBbik5EsDzZrxREQVN7hNJpruc5mMfyyWsTsFMv6RQKSVqkDERoE3QQ4YGjJ6V1qSV/mLPdr1rL4zgahGogWi1aeXv3RYdSURUqjtvFkAAdaABXZmpSZjD7bJC75lDPABdhxyyLkY1qxZgzUwRBqCQcAW32lBDKAbgQIMZb2pwyieGtBBYJ/lSHIRW7TdzFZF9dwhWqnax61A1GZEqFC6uRFV0JsozASiKtL8EwU6HKflKMVd8p2ZtxaIVq78pcOqK4k3yJFRNTCF5syZ8+STT950002HHHJIIBDo3r17nqeePXsGPOXk5Oh2q+rWrVvfvn3PPvvsRx55BMxC/Hxx2PHGeFNaQrBNmzEpn2kmkkglHxPVd9auZ/AX7KN56GOiAhHSlkQTiIxT12YA2onqPkNttSeq/JnriZdpgWjlyl86rLqSULEbZLQdIAiQ9enTBxAE+84555w33nhj2rRp06dPB3eWLl06atSoxx9/fNCgQa+99tqECRPeNTRu3Li333578uTJCIyNwYMH33zzzeeff36/fv2ITsS5aNEiloe2CMKfwBqYYwnvi/Ux79vNtOZoJJpAJBMLveGQpp1oAnGLDNvmsEQfENmpzbXJROLYxKL2sTQ0b09UmZdjihdugWjlyl86rLqSMmKm3Xjjjb169VqxYgVw4Ii1iPoP7gAiG7yJC2GIgRRwk1etWvXJJ5+sXr36448/Xrly5UcibHAeQ6CKPSo4HNyplzkHBwwYACwOGTIEe0wgmuVEmcLtBvlIS8L7oDOBSH6ZXjM7WNisyWZEZaIPiGQikmcCURsoKTLRNBJNLLbVnqjyZ64nXqAFopUrf+mw6koilX75y18CWHfdfW+0pjaTddIZJ56oC4YiBYVb167bsGnzlg0b4YIWJJL12F63fuNHKz/++JM1WC/7cAUWbH+yeu2atevztxRWVYcQSXFJWUlpOcIjNmz88tzzEP9f/vKX+++/HzYmzguy7LBsgDgp+aipgokGo4lFjouknQje0WsmGTdKx7d2NxOICMZmRO1Cob/sA6JK2xPJRF9PC9tAaepy3Y4sEK1c+cuFVVcScIM1KvZf//rXQCC3W/eeWJ/2X2csWry0sSkDIBZtLQHmQEOsgciy8krgD0xc8dGqVR+vXr1mHVC4Eibj6rX4F+vqYLiyKvjYoMF53Xrsf8BBWB908CGI86GHHkJhABZ//OMfk4bgiz81nmhtATG0vBAegUlDn53IgTjankggssOHduJmkRqJ2MBRdMPV8IyIqUh/2ScTiLUtZoJokO7ytDQmcq3yX5IFohXlLxdWXUlpmQT7kksuEQMp8vIrQw848ODuPfbr0bMXKEZE5uZ1B9cCOXlX/+FaWIhY5r+3ED/l4Mce+yHAfr369Oq9P8MjMPZjAzQc/vrIVENTQ2M6I14jLD4AcejQoY7XXOhPjScFSkYMWKzVgwaeiCqzg0WZWGDMpUgykomFhdtm58YGQpKqtBBNMjJmpWSkuYVII5EdLHXet55T3ut9Pg+62fWILBCtXPnLhVVXUpNM6JKbmztt2jR4uHX1DXB4gbBINFZRWV1eUQWHF7YhTEVwcP2GTdjGeuOmfNiJ8+YveHf8xPETJk2aPHXK1OnYEwpHcRTiqY0nEQlcb8QGGNanGmkV5uXlAV48aTtlQ0sOycJ/SUnEU2t0PQPjaifCd+aI8S3GR13oONNOzJeh4/gVRyny2FyoWAx7n2ShTCDGZApuNRJJQ5iKFohWuyB/ubDqSnLEdT3iiCOOOuqo9xa8XxOLwymGQReO1CTrUrHaBPYAathZVR3CAuQVl5RtKSgCFkFAkBGgBC6xE2HgL8PMLC2rwFGAIBbEgHgQA8yxo48++swzz/SnYFekBiP7oGtkuDixyMZEDk7kuHH2Bfm8Zm4AmsAoY9DWSZUJRFP8lXZiQqRkpPtsdj23dJwtEK1cmWXCqqspLS4zLKmLL76Yri694L6HHHbBry964smnZ86as2HjZhiMYByZCN6RieDguvUbV69Zh20YkjAngct4og5GIixE/Dvw0UG//d1V8LVdVzo39+STT4aT60/BrohAdMT7VifadJ+1gwWmIvFHIG6SD1RBtBbBxBL5+kpEpnVQj5iqEUWNFkaK+2Pep1qUiWYfi6/32WSiBaKVK6M8W3U5oSYDK7xTMOVmzZ77wosvv/zKUIDsyKOOZhuiC8qcvLxuPXr07MUmQqLzqC8ec8Z//+h//veXF1186W8uu+Kyy6/EUb8674Jjv3Ycfu2z/4EIf9w3vnXL3/8xfcYs0KdB3ofxp2AXZVpeGenKYH9LRDpGOPsDsVhgfISATMz3PmNAgY/AKIfXkHFUzHtVhk2KKu5keB5CJvr6nclE01Rkai0QrVxtL8tWXVuDBw8+uO+hoZr4J+s3by6uLCytLCqtqGvMpBqaaADCNiwsKv5o5cdTp80YM/btm2+59TvHn3jAgQe7fdM5ecBfz/16H/PVr1951TVLl68srQxWhqLl1WGsw5FalISlS5d2bHkgENmWBzBx6AzsRL5wrdM1koba6bzFe+cav5aXl8e9EeAEHNZ0kOmMmwNxwt7EEOo700JULDIlOhyHG03etNsWiFau/KXYqqtq6ZJF3Xv22FxUUlQR3lhclV9SVVCyDYjwkbGAhuxa4WhELByiyG6WYCgSramta8hWhWJbS6sKtpZXVEfLKsNYKoKRF198MRAIwJLyn/UziEAkehAzCKVABA2JRXawtAVEbIOJpCGxWCs9Nuovm6+vcE0gqu9MGvqAqKLBaIFotV3+UmzVVZWIxwI5gXnvLykoC27YWgkjcUtxebIh3dCYBg2LtpZszi8A+LBgA8snq9dyTCK2wUoAsao6VFIeBA2Ly6pLK0LlVRH8625Uh3//+9/36NEj3Vr366cWgUgrTI0ysIm+s47WLvC+CNgSiIUyly1Cqr8Mi89sQ9zuMHvWIo1EBiYK9UB3sjDPdzatRfrOFohWrvyl2KqrqrGhPpCbM3nGbNiGCsREyh1IWFZeCX+Zg7TZkbJm7XoAkdYigAifOp6og4VYWFwB23BLUVlRSSVQCCDCTqyOxL70pS8df/zxjW2PPfwUIhAViyQjGAQ2xWS4Igfi6IDtlkAs8ebf5qza9H9pAJpM5GstQW+C22jz75oqHNmYSCZyTSaySdEC0cqVvxRbdSWxyZ93KlYTgYU4bsJk11muiGwoLAMQ4TI3NmUqKquBvC0FRTQS4SYDi2vXbQAWseb4xHCkBgvMQyw0D7EEI/FQNAFHGv7y9ddf31EuM51QU2kZCUg7MSU9RXR+4RGTfRyWCLF3ZYu8tcLJytjgyNec49KGGJeuFfWUCUTTWgx7wxXpRLM9UcnosxYJawtEK1f+smzVlZTx+kAdD4hTZs4prooWVdWwX6W+KduUzgKIMBILCrcCfHxZBRBkMyKNRPwUicYARKDQbTSsjlYGa4DCWKIhXJMM1cS7d+/+5JNPglnNz/8p5cdha0AEmMApkKuyspKvOfPFFbUTFYj0mrENi5LNiHFvCjLtTvEBMeS95aJAJA1bAjEl8+NaIFptk78sW3VVrVi+DEDcXFSypbR6a3XMXZdXE4jlFVVg4tbiUjIRCxsT2Z7Igdnwl8FEcLA6XIsFG9HaejAxEquDywwLce7cuf5Tflr5cdgaENlJwo4ReLtA3mZjHlkaiYXejLbFnsDE6upqAo42pjLRB8Sw8U0CdZwViHUiNRIhC0QrV/6ybNWVxBtEpowcMTy3W15luKagLFhYGcUaQEw2pDnshl5z0dYS4A8L+1VAxsKiYr6mUhOLE4hwkwFEGIkAYlUoVhNPfbx2Q7du3Wpk7i9/Cj6VTBRSLYFIK0+ZhY2ysrJ8byrZzfImHxsT2fFCO7FYvphaJR9EZWNiq0xke2LYMxXVrlQg+pgIWSBaufKXZasuJt6jdDp7+RVXHX7EMRs3FRaXVReVVYGGBeVVwZp4XX0DbEMCkeNv8O+WgiKaioAj/gUQ3ffzwtGqcCQYrcFSHYlWhsLYiMYT99z/QG5uLuACWvlP30FSJioWAaOkzL8NVBFnWNNO3ChSx7lQvsxX7H0bq0QEenJKR2KRrrFiUS1E3QNu1orIRFN0ny0QrVz5S65VFxPvEYD4ta9/+9cX/mbDxoL8wlLQEEzcUlZZWhVKJOtpISoNaSfuEIhcauvq/3LzLYceemhSphrrJBGIJhPr5VMtRBLhBWbB7gP+1qxZAyNx/fr1+TLdQ6HxIWnSUOEIa1EbE9nN0rJ3hYrI16lU6kFDNBUtEK1c+UuuVRcT7xGA+IV+Xzz/gksKCks3F5QUlFQUllYCiIWlFfFEHd9UAfhIQyzwlGkkYt0OEPFvsqHxz3/920EHHQSgdF55IBBNO1F9Zw4tZKdwVPqdaSFukMnAW7Yk0nemqcgXAek+m76zaSpSCkSOxTHhSA/aAtHKlb/kWnUx8R4BiH0POfziS64o2lpesLU8f2sZmAiXuaDEnfiayFMggoYKRCxtAbEmkQy6L6/UE4hsSvOfvoOkQPS1J9JOrPWmxsE6GAwCfxx/s0kmfSAQlYnsbuYci1irwRiUr0sjBgUiUchXBvGvApH9zhaIVq3IX3KtupIyMn9M2n0BrglAvOPO+6qDNQAi/GW6zFuKy2AhwlPmwGzSkP0qaiFigf0YjtRUB8P4AxSGY7WR2nhj1sFGvD710KOP7bfffkBDfQeNQzTldatsF4FICzElY6TNPhYgrLKyMt+bR5ZMNB1nWoUUjcQyEeCIA+ky09g0sRjyPl9l2pLcE5VuaAtEK1f+8mvVlZSRbt8m9+sljb16H3TX3fcXl1RuLa1yZ3YQIMJCrI0nwUGYgYpCHxCxzbm/qqpDlaEwgRiNJxKpBmAR/76/9INAIAB2NHXQOERTfhy26HFOeR9micoENlwXG6+vsLu5SL64wjZEUyYQVWFv8hulYaj5/Nu0IrmHlqkFopUrf/m16npqdD/+mep3+NHXXvfn0rJqWIjwlwFEuMyFpRUw/QhEGoMtgYhfOTtsZVWwIhgCAcFB+MtYA4uAYyxZl5OTAyvJf+KOkB+HBhDJRDrOCXknjyYbCMVvCioTaSGSiaZaArFMZhgrl6E5EelpMZlIDprbikULRCtX/vJr1fXU4L7/W3/Ciaf++P+dU14RgoW4pdj1mgFErEtKy4E/mIdsMVQm+jpVXPOwKlheHSQQAUGsg9GaUE0McMzLywOSGjv0XWbKj8MW428oes3aCAhVVFToEBwYifruSvtAVGE/PGjFX8j4uLPuIRNplu4BIDbIDJSOTDLOjbRMCLxHhIeSf9eeFgsQNlLygQsoIYNImwXqaDUvvbsgpI0xpOXV/c8YW2eLyWPBw5ojLfyBOlSO3MeWZd4frl3xEGQvisENf/7LkUcdDaiVVYXAQXjN+SXumh0pWPOlFI658Y1DZDc0sAggwmsGDdmMqAtcZphUu5q8XVUzLhpk1CE4ZKK28RV4E+HQTgQTOdeDikBUJqpMnxpgJQQ5nDsoXwQkH3U+CGgPANHxPnedkc90+X/bjVIa0m7HLWn++x6TNJ9vy5mUfK9HK1InyV9md1rMND7SsvLBTCbVH65rSJ8xjpex6Q6d6qql9GHPG+r/eefEGAjE2++466CDDxGohQnELaXuaESOPdTPBpjmYUsgllVVw2uGSQjD0AdEQKGz86QtIKa88TcJecGZzX9Yg2X53rsrZmOiSo1EHxO5h0IAbZrkx1FBxi4BRFYYtSa4nfXu+m5WgwzKZ5KQLxn57qI/0O4VMM30OGIbNv+xs+QvszutOm9qe/YPMqrPEmGniulEDdSM9YfoaOF027JYHhv+n3dOPJxAfPiRR/O69XA7lCuD7GUuLA8VVwT5goq+t0cstgVE0BAWYm1dvUlDAhF86exsac7DZkBE4efwFxqJtTJ2Gtgql+lw8o0v85lAZL8zLUETiKZIzLD3tWjaiV0CiBz5CQ0cOLBXr164B3369GkeZLdq0KBBSENeXt4RRxzBe+MPsXvFYoFkHHTQQd26dUPaZs+e7Q/U0fKX2Z0Wjh0wYAAS2aNHj6OPPpqxdca4jQ4Rk3fggQfm5OQgzTNnzvws174zuuaaa3Cu3NxcnI5P30+R4TyEQHziyadzcruBa7QQ3aUiXFIZUiBu9SZ3YO9Kq0DksJtEqoGdKiYQZ82atavJ21W1BUT2q9BIjMvLfHF5wS4kY2XARDjLoCGMRKw/HRAh2JuKwi4BRM0XVqSAfOzL/Kl58GbaYQCfMsZEcq0KAR5++GHQEKW2e/fu3KkOYLOgzZXZkQ/LU2skvPftx+nISTPe18FZaaH58+drAHXBWpWeUUub/qT/Moz5E3/lhv7EYK2Kv+pR999/PxLJau9ICjNtzA6g0bYfv4ppzu5ceCam/cTzGnNELTPWH9oQ49Q8bOcUWc9NzspRF1xwAUsXTqc/tX94SzlyXfKubf0jAx/LzeteVR0qLndfZHY7VWR+BxeRslQHw2Sib2A29gCIpWUV7qQ4wRDwByDGknXReEKXnj173n333eARc+NTJHVnxGxUKRDZu6JMpOOsnc4hmWG7sLCQ7Yl8fYU0LPReYtHXVwhBbmjvivrOULl0QNNOpMHIDpYuBEQtK+3Uec1E/w+tKevd0fYjbAlEHpgWNQttaIdh9DI1Ge2LUfHqWgVi2iuj7diwzJl2zthWqnjSJuPb5DxdW9KQzq4AMWtUBv8PbWjnw5v3wv+bJ/7qA6I2krRzFv6KkKmdeIuDsTXJF906HIj3P/DQ/gcc5H4GoKIanrK6zBWV1dgJGobCUYCPNGwHiLANAUSThlhwB2+88UbwSAvbriZ1Z6T3lEp7QCQTdZC22ok6CifizYWjjYkFMv/NzgCRe7iTfdPYZu8KnWhudCEgOoYV05ayOyKCT6yc/r2GMm0AUZvG2lKjOyjMDcMktSXefm1Qbyfl+lOmDSA6XmNr+2d0JBhKFS88a1TCRu9LOm3FgDTgophaPVdLMWaUWqJk54GoSdoZrGQNo29nwjdJIxTD+3/zxMtsaSHiqjVtrYp3JyNUaucCKYTUzqUOB+IVV/7uuG98C+zbWlYJDrpGorjMwByBGInG+OG99oEI2zDZ0BiRQYi6oAogwXvKQkzLQIUGGaddL42J7HEmECmQC9Tj+Jt8UaFoh0BUqe9MO7GyspIo7BgLEdczceLEa6655je/+Q2MWDarQ3Pnzr3yyiv/9Kc/IX9xYmCeleeqq6763e9+d8MNN2DPQw89hFKynwg/jRo1qnfv3tiDQ9atWwevnlnjGCN17rnnniOPPBJhvvGNb4wbN447szJmFRtIA55vjzzyCLYR+WGHHdarV6+jjz76+eefR5j61kbYZDwgIk74C9jz8ssvf+UrX8GBxxxzDHKTfZH10qhHBMBcP+GEExj+2GOPnTdvHp42TCHWU6ZM+e1vf/uHP/yB8ePU3UTnnHMObX7uR0YhQtwPbN95552HHnoowhxwwAG33HKL9oQifgJx/fr1SOf//d//YfvLX/4y4nSa90ohxy6//HKAiU3RyM/999//m9/85jvvvINCRnCfd955OBzXddZZZzEZDSLGsHjx4h/96EeoDwFpDfz5z3++YcMG/RVnR95effXV9913H6v0bbfdxrQ5BhD5b5O854DkTZs2Dam64oorcLtlPpE49l933XW4L0ghru6UU06ZMWOG07zKobRoKUIZOPPMMxHy4IMP/va3v43ihLzFhWCd9WxYBEP+X3LJJUwDsgJH0bhwWmCd0TKpwDdKKTLnJz/5CS/8iSeewK+ocrw1iIEcRGy4xn79+gWkrblv376DBw9OGgOhaNrwdLNnzz7qqKNwgYcccsjkyZOvvfZa5CfzimnmIWaqdijGLDxsOPUH//W9084oqwzzGwDuUiVzX1cF1ULkt/f4yoqOQ2QzIt3qqnCktq6ebYgmEHvv3+dH/+/H1aFgqrGhKZPGiTO7ltJdVksyNopM31nmYXBHJrIxEaVXX+ODsE2Lj6YisUiZQAT4KioqDDC6IhyxHy7zZ7UQ097QEMTI8vSrX/0K/8KsxfWcdNJJLARgHCoSSJ8VJGEPOwoc6c1AQUc5QyE7/vjjUUBRdLCHB4J37IbPyJN27dq1BASowQA46otf/CJLP4IhyxADUoLijkIZ8KooEIBoTzzxREcqtlZySoGIdCJmJrtPnz4s/YgNdwiJVxMPPOKpEQYbSEDAq0h4RiHAAw88wOTNmjULvzKYiixjXUXg5cuXqxkY8BIMsRrj7Eg5smvVqlUgJvYfeOCB+BeV7Tvf+Q5iQOFgFvEopGr06NEBIXXAy6izzz575cqVPFaDBST/HWGi+1SUU6Oes+2fNwhCmUPepmQYHbu/kAwUHSaMTy/HACIShsB82k+aNImRIDHIZNydV199lXuQAF4OBXabNcS7Mw4enAyQKwoYCQvIpzJx4agkxx13HK8XYcAg3riLL74YUaGSIItaRo6kElJ4DDA2/osYwLKMZ/3xpt98880Mg+tlSpB+5O3hhx/ueMa449n1oD/vOLKLqerfvz8Px57sZwZiXX3Dj8762XdO/G5lsGZzQQmByC+IKhDZhthyYPbOALFXn97f/f73kvV1XQGILNtJeZ+PjYn0msPyXSoykdoqnSqogC2BqExsFYgaAPqsQKSyYgvoLedOXBUKDaoNakhAKgB33nHHHSzZqA/Y8+CDD+Jf2AsBKYsMqY9TiL4JWzSwn2X9oIMOOvfccxkAp/jSl77keGOYdSdZgOqBBCB+llHUWyZDE+80txADXjJY+QNivZ5xxhkZITKy7LTTTusrQjDUQxgjWlcBHUc8ryeffJJ7yAvUCsTGmox6iBPRLwATcUd5FlwCoMDAWP/iF79gAMYTMNIDfeELX0Aw/IRk8xJwRbnyJNAAjI1CViAlTAAOxAajHT9+vGYCzD1kL64LJ/rhD3/4BREiZK9xSl4yDUjGBsQ2DwhBEDNO5DS3EFmsP/roI0TFu3/ppZeCSo53dwLyvEHMAbnd0NChQ80awkI/ffp0JJVxTpgwARlCMOESTj/9dMTvyL373ve+h2SYoGS0uGSYk7w6M3LuyZHmEQ2v24gcmfD9738fCSa5uOYzFWvcKXgP+tzCTUcadATPggULWJgDco0ByRMUWpRDHpLtCCCe8aOzv33CqeRgq0DEmh/eM0fe7CQQu/fscdbZP8H59jgQyUQ+9ug4a3tiXAbikIBqJwJ/BKLb6+xJvWNU3orWVC5tiyXeFNzQpweimlq4Bth3KIV0OXGReG4TMXfffTeKJgoTQ6K0BaQuDRkyBMFgIWIPzCgUFxRrhnn66acDwjLsxGU7YgfBukE8iPMHP/iBI2xyPMcHAvsdgVFAjAgkA+WyUboI4N7iXyYG522URjSeiFIgEiK//OUveUY4wkgD9uBwPJpY6APCFxAZLOOxyEEcS8pkpeDCmWKqICTDkWFGyPGAVDwExj1jOfj617/OYDCKcUUk9ZgxY7BBE1IrKsxbOF/AhCN+NOs/ftVSxWDYAwNn9erV2DNz5kzuzBMXD4cjGcgi8J1nPPnkk+lKU0uXLnXk3jliwCLDeXa2RZK5ATEzuXHjjTfCbp06darTHIhZMXsDYvcFpPWDD3k81Zke3AXykWdvOfCF6QGVAnJFiAEXnpCvRzIG+M6OlDpUhoBnNsI35x0Hf3nj8NBNyJyjLSNnUmmlovDgAnGKn/3sZywnbMBpklEgOAS3ZuDAgUwtcUb/AzfiwgsvdGSsKJ/HjJaRrFixgtWbz8WAPGuzHQHEX198+YF9+/ETUa0CMRiKwGVmL/OuAjGQE/jrzX9LZzN7HIjMf21MZHsixTdYqqurcWsIPnY3U+QjxbE4ZCKqKghY2VyEIC3EzwpEUwsXLuRdnzJlCi4DNYTFFJUwR9raWZnVHSbp/v3vf7NgIUBKWs0b5GXGgGdM6fg77oFwhY6QCGvYiSi7iPOf//ynI4VVTapTTz1VS96tt97aTYT9TUbfKJUxOlUCYpM6UlhxAxBJnti5uDrsvOWWW3LFKevu9b1QP/3pT3kV9TKg2owNkfAGO3IJrCpz5sypl4Z5mrHYec8995gRZlp0qiAlLDo4qtXLYUis8cBATiIYoBYQWCDNPcVpdaSS09bDftiAjlh/hC+Jz/KHDZyxuzQ+aKqYeMos0I4BRAgxwJdkMDwm9XAk6YgjjggIEI888kgUUJZ+Rx4/ZoR80MKExJ1F4uFVMAbcelpwiIGY/te//sVnTEDAzdyAeHYEvvPOO82Ys82BCF111VXMVRO4OJAWKPfHZShcxuuJisu47oB4AMcee6xeBYSE4YGB9DzzzDPcA8vg5z//eUBoiDzPflogZuVAJKM+1XjXvQ8ecPAXIrE6eM368byqsDupFz9Cj4WdKhyNqMsWeZ2ZQAzVxGLJOo65IROxxr953bvdO+C+RF2yoakRQAQNOxuIPvF2pI3eFXWceSPoO7NJEdtAWIG82gz80X1WMhbJhIkqIs+wDl0RgiYWOwaIWa/2woXBNlvWUDJwSSxkN910E66BZTfX64uEMYUyhAPpa2e9vhFgLqcFEClWNhRZetbdpTHr/PPPZwt3wCPpgAED+HiHHn30URbHQLtAJDi4MytFH/sZ4bPPPos9MEwCnj0C4wKnhlvEK+JOMzYchdh4RbwoJhghYROx9gbEUkM8fHtUZQJRL4fJRplo9XKY+VjjV8cz3nPFj8ZO1ElHLoqBu4tAlmr5bpkjrHn++efVGVT/PccAokIEiWHGUo4BRGQIqIfDwQXYqo7XQEF+gXG0OmFiMyvGjh3LML4IUTZAdtNm14cKUkWU46ivfvWrejuyktXEDZ40OfIYPu200wgyM3JeS67oxRdfzAprmE76+BD248CwCAE2bdp03nnnIVq2XZDsuC8mEHlDWR7YKcT0IKqA1xTDczENZqp2RnyYJetSDz/6RCCnB4BYXhUBDbF2P6EXiYGGBCI/q6K2oS6mhRipjcNCxAIIdn0g0kikeahA1FbFUvnOPWkIFRpec0sg+phoApE2Y8cA0TGYxW2U1H/84x+OVEsWFFwkKgxKOeqn21vW0AAgdhMPl4h0PJeEVbFVIAakQQ3h1afDg/rMM890pEQSOviVfZcUGMH0BNoFYkBAwJvBn8aPH88z9u/f3zEcWFBMUYgqxOqdJ+2kJhAD0vBPgwt3mgnAfr4J4AgiGWfWexJQJhAD3uXUSecSMq3Vy1Egvvfee2lvUAjCICVYX3PNNRozz4s4cRV8irz77rsMhpzE5SBJ2gRpApH/4te5c+eaJdgxgIhbg2iZGNwgnA5oyEplpgWK5yVjRkjkYY705CSkw80ULiE/P58hA9L4O3369BNOOIE8mjdvXlq6zplOXI458T1+yhO7Pk+aQbhTxWtRuONe0FpPC9f4eMZ+2J5IPPNHWwADXmOuNgr7gMid3b2mDBYk3JHAZwaiIw85XHI8Uffv2+/J69GnOlwbjMRhG7rmYSgWjNaGIzWc65CfVfHRMF8+vLdVJrxBAOJvLwIiWxJNIMZlQEVC3mMB2gqlu9nHRI7BptoyEn3qGCAi9Xy6okw4HjtQph0Z/sKa6fbgCHSQ7iZpIHjggQcQUoHIHMFGN2lNVyBmPCcIev311ydMmDB8+PCRI0e+8MILw4YNGzduHPZkpdbxyY9gCxYsYMKyYiEyYYF2gUjRtmKYJ598kicdOHAg/lWz95hjjsF5R40aNWLEiLfeeuu11157+eWXX331VTM2pp8J4IkCXm8pgOII+rX+IGdYqSgTiHo5WalLUKuXo0BESK1yvAuo5H/+85+5p05mdkGGB8RMg4WIByw4CNsNVg/2oDDRujn99NMZoZeo7c+DyZMne6V32/0y2xAD0uvCZPfr18+RyyGtWB5QNIFFBAY6kUUw92BLmhHqs+Hxxx8PSP6gaCFCxIaj7r33XkdMToSEhUiUd5dGDCbG8YYr4ScY9U0tzE/HyC6UoibvBQkoz2sWwB1vklGNd999N/dA99xzT0o+Z872UCTJBGLWa8kNyCABx3u6o4QwME6X/QxA5MM1Vps465z/+eHpP4ZVCA5yDTKGY4lINLZt8teqYKsuM2fS5gxg2nSIja4PxFTzSR8IRBqJNTL3NTZQrnRkojKRw3EoZaKJv+Ytih1qIaqfsm7dOhaspAzvLJH+BOyBPcg2RL1438BsgsAxPF+1ELU2Llq0COWPFcyRMkfTyTSpsIYRsS1ZjvPYY48FWhBEpQjTZGzevNmRwWioTrRB5syZgz2///3ve4nYr+3I2WkAOvIAT8pYXAUiYsuIWGE0DYsXL66Wr+EgAHuZBg0aVCdyxNDwEU0vh6Wk1cvRC1+4cGFWng1paeei/vjHPzJCFjgmDxxEmGg0SrM64HUQMw1HHnkkX/jlgY5hpM+fP1/vYLYFECdNmoQ4NfBFF13keA8Y9qUwN1AqaFkHWgy7YZx47ONRyh4JeL5AzxVXXNHkiZXkvvvu47Ozh9drR/GKEC3p6YvZMcYhXnDBBRzaRgOW6QFPP/jgA4Yk2QPiFmjJYd7i1L42RO0/YQ8+M/Mvf/kLTe/ALlqIhNE2JDlOsr4unkxEYzU9evf5263/4EdR+Ikozu0KIHLyVy467EYXjkzk15lBQLYhKhD5LnOP/Xrecuvf6xtSWLaffXeJ9UXFvOXtNo1EdjcrFqkKMRLzvdkfAEcykSNyTCBqF4oPiHyTr2OAiIqKpNBPQSkJiMekv7L8wXAATc4991y9/p0H4p/+9Ccd0AB8OFKjEAMev1/72td4YPazAZFFH5UB3hnuxPXXX8/TBbwhe45Anwg7/PDDP/74Y0eqN27Gf//3f8N0NWNrB4h050FPdvgGpAnspptugt2BenjWWWfxjFnP4ug8IDIZdAMDYn2zgwUudnfRrgIRXnCT5x3zcAj2IE6KmJFp8B8duRCcl6YuoW9GyCsCpEhM2OPIMcSJkg148Yx18kGitAzG0oflJ598gp9Q/HAg7hRuJQIgmBk5ryVHhkwiD1FKL730UuTqxIkTA95Iw4CYeEwG8wpZhKcjax1MkoDXjGgCERvwITQxt956K/bAOEBKCGiss58WiOlsBkssXhuKhAPduq9cvaYyFAYHQzUxfgYAUAMQg6GIMlHH3OhiApHTIJKDJhBPPPmkQ79wGMjb1YBIJmpLIpmoIhNhZ5R67YlbRMrErcYbLIpFbTfseCCy9AS8iopidNttt9XK2ym4BvhErLEB8aP1+ncSiKxg9FgpPopZ+HBGHpj9bEBUg4UOF4Ua/tRTTzEYbMDZMt4i4PlxAW9AL8T+AY0tp20gTpkyhT2VcFd5Co1H7RH2CNE+1cvpcCAyt7tJgwZruCbgnHPOYYTbsmnngIjDWXyDweC0adO0LRJhUBiYsQAELzlXvGBs8LUTVcZrvAMKeZkBwSKoJIDNQdpS4roiDEG2n7yZE/DuHcobrmjq1KkMY0bOa8nxgKiHUHQUhg0bxqNw+IgRI/RX9vUFPFsYRrQPiEgVCsaXv/zlHDFa2SJ5yimn8PDcXRx2YwIRCwgFJg587NEjj/lSKp0pq6pWnHGhy4zFBKKvDdEEog61MYH4wEMPBnICsEO7FBDVd1bHmUxUxbwmxYi87KxMLBRpeyJRaJqKnQjEtDeOhOLAGkcKyg033IDCwa4SkovaJSBCZ555JrHYU8QDA+LrfXYgorgDav379ycZe8lYXLbKs2GRRfn9999n13CO9CMzAVjDVTRjIx14X31AZKcKG61gbuAUtKw1wHHHHcei4LucDgcid6KsKHdyRCeddBKCsc2OYZydAyJi5h7exx/+8Ic85OSTT0Z5ZSL5MGOG47ywH80iwcMdSeqQIUPYedVDeoEYVZ604QJGbGFwpGmSZw/IXeODij0/GpUvcgYOyINHX+DhgZdddpkjFigKMG8cXBBeWkDccGyjpg0fPjzQ3ELkiVBi9V5w5KxjZF32MwCR7Xo5ebn977q7IZMtrazCApCxY8QlWjTGfpWdAWJbLvPmLfm99+9TWl7WpYDYaLy4okw0gUgjEeuENDKCbgDiJuMbLD4g6nZnAdGR6opEZ6R/ky1rBBnSh2tg+xFsWuxkAWqUQQmsugkZ56XtcQjG9jisq5oPScEeeEaoKiNHjoTTqmWxVoaP4DrT0sfqSIFzJA0NMt7dkXcKHY9rlJ5Uwzgy6vvdd9+FYbhixQpGouI1OvKOLSygwYMHDx06dOnSpUwG72KjCPlb5r22HJO+MNwAXhH3MBlpaQMFFmE2gnRgDa43683LX1xcrJdTL4Mc27ocGP84KftD6D6gPm/evDkrAyrZm6Fnj4pwCY43qQFOumzZMuTq6NGjY9I+i5Co9pUy4p33DucNy/fYnBaIqZUJvfETT8Q4GQ9Nubh44vA3kSfjx48fOHDgK6+8smbNGl5CqvnEDbwcIC9P2jEuvvhiZMuSJUtWrVrFoex8GiFa3nReFAoDEo9LQDXwpdCUIzmJcoIUwo5gPq9du/bZZ5/FgwrnbRnYkdv9+uuvA4KrV6/GgTwvMgQx6K3njeDdh4+PsoEsZUjYyw3SR5wxptUwT9SqTBriGCwTJ08CENdt2hyM1hBhnO96m61Xs62jGUt5RVWhfFxFveZ8GYe4Ob9ga3FpTcw9RIfdkKc0FVONDT177VdZXQX48qS7E4imWJsok4n0nYlFk4zqONfIvDhsUiyQYYn0o9mS2GqTotme2JFArJcZEBwZLtcoA+sdKTccQtkkkyOw3LCgpGQ4XtaYdqFWGoZIQwZgvVUhNtYiR4oU8UTpUTwFTdSsN+Yj473FzFNTrPBZKaOgMA/USOrkezcamFKCp2VmAd4tnDrrdY+m5KUFJJIVVc1bR4bpRmR+9ibxAhyvItWLHGEZRyk7cjkKTUcSyYS1vBw9EfKKkfN0PJBVkaniHqIKa00wAuCoiHycjMcyEsQJVuJcyChE3igta43NDTqenYnBBfJXR7DIUpuVuW14avzb4E2Sio1ab8oPM0IEvvLKK9myCQDh1AQ96waNWViOzH/eTSSSV6HnNSM0xfNCvI+8WF5CSl7ZNgOnxSTPyqzXvFPIED6ZcEbN+SaRI/ci632loEkal7nNesFfd14+IEZqosefeEKP/XqShkBhVThifgAAmFMjUYGoNAQK+T4f1ghDX5s0NIFYFaw+rN8X4JsTiDi1+77KnhBvN8Uc9jGxLSBC2B+VCWWLZMA28McN0tBkoonFjrQQWRYdAzeoXRmZtYn/ojql5JVYR6oNd/JfRyonLpW1EVdOKOBXBaWKpUr/ZXVyPIpRjCFtfJaEeep4tUVDOi0+MsV6ReY2egN9VUoQ1nzurJP5sjRkVt7GdSSpJoa0vtHgcuSqM8IXbV7QdPJyeKW8HJ6OUbW8HNrd2M/INTEmjvVKMzI8kNvKr7Q8AFJirPEnvRDNWxa7TIuZr5gGEpwlmLcSZ2FgLQZKYW5jP21eX4QcAx+Q8UY4KSwsR5IKozJgjOlj8niXeXVN0oLpe13PFKNCLmnZc7zSy9plBtbbzaQ2yoRvCe9FPUeyiD81ybRp3Mk66XgJY/yMmYdkpbabJ2pVJhCxlJSVBnICL7/6CnuWK0PhimCInSrsXYGFCBQGQxETiFxAQyzYQyyCm7AN6Sz7gAj8Pfn0U68MfbUuVQ8sZqQ/x5+y3SIWJIqPeR8T2wJi3Pv2AH6C3cceFVqLhaIio+vZtBY5PLtjgEg1ibnnSOmskbl6+C/LCq5EKwNrjlZXxWiTZ205nqmVad7kxxjU0qS0emelcrKA6q+qTIupbhw5ROOsE5OQaWN4XzxpEQOb+x0PXrx/jmf+8Ceiiju5R7mmAbiHkWhdzcjEFrychIj79VeT+JohWnoQj/KOF6Ixk0Gs5DyE0oLI8Nijr5PzwEbRtjIr0sj15uLC9V4zWt7KdPNHlJ6L5zXFdlKyD3C88cYbb7/9djb20UKEE808YTxp75YlxHJnOWxVTIZmeFqMPmYsI/EFZvJYgHkU85AtjLzwBs8dZhgexX954TyQGZL1rto8UavyAfGqP1wN8zDZkNpaVs6vKgOCBCLWMBth93Fmh1aBuGnzFpiKWMNljtUmUumMyUQFYkFRYTAcOvnUU+LJRGO6icapP2W7RcwlFe8aix+Z2BYQyUT+GpH3WIrkZWcycYv31rNai9wokbkROxiIVnuv/OVxz4ltr//7v/8b8Dp5ckVEZL9+/RbKq+VZaTDxH7wvikA8+LBD//DH68DUSKwuXJMMRRNYsB2trXf3xBLJulQiWU8sVlYF+TFSrBWI3AAQ6+pdhyYlE33ikNo4sFgfjdeFYonKSARYzOvWAw44HCTHZXqz599uk0lDPnuapKGJNKT5Ute807lWRD5SxCLnlIWKjNlxiEUykUCUkdod9KaK1d4uf3ncc3I8AxwP8yFDhpx++unf+ta3zjjjjGuvvRZ7MjIzDc20prYtwX1JbMjL7dF9y9aicth/Hg2DkbgJRGAOdNO390BAABFr+ssbN+WbQMyIe+FCJJ40gVhd4zZQAoij3hqTSNTBdq+v3zNPHROI4ma4onnYKhMViKYSMmdHUvpm8aAtENFUpLWoFqL2PlsgWrnyl8c9J0e6ZR3pa0ahZ3MwE4maoG4yCrrPed9XRb/1y187tjIUrAiHlYbV4VoTiKAhfGGOuYHLDALSR+ayYeNmE4hZaWdAZuIQE4j1mUyyofF//+/cb33bnamopsZt9vEnaLfIBKKKXnNLJppApMGoZmNSZo+uqakJy7SyNAxpKgKI+fnupwjwL/tVyjpqthurvV3+8rjnFPd69uHpZLymRu5hreA2m+f8B++LAhDfGf/uqLFjtpaVwoJTGvqACMzFE3V8l5lABAGxbhWIzEwgA66xCcRwPF4Vjrzw4suBQC4NrIaGPWOGKwRN0XHWZkRloglEU3XS4ZmQsQEJmQYCTCyR6WDJRCUjZNsQrbbLXx6t9rRoF6POwzzcr3evhky6JhGHywwami7ztibFmjgwF47UlMtnl0tKy4lCrHUhEIHLuOsLuyIQ8W8smQITw7XJYCzmfq85WQ8g3nzz3wHEVGr7WAt/EneXfFhMewPXFIum72zCMS5TKPJfk5hwQYhFopAeNC1HC0QrV/4yaLWnpRj6aNXKQE4gHKuJJRO1qRRpiAUcpHmoFmIwFAEQS8sqikvKYBICgljrgn8BRJiQIGCTjHwAQXxAjCQSBOJ3v/eDo4/+EjzOUMj9RNKeLSGtAtHscW6rPdEHRIrbcKJhD3LYDftbLBCttstfBq32tBq8V5J+fdGFvfr0rgqHEqn6aDJpdjHXxFPbmFibBBABO5iHACL8YkJw/YZN5gKbsToYBgHZ/Oo2rjUHIuIPRmsA1rnz3oORCCDW1fnHq+9+tQrEtpjYDhCxzSbFOhlgF41GYSqyv0WZaIFo5cpfBq32uBwnWZcC5g4/4qhLLr8iVFtbGg7BgtPhhxw5GKmNc/qv+lQjZ8NmF/PadRt8NAQf6TJHa2rdjuask2powjaAiKU27kZVHa/FibDATszN6z7w0UGwFpMyoHUPlhNFof5Ll19NxbaASA/ap7g3GYSaitXV1fCg2eNsgWjlqnkJtNrzamhMc2hhIK/bzPnzq2tqwnXJklCQI7H5CjPnZcAeEE6BCCORQFy3fqMPiNgPXAKCiBlAxClitQkfEMlExAmvOZCT5wbu2kBsMuYHIxBJvbaACBGIaj/SVLSdKlbb1bwEWnUBOQ5oNfz1kYGc3Lp02m09TCbKImGahDrxF18ySaQaFIjFJWUbN+WDhj4g0mUGECPRmNuvknEamzKkoQKxqjaGJRhzX5SeMXN2n/0PRBq6JhC5h0w0O53NrpVmFDREVtJUjHnzQVggWm1X8xJotecVjtSAWUd98ZhTf/BDEKqmrg6ogpHIqRyiMn8XmYilrrFJgVhYVAxjsCUQ8S9AiQCIGfhD5E3pLExFE4iVsRosHJ6NnYFA7jvvTuiaQNT96dY+0edHoCH8WisTcySEjLXyHQIAUSaBinYuEJlKTvTgSG5yv/lvWnrTdA4bKuu9Yow1fsp6Mwg0ea9LmyG59u3nTp6I281/9IsxUMxu7jTDcOqdpHwRUX9l+tuSxuDLAf3VlPkTf9W1T9xpXh0LR7NAranJe0m5rWRrsWMmtCoN6TRPni+MLwAzjQloGVjFBGgA7uR99wXOGneK/5o7fWfnfm7rNe5QDG/Gw+1WA5g728m9duR4mYbD4c8CWD33633bnXeF43EswYS7EIWkIckYr0/VN6VBNPrLoB7wB5eZXjPWa9auZ5Mifiotq6gOhmEk4mRgYl19A19WkdGISXWZ4ZUjZE5ut5+c/VNypEHeQ/enePeKhbyl2JLIgTh0nJMiHwexnyYkf9KmRsUi1LlAhKZNm8bOMrPssmhmZX6BjHT/608Uc5/s5+Xh39WrV+tsYGmxmc2jMsYEB7qHAXTdahhWUSPb3cA478aNG4uKiszA0Ny5c+fIJ1Z4J7jBdcuY9bwarS/M9lN6lSFr3HWG13h8B/JX3/4dSs/lk57RlJG6ZuLFanjd4wuT9RKJuzZhwoQPPviAwVrG7BhTYGhKNE5ua2AzTzSA/sok6SEmfzWFZvh2xGCaZibMTImeqNVr51WY+3coDY9kw0CDKQcbrayqemeACN8WQCwpLad5CAhiMYHIYTcIEwpH2wIi4icQYUbCeHxk4GPHfu04sIPWiflY2iPSW+ATWxLJxHpRSztxh0Ck79y5QATvOAUxieZ4NVnVILN+ZbxJN1W4vKlTp44cOdLxsIiNQYMGLV++3AzmeEXWt9MUz+g7L2XuNPOdieEn/baHlg8GzZs3b926dT579lPLPKn/NxH3t/WrqXYiMVUnk5uVlZUVFxf7f/OksDOTZ0pDtvqvbyf029/+ds2aNfygisoMrOF9B5ryheQevfW60TKY7lcW+/jVjnyRUK0GaLkzLTL371CMhxUb/wx9bTiA6H5GaieAWBOLA3YccEMgrl6zzgQihyK2byGGkgmcAkBEtKmGJkAWCUiKj+lP655QMwoaShsDcdiSaHaw7DwQoc4FIgQg0twj1HhhjiCPe2gk8iPOKlwhDLGXX36ZYViUn3rqqbVr12pspk3Bo7SlQ5X25p5yJJie1AzQ2OKV2JTM0/fOO+9MnDjRDHz11Vc7MvUA0+AI0FnoeUvMwE7zyFue2mlei9QlYYbor45kEXNAxcv3xaD50L58UVGaNv6alnmuzMhN8aodj1+asb5geskvvviiZg4PzzR3WpkATVi6+URhLh0MmbeexzJYvTcpnMaj6WRIvUe+s7clhtRL478pY35vM1rdSdXJJLUMsKvaVp/rG04/48zvHH8iOLUzQATjKiqrCwq30l8GDVsCcdPmLQBiMBRpC4iR+jowEUB0rUWZWrFHz16bNm1Ke3Og+dO6e+XCrw3xLjR5HSzMw10CItUBQAQ45s+f7wjj+AlglsI//elPSNzvfve7lStXYn399dc73nTNTz755DXXXIOdc+Ujxc8///yvfvWrW2+99V//+hfjRBGcNWsWgJj1GhOxgaOWLVuGf+HJ3njjjX/4wx+GDh3K01VWVj788MO///3vcdKSkhJcLVPy17/+9brrrkMu3HTTTUuWLMFOHLVo0SJHbKVgMHjzzTdfeumlb775puPNqwgzEEfBGsXO0aNHswoh7x555BHAHefFfiR7y5YtTz/9NEIi8tLSUkSCUz/zzDOO8AtW2IcffvjYY4/hjPxMIK73F7/4xfTp03mBCe9TCjhq1apVsKGQG/j39ttvv/LKK3EWxwP90qVLcV033HAD58VCluIsCIMLYe4h2UjS+eefj+Q98MADvAQeCyHbCRfsxPqKK67gJ1ZYvP7+978jqbfccssll1wyYsQIRzITF/u3v/0N9EdInKVRJuuvlXZo3CM8qK699tpf//rX/F4r4tm4cSNCImaYz9yDPMfVIdnYj8cYIkE+sEa98MILSPxvfvOb/Px8R8oDzo5DkAPRaPSll17CgXfffTf+RanA/nvvvReXcP/99/Mq3njjjYsvvhiH49Y4ktUDBgzAT0gwsgiHMAG4KTgECUA8LHKzZ8/GFSEZTDbyH6eD3cq7A7399tvIfBa2t956CzHjLmzdupXFDP8iwTgvInn22WcdKe1IOW498hBXhMMZbUVFBQ4877zzrrrqKhSP8vJyhfv2mt2ummRu+YbGbO8DDlmybGVZpUzoUBMPygKXNpp0R1Bj4bywgBqsOfCLDYhqHmLRDbrMAGJhUXFVdQjHpNIZkJT91DU6e3a9+1EBcBZruOrJhsZvnXDiRRdfuq3XJRrLZB1d/OnevfIBUcUHWIOIZKwTdToQEWlKZhjFOVAgsAdIgltEq2rChAmkJGpaSuRI5dQrScisnJdffjkTTeNL1RYQ169fj+3+/fsjhurqapQ2VNFM81Y2oAeHADSKS6wvuugiXD+f26gnPDsqJw8BWQAvZCXSw+KLNeJZvHixY/QDoJ5zY8aMGSBprXjWODvrISs8qJSW7x2j8jjylQIQB2dnJABEOBzOGKYcqje4nJQmBdQi3mw8k++44w5HcgyVlpeAPYCsI3RukElJUVcRGFVx0qRJTcakzWQrhYtl5l9wwQW8NSwozLELL7xwxYoVDDlt2rRRo0ZhA9E6YgjjptBOZAAciNh0Ot4777wTxz7++OPkILL09ddfnzJlClKCc4FcjmQdzqXwQp6AF7yhyPA50hoLcPA5gfQDTzAnHblrTzzxBIDC8yLmcePGxWUqfybpP//5z/vvv+/IxY4ZM8aREvLxxx+7KGlowN3PyqTriBPl5N///jceYEw2Cg8zhOLFOvJk4kMUp0C2IAzuWkFBAX+dPHkyv79I4a45kqW4dt4dZB1uBI5i5jfKJ25QOLnNMLy57Ssjk6gj2QBiINC9vtGpDtfq63ouExPxcJ1LQ9iMACK82vpUIxYAkf4yzcNPVq8lCrnB9kQAsbikDCHDsdq6xiZQz0WqCURvAm2O3oa3/vaEiYGcPJSARLIe2O36QKSp2ChSJpoygWiKhuSnB6LjzZ7viN2BRBCLeCY7QqVa+WKGkg5phWVBOIJrw4cPR4lXxPBYKi6fZGkViHCZ42Ks4dhXXnnl1VdfRdFkAJRd/Pvcc88RuyjfAA0ZgTwClwlBJBhkqZUmg0cffXTw4MGICrYeTDwchQtxPP8RRRyVUH0uR+pMVugA1sOW4U7w7pNPPqmXjiNEi2vE4dgDXvDsICAbUoFv2D78jBTjcYwKiRiQEm7jGgFcHI7MfEkE5qJ2sU0TKR8/fjyA8j//8z8aCWJG/I4kHljPeMzV+GFDcYOqkw/L6d3BUaAtjMSM4ICHI29r5ZsBjuAMKcTVOZKf2LlgwQLkGy4NKXlWdIcIMSNahNeZu8aOHdsoH6Q999xzHe8bW8gWWFgpaWXmjNwIgFuMhxCyCAFg9uIy+fEJ3PfXXnvNkQcM9uNRB2di5MiRKHWEJkUTAHcH5mFaxHzGFQFnSC0SSUg1yGdVEPM//vEPmg9gMbIXiMdRLMNEW500RSEYkEqS4tqRmbgioJxVzpEeP1wm4uFRiAR74Jc4UnS1DLcvRt4gE7S8+NLQY75yHGiYqE+bQIRL6w6+SbiOLbgG2w2cAhCrg2H4y2oefvzJGqAQCze0XwUWIgxJvu7i8lTwp0DkRlS+2QI7EUwsqajMye129z33lVdUwcXeK4BIJjY1nwCCBdgHREKQ4v7PBETHYwdNJFQGJBTP1azwKCNmINwHQhMhib977rkHNZ8EgcXhSCHQesurageIiE0/gqw2Ec4y2/uqPSstHCh2fSAMahECoP7TurntttvqRMXyWTtHrBucBRUVRTzroQq1jpZL1muPx6+O0GrhwoW0trifdkRa2itRHxAe6aSXxxSi5iflkyP33XcfDBbGzwcG0smsQNqGDBnCvEIYVHiER/5kvSFHCfmaB2LAk4DBkJ9Z76OjYMo///nPBx98ENswxJgwR55PGSEaIKUfb1HpF0oRHmYyngEIXFhYCKTiYqdOncpfFYsaG8LDLMUNQgxxsVgz0orHxODpQvOZIUEibjMDSRA8rnAjsIHA/NWRfrNVq1YxAPxWMJe3bNmyZWAZDEBkSFyG7+CBOnPmTGzArFOjld9oxIUAf9jJTEBKULpwc3lnQdg6mUuRFwKzDpeJfKPpiiciLh857MhjXrMRNibuMg9x5DGDaMFZzVKkEEarI9/wQxnAswSPtIQ8g5Ni/qd3ooPF8ZopcY2BQLe773uoKhSriW+f0AFABA1NIMJwa2hMw2sGEDfnF7DFkBwkCrlBI5EdzWCifufeZyGygdLtXZH9YGJpZdUxX/pK7z4HhMJRYLfrAzHTvI9FgciNdoBIJnxWIFIoFiigKEllZWXwbhYtWsTWQCQCJGLqsQ3bDcUIj82MFCwUWT6KITqYWa8BBVeC4j5s2DDSkOtnnnmGDUAwCjLeF0SxxnWygaxJ3FLUGYTnHh6IwGAHAYR/8bRn1zaNDscosijKjAQMhf2oASiYsSnp3wB8YY2SU1n5BojjNQvS5oK1hcNZnRA56oYj8Q8YMACwqxPPvV6+34afeLcguPCs7UA5049f2bHOi3U8i0+vNC3KSC2CgFfuR/VmeMTA3IbNzj2OZAgAijOan2yGaQbA4SdwCmnG3cGaJ8rK15QciZmVHLrrrrtgBIFT9Fg1HgjZmPa6s7BGtMwr7Mel8RqRaTiwQdzwBq/3A7HBuM5Kxwu8b6CN6AdlYMvjvq9Zs8aR2wrk4e4gebT4ECeO4jcCcUbcBUbCVCHbkY1Z71FHIHLNJlSEZzbCXH388cdLSkoQGE9WLTNwz8k7ihBHec54w7bg/rMFGedC1vHsvCmOZyQyc9pRRmyIuExrmpvXc9rMebAQY4mGcE1y26xfMTEP6+voMsOlBaQAxMamDOy+9Rs20RKkp6wWIoHIN1X4Hb7y6iA/2sdvVOlg7xpvpDd7bPjr8hUrA4FcsBfZh9M1pd183ONANOVS0JNJQ1MKRFOEoKmOAaLj2WVIDWoOKm1RUVFKWhhNX5gGAhCJwr1u3br+/fvD0eMlwQtGZWAvAYsmLERt4yMO+NVdJJoHgkqwGVHZUHpQNPFUh80CKwkmQ0acGtZh1jSSIi2dZWAEfkKWIZ1syRo4cCC90RkzZiAq7KErzfSo1MGEeYgHgCNkQeJxRaifMBuBdSQbZ0E6Yco53vA6xMl6BdagbmeND9ExT3iBClb8Sg8XDxhE/uKLL7777rswUmDdwPAEiVC98VxB3UMYYOWBBx744IMPnnvuOVjfOB28dUB/8uTJCKAeJYw+5T5z2JFGgCb5Qia2AUR2F8DlvEwEKCNaHs4DEcnf//53fkX63nvvdeRZCKDg1LCmcclwOVGfkVFqCEP0xHFRwBnuDv7FzcJ18byIE5efFVrhhi5dupRH4ZJxCdyG2YgbhLzF2WEn4qIQAzYcoRKtv5h8/9qRJxBuKMKghOC+IIXl5eV4IqLMTJs2DVnE85JWOBBFlI0VKBvwxy+55BJGwm7AJvmalSNtpiiBKBJ4iiM9CMCWREduH4wAtn7iFLh8WJcAPfNT77VW4LbE5yJiXuN+X7BbYXEFLEQA0bUNBYjhWtc8VAsxGK0BoUDDZF2KIxDXynjsHQKxrKraHc3jfbFPyRj1vjZlApGDb84+52fRmlqeritYiKYMHrpSJppSJppqjkdXHQNEpEBdJFWdGAUwG/XfeukIT8rXsGCCNcpTWn9FbQdGyS8+27Py3UjsoU+E5zarNAUoJKXV3JHim5+fXyIfIG8SG5MVnmURe/CTI5aF23xqfG0Zh4NQnLOeB+JcMFLofGnyKL2WGvnSNLe5gT2lpaW8PWn51LIjqeIGc5+x6a+8RlY23kJHUsg0M1peCFKIU6u9g7TBUubHNh0vl7RvhDtBAV4C3XmIg8wZOaV2Gc0rXjti5hAo7GRTAw9hfvK5Uibf9tZ7wXKGRCJ8g7R/kYYMoLcgIe0SyIRC+UJuTL4V6cht1WBaABzJE71kx/sIKgzbLVu2sDzwGcPDHcOI5nlxLLvgHDk7zouQeAzjQthfn23+XW/Hi5B3BKfgUM0GGSrLMoMNUJjXmPaGxzreSziOJAaPUj6JcUWDBg2q9b5GizR49bdNNXhTfp100km9+xwEZ7kyWAMmgoZYYCdG4jIsJulObc33SWiyAVVFW0s439fOAHFrWTktRCAVZHSn/IrWEIv6lrQCEZGDhu6AxLoUDVIaif7U7zk1w6GIT31TBKJPrJimOgaIWe9j8w1eq1laKEafC4WYtZ1CcuPel7+ZUP2pQQqosoZHMbB6ao5X9LNegWYMPG9EvraOQ1gHHO8Tmllxxh2DAikppowhKQ18aWnlqZNPSmrt8inl9c/ycE28vkLjNP94tPYps5I4zVOrF4VDmLyUfF9RQdwk349nrsbko8Zpj6eaEse7Cu4kejTHMt5AhCb5dDrjZGCK4Zkt2B42bNg777xDh9oRD53pp/P4i1/8gmchqWmaMUCDfLSI+aAJ4waj4jbTk/G+ocq13hrH4KCG4f3iHl6a7nEkWrX4+LTjrwopjadR2g35q655aqzjMggh7X1oNCPir3yQc4OBNTZGwsKAMC+99NKyZcv08mGoZqS083RSedsTI0SuduvW7VsnnJxqcr+xV1IehOPcEojBmGvZgVDpjBMMRQoKt+pLezsEYkFxCb9lWhkKg4z81rMysSZRjyUCaxQeOpaIa4cCiDBCUw1NWBrd3uYdX85uE28WxX9ZnU2xFjQ0l3JQ1TFAtNrbxWLkyBPl1ltv7d+//+233/7HP/4RviHrf0beJmLbmb88WknuIaNgI8PRvuuuu+CYX3vttc8884w/XKtClsoC1oBuFZXVObndPl6zsTbZCPMwWltPI5FtiKBhdbzWneu/pibmzurgsgnmIT+tB+pxtA0bE7WXGXs2yRf4XBoWboUzXlYZRpy0QHUhebd/mYCuejhWVR3qe8hhv/3dVXX1DbATYSG65+2SMuHoAyLV2IYsEK38Sosh0yTOnZpdrOoMgArPX618ornB3GM2qh+zY0kfBSgDGkaisekzZvXqvT/85YrqKLtT1EJ0P3sirxuDhlXRKICIQ4BRfpae3wwgCs3GxNUyMJsfrUdI0BNALK0IIVqThspETsdNJmKJ1bqjsl8b9nqf/Q+Ev4zTsV/bfxVdQzsEYluizWiBaOWKddjxXMVgMMjq7XhueJNwkDv9ZdAqm6VP3eQ9OeB3Z7wx5DsUaQi3NFpTC9yceNIp8E/1s8tqHrqQiteBhu6shdFoZSQCIGZl2kTYfYAdvyrFib8UiKQhQEnbEDTcWlwKINITb5WJPOO2bpyaZFV1BM4yZ5ooLinjdIpdymU2tUMgmjtN0U60QLRyxcKkLafRaFS3FYKs8ynjZV4rlWN0wTHr2IjpD9eaAET2FIOGpWUV4M5Xj/262obEk9uA6AGxMuaahwpEoIotg+o1c/ZDApHvqGC/6ykXFYOGgFpRSWVxWTUNT5OD8KB1obWIAI1N7ivPlVXBL335q6f91xlILb/w57+MriELRKsOkL9YWe1Oyfg+mF3VwTCwGMjJgx1HG40LwETvNVgTr6iJYoHLjCVe7zIU5hvC00jEssH7vBQHaWPBtjrLCIwF/jIsxPKqiMlEn7VILGJnTcx9ixkpXLnqE8AaZEwk6+Gq+6+i66lVOCoZW5UFopUrf1Gy2o2CzQUO1saTsBNHjHwT0AGATCDSQoQDWx2tLY9G1EIM1cRqYnF6wTAA1XH2+c4EIoO5NCxze1SwVFRHgbxt78B41qgJR9qJFZWhYCgCIHJA4m8uuwIWojvypsurVSC2JQtEq+3yFyWr3SjABTYXgAg/9P+ddfap3/0+AGTSkG15WFdFYi4Na2MV4XBJVVVJRSW/O+r2kxQVk4lwnLGAiWoqYg0g0ll2aVheCduQNGS/DftPTCDSbKSRWFZejUMqKqtxbP/b7wQTOdbHfxldT60C0dxpygLRarv8Rclqd8rZNi8hzL2D+x76/qIlcEtpsrHPl0B0+1jidTAMSytdFBaWlG4tK8dSXF6BxWQiTUU2KYKM6i8TiO5SWVVWVV0RDHE0IsdgB6Ou+2xikcSsCEYqQ2G+2YLT5XTvMee9BXDwMzJOy38tXVV+/okMA3GbLBCtXPmLj9VuFCxEfukJG9177BcKRwFHE4jbB8HEElXh7UAEB0EobLiL0NAHRLYquq+miLNMQw9LeXVQh2QHo+4npfhqis933tbBEto2fhseerKhMZCT+5ebb4nXb5u02H8xXVV+For8OLRAtKL8xcdqNwoeKAgIIAJecEirqkPwnX0WIo1EABGWHSBYVFqWX7R1zYaNq9dv+HjtupWrt42+1oVDsnWQ9rr1GxE5cAkyuo2JZeVAKrAICxGw0zlv2HXjNlZ6I3IIRAYDOsHBE0/9bp+DDk6kGhq9mVP2ivLjZ6HIj0MLRCvKX3ysdqMSyXq2IZ763e9/7/s/BA3BRJ+FCNe1qKQyv6gE+Ptw5aqly1csXLJ0weIlWN5btBjLosVLlyxdhmXpBx9iwcbiJR9wA8sHy5YvX7Hyo5Ufg5KrPl4NjK7btHlTQeHmwiKQEbxz+2cSyWhtPU1RPbvLRAEiFhiJYOIbo8fASISp2CCfdshYIFrte/IXH6vdKH5gL+s48Jf/cM11sdpEZdX2MTFlleEtRWXLVnwy973Fs+YtmDVvPpaZc+dhmTFnLtbcM2/+gvnvLXxvwfsL31+MZcHCRVj47/uLlmABMYFIEnPJh8tB1RUff/LRJ6tBWPBxQ/4WmJw4F0zCmnjKtBBhloKDbHOMJevgsBOIfPV7ry4/fkBmMhaIVq78JcVqNyoSjcE85KCWDRs3l1dU4V8AsWBr+cpP1i9YtGz2vPenz5o/ZfqcSdNmTpo2Hcvk6TO4TJs1G0ycPf+9ufPeUyZijW3smTN3Ptb6LwO4y/uLaF1igaWJZdEHy1xKfrQaZ9ywuQgILiyu2FpaVVIeLKtybUM2I4KMjVkHQISLXScTSma9KZf2RvlxaIFoRflLitVuVEVldU0sfsOf/wIgclhMQeHWJctWzl+4dNrMeZOnzZ44Zea7E6eNeXvim2PeHv32O2PeeXfc+AlvT5g4fvIUMBF2IixE8I4ExDJ7zryZs+bMmDkbCzZmzZ6LjWnTZ06fMYs7aVpiTZ5Onz0HG1jjXDjjvAVLcGqAePEHH8EyXbl6Hfzr9Zvz12zYWFRaFo7VnvXTn1VHogAiX3Xfe8uPH4cWiFaUv6RY7UY1pbMwCUHDQw/rB9952Ycrpk6bMX7S9LfHTwEE3xo7fuw7k9546+2Ro8a9MXrcyLdGjxo7buy74wHEiVOnTZkxEyAD1MhBsI8oRAyTp0ybOGnKpMlTsR4/YdK74ydiPWHiZPw7YcpUWpqIAQvAigU735ngLhMmzwAZucAsnT1/4ftLP/hgxUd0sddu3PTKsOEwLTndJ71m/yXtJfLj0ALRivKXFKtOluP1z2LNRkMA8eFHHl23fiO4Nu7td0ePGffGm2OGv/7m6yNGDRv+xusj3njjzbfeGj0WPwFtJB2oR7sPaxzFhcYgfkWwd96d8PY748eOe2fUW2NwLOIcM/ZtLNipC1mJkAyM+MeOw/6J496egA0s2I8Twd0GqRctXrp6zbqNm/LvuvvesoryYDiUzmYa000ZJ6vLXi0LRCtX/nJh1fnKyGymjY3uR0RffmUoGxCBHvAL+HvxpVdeePFlLPgJKASVpkydbnrBZB82fAtoyIW4xBr0JBaBwjdHjR75xiguI0a+iQXn4gb2DH99JJbXhr2OndgYNnwEFmzjQNibYOLyFSvXb9i0paDo5FO+G4vX1jekOIW2BaLVPiV/ubDaLcrI3Ozwl7/8lWO/+a3vAGew7IBCwGjIs/95/oWXwCYgDDvxE1sJ2XfMBYTCWnuTff3LunP+ewtBTxqSiApeMwAHaxE2IyxHkhHUUwjipFwPfW04FuxEMBAZMSAeMLGwqPjgvoe+PnJEXaoetm6iLmmBaLVPyV8urHaL0vLFgqrqUO8+B7zy6mtwVwmjp5959tnnnscemmYAGei2eMkHXOC3EnzvL1qiOznekEMOl37wIYNxP9YceYOj2AcNsGrHC5sa4TWrFQlW+vgIExU74VwjJYh/ztz5gZy8a667FkCkkWiBaLVPyV8urDpZzPNUKlVbWwtCgS/wbWEMwkEGCp8Z8txz/3kBQMQemGYw6wAvIEwhyDWQhwXb3E8Ckn0tF4ShwQgm8kAuakUCc+AjzEAgElYk+EgrEjTEAiMR/4KbgCnCH3/CSX0PPSQUCSfr6+LJRNqdssf9CoIFotW+IH+5sOpkOdKdAn85Ho//+sKL+x5yGEADi+w/z7/45FPPDH7iKaxBRvARNhpcWuAJdhyABTeZTjEtPq7pI3N/W4sGoCut21w4PpEDdxSLwB87ZOBW02aEDQs7EXS+/Y67AjmBaKwmHI3UJuJsRrRAtNpH5C8XVp0sx/s4KoAYCOTec+8A4AnOKSAIGg56/Aks2Hjq6SFwn4c8+59Xhw4Dj2CjwVrkcEIOugYfuZBo2OBQRC76q+4Hy+D20k2GGcguZnYuY82hOViz3xnuM2xDEBm2KtA89LXhgCOCIYYpU6efePJJ1aEgaIiLaWhqhJFoXWarfUT+cmHVyXLks6vJZDKRSBxw4MEff7IGZpoJxMcGDSYWsYEFTjSMRzrRsNpAJeAMVNJhN4QUSGcu24Zhy8KRiXSEgTlYnWwixJq844I0YA+7nvnTCy++DP8dZweUER6sRDzANyzE/nfcHovX8nPNTRmZI3EvL0sWiFau/OXCqpPlyIeoIpFIfsGWo7/y1aXLVyz5cPnIt0b/56WXBz/9zONPPf3Ek08/+tjjWAY+OuiRgY89PvhJmIpsWASntFEPlh0Wji7Ev1hATF104OFbo8fiX5p74BoZB8MTnEW0sEPhoWPBv9gJ9iHA8y+8hDAANPYjAH7SNk1Yl8BrvyMO//bx3wmGQ/Fkgi7ztpbEvVOsCBaIVq78pcOqk+XIB+kBxIcHPnLzP/4JGi76YNm48RNeGzHyuRdfevq5/4BTYCIWGIlgIsiIbewErV56+VV4rzDl2CWtQ2RAOixq62EBwnTniy+9ggPBONCNBESE4CzMTyUv1rRMYaXiJy78F0DEWUBYABFuNazRa667NpCbk6hLWiBa7Wvylw6rThbyPBwOh0KhAw46kBPPTJs1e8qMmWPeeXf4G2++Mmw4DTTgDxB8+JFHH3p4IMDE4TgcrU0/F5hT0uGnlgv20xjEmlE98ODDWIA/opBr/IsFv2KBQYpF+UgQIz0j3xjFThV46/DBFy56Pycvd9GSxTo22wLRah+Rv3RYdbKa5Mvo06dPD+QEYB5OnDpt6sxZM+bMHT95Cpj4xugxI0a+CYsMyIM1d8+9A7AAVWATEAkCgobaugfqYafp/+pCb5fd1uDpgw89gnjuG/DAgPsfBOnoJuMn2oM0RbkAiKAhbUPEDxridPC72XY5afLUefMXAIXdenT/zeWXJevrLBCt9in5S4dV5yuZTB5xxBGHfuGwBYuXzHlvwfTZc8DEH/3k7LkLFr4zcRJ7fseMfRtkhDtMWoFTIBQgCBTSQgQKaQkCiFyISG6DhvR2cewdd9599z33YQEQQUP8xDDAK8KTpGwoZNc2TVH8C8Nw7DikaMqs2XPBwQ+Xf4Tlg2XL12/cMGHSRAC9viGFhX3NFohW+4L8pcOqk5VIJDZt2hQIBP7d/zbQcPL0GbPmzZ80bfoh/Q7v0bvPS0Nf45gYLCARltFjxg0bPgKQAq1gJxJnoCGYCH8ZGzDiuLA/BHuwEJ2w/sBB2IYwDOEs43A63a8OHQbUArgI+fqIN66/4cbT/usMjq2BMQgIchaJ2XPmcegi34RZ9uEKvgkze+6cjZs3AYhvvjUKXjPNQ5iK/kvdS8SKYIFo5cpfOqw6WbFY7LnnnuvWrRuwAk8ZtuG0WbMXLlkKl/kHp59x4CGHwr2FRcYJHaZNn8nX7EBJ2Guw6UA6dgoDbfCsOURGF7OnBWEAQaDw/gcegoGJ/eAde6g51Q22YQZ+7/s/DARy/3bz3znIkQMbF8jLLfpmC2i44qNVACLMQ/cdwQ+xufy8C87vd8Thdan6aMyd9NtaiFb7gvylw6oz5DjuUD3HSTU0bdi4+bLLrzzo4ENcAMlErVhgIc6e/x5MxfMvurhXn97fOeH4iZMnYZn33vwZs2bOmefOfo3wkyZPhQUH2IGGMO5o5cGUg02nc3nJLF7vwIoEWB997HE4zg89PBDBaHJihaimTJuK9R+v/1Ne924w9IaPeF3f89OXAgFE3cBav9kCCxE4xB7ECZIm61KJpDvRgwWi1b4gf+mw6gw5zv9v70zAs6rudZ+JMcBRxBZ8nI5UjtV6q95rtfb2aD1O6NFW7a3jo6DVXnuq9dhWrcMVB6gTsyCEJJAEMs+QkIkMJCFzAmEUZBJlDgkZyfjdd6+X7+/K+oJVEzQh633Ws5/17W9P387av7z/tdZeq73DWTa3tH66c/elky574MGHnffkVO0hUkZ2DpY5+QUFxSUIiwGpc84dtyw0pLS8LHdtHviVX1jAt1P4gh0sHs0gqAQCYiUHtoGdBBYZC4OJrA1k0zDfbwHlcMDMNVk//8UNOMvPrr8Oa3BwHYiEoLwdyIyMIsGXpmkVAURE3w2NzSeJPzDFB8EC0cqRWTqsTodcrta2jrZ2Z0TYrdu2+/oNRdyaujqdQExJz0CSykQQKnjZ0p9efdWwEcN/fe9vsnNzMrIy0zLSs2gUOTVKXj4YB/atCI8E9ZDhMA0IsWEb2VcGwfWSwGBWBSIEdmhYWATX+eDDDwGF1/38+tj4OBwPxy8qOTnQgw7Bteqlab74zPWMnWWIneqNm8eec+4tt94Ok0jcm796gIgPggWilSOzdFidDrlcLSec4WBrjtWBU94+frR77IGIxHlOWJ8ISAFYgCCs3Kgxoy+7/MdhK5avSk1h7R4jWdIqb20BCAgPCCxmqQYQuMX3P5j54czZbGCJjonD9vCG2D4zK/vPz78wfOSIocOHYe+Ors49n+0F4gDEXXt2y0gQQkMZCULGhhCfWFZeycD5qaf/L0wifh1Y39k1UMsSHwQLRCtHZumw6jvJTT7R2g4a4nNjU8udd939y3+/iUCEK+QMJ6AhE5gIEwcgHj56pKUV+7WBX/h4+U+uAPKwCyFFuwfGgU3smZiSmoaVEZHRM2fNYX+ayKgYbAPfiV2wI9zc0GEj/uPWW3AZJ9pad+z89L+e/VNxaUlFVWVJWSlHviH+OASODBvB9QRxcUkZe94gAYi4JB/fIY43tCGz1Zkhs3RY9Z3kDiNSbm5pPXT46J69+/yGDPvvF/5K3MhkTwyZkZwqxbTVI/xHsi8LlkeP1ZRVlHv7+gA9P7nyp3HxiUDSxk1bwCmYNaCKAzEgAAcfwyOi4A2xTExaCRRiG2z/xrS34ONAQyzB1iM1R9s62n98xeUXXHQhKJeX73S0JgRJQ08g0i0yaoY3JBzZ7oxjvv3OjPqGJhsyW50JMkuHVR+Jt7ezs7OjowNOD8Ey7OHfXnwZBFm5KjVLjewvHGRlIg3jrDmzEdhi/+MN9e2dHfRft0++w8vbd/gIf+z+L2eNff3/TYNHAwGBJOBvWUgY26CRD1sevipldUbmGg5yc/4FF/n6DSUQ/UeNGXPWv3SpsQt9h/gtDVkGh4gIHbiTOkQdiExkIlufWYHIPLhcWbXhp1ddc9bZ5+AHOk0rA1P8S1kgWjkyS4dVH4n3FjRsa3Pe+K073nC0pnb0mLNuu33ymuxcjt8Fb5iUkoqUsHIV554HED+Y+eGwEcOxP4fVolV85bVXATWYRG8fv6uu/p+g25Chw2+86WYAkb0LAceExGRO2ofjY80FF16MXX523c83VG8CTJEfNnzkp7t21jc2zJ47B0CEMVRWr8hpelbUy1FTtQgQZdTFXHfPRLarsP8NiFxeUTVv/gIcGaxva3dmzhqI4oNggWjlyCwdVn0k3FvHG5440dzc3HiiFf6wtqHRy9tnRVQ02McJkTnPJ21dZFSM4xlT0+Z9NH/IsKGIao/V1XLgVabbb58Mg3fhhRc3NDTV1dUnJia/+OLLiFuj4+PikhLT12SFRYQjRcXF/udvfo3Q+Pzzz9+8ebPLPevp7t27m5qaELzjysBTcJkE5KCKyHMyUjGGSFmqXVsoqdckAsRwiADi5i3b4Ftx8Q7B29t5LvNe9G/xQbBAtHJklg6rPpLLDcSmluYvDh0+cOTo6LPHXvyjS7PX5qevyYY3XB4ZFbAkCLaOs4DC04FNzgyi6Wnevk7TLWNbSZ9/vr+1tZ1/tbS0jL/97aXUVITaOUkpq9KyMpFAxjfefgsovOZn15JNICD/xHCpLjUwLdzm0394Bp4O54Lvg6/kgLIwlZxBhfZQd4g0j3rPGx2IWN5y6+0/HH8erhZn4QyrA0u8pRaIVo7M0mHVR3JpQKxvbtl/+IiXj29sYhIYxhQcGrZo8ZLklSmsBMSSZi1ldeoI/5EJSYkesx47f6+DBw/Hxsb7+Q1NTl61Zk0OQJa4aiXs4erMjPjkpIDgoMVBgX/+ywuHDx/+4osv+CcGHHkxWIJloOFLL7/CpmecMSl5Fa4B1OMEe+xh49mociqHuH7Dxp279iCWj46JA3BxlgHHRN4lC0QrR2bpsOojuTQgHqtviEtKBhDZfgJ7mJGd44yS/fFixMgxsfECRKTMNVk/+R9Xwug1n2jRgciejJ/t+wJEu+/+/wNUrSsqgbkDZFPSM1IzMiNj4xYsDggNjxg3fsIf//hHcpCQ4t+6sbER+549dhwwCisK5GEJiwomIs+XXtgZW69PZDqVQ6xaX11ZteFn1/38uutvwLlwUpzOvBf9W7w53x6Icgj8K8Df26VuunzVqdTjxrTxdXV1WNbU1LjUWOrNzc2yo2wswvFxf7EjL93452NsjMtoaWnR16AEuNSp5ZJalWQDJ4hQx+QPgY4ePcqS5FJnZ57nkoLFj/rPHLjS76dVHwrFA6XLqUBsbqprbLrljsnjz79gTd5axMvsXhMRE4uQGTAChkLDVsBhOe+upDv9scMjIwDEH0269FhdLWNnpH2f77900mUj/UcDaghmASmO2woCJqWk4pjh0TFIwOKU3z81dOhQFukuNZxEQ0MD8s884wTLOGlcfCKCZZyLY75y8qnIqBjQma5QvKFYRem2XeB+r5lMRH7Hp7vmzV/g7ePHZxmBs3kv+rf4IPQNEL28nON0KaB4nsNz4/LyckDw1Vdfvf/++wmUHulJCYAk4+r+ALvc3Rr4kfCSA0pGNjaIxiW3RP6ll1668cYbuQZliBnZTA5yhom/y6rPhdLIFhU4RADRy2/I+7Nm840UwItDZAcvDUG4Gp+QBHcWERnNefVCwkJj4+OWhYaM+8G5w0eOGDZiuP/oUeAjjjDMf9QHs+eQqlFx8UEhoUuWLguLiI5PTkGKjE1YsjQ0ZEVk4qrV3t6+M2bMYIH//PPPcSVXXnklHsD3P5gJNwr8sQkFCfmsNTmcjhmU1F0hY2e9DpEJzpStzGBi9cbNHAUHqE1OTqbbMO9F/xYfhL4B4pAhQ1wKNHR/cgKUA2XLvoQd8t7e3vv37wcQX3vtNQCR9o27MyNHpjxZqf2KkycSsdrYpY4Gn8hj4hTGZlzPeSD5EdvwRJs3b66srORmXeo/PAmLLeUg3JKhkJjKAS3jllr1lVAgUQ4JxMKSUsTLBcUl4CBYxrdT4pNXBgYtjVPTLoOGnMUJHi0tIz1ldSqYqGxZQU5e7sllUXFOfgFoGJOQCFeI6HhxUPDMufNCw6PARHBwRVTsvIWLFwYERcTEv/HGm8Cfn5/f6NGjR4wY4aUUGBj4wYezYEWDgpexXRtnhD0EEGEVgWMYTzpBSUJG9j0UIDqDgLnfVwETkfnfv7xx/Pjx/Ddg3ov+LT4IfQNEOsQtW7akpqYSiLINYs+srKzt27fLxvjzbNu2DTR5+eWXp0yZgpV79+6VA+I+1tfXc2OKPNq6dSsOzq9qa2v1X4LSxmiabMJ/wpycHO67a9euzMxMiRqQYdRQUVFRXV0NKGNlYWEh+yXg3xq3EWN46NAhhPYZGRm4QuEyzoVIPz09fefOnfqPHdDS76dVH4rxMoH46hvTfIcNhxnLys0jEJNTV+MjwAQOyqzwWMKpAYgInbHMXJOFhAjaGYJhbX5OYWF6Tk5UQkLAsmWzFyx4d9YsLOcsWBQQFBq4dHlwSPiS4LB5CwL+8f7st2d8sDggcM6ceY8/PvWaa/7XRRf962233cERH3BGMBFRM2gIJvKMnKwZZER0rNOQrwkSiNIlW69JBAc3b9kGJmI5Z+58OB48gwOuUPFB6DMg+vv7P/PMM4899hjyYI1Loe3OO++86KKLpk+fftVVV11++eVdqocqNgDd8J8TQHz44YfBF/LUpazc5MmTn332WTkLBHpig6lTpz7//PPXXHMNDivb84D4AxBM+B/4i1/84tFHH73nnnuwzYQJE37729/+/ve/Rx6wJjeHDRuG/5aLFi26/vrrY2JisMvf//73m2+++ZJLLnEp1E6bNu0Pf/gDPT+OcO211yKIvvTSS2+44QaXgiaOhot89913J06cuGDBAusQrUy5VF+ZLmfZ2tZR39DU0NiMNPrssXffex8iZQCRb6SwM/byyCikcHi2pOTYxCQkZNhCkpblDB+LEDszJxfJ6amTkrEiMm72vI/f/WDO9HdnvjX9/Q9nf7RwcfBHHwfOX7gEKFywKAjfvvfhXKS5Hy3GGiSsmTlngaRZcxfOmb8I22OvxYEhwGhYeAysJeJ3XA9OBxOaW1CYV7hu7TrHCQoB9SQViFhWVK6vWl8NICLhmdq3b9+AK1R8EPoMiPyIJQD0wgsvYGVVVdWYMWNcqs0E+LvlllvalHQgPv7449jgxRdfvPvuuztUU72vr6+EvRR4l52dzTygBncGj8mPXW4gdql/xTgyCIX1hw8fRhSPvRCtAFhPP/00LsmlHB/+WmxxExDDw2I5duxYtvAgkH/yySeRgZcU8mKX4cOHu9x05kocDUvDzw5QdSsaVr0TUYjU0ekMbwMUNjWfOHT4qN/wETPe/wC44Yt6fEEFDhHBb1RcfERMLPLgEYJoLDn+DUe+AQeRx7dgJXgH0r3x1j9gAKe9/S7y5B0SMAfYAYJYznhvFliJ5Qez5mM9lkYCRrEeCdsTi0uWhi4NWx4WEQkcc8YrYBERugDRCd3dWMRKTq7CqkNGzWDizl178Og98sgjR44cMe9L/xYfhD4DosvdBBEYGHjXXXdhJdwZSCcGqri42KXgqAMRN44twkOHDnWpGkDATo5MYXtyEIdyOtkfP24AkWfHvj4+Pi53iM28S7nOGTNmPPDAA9xGhyDzrMRkHqd4/fXXcVVtqnMpICgVkdgAZ8fH8ePHjxw5EkF3l6oyl1B6QKt72bDqlQSIbe2dzS2twCIy//Wn57y8fYrKyoEb8A7EAQ3JPr6vggyDaKznWA+SQM/I2LiA4KVzFyykMXx92nQk0BAsg9fjkkxEBgm8w2Yg5jv/+BCb4aPuEAHE92fOYyIZQdWPFi35eEkgzgImgtG8SJhZ4SBfc5ZgmRAkEEHGDdWbqjdu3rL1k9/97nd8msz70r/FB6FvgMhGFZAF5IqNjUUEipU33XRTWFgYq1fxLQzjrl27XIosAkTYSQJl1KhRrGdcu3attK5QCMaJWlYv4luBXZcCIs5OCOLIhKaYO5g4sG/27NkIcrkNQmaXcn+4WoIVB8dlk3f4+Je//OWpp56CJcQ2dIXYEVeLHdtUBfnBgwdLS0sRYmOXnTt38koGuszSYdULcZ4AxsuAI+whgOjl7fvYE0/C6K0rLQMWEQvT8bH/IFAoWCQlJeEjJ7AHDd+b6fi+N995DwmYY8y7aMkyujyGzA7aVB7U+8f7swFEJGCUoBRcAoU4AtbDRZ4k5tyP5ny0YN7Cj1WbdSSn2gOL2cZCn2gAsbyiqrJqAxKHePhk+6dIeEjxSOKxMu9L/xYfhL4BIglFGAUEBCD+RX7atGkIk7Fm3759oA+cI4mDCHf37t3Ya/r06Y8++qhLNdfm5eVNnDjxr3/9q2eVnJc7HgeMjh07hszo0aOxhCfHxps2bQIx2a8QYa9L8Qt/EgKR9dnz5s2jQ8RxwDjCDh/HjRsn2yBUb1e9SREyT506FezDNvCtnaqXJc6Ly8a3ODJ2r6urw445OTk4goHvASqjcFj1Su4KRJCxtq4ey8amFqc/SupqxL+ZObl5hesAGmCOTGTgzPpEJNYkYhkdnxAeHbMiKjpkRfjCgCUfzpmLiBuMA78AtY8DlgKFCHWxRB4JeSRkFi4ORkJwDcwBedgFcAQisRIbYz0SuAljiA0YPgsQgV2cKyjkZPgMLCavTEldnc7xZWWgbHpDcLCicj2BiHh52yc7tu+ASdg5YcKEoKAg87b0b/FB6Bsgjhkzhq1p+Lh06VJwkJhA1AwwPfbYY1dcccWkSZPo17CmrKwMG7/yyisAIuBC73beeefRvhk6cOAArNyDDz5477334kbjvCApDjJlypSHHnoIRyb7XAqdEsMiX1tb61K+9e233/7Vr36FEzFgx7WxzUR2ZL5NdSUFEHFY7MtgXG4WY3nY2AsvvPC5555TvVtPVlmeAfqyXFj1XhoQsaw5VnfH5Lv8hgzjqykFxSUAIvLwX3R/bF3hGnyMiosHBwHB4NAwmLXFQcEg1EeLFs//eBHsG9wfuMY25WVhkaErosPCY7AMWR7FhJWSsB7LpaERWB8eFc+0IjIOu2A9jkCA4pjwmLPnL8TxkRYsDkDsvCgwCOFz4DJnBqsV4QjZE/iyc97aAjCR8bIAkW/vwR7u+HRXdXU1IIBn2bwt/Vt8EPoGiGSQvB8Csui9C/Pz8+nIGMyyTQPEAbwQe7qUtcQRQJn77ruPu3BfXQil09LSEK5K+IyPvAZYRW6DYzLPyj6Xu34QJ5U13IUtznCXLnfVJxHJdhJ8tX//fpdqQnGpn9OhOipyM3zExRQWFtKW8tQDXUbhsOqVNCAic7zeeVVu2PCRWbl5SIiXUzMyGR3TCQKF9IawhHBkoeERQCFIBBSCTUDh7PknvRtoBYsHGoJxgFpUbFJM/Mq4xJTYhFXIR0QnIEXGJCLhY3RcMr5lwjYJyau5JRO+xTbYErsAkQ46l0fwpKAhlkgAIhJnNAUWo2PiEhKTOSiOMBEoRGJD85atn4CJ1Ups6hxA4oPw7YHYJ2KALM0aIJrEs1bfpczSYdU7yY3Fv3D8f0UIdfMt/wEPlZO7FigBU1auSk1KXgW+OC8Rq5AZNESIikAVDCIKgT+gcObceVjCHsInwrU50zCHR4CbMJIcRZFJBdorYxKS9ZSYlCIpKTlVpVVIfFcP1wDTh3A4JTUNeaS4+MTwiKjgpSFIQcHLlgQGI3rmfPbAYkjocjIxLT1TqhFltBsAESHz5i3bysvL2RmjQ708NlAKGK/zewYi3BaKC2LniRMnwh56ViBafTcyS4dV7yR3FbHICdVz9s033ywuKcvNywdEBIgAkzNRcupq4AwGbNnyFeAdUAj8wQ+Cg7PmzUcCGUFDfBUUEopQOkq9aicTDzCx8hEpJiFREvHHlLwyRZKgEFeSmZWNlLUmBwlk5Bx+nO2eTAxUs7WAiUBxaNiKiMhoXDNiZ5pEHYhbt20HECsrKxF7WSB+G/GFueXLl7O1BN6wQ40tbG5ndZpllg6r3om3tEN1d210RpfxSk5O5tiCgAhgBCQ5E8YrToFlcHykIcCH6JgcREIeITOMIZzjiqhopyZv5Sp2xOFMA5KS3b0a2TBNOPL4xB9gJ4koTM/IyshcAxqCbhy7AZeHj+BdVHQswAf8AYIEIuCIxDmg4RNxTOwFn8iaRAJx0+atiJoRL1dUVFggfhvJdWzfvp39oq2+F5mlw6oX4i3tVG/Bwx7W1dWBDgUFzjTwa/MLQRCGqIIqOD74PnpDGENBIYzhx0sC4QrBSqAQsCMHnSmo3PM4SxI+MpOsXgokEMUMSuKAOgJEeENOYM939bDGwXRiMrC4fEUEmIjEOBrOEQkrI6NgQJOxl3RIBBCrN252TOLmzSUlJRaIVgNYZumw6p14V8HEBiUfH5/i4mKEliAI2MGBtlhtBzu2PDIqODRscVAwI2WgkMYQfGSNIbyhdNvmGDmeTCQrDdvIU9Ae6kAEDQWFMiC2DGlDJmIX8DQmNh74g1Vk0woSMvjIpuf4hCRsXFxSxpea12/YuHHTlqqqqh07dlggWg1gmaXDqnfiXe1Uo9LxFYCioiIOmkAgwqPRJIIpCIcZLJOGTt+aRYvxEYikNyQN+bYfqUcm/lMgSnRsJAOInkzER/hHkDQuPhE+MTwiCsaQQCQTJXbGEdg5ET4RQIRJ3KA0dOhQC0SrgSqzdFj1TryrnWrMkZaWFobMfPWtVM3sDk7Bf4GGiD3Z0wUQBArZmsz2E3hDRNOsEwQKJRwWJvboFoWMTnJXHRpYZLAsFYjCRJk7BeDOUdNLgdochkdaWmgVwWr2xQHTOaMAgYhUWVlZWlrq7+9vgWg1UGWWDqveiXe1Uw2XzRdJAwICWIdYtb6akzrBfIGGoAwIyJblRYFBgGPgshAYQ7ivmIREaU1m3xo2KAsTHQ/oHgCCWDRso/hBEFAHImnIlOWuQNStooz3hUtNUqPG4lLBZwmfAUQ2tsAkYnv8NAKxsmpDRUUFHOKoUaMsEK0GqszSYdUbuZxe2Z2urvbOjuYTLYePHvEd4vfre39TXlFVVFyKBAbBWMF2wWHBZy1avOTjRQFIyAQvDQF0QBm9dRj+ThJWMoOvdMbRA3KCqh4TduShWJ9ISiIBecAi8wJHCZ+R2BcHl4QLBhNhFcFEoJA9chBQ42j4UWXllRw3Gw5x69at559/vnlb+rf4IFggWjkyS4dVb9QdiI3NTb+88d+9vL02VG8qLikDNTgUK1ACewgCClwAx4jIaMTRbBcm9YhFPQkiPam3WpFRkudeJKbQk5WJpCHyeouzRND4mKam5YNPjI1LABk5QSAvG/jGBWOzisr1cIgO8YuK1q1bd84555i3pX+LD4IFopUjs3RY9UYaEJGpb2woLi3x8vEGa9gmiyUwB/axOwtbKgBHjpstNKSbM5LQzeCgkM5zYybdIeo8FRqu1jppA4LSOVGYyFagxKSVbHpmTSLcIqJpxNeceM9pa16/fuPGjTIOwEARHwQLRCtHZumw6o00IMIeNrU0wyf6jx71yKOPgRfOy20VVYALX5IDU4BCYAWIAWhIQ7KM5DJMX4rqw4ilER33CGM84jwAABCfSURBVEQjyWZyZAJRDiVNz9LYQiCygQWb8eywhLh4dtvGEvnCdcUAIn6XU5O4fv3EiROfeOIJ87b0b/FBsEC0cmSWDqteSJ9GGUxsaGoEE++9/74J552PiBKUQXQJHoUtD0fgydeE6bMQlqaqqJb80n2cUM9IgkuhoeEKJemBs3FYSXSLegN0lnqljxmsIT1xnbS37IIDPuJ34UcB9yBjZWWln5/fwYMHpWh9RQHrVgq7i230ekaXeaBei4e1QLRyZJYOq15IByIcYkurM0t9Te0xLy8foIQ2CjEmZ6aXTs6qu6HTYALiiB8kBJkhqsgsPc7llmIDdSDq7y/rrTTci9vIuZB4CoKPDdASREseX+E4wDf732CJMH9dUQl+F6fimzNnjt4r27kh2pzA7e7Z1amOU6itrY2jSXG4AzKRSzls34pXaIFo5cgsHVa9kA5EpC4VQdfVH7/gwosvuvgShMxZqjIRYOIsoHBbaoKpVbRvEsCKJRT8pak2EEk6EEk6A4j64A66Q2SezlFImqLCcE+HKJRkezS2SVYzprICFEDHodgxGz4RDvHcc88dMWKEQLBLzWTZ2NjY0NBQX19/vLv4Jg/VpInbY4k8B8jgKHwdGmf7VrxaC0QrR2bpsOqFdBp2ODOsuFrb2xA4gxowiTm5a8vKK7EEXMIjouATwUQOv6q7QgFiuuoNg43JvlMBUdzfqYDIRAj2OOIDWSlnF0PKaxB7iK9wHFw5h3tYviICK/kSNELm7Jw82MP8/Hxxc2BZbW1tjdIxpVpNdZoMVnJlvRLI2NLSQiYStd1veR+ID4IFopUjs3RY9ZFcKk5kALj3s8/PGfeDcef+EPEyWAP6wBg6jbYJiZy9hJOOZubkZmQ7BKQvY6zKj2LfmEhDA2piA1PUy8hJ7gFvmMfp4hOSOB4iv9KdI49AGurhs6TV6i1sHAHeluMkAuggZmXVBiwBxMt+fIW/vz9HOAW84O9AQNLQkEFGnY+gITkooluEVeQ8mhxk2qhb1O/5tyjV3MUC0cqRWTqs+kgud8WZM0GFy4V4GSbxgQcfRmgJAIFHoAxfRwENgcKs3Lzstflr8tZKzZ0ErczrcNSByIzQLUU1Bxv2kDWJoGFCYrLORGl1ESBKnC4UTldWEdtgR1hato8jXsah8C2C64rK9W++9Q5+XUVFhUvN/AGQ1bq94dHuEiYa0pko0pko8TWjafCRVY1SzyjlWSzq1xR3tEC0cmSWDqs+Eu9tJ0d5aGpB/AxygRrP/fm/QRDCznnHLjMLQAQNgcKc/AKHiaonoEBQ56PgSQfiatWZRg+chYMchjbJHS8TlMJBg4Y8lM7EdPfbLFgJb8j+5BwydllIGIJ9rEekDMTjd82aPbdVTa+E5ZdusKbmSHcJE3UJEwWLX2EY9apGfqR5ZCXjtxAfBAtEK0dm6bDqI8m9dQyLy9Xe0bVn7767/vMesGPBwkVFxaUO9dRcK4AKHCKASIfIN4vJRGTEG/5TIHraQ1rCuPhEBsuct0AcosTL+qEMJpLI2IAjJPLtGraPY3eO7HDrbXecPXZca5szIRKACGwJ44A/A4hfwURPIAoTuUGdu2IRHGR7CxteGFADxHp7ztcXd7FAtHJklg6r0yDAouVEW21d/fYdO2+7ffJI/9FACYCSX1QMCMJiEYVkov42MbtGE5EEol6HSHIJHOn4ktVw3PSGnklYKVZxlfYqi6BQTkQsYsfwiCh2n+TINyAsxwqLiY339vEDNEF9IAn8qnGHyWDf4cOHD3UX1piAPHKEvCMTDTIyIxF0g2qwZkZvj6ZPZNtLl9bdx/xL9CRuaYFo5cgsHVanQR2djkNsbmmtOVaH5Zy58+ETn33u+XWlZUgFxSW5BYWIl08y0T38jD7UAugjrRwZqsWDwEKmRyDq6VRAXOVu3dZpyGMyTscFZKgWbWwcHRMXGRXDZnFe0tr8wrvv+Y2Xt++OT3edaG3HTwOzgLPDSmDfQQ8dUEKGZBTpdYsGHJnR3aIORx2IdIsMny0Qrb6lzNJhdTqkJiYFNUBDLAHH115/A0xcGLCkUA2eBSauXVcELCKBfZKIQnZtkfA5S9U/prk7J/YIROmSzbaUfwpE8Ya6Q8xSL+2lqfdnhJu4AFzJuqISwBE/4c233jl46Eh9Q9Px+kYijKZPvCEhKCgkDQ0d0eJoZohC4aPORMMwChBJQwtEq17JLB1Wp0Eu9xjanEYNDzme5/jEBADl0kmXMfbkYKsgYFl5JZYcU5ZMZOCclZt3sl+OqnNkTx1nSMSeXt2TaafikpKRQYpPXonkzH3qnoZUjOFq93vN9IPCRPpQRuX0p2uyc7Fm48aNmzZtuu666y655JJ9+/YBSaAY8ARUEYiH3PZQpyG0X0knozjEHiVYpDzDZ08gnlDiWzG87eYfw0N8ECwQrRyZpcPqNIj3ma9bsHMihGd46bJQhJyjx5w1d95HW7Z+AvwVl5TBfBUUFpGJeh0iu+YwAYWrM7NARmCRwCIWJXFwWTJRByJNIoFIV0j8CRbFKgoTxZPmqsn5cG1btmyZOnWql5cXYVSn2jrAtR4doi6DhocsEK36m8zSYXUaJPeZNMRHPLFYtrZ1bKjeNHvOPFjFH136b/CGfCkYWKyoXI+MDkRaQtpDASIyNHe6TwTvwEGZldRwiGxoRhKTKEn4SBpmqcEdGLbjwnAlRcWlsXEJ/v7+oOGePXsAo2Oq8VeAxZhXZ6JhEg0acksGy57qhkMLRKvvQGbpsDoNMu45Hlc8uniY8cXRmtojR4+BgOPO/eHQYSMefOgRQIo+keMnckx/UIkhMxO9IbEo3pAZApH4O+kKNSAadYjsbUMUrtYGASMKWY8JowoaIlNSWo69wO5JkyaBZbh+oA1sYshMLBJkRCHZ5ykxhqShpxM8lSwQrU67zNJh9R2K3XGaW1r3Hzi0c9ee+3/7O+DG12/oddff8Mn2TzPUeyAwZZyShV1z8grXSTXiSThq7x2Ta2AcHaIkzl7vTHWvvZ2Sqt6PlvrBTPdIiBwDER/5oiE8LN+/fuDBh4cNHwlkA0MoOaAPGzqkObjG3eGGvCMTaQbFEpKD3Ew8oO4KdbH/DUQI6iIQhYOQAcSv367CzSwQrRyZpcPqO1RbeyeYeKK1HZljtcc7Ol17P/t83vwFPr5DRvqPXhYSxrFkED47w8mUlKZmZLIxOie/gK+1IBGIeuAM2NEVMrE+8eQcVdr7y9JmQkuII4CGOEKumjoK31atr4ZLLa+oAo47u1xPPPnUs889j6vtUrE/rBlpKEA0guUegSg07A0QxR7qQKQMh2je8Z7EB8EC0cqRWTqsvkOxfyISHkpi8Xh9I/Kff3EAPIJt3L3nMwCxeuPmjZu2rCstAwqLyyuwLCguyS8qBhyRst2vtXBJPnabo9k9Qyln45OKQjaY0BIyNAb4YCHxEQgGE9dv2IgrueXW28/9wXhcKtiNawO4wSAGyEJD8kuMoQFBke4NdSCeSj0C0QiWdSCeUKM/fNNXVrilBaKVI7N0WH2XcjkDJiI1NrVgCRdW39BEMoJEgCMCamAxMipm9Jizpr/3/vpNm4FFLIvKymEYiUWCDETTgei0PrtT+ppsyWRoQ+lkqa7XwB/cIrDLRuTSsoqt27bjaM/88U//esmPvLx9EcXHJyTh8hoam3m1BBOQpNMQgDvUvd5QLKFIN4Y6EAV8p5IOxB6rDnUastnq6xdvbmmBaOXILB1W35M63UPjUHiwGf2BGnjmr7jiCi9voMnbd4jf5LvuzM7N2bCxOit7TfWmjQXrCotLS3LycotKiuHz1AxReemZGVBeXl62W3n5a3NycvLz89PS0oqKinJzc1NSUu65556RI0f6+Pj4+gJ8XkOGDMGSeSyvvvrqkpISFBJyB0uQ6LjqGl3rDpOJNj1MFizqQCT+TiU5lCHWUYpoDylPh3hCDSX7dVpRDPFBsEC0cmSWDqvvT+y8TZtDGrpUkzQEOrjU0AmgQFJS0gMPPHDttddOmDAB5PL29fEbOgSgdIgpScnb251zC+xjZuzYsVOmTMnKygJccHyc16XAB+hgCZaBOMAZMFTjrss75m42ERoSZwQimUhJsGy4wlNJN4O6dGNIGtIe9khD/oqur111KOKDYIFo5cgsHVbfq8hEQlCsIkGA9Xjy2WWHNg1QwLeNzU1tHe119ccRaiNxIhcYtN27d+/du3f//v3YpkUNBgOCnFBj+mN3OVGzEj7yRLiGGne/mQMHDuAsWK8zSyhGFOpyR8Ynyci87gE11nWT4QRF4gcpQaHEy3qwTG/4LUo1d7FAtHJklg6r/iECy6VGnz6m7CHA4VImkXErcNCqxh8E/uobG5BOtLU2n2hBAh+JOfGb5AXxSs7yyEAJNyOCcQqa0GMqEAbU8LFGvWhIrgndPGl4tCcgHtVGbTApqMkEoVueQCQNdXsoVYffulRzFwtEK0dm6bDqryIiCS86o5P+qK2VCRyURCBS+sZSG9iojUFNwnrK5Fb3JhTBn6jGPRwsCUgIMkPpsDNPpknMoCcQG7QZqfBD2tR4X70sydzdAtHKkVk6rPqxSENQgDWMFBwiE+0h05eo6y7ipl4NoqWzxmSSkonDnoB4stZQiVWHR91vntR6WD/9jF8hXipDe66hK+R6Ir5VTR7QJyWZu1sgWjkyS4dVP5aEvbrpa2xuYmpoapSkS2ec4Kb+FBDUZeKwJyDqYphc426EIQR5um+qRhUUN7i7Xjd3n49Uqgv1O/PlbfqG4oNggWjlyCwdVv1VLvc0fqz4E4lD1IGoGy5dxxUTj2ujCn6FusPQkScQ9TpEfktvWOt+77gbmzWZCNTU6G4zIQH52w3pt8VY803F3S0QrRyZpcOqv4p/LKMOkdaJGc+aQU+ZgHRLIKhHuBQ5aACRTIQlZHQsK1lR6HlG5k8FRGn5YZtP76sFv5F4LgtEK0dm6bDqr+Ifi00rhKCORaGhDiBPfYnA7vrSFmo61XodlwQimVinagkbuoOvUdm9FvesoSIGv5RZKN0yb8HpEc9lgWjlyCwdVv1V+t/L5R5DjKwhECnDfBkyQeiWwE5fKZGvSIAoTpBLMaq0ePpldyp1K3NKXO/5rb6jdpjTKJ7XAtHKkVk6rPqrPP9wtFdsd251t7QQjiYI3dJ5p6tHIDZpff3a1XsghFSnqsokyHRsMW8UKuOae1yvS/9K3/70ieeyQLRyZJYOqzNOenCq+zJ2xhYJ7wab+CBYIFo5MkuH1Rkt/U+vw5Hq6F6dZ+58hoo/1gLRypFZOqzOCJl/Zrd0/JnfuRttROZBz1Dxt1sgWjkyS4eV1SATHwQLRCtHZumwshpk4oNggWjlyCwdVlaDTHwQLBCtHJmlw8pqkIkPggWilSOzdFhZDTLxQbBAtHJklg4rq0EmPggWiFaOzNJhZTXIxAfBAtHKkVk6rKwGmfggWCBaOTJLh5XVIBMfBAtEK0dm6bCyGmTig2CBaOXILB1WVoNMfBAsEK0cmaXDymqQiQ+CBaKVI7N0WFkNMvFBsEC0cmSWDiurQSY+CBaIVo7M0mFlNcjEB8EC0cqRWTqsrAaZ+CBYIFo5MkuHldUgEx8EC0QrR2bpsLIaZOKDYIFo5cgsHVZWg0x8ECwQrRyZpcPKapCJD4IFotUZIs/CbWXvyVfL8/78f5Vbw16vYCOGAAAAAElFTkSuQmCC>
 
