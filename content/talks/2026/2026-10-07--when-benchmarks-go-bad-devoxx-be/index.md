@@ -6,6 +6,8 @@ type: talk
 event: Devoxx
 location: Antwerp
 
+video:
+  url: https://www.youtube.com/watch?v=yePre1hOvHE
 
 slides:
   url: https://speakerdeck.com/hollycummins/when-benchmarks-go-bad-what-i-learned-from-measuring-performance-wrong-4eb43ba5-37df-4149-ba73-14043a029aa2
