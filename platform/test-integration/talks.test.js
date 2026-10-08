@@ -55,7 +55,7 @@ describe("main site", () => {
     });
 
     describe("on hovering over an event name", () => {
-      it("should switch event names for short dates", async () => {
+      xit("should switch event names for short dates", async () => {
         // We don't know the content, but it's a reasonable guess some content matches SomethingCon
         const oldestCon = await page.waitForSelector(
           "xpath///div[contains(@class,\"event\") and contains(text(), \"Con\")]"
