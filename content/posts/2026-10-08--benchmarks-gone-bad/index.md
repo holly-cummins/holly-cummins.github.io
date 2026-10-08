@@ -4,6 +4,7 @@ title:
 author: Holly Cummins and Francesco Nigro
 category: performance
 type: blog
+cover: speaker-deck-og-image-e5cb37b9a277dd3f1b3cfe930515037e02f08de5a834a606e9bfbef5d84e64a2.png
 ---
 
 This is the transcript of [a talk I gave at J-Spring](/when-benchmarks-go-bad-jspring/), with some
