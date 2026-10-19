@@ -10,7 +10,7 @@ slides:
   url: https://speakerdeck.com/hollycummins/six-and-a-half-ridiculous-things-to-do-with-quarkus-d3becfab-bd8d-4180-a88d-ebfb2b83d557
 
 video:
-  url: https://www.youtube.com/live/sTcx0EvILr4?si=jWmY74CD86pRVUEj&t=7334
+  url: youtu.be/jfHdEAy-QWk
 
 code:
   - title: Gen Alpha Filter
