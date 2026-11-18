@@ -5,6 +5,7 @@ category: Quarkus
 type: talk
 event: LJC Winter Unconference
 location: London
+keynote: true
 
 
 
