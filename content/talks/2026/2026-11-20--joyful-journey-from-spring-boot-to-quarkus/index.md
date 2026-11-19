@@ -6,7 +6,8 @@ type: talk
 event: Voxxed Days
 location: Thessaloniki
 
-
+slides:
+  url: https://speakerdeck.com/hollycummins/joyful-journey-spring-boot
 
 tweets:
 
