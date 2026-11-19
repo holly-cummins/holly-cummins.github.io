@@ -9,6 +9,17 @@ location: Thessaloniki
 slides:
   url: https://speakerdeck.com/hollycummins/joyful-journey-spring-boot
 
+code:
+
+  - title: Quarkus vs Spring perf comparison apps
+    url: https://github.com/quarkusio/spring-quarkus-perf-comparison
+  - title: Instructions for converting the Spring application to Quarkus, using the compatibility libraries
+    url: https://github.com/quarkusio/spring-quarkus-perf-comparison/blob/main/spring-conversion.md
+  - title: The Spring to Quarkus skill
+    url: https://github.com/quarkusio/skills#migrate-spring-to-quarkus
+  - title: mtool for pre-analysis and deterministic transformation
+    url: https://github.com/snowdrop/quarkit
+
 tweets:
 
 photos:
